@@ -1,0 +1,3144 @@
+{
+ "reference": "BFCL AST checker verdict (objective, not human)",
+ "versions": {
+  "v1": {
+   "n": 400,
+   "parsed": 400,
+   "invalid": 0,
+   "kappa": 0.24,
+   "rawAgreement": 0.62,
+   "confusion": {
+    "reference_fail_judge_fail": 53,
+    "reference_fail_judge_pass": 147,
+    "reference_pass_judge_fail": 5,
+    "reference_pass_judge_pass": 195
+   },
+   "failPrecision": 0.9137931034482759,
+   "failRecall": 0.265,
+   "byCategory": {
+    "multiple": {
+     "n": 100,
+     "agree": 63,
+     "kappa": 0.26,
+     "failCaught": 14,
+     "fails": 50
+    },
+    "parallel": {
+     "n": 100,
+     "agree": 67,
+     "kappa": 0.3400000000000001,
+     "failCaught": 19,
+     "fails": 50
+    },
+    "parallel_multiple": {
+     "n": 100,
+     "agree": 61,
+     "kappa": 0.21999999999999997,
+     "failCaught": 11,
+     "fails": 50
+    },
+    "simple_python": {
+     "n": 100,
+     "agree": 57,
+     "kappa": 0.1399999999999999,
+     "failCaught": 9,
+     "fails": 50
+    }
+   },
+   "disagreements": [
+    {
+     "id": "ca9e086c012baed53f5e5c2afa18e06fcb16c8261b8a6a3d6c1edcbf367df708",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_103",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "type_error:nested",
+     "formattingOnly": false
+    },
+    {
+     "id": "de1da91b682909f90607092c6b67b67b1c04909d4c0f5845fe452f6ff2cc3469",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_123",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:others",
+     "formattingOnly": false
+    },
+    {
+     "id": "23406cafe2273b9d1e8dd10a6ef3e694b17025b48b981fb3bbc46e87cbf21b93",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_96",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "75770710d23d6b687a7afb8012d7df8cc020c3691956496308aff8ebd1799099",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_164",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "27a078230a3f4526b6e13659b947f30b41dea83c287195c8f099bbdbc1593e48",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_191",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "69ce58a30f7461db0bff2a21e0e246cf9f0febff33553088263128cbf5065843",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_181",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "be0ed7f71f6b3094e4fbed873961bf29542e76dd4b0822a60c4229b99d5301d2",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_155",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "31d175feb5b8b8fe9891671a351bd239c3be54af899a0319dd743eea091f9adb",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_77",
+     "checker": "pass",
+     "judge": "fail",
+     "checkerErrorType": null,
+     "formattingOnly": false
+    },
+    {
+     "id": "4652295296dd6778d4142b3f7678bf7302a98372f22639f602906dfb997d02ed",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_189",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "d4d7527aab466c0906ff66fba1e21c02f5a3c6cab5917f4d9008044c6145c423",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_94",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "6d64e322129d369e9696850caa6c4d40779e5ae0342cdf024ef3f651f43a33e5",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_151",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "f61a8f11210ba1172e44210524b6b4a0e5add8caa32e68f90631f99012b8ddfb",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_374",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:list/tuple",
+     "formattingOnly": false
+    },
+    {
+     "id": "408eabf4fc3ae3a4381cb2251bcaf25add2f70f8e7a648ca24ab2a3576e8dd3e",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_358",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_required",
+     "formattingOnly": false
+    },
+    {
+     "id": "6caa7f0caa381321d8d83e15151aa1ce16cc32175030e75dd648246053a616af",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_26",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "b5b42780b4e1c4ee71d43dbb28430b4e4a0c9e098d669e6f64275e1df0d03a7f",
+     "category": "multiple",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "multiple_136",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "a1b0fe8390e27daafed36ccaccc8182b005b8d80e8f8fc9d1fa51e1f08ce0c59",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "parallel_multiple_67",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": true
+    },
+    {
+     "id": "c72c9adb7cb0edb86480bae44827bcb95e5cb78f0de74b027c876194a8f0c326",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_13",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "type_error:nested",
+     "formattingOnly": true
+    },
+    {
+     "id": "34f60faa8fb0e0eb76b1d6681b8b95460e4c07e6738cf4be387a57c69bf0ba2d",
+     "category": "parallel",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "parallel_100",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "0a433289e89e7182a032584845c66c33849e9eb5afba5989df0723a03f3d673b",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_143",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "937479f8898960547999ca7ad8f7c50d4436cb7c5ee2aac126203149c238cdf7",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_170",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "3381eeae8832a22fa77d13b717334c8138aed47037bf977df8d3007886c11c68",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_165",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "c02b8f719e7c90166119c14233e6d2565425a57f67ddace25c54aaf14738939f",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_95",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "39167ca63c3a324704f484627b4dc6fa0e8fc90e4c7b46037fee2d4523f266f6",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_370",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:list/tuple",
+     "formattingOnly": false
+    },
+    {
+     "id": "577df32306452e58a7529feb804a4acb099485af62f683a69010574d6e57d42d",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_48",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:list/tuple",
+     "formattingOnly": false
+    },
+    {
+     "id": "bb3b15da8c10147fa247522716ebf269cf31b1ef5fe6dd42f035c25476af8eb9",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_286",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "b4048d592e5aa930e667df51a7d4726a5c2f8f73ee8cff08a59ad2957d354d5c",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_186",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "af11cf380fa1e6fe39113d11deb37310f9793df7bd96b794f7eb5bb52af5e224",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_161",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "dc60a33875b086dcafac9ff29d73dafad0c82735d49a78359e8423d38b050804",
+     "category": "parallel",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "parallel_34",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "661f5066f3a5413995c0e0f3cf57eaf692ffb57e7d44d2dd96f4e03f2b3ff1b2",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_357",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "35e0bac0ae15b7285ff2b40e62c6528247fe42e70f6c748b31be148c009d6f6c",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_101",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "3e5c9a2dc742935d1d5061054c00b8a0dec39c813b226536134e0e52644a4d10",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_136",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "bae788e89593a925d910ca3c2eae68947aa5495433dbd9638e18367ca2ebd633",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_192",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "a52ad28316cd032ede64708831f99897a1fe837286e848a5587d970cb52a268a",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_182",
+     "checker": "pass",
+     "judge": "fail",
+     "checkerErrorType": null,
+     "formattingOnly": false
+    },
+    {
+     "id": "998aa441336073e4648fd0e676c2ccc2e828d1f6a7dd48655b866f8384f216bb",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_37",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "4dda27e67968c6f3065911f2ac209a7535d1dd0e3ca83d5e919d0bc85986b8e6",
+     "category": "simple_python",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "simple_python_202",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "af09c1525d7886021c07a2470da6213d7334ada3e3734addadb1188780d3e64d",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "parallel_multiple_138",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "2f01e1b11d1e0606bc3f140053b4cbcc834b500030d466e443ab74de34760207",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_162",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "851fe564b16d48abe5133729acce77722dde110bfef52e4634556af59668ddc4",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_195",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "2ddb1421a0570e97d291145d695ca44a74a70dda8c95806a32ff6a836c150d4e",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_198",
+     "checker": "pass",
+     "judge": "fail",
+     "checkerErrorType": "simple_function_checker:unclear",
+     "formattingOnly": false
+    },
+    {
+     "id": "f97abd6b91f949b1d353dc7ccaaef25f96f9b9e6b641ecf3408612c82b41deb2",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_166",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "1e24dc40ee9e18a50265b44c68645abd0a5dbee49f150d5f79495b7c9278d97b",
+     "category": "simple_python",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "simple_python_96",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:dict_value",
+     "formattingOnly": false
+    },
+    {
+     "id": "68ea38ef49763dd1e7d0395597de16292f6734bbc9ff4485d435eb03a14fb5c8",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_181",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "9eeff3fb92f5af0f24a6ebb2368a6156449a95a62f3d27d6cd1c3a11bd8f9ef7",
+     "category": "simple_python",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "simple_python_215",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:others",
+     "formattingOnly": false
+    },
+    {
+     "id": "15693ad63f1df5c859f04a460c76c42b1aaf3f84a75bba0d0f3de9355dc53a10",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_141",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "8769c6becf4c9655d6683079f9ba4bd60249ffd3b89c13e488b4a78cf5bd5fc4",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_124",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "a48c8e7ea5288f14ed341588eb2f953027dae7eff396e0b747329a9cf6c48683",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_64",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "389f959271db5ec20f379305b10c564b332df8e37747461e46d396c7a416e505",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_387",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "aa3b6fab1a0e28914a0d6d0d83ca6b8a220101d1af13c8ad3148551d77083570",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_224",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "944a59ef09a51cd9517d27c9b17ef065efd0dcedf4cc0c7f766e4121f21648d6",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_267",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "051333ab48f5e6a11394576b3208ddd38fbbdfbf7310b62e745e2b58d691747c",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_86",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "8ef2c8c081186c6f650d01a883ca4026bae728354f686d9287b53c52a59fbd13",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_324",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "e175ace9dc862e39dc8446b78f13665873be3f501d5a24b8dabb6f213d6a6a1c",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_287",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "f83f100ae2fb7bfdbabad708c4a2e0a522fcf8f2890119a5e9ba41c9e3116c99",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_88",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "23c598d54337861c3a7fcc6470b8e109f17c9c539f4a883c749c4489c39c9015",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_124",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "7d1e73ee2533b77978c8020dfb841eedb9f7a1bdc4a7dcba31377183662767ff",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_146",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "a5a515017c91ffdcd852c46daf950cbba1073fdd4cc75f1d2b4f2248f63c7c5c",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_165",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "e32095ea55cbe0674ce98b9d1c057731afad0fbc2ef44784e8c9d148770fde90",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_46",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "1d03dfb3629d9295516ac754b468011574813107d21214ec2f594916ed187dc3",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_186",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "c7146309160a4263e9f81e4c9cc9c6c8a9dd770be3d68e739b2a5a25de6baeff",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_78",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "3e420b6dbb85ef74bdd6a20c40d86e060b7824b4c368f364e7be952524eafe90",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_233",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "4adbe44224c4d56dd713dc5508610decdd9b82189b78394bb99483a9991cd00b",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_139",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "80aa2f74021b12f7fe789d74e3d9908038f60230a389b836d010cc137f18ad12",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_159",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "b9ec507f4d267f901caaa9df77b999a897e3847a88e47acee0a88a00bb9a2d54",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_67",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "8da8e27869962e2666547e74582fcf9321a125642ae040c1469229d55b71a141",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_104",
+     "checker": "pass",
+     "judge": "fail",
+     "checkerErrorType": null,
+     "formattingOnly": false
+    },
+    {
+     "id": "27b2ac841c47bd2537554a45b3c02eafb7a8c9d4f49c6aec056d7402850db330",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_152",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "87f949c17cb4c3d05df5821e709295b2039b44479b389177b892e45f774838da",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_79",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:others",
+     "formattingOnly": false
+    },
+    {
+     "id": "a5b09b61443399bbdeaadb0301511fdc6dcab6b96295d40b2c2f061128055007",
+     "category": "simple_python",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "simple_python_13",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "type_error:nested",
+     "formattingOnly": true
+    },
+    {
+     "id": "03525fa8b105800e0755787bcea5dddf95e7349c03d088494a4231aabfbd49e2",
+     "category": "parallel",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "parallel_26",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "f61f8b7259dff7e876fa669f25940ccc031cd9c14d87d49be5f9ee6e6233421c",
+     "category": "multiple",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "multiple_53",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:wrong_func_name",
+     "formattingOnly": false
+    },
+    {
+     "id": "495ab7937e1a5ad667adb5a71383218494aa131e592135de18606e9d93044151",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_78",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "c5b8480dab26aba690cab14c963693d969f9d4e6ec7d95331ebd3c4f07ad6096",
+     "category": "simple_python",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "simple_python_55",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "25c15b141084ffe58462e7cd9094b4d79ba58299b946d5a02e57f86b15bb4d34",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_141",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:others",
+     "formattingOnly": false
+    },
+    {
+     "id": "18db4b1575cd1a3823bd1b078040d022ae04198cdf371738fab0ff03dfb5f0c7",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_157",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "4d70e9b8999783afd14d787b391a5fdf0bfaad81d57c2eae08ba8bbb5e42b975",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_65",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "dbb8ee6191caacf4b06dbe5d7acf6ac9d33c03f94c11b97dc0b6b000770e802d",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_31",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "63475c718ea70ecf4ae5275be9f940851674cbbe555d2fbc9f1ff90c66d73d10",
+     "category": "simple_python",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "simple_python_373",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:list/tuple",
+     "formattingOnly": false
+    },
+    {
+     "id": "f4dce56370ff824ebd61abd1f25760d1b744e81d9a28148a684803f47d78872a",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_12",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:others",
+     "formattingOnly": false
+    },
+    {
+     "id": "49ce446b862160dc4a5d48754a1498f6959ac9be4a95c35ea96af42a160fbf24",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_95",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "cd822c8673fac3f5cae71f856c4c5a304fe3a86f738b2ce8e3a67f67997e4a97",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_29",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "cb9480cd6ef3eabd5245cfeb0c1c9ddad99257346a97a5b43903e4e4fc4119b2",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_162",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "30bc9c8fac35d427b65263619e0d33b69caad406cb696ba7c4489b85f3b0da6f",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_40",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "789d2eba6de751dc11e60d915f66c61593e7a1845e591dde9975bf11aa68056c",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_54",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "e0fc6fcfa251f068582100efcc9126760a8ead95a3be3ed563206236c4cab74b",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_41",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "0d353707554660bfdef97a848486c55b0ab80ce671077003a24ffb3ebb451d9d",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_84",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "7f96192e0f23c2de7bf44eff639e115f038735c7f8975ea3a157bc99ac52554b",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_87",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "type_error:nested",
+     "formattingOnly": true
+    },
+    {
+     "id": "c2f798e04e9b303f9f410d7b1cd965cae8adbee3501ba9be7ef1e5f3670320bf",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_180",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "fd459003b1c45869de2845d01f789700f609db95e720e331c6f5e9b2452d3747",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_39",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:others",
+     "formattingOnly": false
+    },
+    {
+     "id": "609173d32e787964c325192997842cf631c4d608446c0e76ff26c94660c0cd02",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_27",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "6327082ab8802fe4c0cb59b0204e18e8f279c13bc7e0e119f4c4edfeb078abc7",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_59",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:others",
+     "formattingOnly": false
+    },
+    {
+     "id": "800598cebfa7ffdad94935e8a09114ec6f88e779517f947eca5a4d35a882264b",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_36",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "831598aa5f8a6b62c1b280fbdcf962b6eeca60dc9bd7fe9c6a69256b5187031b",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_41",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "6a27478853250d2c1185521161a7304404c970f42f00781e9742d8a45202eaee",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "parallel_multiple_21",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "faa56192bf3f4e1293a55ba74d9c3c1577b38134b1fdc3ee525d828eb410fd7a",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_369",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "b15294f609d954a8a8659c24c0ffb800aabcd36f16aeba5cd0f816e142da63a8",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_196",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "8c206374bfcee3fdf6dbedb7b8851a75653a3da4a59ad96291a9fabbf6dcf510",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_169",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "df1f8dadfa8504a6f47eed706d6202242abd44aece4eda7ffeb8964859a73667",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_17",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_required",
+     "formattingOnly": true
+    },
+    {
+     "id": "2ff8504ccbdd8774b799a0314e9fe60d25338747f905dc8536b4a51bc120d79b",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_42",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "8de3d26cb35c9e7ca0a13ef2437f4e8caa6e74ae1a692b2e00fdc2f22a5b331d",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_39",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "663c745fa9b583417555d27e5aacd64b3eb5d2c4dffcf1cb507e99f1aa511a6d",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_142",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "fc40ae094dd371c83b452ff6bb123d62616c5b3eb196ddc05d1b2b3e2a44e750",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_50",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "52150d9c06c627c972b397a7958d5c2133c5be38dc1a9c9b609b3bf5bd0f26da",
+     "category": "multiple",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "multiple_80",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:list/tuple",
+     "formattingOnly": false
+    },
+    {
+     "id": "b9d74d0d20c589d62718312b551b53edc5fbc7b6f7bac735d550272de6c11c51",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_59",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "cd256162b1961eb93cbc27969e8a7fd32c27af1540e24c80483ff151681cb996",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_373",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:list/tuple",
+     "formattingOnly": false
+    },
+    {
+     "id": "f6a03729afdba59fea109a2c2463cb91f72b547a13c7bcd90f333e14f5768591",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "parallel_multiple_69",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "c47bb91491812dc99cef06a1556312705e9dff0ea647f2f87ca707fbdddab14e",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_64",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "7d038d64a5cd0e5c44cb8f5f8d11023099c9088e1bef3878d2aa73809cea4e8f",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_178",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "b3bd7da1403ef14f61042aa5643243065ba8d704fbab98701e2f444e1f708163",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_107",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "97200e04d9225eaebe36e2fcdd8dfd60f60af3b2dc40db3c01c4b024d1512d7b",
+     "category": "simple_python",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "simple_python_35",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:others",
+     "formattingOnly": false
+    },
+    {
+     "id": "4c8dcc0c3cb3e7be2513fe4dd8707d131050fbfc10a804b6ea0a4d6dd9e53669",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_10",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": true
+    },
+    {
+     "id": "4ec14b39ec9545371bcea22d0e333cc72b863acfd903738dcf95d2632359fc0c",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_72",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "6274ada2c6d00cb2d989db8984e5c40d75eccef70acebb8ace251c2c99cc4c26",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_149",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "46a828efe947e53f6ed85d3fa64f9db13611dced6db4c571f9825dce0d06e3f1",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_203",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "45d8afe93f32200d039f064f51c297de39d880a94e340de6b501660f1f486225",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_197",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "4db55f544eedfb97bc2270435924429e923a307928bae1c0527f354c863bc71c",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_151",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "3f72f47de4126397c90bb496889f8df19c4bfc7497f2581604928c8115122a39",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_38",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "55ffa4fce26c57d77a3dcbda92d8bc39a3c1171d02269d0c6fd2e202722cde94",
+     "category": "multiple",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "multiple_54",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "c4fc6527dacffddaa7dec1a85402dc21f4023088d492d0bc43d923208dd4d432",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_181",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "b778f3b6fb4b941c6d672a189752553cbfe801b7b1110cdd39da9fd947367766",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_168",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "55356a3bd3b41e882026563ff6ca085d15ad0b59dcb59bdd0c9c9ae06f8fc4a7",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_127",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:others",
+     "formattingOnly": false
+    },
+    {
+     "id": "e41beb09044ff06b0fdc2a06edd963c76ba029a62fcbc2611650a73a132c6838",
+     "category": "simple_python",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "simple_python_101",
+     "checker": "pass",
+     "judge": "fail",
+     "checkerErrorType": null,
+     "formattingOnly": false
+    },
+    {
+     "id": "50a994a3ffed0a826c90c41082110427c25b57af581308f59c1e3a0764160132",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_97",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "2d3d5cab7726fdbf69ec44c5c3092ae83bdc3dd4449e5275c51f1248c07daa2e",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_91",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:others",
+     "formattingOnly": false
+    },
+    {
+     "id": "578af8f8c9df22e3f551f9d37e86a8ca8425b3e21497b3fbd909f77051ebc851",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_81",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "2656482dc9e49256343f98deeb6dfd0b59fda3f555da5bdaa83604df64c76884",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_158",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "aabeb106de070288c5214b2e0da817294cb3dc5473b313d91fdf41d8ed46bb07",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_84",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "0d87d677e1da4483c7a98844be2779d59b3b59c31f741b7d051aecb0319e8d7a",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_134",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "7c02fb7fe01ba0d32fdd714b59a30cf3ea7662d5be18e6c9d1bf91351ae3c574",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_304",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "c6763d903fe03c4ec6ecc541e1835271a897cb3587e6e912ccb32ddc313ccaa9",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_56",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "419a3985be71c2a664e9d1a95fc77212896137b2c5604ecadfacea020e651af0",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_24",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "3d697cd513adaa373898d8a53c1c008e5047e485888c00a6fd1a55cd9fa97562",
+     "category": "simple_python",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "simple_python_130",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:list/tuple",
+     "formattingOnly": false
+    },
+    {
+     "id": "7d5a044598409bfd455244255d6b854ea536e15e7b3988fbb10916e2b2ac2597",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_193",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "c6882e821b2973d507aaed92f52ac0ee0833f08b24f262608abbcfa778287ec3",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_192",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "471a99d3615d2cc2ef22f6e250d5ceae0453193b77d58157795ae9fc29613199",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_375",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:list/tuple",
+     "formattingOnly": false
+    },
+    {
+     "id": "50a11d4806e39273eb1e5da9065f703f398c2a3f5f6e0ad3d0e332b90c8980fc",
+     "category": "simple_python",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "simple_python_201",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:others",
+     "formattingOnly": false
+    },
+    {
+     "id": "1bdfbcf148d8009961d2c22a2c3a164dc5a58dbe43dc1a1df387de8f07efe59a",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_29",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "35cd8d780b8e51c098626e17acc8330e015e1e020a66e764ac7b76a19107693d",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_127",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:others",
+     "formattingOnly": false
+    },
+    {
+     "id": "af49a501efc045c87f7f5fa4256081104588d1252803607eefb3e4a22a5c47ba",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_180",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "a4b8e2030ac4bbba8254285db2a987178a0953d9d3bc4d9e569ff9c672125475",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_35",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "53d3295f0a833fe0a476780333f61aaf67e3aa96521167dfe2c6af09c4aafa78",
+     "category": "multiple",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "multiple_7",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "multiple_function_checker:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "378e3456f5f14e7179af2342d64c306627f250174e898cbf77508229aca2a40c",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_70",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "e6e733a13bf4eae75404d107dc58011a65ff39eea35b26f427bd21e79a9cf253",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_52",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "fca4f3a0958696cc5f4716d1d26910450ed43497bfdc763fbcc9a3ae822506a9",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_93",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "859b912879d880fb72111aa4e8dd61c531ec724fb34459751c2ff13412cd0cfa",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_114",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "d0c0cad5e80b43beabf642af4b061864e94dafa5f0561fd458281cd7f50cba20",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_264",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "71ff921f726606f13c33b039153c332a8ade7ab14c38c637fd17ff5387d99fed",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_213",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "66c4e0248112eed8ccdb3a99eb33c7427b4d98658fe5f380d85f11fd214c7ba2",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_74",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "8322d269bcab1d8e83ac7f99a2d64b9ebb0c2bebd4f98228e578228cb238bf61",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_119",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "af741451b86a86008b96718fc2ad130c18790fe2251dd78a95519eb050f56e62",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_53",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "30ba6c2d6afc40254f52c142f26583bde14690f0fdb43870f5e7df43e532eec4",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_100",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "bfd44dc8d7f446a8152f7b703a59ad4427d03cbd7da2091e36d613f6b2a3dea7",
+     "category": "multiple",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "multiple_10",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "multiple_function_checker:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "0c81ae1ef68049498bd506dc90e08396d1a3e090afca0c4eff33c56dc7159a01",
+     "category": "simple_python",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "simple_python_103",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "type_error:nested",
+     "formattingOnly": true
+    },
+    {
+     "id": "f57854859934e80413468d91d1c706a1985eaaaed6f47331a43ce505b3379fcd",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_347",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    }
+   ]
+  },
+  "v2": {
+   "n": 400,
+   "parsed": 400,
+   "invalid": 0,
+   "kappa": 0.24,
+   "rawAgreement": 0.62,
+   "confusion": {
+    "reference_fail_judge_fail": 57,
+    "reference_fail_judge_pass": 143,
+    "reference_pass_judge_fail": 9,
+    "reference_pass_judge_pass": 191
+   },
+   "failPrecision": 0.8636363636363636,
+   "failRecall": 0.285,
+   "byCategory": {
+    "multiple": {
+     "n": 100,
+     "agree": 64,
+     "kappa": 0.28,
+     "failCaught": 14,
+     "fails": 50
+    },
+    "parallel": {
+     "n": 100,
+     "agree": 69,
+     "kappa": 0.3799999999999999,
+     "failCaught": 21,
+     "fails": 50
+    },
+    "parallel_multiple": {
+     "n": 100,
+     "agree": 61,
+     "kappa": 0.21999999999999997,
+     "failCaught": 11,
+     "fails": 50
+    },
+    "simple_python": {
+     "n": 100,
+     "agree": 54,
+     "kappa": 0.08000000000000007,
+     "failCaught": 11,
+     "fails": 50
+    }
+   },
+   "disagreements": [
+    {
+     "id": "ca9e086c012baed53f5e5c2afa18e06fcb16c8261b8a6a3d6c1edcbf367df708",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_103",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "type_error:nested",
+     "formattingOnly": false
+    },
+    {
+     "id": "67ea4816a6f5ec4d0d6024b51600a2aa25b4be0909a51e91df422e3ca7e7eaa6",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_25",
+     "checker": "pass",
+     "judge": "fail",
+     "checkerErrorType": "simple_function_checker:unclear",
+     "formattingOnly": false
+    },
+    {
+     "id": "23406cafe2273b9d1e8dd10a6ef3e694b17025b48b981fb3bbc46e87cbf21b93",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_96",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "75770710d23d6b687a7afb8012d7df8cc020c3691956496308aff8ebd1799099",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_164",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "27a078230a3f4526b6e13659b947f30b41dea83c287195c8f099bbdbc1593e48",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_191",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "69ce58a30f7461db0bff2a21e0e246cf9f0febff33553088263128cbf5065843",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_181",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "be0ed7f71f6b3094e4fbed873961bf29542e76dd4b0822a60c4229b99d5301d2",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_155",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "31d175feb5b8b8fe9891671a351bd239c3be54af899a0319dd743eea091f9adb",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_77",
+     "checker": "pass",
+     "judge": "fail",
+     "checkerErrorType": null,
+     "formattingOnly": false
+    },
+    {
+     "id": "4652295296dd6778d4142b3f7678bf7302a98372f22639f602906dfb997d02ed",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_189",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "d4d7527aab466c0906ff66fba1e21c02f5a3c6cab5917f4d9008044c6145c423",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_94",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "6d64e322129d369e9696850caa6c4d40779e5ae0342cdf024ef3f651f43a33e5",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_151",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "f61a8f11210ba1172e44210524b6b4a0e5add8caa32e68f90631f99012b8ddfb",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_374",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:list/tuple",
+     "formattingOnly": false
+    },
+    {
+     "id": "408eabf4fc3ae3a4381cb2251bcaf25add2f70f8e7a648ca24ab2a3576e8dd3e",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_358",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_required",
+     "formattingOnly": false
+    },
+    {
+     "id": "6caa7f0caa381321d8d83e15151aa1ce16cc32175030e75dd648246053a616af",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_26",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "b5b42780b4e1c4ee71d43dbb28430b4e4a0c9e098d669e6f64275e1df0d03a7f",
+     "category": "multiple",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "multiple_136",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "a1b0fe8390e27daafed36ccaccc8182b005b8d80e8f8fc9d1fa51e1f08ce0c59",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "parallel_multiple_67",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": true
+    },
+    {
+     "id": "c72c9adb7cb0edb86480bae44827bcb95e5cb78f0de74b027c876194a8f0c326",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_13",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "type_error:nested",
+     "formattingOnly": true
+    },
+    {
+     "id": "34f60faa8fb0e0eb76b1d6681b8b95460e4c07e6738cf4be387a57c69bf0ba2d",
+     "category": "parallel",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "parallel_100",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "0a433289e89e7182a032584845c66c33849e9eb5afba5989df0723a03f3d673b",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_143",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "937479f8898960547999ca7ad8f7c50d4436cb7c5ee2aac126203149c238cdf7",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_170",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "3381eeae8832a22fa77d13b717334c8138aed47037bf977df8d3007886c11c68",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_165",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "c02b8f719e7c90166119c14233e6d2565425a57f67ddace25c54aaf14738939f",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_95",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "39167ca63c3a324704f484627b4dc6fa0e8fc90e4c7b46037fee2d4523f266f6",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_370",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:list/tuple",
+     "formattingOnly": false
+    },
+    {
+     "id": "577df32306452e58a7529feb804a4acb099485af62f683a69010574d6e57d42d",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_48",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:list/tuple",
+     "formattingOnly": false
+    },
+    {
+     "id": "bb3b15da8c10147fa247522716ebf269cf31b1ef5fe6dd42f035c25476af8eb9",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_286",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "b4048d592e5aa930e667df51a7d4726a5c2f8f73ee8cff08a59ad2957d354d5c",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_186",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "dc60a33875b086dcafac9ff29d73dafad0c82735d49a78359e8423d38b050804",
+     "category": "parallel",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "parallel_34",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "661f5066f3a5413995c0e0f3cf57eaf692ffb57e7d44d2dd96f4e03f2b3ff1b2",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_357",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "3e5c9a2dc742935d1d5061054c00b8a0dec39c813b226536134e0e52644a4d10",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_136",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "bae788e89593a925d910ca3c2eae68947aa5495433dbd9638e18367ca2ebd633",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_192",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "998aa441336073e4648fd0e676c2ccc2e828d1f6a7dd48655b866f8384f216bb",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_37",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "4dda27e67968c6f3065911f2ac209a7535d1dd0e3ca83d5e919d0bc85986b8e6",
+     "category": "simple_python",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "simple_python_202",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "af09c1525d7886021c07a2470da6213d7334ada3e3734addadb1188780d3e64d",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "parallel_multiple_138",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "2f01e1b11d1e0606bc3f140053b4cbcc834b500030d466e443ab74de34760207",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_162",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "851fe564b16d48abe5133729acce77722dde110bfef52e4634556af59668ddc4",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_195",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "2ddb1421a0570e97d291145d695ca44a74a70dda8c95806a32ff6a836c150d4e",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_198",
+     "checker": "pass",
+     "judge": "fail",
+     "checkerErrorType": "simple_function_checker:unclear",
+     "formattingOnly": false
+    },
+    {
+     "id": "f97abd6b91f949b1d353dc7ccaaef25f96f9b9e6b641ecf3408612c82b41deb2",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_166",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "1e24dc40ee9e18a50265b44c68645abd0a5dbee49f150d5f79495b7c9278d97b",
+     "category": "simple_python",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "simple_python_96",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:dict_value",
+     "formattingOnly": false
+    },
+    {
+     "id": "68ea38ef49763dd1e7d0395597de16292f6734bbc9ff4485d435eb03a14fb5c8",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_181",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "9eeff3fb92f5af0f24a6ebb2368a6156449a95a62f3d27d6cd1c3a11bd8f9ef7",
+     "category": "simple_python",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "simple_python_215",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:others",
+     "formattingOnly": false
+    },
+    {
+     "id": "15693ad63f1df5c859f04a460c76c42b1aaf3f84a75bba0d0f3de9355dc53a10",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_141",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "8769c6becf4c9655d6683079f9ba4bd60249ffd3b89c13e488b4a78cf5bd5fc4",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_124",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "a48c8e7ea5288f14ed341588eb2f953027dae7eff396e0b747329a9cf6c48683",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_64",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "389f959271db5ec20f379305b10c564b332df8e37747461e46d396c7a416e505",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_387",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "aa3b6fab1a0e28914a0d6d0d83ca6b8a220101d1af13c8ad3148551d77083570",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_224",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "944a59ef09a51cd9517d27c9b17ef065efd0dcedf4cc0c7f766e4121f21648d6",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_267",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "051333ab48f5e6a11394576b3208ddd38fbbdfbf7310b62e745e2b58d691747c",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_86",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "8ef2c8c081186c6f650d01a883ca4026bae728354f686d9287b53c52a59fbd13",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_324",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "e175ace9dc862e39dc8446b78f13665873be3f501d5a24b8dabb6f213d6a6a1c",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_287",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "f83f100ae2fb7bfdbabad708c4a2e0a522fcf8f2890119a5e9ba41c9e3116c99",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_88",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "23c598d54337861c3a7fcc6470b8e109f17c9c539f4a883c749c4489c39c9015",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_124",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "7d1e73ee2533b77978c8020dfb841eedb9f7a1bdc4a7dcba31377183662767ff",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_146",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "a5a515017c91ffdcd852c46daf950cbba1073fdd4cc75f1d2b4f2248f63c7c5c",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_165",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "e32095ea55cbe0674ce98b9d1c057731afad0fbc2ef44784e8c9d148770fde90",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_46",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "ee31de93b0d72321d75c731f7bd523bd208b23c0061b9847ccd2a21a66cbac8b",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_242",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "1d03dfb3629d9295516ac754b468011574813107d21214ec2f594916ed187dc3",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_186",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "3e420b6dbb85ef74bdd6a20c40d86e060b7824b4c368f364e7be952524eafe90",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_233",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "4adbe44224c4d56dd713dc5508610decdd9b82189b78394bb99483a9991cd00b",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_139",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "80aa2f74021b12f7fe789d74e3d9908038f60230a389b836d010cc137f18ad12",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_159",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "b9ec507f4d267f901caaa9df77b999a897e3847a88e47acee0a88a00bb9a2d54",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_67",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "c627dd5d0c2822821d1aded967529c2d5303bb23329e4f94cb0ecb3af9d9a35e",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_189",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "8da8e27869962e2666547e74582fcf9321a125642ae040c1469229d55b71a141",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_104",
+     "checker": "pass",
+     "judge": "fail",
+     "checkerErrorType": null,
+     "formattingOnly": false
+    },
+    {
+     "id": "27b2ac841c47bd2537554a45b3c02eafb7a8c9d4f49c6aec056d7402850db330",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_152",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "87f949c17cb4c3d05df5821e709295b2039b44479b389177b892e45f774838da",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_79",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:others",
+     "formattingOnly": false
+    },
+    {
+     "id": "a5b09b61443399bbdeaadb0301511fdc6dcab6b96295d40b2c2f061128055007",
+     "category": "simple_python",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "simple_python_13",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "type_error:nested",
+     "formattingOnly": true
+    },
+    {
+     "id": "03525fa8b105800e0755787bcea5dddf95e7349c03d088494a4231aabfbd49e2",
+     "category": "parallel",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "parallel_26",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "f61f8b7259dff7e876fa669f25940ccc031cd9c14d87d49be5f9ee6e6233421c",
+     "category": "multiple",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "multiple_53",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:wrong_func_name",
+     "formattingOnly": false
+    },
+    {
+     "id": "8ac7c9a24e0c29c375e0ce109ffe41a203635e2b6ac2cb0e8e4fe68d28c561aa",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_15",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "495ab7937e1a5ad667adb5a71383218494aa131e592135de18606e9d93044151",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_78",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "c5b8480dab26aba690cab14c963693d969f9d4e6ec7d95331ebd3c4f07ad6096",
+     "category": "simple_python",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "simple_python_55",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "25c15b141084ffe58462e7cd9094b4d79ba58299b946d5a02e57f86b15bb4d34",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_141",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:others",
+     "formattingOnly": false
+    },
+    {
+     "id": "18db4b1575cd1a3823bd1b078040d022ae04198cdf371738fab0ff03dfb5f0c7",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_157",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "dbb8ee6191caacf4b06dbe5d7acf6ac9d33c03f94c11b97dc0b6b000770e802d",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_31",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "63475c718ea70ecf4ae5275be9f940851674cbbe555d2fbc9f1ff90c66d73d10",
+     "category": "simple_python",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "simple_python_373",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:list/tuple",
+     "formattingOnly": false
+    },
+    {
+     "id": "f4dce56370ff824ebd61abd1f25760d1b744e81d9a28148a684803f47d78872a",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_12",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:others",
+     "formattingOnly": false
+    },
+    {
+     "id": "49ce446b862160dc4a5d48754a1498f6959ac9be4a95c35ea96af42a160fbf24",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_95",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "cd822c8673fac3f5cae71f856c4c5a304fe3a86f738b2ce8e3a67f67997e4a97",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_29",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "cb9480cd6ef3eabd5245cfeb0c1c9ddad99257346a97a5b43903e4e4fc4119b2",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_162",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "30bc9c8fac35d427b65263619e0d33b69caad406cb696ba7c4489b85f3b0da6f",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_40",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "789d2eba6de751dc11e60d915f66c61593e7a1845e591dde9975bf11aa68056c",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_54",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "e0fc6fcfa251f068582100efcc9126760a8ead95a3be3ed563206236c4cab74b",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_41",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "0d353707554660bfdef97a848486c55b0ab80ce671077003a24ffb3ebb451d9d",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_84",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "7f96192e0f23c2de7bf44eff639e115f038735c7f8975ea3a157bc99ac52554b",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_87",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "type_error:nested",
+     "formattingOnly": true
+    },
+    {
+     "id": "c2f798e04e9b303f9f410d7b1cd965cae8adbee3501ba9be7ef1e5f3670320bf",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_180",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "45365e5f48579542072f67555b75ed5ab1a61077ad2956f5f2c700372be178f0",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_129",
+     "checker": "pass",
+     "judge": "fail",
+     "checkerErrorType": "simple_function_checker:unclear",
+     "formattingOnly": false
+    },
+    {
+     "id": "fd459003b1c45869de2845d01f789700f609db95e720e331c6f5e9b2452d3747",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_39",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:others",
+     "formattingOnly": false
+    },
+    {
+     "id": "609173d32e787964c325192997842cf631c4d608446c0e76ff26c94660c0cd02",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_27",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "474fc3f74a006a3c33e0571569bf08372914f6d95820a610704b35170c58e143",
+     "category": "simple_python",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "simple_python_112",
+     "checker": "pass",
+     "judge": "fail",
+     "checkerErrorType": "simple_function_checker:unclear",
+     "formattingOnly": false
+    },
+    {
+     "id": "6327082ab8802fe4c0cb59b0204e18e8f279c13bc7e0e119f4c4edfeb078abc7",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_59",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:others",
+     "formattingOnly": false
+    },
+    {
+     "id": "800598cebfa7ffdad94935e8a09114ec6f88e779517f947eca5a4d35a882264b",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_36",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "831598aa5f8a6b62c1b280fbdcf962b6eeca60dc9bd7fe9c6a69256b5187031b",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_41",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "6a27478853250d2c1185521161a7304404c970f42f00781e9742d8a45202eaee",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "parallel_multiple_21",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "b15294f609d954a8a8659c24c0ffb800aabcd36f16aeba5cd0f816e142da63a8",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_196",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "8c206374bfcee3fdf6dbedb7b8851a75653a3da4a59ad96291a9fabbf6dcf510",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_169",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "df1f8dadfa8504a6f47eed706d6202242abd44aece4eda7ffeb8964859a73667",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_17",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_required",
+     "formattingOnly": true
+    },
+    {
+     "id": "2ff8504ccbdd8774b799a0314e9fe60d25338747f905dc8536b4a51bc120d79b",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_42",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "8de3d26cb35c9e7ca0a13ef2437f4e8caa6e74ae1a692b2e00fdc2f22a5b331d",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_39",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "663c745fa9b583417555d27e5aacd64b3eb5d2c4dffcf1cb507e99f1aa511a6d",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_142",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "fc40ae094dd371c83b452ff6bb123d62616c5b3eb196ddc05d1b2b3e2a44e750",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_50",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "52150d9c06c627c972b397a7958d5c2133c5be38dc1a9c9b609b3bf5bd0f26da",
+     "category": "multiple",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "multiple_80",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:list/tuple",
+     "formattingOnly": false
+    },
+    {
+     "id": "b9d74d0d20c589d62718312b551b53edc5fbc7b6f7bac735d550272de6c11c51",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_59",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "cd256162b1961eb93cbc27969e8a7fd32c27af1540e24c80483ff151681cb996",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_373",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:list/tuple",
+     "formattingOnly": false
+    },
+    {
+     "id": "f6a03729afdba59fea109a2c2463cb91f72b547a13c7bcd90f333e14f5768591",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "parallel_multiple_69",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "705c2346bab3d799c0afc1cef49db038be42ae5a72998d7aff805986522443c4",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_248",
+     "checker": "pass",
+     "judge": "fail",
+     "checkerErrorType": null,
+     "formattingOnly": false
+    },
+    {
+     "id": "c47bb91491812dc99cef06a1556312705e9dff0ea647f2f87ca707fbdddab14e",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_64",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "7d038d64a5cd0e5c44cb8f5f8d11023099c9088e1bef3878d2aa73809cea4e8f",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_178",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "b3bd7da1403ef14f61042aa5643243065ba8d704fbab98701e2f444e1f708163",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_107",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "97200e04d9225eaebe36e2fcdd8dfd60f60af3b2dc40db3c01c4b024d1512d7b",
+     "category": "simple_python",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "simple_python_35",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:others",
+     "formattingOnly": false
+    },
+    {
+     "id": "4c8dcc0c3cb3e7be2513fe4dd8707d131050fbfc10a804b6ea0a4d6dd9e53669",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_10",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": true
+    },
+    {
+     "id": "4ec14b39ec9545371bcea22d0e333cc72b863acfd903738dcf95d2632359fc0c",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_72",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "6274ada2c6d00cb2d989db8984e5c40d75eccef70acebb8ace251c2c99cc4c26",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_149",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "0d56c7c18dd87a41a6f44725330b6436ee8e38b20d99bafc8cc030b545e59d44",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_147",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "46a828efe947e53f6ed85d3fa64f9db13611dced6db4c571f9825dce0d06e3f1",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_203",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "45d8afe93f32200d039f064f51c297de39d880a94e340de6b501660f1f486225",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_197",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "4db55f544eedfb97bc2270435924429e923a307928bae1c0527f354c863bc71c",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_151",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "3f72f47de4126397c90bb496889f8df19c4bfc7497f2581604928c8115122a39",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_38",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "55ffa4fce26c57d77a3dcbda92d8bc39a3c1171d02269d0c6fd2e202722cde94",
+     "category": "multiple",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "multiple_54",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "c4fc6527dacffddaa7dec1a85402dc21f4023088d492d0bc43d923208dd4d432",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_181",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "b778f3b6fb4b941c6d672a189752553cbfe801b7b1110cdd39da9fd947367766",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_168",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "55356a3bd3b41e882026563ff6ca085d15ad0b59dcb59bdd0c9c9ae06f8fc4a7",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_127",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:others",
+     "formattingOnly": false
+    },
+    {
+     "id": "e41beb09044ff06b0fdc2a06edd963c76ba029a62fcbc2611650a73a132c6838",
+     "category": "simple_python",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "simple_python_101",
+     "checker": "pass",
+     "judge": "fail",
+     "checkerErrorType": null,
+     "formattingOnly": false
+    },
+    {
+     "id": "5fff1f36d874b188133e6e0cf37ec95011c274dcfe65a7d5e2c4346ba01611e0",
+     "category": "simple_python",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "simple_python_338",
+     "checker": "pass",
+     "judge": "fail",
+     "checkerErrorType": "simple_function_checker:unclear",
+     "formattingOnly": false
+    },
+    {
+     "id": "50a994a3ffed0a826c90c41082110427c25b57af581308f59c1e3a0764160132",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_97",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "2d3d5cab7726fdbf69ec44c5c3092ae83bdc3dd4449e5275c51f1248c07daa2e",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_91",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:others",
+     "formattingOnly": false
+    },
+    {
+     "id": "578af8f8c9df22e3f551f9d37e86a8ca8425b3e21497b3fbd909f77051ebc851",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_81",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "2656482dc9e49256343f98deeb6dfd0b59fda3f555da5bdaa83604df64c76884",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_158",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "aabeb106de070288c5214b2e0da817294cb3dc5473b313d91fdf41d8ed46bb07",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_84",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "0d87d677e1da4483c7a98844be2779d59b3b59c31f741b7d051aecb0319e8d7a",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_134",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "7c02fb7fe01ba0d32fdd714b59a30cf3ea7662d5be18e6c9d1bf91351ae3c574",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_304",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "c6763d903fe03c4ec6ecc541e1835271a897cb3587e6e912ccb32ddc313ccaa9",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_56",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "419a3985be71c2a664e9d1a95fc77212896137b2c5604ecadfacea020e651af0",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_24",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "3d697cd513adaa373898d8a53c1c008e5047e485888c00a6fd1a55cd9fa97562",
+     "category": "simple_python",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "simple_python_130",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:list/tuple",
+     "formattingOnly": false
+    },
+    {
+     "id": "7d5a044598409bfd455244255d6b854ea536e15e7b3988fbb10916e2b2ac2597",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_193",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "c6882e821b2973d507aaed92f52ac0ee0833f08b24f262608abbcfa778287ec3",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_192",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "471a99d3615d2cc2ef22f6e250d5ceae0453193b77d58157795ae9fc29613199",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_375",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:list/tuple",
+     "formattingOnly": false
+    },
+    {
+     "id": "50a11d4806e39273eb1e5da9065f703f398c2a3f5f6e0ad3d0e332b90c8980fc",
+     "category": "simple_python",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "simple_python_201",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:others",
+     "formattingOnly": false
+    },
+    {
+     "id": "1bdfbcf148d8009961d2c22a2c3a164dc5a58dbe43dc1a1df387de8f07efe59a",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_29",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "35cd8d780b8e51c098626e17acc8330e015e1e020a66e764ac7b76a19107693d",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_127",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:others",
+     "formattingOnly": false
+    },
+    {
+     "id": "af49a501efc045c87f7f5fa4256081104588d1252803607eefb3e4a22a5c47ba",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_180",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "a4b8e2030ac4bbba8254285db2a987178a0953d9d3bc4d9e569ff9c672125475",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_35",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "53d3295f0a833fe0a476780333f61aaf67e3aa96521167dfe2c6af09c4aafa78",
+     "category": "multiple",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "multiple_7",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "multiple_function_checker:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "378e3456f5f14e7179af2342d64c306627f250174e898cbf77508229aca2a40c",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_70",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "e6e733a13bf4eae75404d107dc58011a65ff39eea35b26f427bd21e79a9cf253",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_52",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "fca4f3a0958696cc5f4716d1d26910450ed43497bfdc763fbcc9a3ae822506a9",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_93",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "d0c0cad5e80b43beabf642af4b061864e94dafa5f0561fd458281cd7f50cba20",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_264",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "71ff921f726606f13c33b039153c332a8ade7ab14c38c637fd17ff5387d99fed",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_213",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    },
+    {
+     "id": "66c4e0248112eed8ccdb3a99eb33c7427b4d98658fe5f380d85f11fd214c7ba2",
+     "category": "multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "multiple_74",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "value_error:string",
+     "formattingOnly": false
+    },
+    {
+     "id": "8322d269bcab1d8e83ac7f99a2d64b9ebb0c2bebd4f98228e578228cb238bf61",
+     "category": "parallel",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_119",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "30ba6c2d6afc40254f52c142f26583bde14690f0fdb43870f5e7df43e532eec4",
+     "category": "parallel_multiple",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "parallel_multiple_100",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "parallel_function_checker_no_order:cannot_find_match",
+     "formattingOnly": false
+    },
+    {
+     "id": "bfd44dc8d7f446a8152f7b703a59ad4427d03cbd7da2091e36d613f6b2a3dea7",
+     "category": "multiple",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "multiple_10",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "multiple_function_checker:wrong_count",
+     "formattingOnly": false
+    },
+    {
+     "id": "0c81ae1ef68049498bd506dc90e08396d1a3e090afca0c4eff33c56dc7159a01",
+     "category": "simple_python",
+     "model": "Qwen/Qwen3-8B-AWQ",
+     "taskId": "simple_python_103",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "type_error:nested",
+     "formattingOnly": true
+    },
+    {
+     "id": "f57854859934e80413468d91d1c706a1985eaaaed6f47331a43ce505b3379fcd",
+     "category": "simple_python",
+     "model": "Qwen/Qwen2.5-0.5B-Instruct",
+     "taskId": "simple_python_347",
+     "checker": "fail",
+     "judge": "pass",
+     "checkerErrorType": "simple_function_checker:missing_optional",
+     "formattingOnly": false
+    }
+   ]
+  }
+ },
+ "selected": "v1",
+ "eligible": [
+  "v1",
+  "v2"
+ ]
+}

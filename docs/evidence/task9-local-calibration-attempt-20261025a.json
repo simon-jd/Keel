@@ -1,0 +1,54 @@
+{
+  "at": "2026-10-25T18:05:35.528082+00:00",
+  "status": "failed; retained permanently, no v2 executed",
+  "phase": "task9-local-calibration-20261025a",
+  "gitSha": "6cc6e868559bd0c9b22e87e5e456a879a16c28e7",
+  "implementationSha256": "1b0384e26aca5e0b5b60b62f845468f2cf558501ffe2ea1c0b1a4c5919f6e79f",
+  "model": "Qwen/Qwen3-8B-AWQ",
+  "revision": "4da05a8edb55c6046cce958586c33b61da07bb79",
+  "legacyProtocol": "prompt-only verdict schema; strict parser without provider constrained decoding",
+  "reference_origin": "subagent",
+  "human_evidence": false,
+  "v1": {
+    "logicalRequests": 78,
+    "validPredictions": 77,
+    "invalidVerdicts": 1,
+    "physicalAttempts": 78,
+    "safeSpans": 78,
+    "failureCode": "INVALID_JUDGE_SCHEMA",
+    "httpStatus": 200,
+    "failureInputTokens": 362,
+    "failureOutputTokens": 84,
+    "inputTokens": 26399,
+    "outputTokens": 5576,
+    "unknownAttempts": 0,
+    "knownConfiguredLocalApiCostUsd": 0,
+    "failureProviderTransport": "successful generation with known usage; unusable judge schema is a separate logical failure",
+    "failureResponseHashRetained": true,
+    "malformedRawResponseTextRetained": false
+  },
+  "v2": {
+    "logicalRequests": 0,
+    "validPredictions": 0
+  },
+  "pendingSha256": "7d59c2c11527d14e515fd770685c20abb6dc248c1d6853f531fb01ac0ae3ba07",
+  "spansSha256": "fe12abb09bbcc83114d282a5d2a713e1b614a7159f34e0f7dfc70412dff48061",
+  "cleanup": {
+    "at": "2026-10-25T18:00:35.637084Z",
+    "controllerSeconds": 95,
+    "allOwnedChildrenStopped": true,
+    "ownedGroupEmpty": true,
+    "ownedDescendantsEmpty": true,
+    "ephemeralFilesRemoved": true,
+    "unitMainPID": 0,
+    "ports": "no listeners independently observed",
+    "gpuLockAvailableAfter": true
+  },
+  "policy": [
+    "No completed calibration, selected version, accuracy or kappa is claimed.",
+    "Original77 observations plus invalid78th call and all usage/cost/intents remain in private pending; no overwrite/relabel/refund.",
+    "Earlier successful5 same-input legacy-profile observations remain separate and unchanged.",
+    "A separately reviewed fixed local structured-output profile would be a new protocol/study, not recovery of this failed run.",
+    "All commercial phases remain closed; no new paid requests or budget changes."
+  ]
+}

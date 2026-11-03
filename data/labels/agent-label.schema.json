@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Attributed subagent weak reference (never human evidence)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "label", "rater", "origin", "rubricVersion", "cohortHash", "annotatedAt", "rationale", "confidence", "inputSha256"],
+  "properties": {
+    "id": {"type": "string", "minLength": 1},
+    "label": {"enum": ["pass", "fail"]},
+    "rater": {"type": "string", "minLength": 1, "maxLength": 128},
+    "origin": {"const": "subagent"},
+    "rubricVersion": {"const": "bfcl-action-v1"},
+    "cohortHash": {"const": "c48c6dff2d6d594125b0260682d31d5a2d1c68ca3448af689cc69d1406e1699f"},
+    "annotatedAt": {"type": "string", "format": "date-time"},
+    "rationale": {"type": "string", "minLength": 1, "maxLength": 32768},
+    "confidence": {"enum": ["low", "medium", "high"]},
+    "inputSha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  }
+}

@@ -1,0 +1,57 @@
+{
+ "current_kappa": 0.24,
+ "cohort_reference": "data/labels/balanced-bfcl-20261030/reference.jsonl",
+ "human_reference": ".tools/annotation-task9/primary.labels.jsonl",
+ "candidates": {
+  "qwen2.5-14b v1 (current)": {
+   "cohort": "docs/evidence/judge-calibration-balanced-20261030/qwen2.5-14b-v1.jsonl",
+   "human": "docs/evidence/judge-calibration/qwen2.5-14b-v1.jsonl",
+   "thinking": false,
+   "version": "v1",
+   "baseline": true
+  },
+  "qwen2.5-14b v2 (current)": {
+   "cohort": "docs/evidence/judge-calibration-balanced-20261030/qwen2.5-14b-v2.jsonl",
+   "human": "docs/evidence/judge-calibration/qwen2.5-14b-v2.jsonl",
+   "thinking": false,
+   "version": "v2",
+   "baseline": true
+  },
+  "qwen3-14b non-thinking v1": {
+   "cohort": ".tools/phase7-judge/qwen3-14b/out/v1.jsonl",
+   "human": ".tools/phase7-judge/qwen3-14b/out/v1.jsonl",
+   "thinking": false,
+   "version": "v1"
+  },
+  "qwen3-14b non-thinking v2": {
+   "cohort": ".tools/phase7-judge/qwen3-14b/out/v2.jsonl",
+   "human": ".tools/phase7-judge/qwen3-14b/out/v2.jsonl",
+   "thinking": false,
+   "version": "v2"
+  },
+  "qwen3-14b non-thinking v3": {
+   "cohort": ".tools/phase7-judge/qwen3-14b/out/v3.jsonl",
+   "human": ".tools/phase7-judge/qwen3-14b/out/v3.jsonl",
+   "thinking": false,
+   "version": "v3"
+  },
+  "qwen3-14b thinking v1": {
+   "cohort": ".tools/phase7-judge/qwen3-14b-thinking/out/v1.jsonl",
+   "human": ".tools/phase7-judge/qwen3-14b-thinking/out/v1.jsonl",
+   "thinking": true,
+   "version": "v1"
+  },
+  "qwen3-14b thinking v2": {
+   "cohort": ".tools/phase7-judge/qwen3-14b-thinking/out/v2.jsonl",
+   "human": ".tools/phase7-judge/qwen3-14b-thinking/out/v2.jsonl",
+   "thinking": true,
+   "version": "v2"
+  },
+  "qwen3-14b thinking v3": {
+   "cohort": ".tools/phase7-judge/qwen3-14b-thinking/out/v3.jsonl",
+   "human": ".tools/phase7-judge/qwen3-14b-thinking/out/v3.jsonl",
+   "thinking": true,
+   "version": "v3"
+  }
+ }
+}

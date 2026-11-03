@@ -1,0 +1,7 @@
+{
+  "name": "oauth", "private": true, "type": "module",
+  "exports": { ".": "./src/index.ts", "./flow": "./src/flow.ts", "./store": "./src/store.ts", "./providers": "./src/providers/index.ts", "./session": "./src/session.ts" },
+  "scripts": { "test": "vitest run", "typecheck": "tsc -p tsconfig.json" },
+  "dependencies": { "pg": "8.23.1" },
+  "devDependencies": { "@testcontainers/postgresql": "10.28.0", "@types/pg": "8.23.1" }
+}

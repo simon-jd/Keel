@@ -1,0 +1,8 @@
+nproc 32
+load-answer-start.txt: 2026-10-31T09:39:11-07:00 |  09:39:11 up 14 days, 14:41,  9 users,  load average: 9.80, 9.46, 6.84 | 
+load-answer-end.txt: 2026-10-31T10:02:56-07:00 |  10:02:56 up 14 days, 15:05,  8 users,  load average: 4.51, 4.61, 5.48 | 
+load-judge-start.txt: 2026-10-31T19:13:28-07:00 |  19:13:28 up 15 days, 16 min,  5 users,  load average: 5.15, 2.95, 1.98 | 
+load-judge-end.txt: 2026-10-31T19:53:27-07:00 |  19:53:27 up 15 days, 56 min, 10 users,  load average: 7.49, 8.00, 7.52 | 
+run-answer.log: "peak_rss_bytes": 3462156288; "seconds": 740
+run-judge-q3t.log: "peak_rss_bytes": 3479392256; "seconds": 1753
+run-judge-q25.log: "peak_rss_bytes": 3432361984; "seconds": 116

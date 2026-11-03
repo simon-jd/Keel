@@ -1,0 +1,17 @@
+test_actual_ts_guard_gates_original_agentdojo_tools_after_injection (test_keel_guard.KeelGuardTests.test_actual_ts_guard_gates_original_agentdojo_tools_after_injection) ... ok
+test_interrupted_dispatch_and_changed_policy_cannot_reset_security (test_keel_guard.KeelGuardTests.test_interrupted_dispatch_and_changed_policy_cannot_reset_security) ... ok
+test_nested_guard_containing_capability_and_plan_deny_before_any_handler (test_keel_guard.KeelGuardTests.test_nested_guard_containing_capability_and_plan_deny_before_any_handler) ... ok
+test_nested_guard_denies_tainted_outer_without_human_approval (test_keel_guard.KeelGuardTests.test_nested_guard_denies_tainted_outer_without_human_approval) ... ok
+test_nested_guard_failure_evidence_is_private_and_serializable (test_keel_guard.KeelGuardTests.test_nested_guard_failure_evidence_is_private_and_serializable) ... ok
+test_nested_guard_nested_capability_and_plan_denial_blocks_outer (test_keel_guard.KeelGuardTests.test_nested_guard_nested_capability_and_plan_denial_blocks_outer) ... ok
+test_nested_guard_observation_failure_aborts_and_keeps_pending_state (test_keel_guard.KeelGuardTests.test_nested_guard_observation_failure_aborts_and_keeps_pending_state) ... ok
+test_nested_guard_positive_binds_exact_resolved_and_validated_outer_args (test_keel_guard.KeelGuardTests.test_nested_guard_positive_binds_exact_resolved_and_validated_outer_args) ... ok
+test_nested_guard_preserves_original_validation_error_before_outer_handler (test_keel_guard.KeelGuardTests.test_nested_guard_preserves_original_validation_error_before_outer_handler) ... ok
+test_nested_guard_same_function_recursion_is_gated_once_per_real_handler (test_keel_guard.KeelGuardTests.test_nested_guard_same_function_recursion_is_gated_once_per_real_handler) ... ok
+test_original_tool_capability_and_frozen_plan_denials (test_keel_guard.KeelGuardTests.test_original_tool_capability_and_frozen_plan_denials) ... ok
+test_trusted_explicit_initial_policy_path_executes_original_tool (test_keel_guard.KeelGuardTests.test_trusted_explicit_initial_policy_path_executes_original_tool) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 6.789s
+
+OK

@@ -1,0 +1,8 @@
+packages:
+  - 'packages/*'
+  - 'services/api'
+  - 'packages/mcp-servers/*'
+
+# esbuild uses its optional platform binary; do not execute dependency lifecycle scripts.
+ignoredBuiltDependencies:
+  - esbuild

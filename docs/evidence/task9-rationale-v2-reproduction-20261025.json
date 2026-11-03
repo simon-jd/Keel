@@ -1,0 +1,156 @@
+{
+  "activeLockEvidence": "single active shared-flock holder PID3309108 in this exact unit cgroup, not continuous telemetry",
+  "activeLockEvidenceSha256": "188558ca06d793387409b9ef108a8601889f0addff649eed40d12afc31eb228a",
+  "activePropertiesSha256": "4351eb660cf10ed0ab5018ed3b9160c7eb3617b7ccc276bf347c4a4934765772",
+  "actualScope": "five same-input local requests under explicit rationale-compatible schema v2 and fixed xgrammar backend; not full calibration or universal determinism",
+  "allIdsUniqueAndCorrelated": true,
+  "at": "2026-10-25T19:38:41.426Z",
+  "cleanup": {
+    "all_children_stopped": true,
+    "ephemeral_files_removed": true,
+    "event": "cleanup",
+    "outcome_code": 0,
+    "owned_cleanup": {
+      "all_owned_stopped": true,
+      "direct_child_returncodes": [
+        {
+          "pid": 3309931,
+          "returncode": 0
+        },
+        {
+          "pid": 3314335,
+          "returncode": 0
+        },
+        {
+          "pid": 3314523,
+          "returncode": 0
+        }
+      ],
+      "errors": [],
+      "owned_descendants_empty": true,
+      "owned_group_empty": true,
+      "seconds": 0.701588,
+      "survivors": []
+    },
+    "peak_disk_bytes": 7830412783,
+    "peak_rss_bytes": 4599873536,
+    "seconds": 49,
+    "span_file": ".tools/task9-rationale-v2-five-20261025a/safe-spans.jsonl",
+    "startup_drain_error_types": [],
+    "startup_drain_stopped": true,
+    "time": "2026-10-25T19:37:49.420503Z"
+  },
+  "cleanupVerified": true,
+  "configuredBackend": {
+    "backend": "xgrammar",
+    "disable_fallback": true,
+    "evidence": "retained actual server args and engine configuration, installed metadata assertion; not provider-wire revision",
+    "xgrammarVersion": "0.1.29"
+  },
+  "controllerReviewSha256": "6af785294140d34b16f09808927bb5de5f9228c4ca6769ab5eff8f42881efaf1",
+  "controllerSha256": "e49ba00db508069fa7b89c1260e63e403e0f6808cbe09b2911ba322bf3fb0a83",
+  "estimatedExtraDiskReserveBytes": 18000000,
+  "exactPhysicalAggregateUsageEquality": true,
+  "fullRationaleSampleAssessment": "all five identical258-character explanations cite the exact shortest-driving-distance tool and requested New York City/Washington D.C. arguments; root checked full original sample/required arguments; observed one-input scope only",
+  "gitSha": "f15fbf1596aade31149ab8e2922c64c8074ace6b",
+  "historicalTrials": "old prompt-onlyfive/failed78/schema-a0calls/oldschema605singlecharnegative retained unchanged; no mixed study",
+  "human_evidence": false,
+  "identityMarkerNote": "NOT_YET_PROVEN constant remains in profile; actual batch evidence separate, no provider-observed revision claim",
+  "implementationSha256": "18f3d87d1329e9f9b6528332ff282749578c41a28c8a48ee2251cdb4ef8b85a0",
+  "independentActualDataReview": "pending combined fresh v2 actual-data review after separate complete600",
+  "input": ".tools/annotation-task9/agent-local-json-schema-v2-reproduce-task9-rationale-v2-five-20261025a.json",
+  "inputTokens": 1655,
+  "internalTimeoutSeconds": 900,
+  "knownLocalApiCostUsd": 0,
+  "labelsEqual": true,
+  "lifecycleSha256": "f4d6df3d38a0dba50d34c29f0c55bd54bee8e377b738fe5ee25616c052748ee7",
+  "localJudgeProfile": {
+    "configured": {
+      "attribution": "operator-configured",
+      "modelRevision": "4da05a8edb55c6046cce958586c33b61da07bb79",
+      "modelSource": "Qwen/Qwen3-8B-AWQ",
+      "runtime": {
+        "name": "vllm",
+        "version": "0.17.1"
+      },
+      "servedModel": "keel-local"
+    },
+    "liveEnforcement": "NOT_YET_PROVEN",
+    "profile": "task9-local-json-schema-v2",
+    "protocol": "openai-chat-completions-sse-json-schema-v2",
+    "schemaSha256": "8555d7a223d87b528cdb74e2a259d725a40780fef2b3e722ea45a68f8e2e3c4d",
+    "wirePolicySha256": "b898e61bc1b8513b74c36245bcf0b595aad2a2ee67d87bbfc8380d1e4b86c988"
+  },
+  "logical": 5,
+  "memoryHardLimitBytes": 13499998208,
+  "memoryReservedBytes": 13500000000,
+  "next": "fresh600 admission; preserve original labels/results; separate fixed-rubric Kubernetes domain validation remains0calls",
+  "observedScopeOnly": true,
+  "outerTimeoutSeconds": 930,
+  "outputTokens": 330,
+  "physical": 5,
+  "planSha256": "b0d4f0ecf7eea81d79dfcc0af7b4cfaac031395aee27c8f092cebb1593f5e43e",
+  "postCleanup": {
+    "at": "2026-10-25T19:39:43.863950+00:00",
+    "disk": {
+      "admitted": true,
+      "container_writable_bytes": 0,
+      "image_bytes": 1616465391,
+      "limit_bytes": 8000000000,
+      "missing_images_not_pulled": [
+        "cgr.dev/chainguard/minio@sha256:a893442cd57d795411ace0b9a78f26a65e3f6e546d3f25c24e19f8446b0d9718",
+        "clickhouse/clickhouse-server:25.12",
+        "docker.langfuse.com/langfuse/langfuse-worker:4.69.0",
+        "docker.langfuse.com/langfuse/langfuse:4.69.0"
+      ],
+      "note": "Images are conservatively counted at full local size; shared HF cache excluded.",
+      "planned_bytes": 0,
+      "project": "keel",
+      "project_bytes": 6213906432,
+      "total_bytes": 7830371823,
+      "volume_bytes": 0
+    },
+    "ephemeralKeysAbsent": [
+      ".secrets/task9-rationale-v2-five-api-token-20261025a",
+      ".secrets/task9-rationale-v2-five-vllm-token-20261025a"
+    ],
+    "gpuLockAvailable": true,
+    "otherReservedBytes": 2203676672,
+    "portsListen18000_18080": "",
+    "postCollectedUnitDefaultPropertiesNotRuntimeClaims": true,
+    "unitProperties": "LoadState=not-found\nActiveState=inactive\nSubState=dead\nMainPID=0\n",
+    "unitQueryExit": 0
+  },
+  "productionReviewSha256": "63f8bec233e8d144f10824e0516f14646fa8006691e9f4fe5c7e3660509a49d6",
+  "rationaleQuality": {
+    "count": 5,
+    "maxLength": 258,
+    "minLength": 258,
+    "oneCharacter": 0,
+    "scope": "length is descriptive; usefulness requires independent semantic review"
+  },
+  "rawEqual": false,
+  "rawHashLimitation": "original raw HTTP bytes not retained; recorded SHA values only",
+  "reference_origin": "subagent",
+  "reliableJudgeAdmitted": false,
+  "reserveIsEstimateNotWorstCase": true,
+  "retries": 0,
+  "schema": 1,
+  "scope": "root independent actual-data arithmetic/provenance/correlation audit; no inference or model-result relabeling",
+  "semanticCanonicalization": "entire assistant action plus parsed verdict, including complete rationale; no truncation",
+  "semanticEqual": true,
+  "sha256": "7aa8c570188c25240cc41c2b09431226642fa0417f8388bee7086d0bff122acb",
+  "sourceSampleAndProtocolBound": true,
+  "spanCount": 5,
+  "spansSha256": "30466adddd3e006a44e80db828308039da12da172fd5b31c576c17a2b71b3ba6",
+  "startupLogSha256": "4470c4768b75d65fa3ef5a81aba0d39916353a3d4d32cb8a50379fb69c679274",
+  "startupRetention": "bounded redacted original ends midchunk after readiness; lifecycle/CLI/unit provide separate completion; original bytes not rewritten",
+  "startupWarnings": [
+    "TRANSFORMERS_CACHE upstream deprecation; HF_HOME and all shared model cache aliases pinned",
+    "two upstream invalid escape SyntaxWarnings",
+    "deliberate eager mode disables torch.compile/Inductor/CUDA graphs",
+    "model generation_config default sampling notice; requests explicitly temperature0/seed0, no claim all other defaults changed"
+  ],
+  "unknownAttempts": 0,
+  "verdictsEqual": true
+}

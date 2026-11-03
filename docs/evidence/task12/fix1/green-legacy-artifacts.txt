@@ -1,0 +1,7 @@
+test_original_nested_runtime_dispatch_reaches_host_before_handler (test_security_adapters.NestedHostDispatchTests.test_original_nested_runtime_dispatch_reaches_host_before_handler) ... ok
+test_private_roundtrip_and_capacity_fail_closed (test_artifacts.ArtifactTests.test_private_roundtrip_and_capacity_fail_closed) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 1.274s
+
+OK

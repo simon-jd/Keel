@@ -1,0 +1,186 @@
+{
+  "schema": 1,
+  "scope": "actual production ingestion and hybrid retrieval only; no rerank, generated answers or quality metrics",
+  "independentActualDataReview": {
+    "bytes": 49489,
+    "sha256": "3e6788d0e5e37fe79ed599ad78e6fe24553ee52bfca471845311cb6aaca80389",
+    "spec": "PASS",
+    "quality": "APPROVED with retained static Minors",
+    "critical": 0,
+    "important": 0,
+    "minor": 2,
+    "newDataFindings": 0,
+    "rootFullReadAndAdmission": true
+  },
+  "executionGitSha": "64f0023f9a3e33151bd7bb6cdc25d5fb2f9951be",
+  "producerSha256": "39efb875f47beec62f25e9ac959df30c071ee7c1f261661e1f2b9aa2ef79542a",
+  "producerFiles": 700,
+  "planSha256": "d8d2dda1a210098a64d7de43d529c4060c15a843617677dbd9110faabcc84e7f",
+  "manifestSha256": "61cb1a00178db978a3edd7c1dd14e7b3b12766fac9fbfc16f7fb58bf8f62ca6a",
+  "source": {
+    "chunksSha256": "2de87b1f8644516bf8ca4844202a4a2fe70035cee01b63cf203216d4abed0c21",
+    "corpusLockSha256": "44fc038dd3a7b325a86b9d921c71062a50b0ad58499ef54f535dfdbaa8703852",
+    "corpusVersion": "685b6988b39330405ff97cc69fcf7d600f963a55615e4653be04722cb95be356",
+    "migrationSha256": "1e9768159dce4b48ba5f0d1f2b57ad4edeb05e32783521b34465ab90023e2586",
+    "qaSha256": "0d7c9ff7be567cab8181b3f2d471c25eed5c909262639a484c43af183f1ee01f",
+    "questionOrdering": "frozen source order; question only sent to model"
+  },
+  "runtime": {
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "name": "vllm",
+    "observedDimension": 896,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "version": "0.17.1"
+  },
+  "profile": {
+    "alias": "keel-kubernetes-qwen25-last-v1",
+    "dimension": 896,
+    "id": "16b95a7a9efe918367e30025d78097dcc89a4ab08813d2871e6518f2c3f8b1f8",
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "provider": "openaiCompatible",
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "runtimeEvidence": "root vLLM0.17.1 runner=pooling convert=embed; fixed local cached revision; normalized last token default; actual vector dimensions checked by models client"
+  },
+  "protocol": {
+    "candidateK": 20,
+    "cleanupMaximumSeconds": 25,
+    "convert": "embed",
+    "dimension": 896,
+    "encoding_format": "float",
+    "endpoint": "http://127.0.0.1:18000/v1",
+    "identity": "operator configured revision; actual response dimension must be896; not provider revision proof",
+    "ingestBatchSize": 32,
+    "ingestBatchSizes": [
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      11
+    ],
+    "laterRerankFinalK": 10,
+    "lexical": "PostgreSQL ts_rank_cd; not BM25",
+    "maxInputJsonBytes": 262144,
+    "maxResponseBytes": 4000000,
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "outerStopSeconds": 35,
+    "pooling": "normalized-last-token-default",
+    "queryBatchSize": 1,
+    "requestK": 20,
+    "retries": 0,
+    "rrfK": 60,
+    "runner": "pooling",
+    "scope": "adapted generative hidden states, not a trained embedding checkpoint",
+    "storage": "float32-le only when exact Object.is(Math.fround(value),value); otherwise float64-le",
+    "traceDisclosure": "Existing production llm operation label is chat, including embeddings; preserved unchanged",
+    "vector": "pgvector cosine distance",
+    "version": "keel-production-ingest-retrieval-v1",
+    "workTimeoutSeconds": 870,
+    "wrapperGraceSeconds": 30,
+    "wrapperTimeoutSeconds": 900
+  },
+  "protocolHash": "f0f8652de2b7a06c6e2333c1e21a5ed877662f8d632113825fc14b9b7ab9a846",
+  "ingest": {
+    "calls": 16,
+    "inserted": 491
+  },
+  "queries": 200,
+  "physicalAttempts": 216,
+  "logicalDispatchIntents": 216,
+  "vectorRecords": 691,
+  "inputTokens": 133689,
+  "outputTokens": 0,
+  "unknownAccountedAttempts": 0,
+  "unaccountedDispatchIntents": 0,
+  "costStatus": "known",
+  "configuredApiCostUsd": 0,
+  "costLimits": "configured local API price only; excludes GPU, electricity and hardware",
+  "sqlCounts": {
+    "attempted": 1301,
+    "failed": 0,
+    "insertChunk": 491,
+    "lexicalQueries": 200,
+    "provenanceRows": 4037,
+    "succeeded": 1301,
+    "vectorQueries": 200
+  },
+  "sqlRows": {
+    "chunks": 491,
+    "corpora": 1,
+    "profiles": 1
+  },
+  "spanValidation": {
+    "correlatedRetrievals": 200,
+    "llmSpans": 216,
+    "retrievalSpans": 200,
+    "uniqueSpanContexts": 416,
+    "validated": true
+  },
+  "retained": {
+    "journal": {
+      "bytes": 350346,
+      "path": ".tools/task14-retrieval-20261025a/calls.jsonl",
+      "sha256": "f2085adc11a03064d06c816ff2d630115db125fc87f3cdf5afea592492e424ed"
+    },
+    "results": {
+      "bytes": 621730,
+      "path": ".tools/task14-retrieval-20261025a/retrieval-results.jsonl",
+      "sha256": "6b98200fa3ece4bbb05a5eabff71a7ba11da4f688f1a6481d229f9847148b3e6"
+    },
+    "spans": {
+      "bytes": 251259,
+      "path": ".tools/task14-retrieval-20261025a/safe-spans.jsonl",
+      "sha256": "8bf300f993698bbbce74e01996860e2d8e40769f15c553cfc6d85ba9cf1c9cb1"
+    },
+    "vectors": {
+      "bytes": 2476544,
+      "path": ".tools/task14-retrieval-20261025a/vectors.bin",
+      "sha256": "1b504023d684c71a1ee23509413b7df94ef69ce0a431fb386545a772b74efdc7"
+    }
+  },
+  "unitRuntimeSeconds": 76.975,
+  "cleanupSeconds": 1.427,
+  "cleanupAt": "2026-10-25T22:16:09.667337Z",
+  "postCheckAt": "2026-10-25T22:17:07.513635+00:00",
+  "postCheck": {
+    "unitProperties": "LoadState=not-found\nActiveState=inactive\nSubState=dead\nMainPID=0\n",
+    "exactIdAbsent": true,
+    "exactNameAbsent": true,
+    "portsChecked": [
+      18000,
+      18080,
+      32842
+    ],
+    "listeningPorts": [],
+    "gpuLockAvailable": true,
+    "ephemeralPathsAbsent": {
+      ".secrets/task14-retrieval-vllm-token-20261025a": true,
+      ".tools/task14-retrieval-20261025a/pg-state.json": true
+    },
+    "all9CachedModelFilesUnchanged": true,
+    "executionIdentityUnchanged": true
+  },
+  "postDiskBytes": 7841848815,
+  "humanEvidence": false,
+  "finalRagMetrics": null,
+  "limitations": [
+    "Agent-authored frozen200 QA; not human gold or statistical independence",
+    "Adapted generative last-token vectors, not a trained embedding checkpoint",
+    "Revision is operator-configured, not provider attestation",
+    "No original HTTP bodies retained for independent wire rehash",
+    "Startup log is bounded prefix ending in a partial line, not lifetime provider wire evidence",
+    "Actual snapshots do not prove continuous lock/resource observation",
+    "Serial phases; component timing is not online end-to-end latency",
+    "Known embedding llm operation label is chat; static recovery poll4s nominal plus one bounded2s call, PG20s/cleanup25s hard caps"
+  ]
+}

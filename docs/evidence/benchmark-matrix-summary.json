@@ -1,0 +1,212 @@
+{
+  "schema": 1,
+  "scope": "closed local formal matrix only; Task8 commercial phase and whole project remain pending",
+  "manifest_canonical_sha256": "166c959cb9fde8330887e2bdff3a417d484af2b276263e2423f9ac2f7f77f45e",
+  "manifest_file_sha256": "b1bc00fb3fc6dfc2261e7a660026dc9e49e6fd69c547d1287efd9fc56b9db38a",
+  "implementation_sha256": "864bcdb6dbaeb31487173c3a0f6697af401ca9c19d5fd08612f3db24516c44f1",
+  "preparation_head": "0dbe966751219a9dfc2dec2c4f72f213f49921eb",
+  "last_execution_head": "6489dad299df3d34b008362a98847e8332caae99",
+  "results_file_bytes": 10780899,
+  "results_file_sha256": "3fbacb6de864310bc707970ff99979a7e133cdb8a36ffea775ac5526f86f490a",
+  "planned_jobs": 850,
+  "terminal_jobs": 850,
+  "attempt_rows": 865,
+  "historical_incomplete_rows": 15,
+  "pending_jobs": [],
+  "statuses": {
+    "completed": 699,
+    "incomplete": 15,
+    "failed": 151
+  },
+  "model": {
+    "name": "Qwen/Qwen3-8B-AWQ",
+    "revision": "4da05a8edb55c6046cce958586c33b61da07bb79",
+    "quantization": "AWQ int4",
+    "license": "apache-2.0",
+    "temperature": 0.0,
+    "thinking": false,
+    "tool_parser": "hermes",
+    "max_tokens": 2048
+  },
+  "simulator": {
+    "name": "Qwen/Qwen3-8B-AWQ",
+    "revision": "4da05a8edb55c6046cce958586c33b61da07bb79",
+    "quantization": "AWQ int4",
+    "license": "apache-2.0",
+    "temperature": 0.0,
+    "thinking": false,
+    "tool_parser": "hermes",
+    "max_tokens": 2048
+  },
+  "judge": {
+    "name": "Qwen/Qwen3-8B-AWQ",
+    "revision": "4da05a8edb55c6046cce958586c33b61da07bb79",
+    "quantization": "AWQ int4",
+    "license": "apache-2.0",
+    "temperature": 0.0,
+    "thinking": false,
+    "tool_parser": "hermes",
+    "max_tokens": 2048
+  },
+  "dataset_commits": {
+    "tau2": "cc1df47baa1544a34bb8c8e5c4ca72ad223b96a2",
+    "bfcl": "6ea57973c7a6097fd7c5915698c54c17c5b1b6c8"
+  },
+  "benchmarks": [
+    {
+      "benchmark": "tau2",
+      "terminal_jobs": 450,
+      "original_evaluations": 299,
+      "model_or_protocol_failures": 151,
+      "successes": 37,
+      "success_rate": 0.08222222222222222,
+      "cost_status_counts": {
+        "known": 448,
+        "unknown": 2
+      },
+      "known_api_cost_subtotal_usd": 0,
+      "latency_ms": {
+        "mean": 23433.919146078537,
+        "median": 11499.78487950284,
+        "p95_nearest_rank": 75183.12987196259
+      }
+    },
+    {
+      "benchmark": "bfcl",
+      "terminal_jobs": 400,
+      "original_evaluations": 400,
+      "model_or_protocol_failures": 0,
+      "successes": 224,
+      "success_rate": 0.56,
+      "cost_status_counts": {
+        "known": 400
+      },
+      "known_api_cost_subtotal_usd": 0,
+      "latency_ms": {
+        "mean": 387.8484931503772,
+        "median": 359.57670101197436,
+        "p95_nearest_rank": 609.8556080833077
+      }
+    }
+  ],
+  "tau2_cells": [
+    {
+      "domain": "airline",
+      "seed": 0,
+      "terminal": 50,
+      "completed": 50,
+      "failed": 0,
+      "success": 7,
+      "mean_latest_latency_ms": 24468
+    },
+    {
+      "domain": "airline",
+      "seed": 1,
+      "terminal": 50,
+      "completed": 49,
+      "failed": 1,
+      "success": 7,
+      "mean_latest_latency_ms": 25086
+    },
+    {
+      "domain": "airline",
+      "seed": 2,
+      "terminal": 50,
+      "completed": 50,
+      "failed": 0,
+      "success": 7,
+      "mean_latest_latency_ms": 32394
+    },
+    {
+      "domain": "retail",
+      "seed": 0,
+      "terminal": 50,
+      "completed": 37,
+      "failed": 13,
+      "success": 6,
+      "mean_latest_latency_ms": 26135
+    },
+    {
+      "domain": "retail",
+      "seed": 1,
+      "terminal": 50,
+      "completed": 35,
+      "failed": 15,
+      "success": 6,
+      "mean_latest_latency_ms": 24502
+    },
+    {
+      "domain": "retail",
+      "seed": 2,
+      "terminal": 50,
+      "completed": 35,
+      "failed": 15,
+      "success": 4,
+      "mean_latest_latency_ms": 24722
+    },
+    {
+      "domain": "telecom",
+      "seed": 0,
+      "terminal": 50,
+      "completed": 14,
+      "failed": 36,
+      "success": 0,
+      "mean_latest_latency_ms": 17473
+    },
+    {
+      "domain": "telecom",
+      "seed": 1,
+      "terminal": 50,
+      "completed": 15,
+      "failed": 35,
+      "success": 0,
+      "mean_latest_latency_ms": 14801
+    },
+    {
+      "domain": "telecom",
+      "seed": 2,
+      "terminal": 50,
+      "completed": 14,
+      "failed": 36,
+      "success": 0,
+      "mean_latest_latency_ms": 21324
+    }
+  ],
+  "persisted_logical_requests": 16530,
+  "physical_attempts": 16530,
+  "call_cost_statuses": {
+    "known": 16528,
+    "unknown": 2
+  },
+  "known_api_cost_subtotal_usd": 0,
+  "aggregate_cost_status": "unknown",
+  "calls_missing_usage": 2,
+  "known_usage_tokens": {
+    "input_tokens": 109511479,
+    "output_tokens": 991771
+  },
+  "failed_model_response_jobs": [
+    341,
+    441
+  ],
+  "failure_categories": {
+    "malformed_json": 149,
+    "serving_failure_unknown": 2
+  },
+  "verified_artifacts": 865,
+  "verified_one_span_per_persisted_call": 16530,
+  "orphaned_completed_span_only_calls": 91,
+  "orphan_note": "Batch005 interrupted run; original IDs/times retained, missing result/trajectory/reward are not reconstructed; possible additional in-flight work remains unknown.",
+  "artifact_roots": [
+    ".tools/benchmark-artifacts",
+    ".tools/benchmark-artifact-archive/formal-airline-retail-0dbe966"
+  ],
+  "sealed_index_sha256": "851e8b6b36a1033b7bfe5bfc82ca39104702f4f79ebaa78c7bd959537858296f",
+  "active_compressed_bytes": 29832986,
+  "sealed_compressed_bytes": 41071806,
+  "latency_note": "Latest terminal attempt execution/model/evaluation time before private artifact persistence; excludes evidence admission/write, server startup and cleanup. Earlier incomplete work retained separately.",
+  "gpu_dollars": null,
+  "paid_model_requests": 0,
+  "human_labels": 0,
+  "langfuse_ingestion_verified": false
+}

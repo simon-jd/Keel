@@ -1,0 +1,381 @@
+{
+ "batch": {
+  "exit_code": 0,
+  "load_after": {
+   "note": "shared host; SponsorAtlas, Crucible and other sessions were running",
+   "nproc": 32,
+   "uptime": "15:47:13 up 12 days, 20:49,  4 users,  load average: 4.18, 2.69, 2.73"
+  },
+  "seconds_including_lock_wait": 423
+ },
+ "container_memory": [
+  {
+   "BlockIO": "0B / 0B",
+   "CPUPerc": "0.36%",
+   "Container": "8f94fe6d55dcd8629729dbf1cfde5c88d5db7fcebfec69c12bfdf93bb741fc45",
+   "ID": "8f94fe6d55dc",
+   "MemPerc": "45.57%",
+   "MemUsage": "699.9MiB / 1.5GiB",
+   "Name": "keel-langfuse-1",
+   "NetIO": "647kB / 1.42MB",
+   "PIDs": "46"
+  },
+  {
+   "BlockIO": "0B / 0B",
+   "CPUPerc": "0.26%",
+   "Container": "47796ff47ce9a2afc5c83d9c0e4f03684574179afbfb4856026ee15ca14cc083",
+   "ID": "47796ff47ce9",
+   "MemPerc": "25.89%",
+   "MemUsage": "397.6MiB / 1.5GiB",
+   "Name": "keel-langfuse-worker-1",
+   "NetIO": "3.65MB / 10.7MB",
+   "PIDs": "46"
+  },
+  {
+   "BlockIO": "0B / 104MB",
+   "CPUPerc": "0.00%",
+   "Container": "29d512eadf3c5419df008fcea233a0f3e6e5d62aa18572acb02ff64c5bc98b06",
+   "ID": "29d512eadf3c",
+   "MemPerc": "6.19%",
+   "MemUsage": "47.55MiB / 768MiB",
+   "Name": "keel-langfuse-postgres-1",
+   "NetIO": "1.25MB / 529kB",
+   "PIDs": "11"
+  },
+  {
+   "BlockIO": "1.76MB / 2.15MB",
+   "CPUPerc": "0.37%",
+   "Container": "45813941529f71b05b1115f921e1b0be8a15bc5764ac26f958ea0faecb79b24e",
+   "ID": "45813941529f",
+   "MemPerc": "2.65%",
+   "MemUsage": "6.785MiB / 256MiB",
+   "Name": "keel-redis-1",
+   "NetIO": "10.2MB / 3.43MB",
+   "PIDs": "6"
+  },
+  {
+   "BlockIO": "0B / 58.9MB",
+   "CPUPerc": "3.89%",
+   "Container": "b6b0d8c6b4d8ab88706dca8b3b40829bcdc102cec655e904572def97d7aecc06",
+   "ID": "b6b0d8c6b4d8",
+   "MemPerc": "5.57%",
+   "MemUsage": "28.52MiB / 512MiB",
+   "Name": "keel-postgres-1",
+   "NetIO": "1.18MB / 224kB",
+   "PIDs": "6"
+  },
+  {
+   "BlockIO": "1.05MB / 70.1MB",
+   "CPUPerc": "4.13%",
+   "Container": "5b0dbf010a8b13d7d34320d5cb566503a37d90e6749e25dba68103bb13bb18ca",
+   "ID": "5b0dbf010a8b",
+   "MemPerc": "19.88%",
+   "MemUsage": "508.8MiB / 2.5GiB",
+   "Name": "keel-clickhouse-1",
+   "NetIO": "546kB / 80.2kB",
+   "PIDs": "714"
+  },
+  {
+   "BlockIO": "1.25MB / 0B",
+   "CPUPerc": "0.05%",
+   "Container": "ea388eb06b4d8577a61d5b37c1a4bb443443356918c778806286920c541a00f9",
+   "ID": "ea388eb06b4d",
+   "MemPerc": "7.90%",
+   "MemUsage": "40.45MiB / 512MiB",
+   "Name": "keel-collector-1",
+   "NetIO": "132kB / 38.8kB",
+   "PIDs": "24"
+  },
+  {
+   "BlockIO": "86kB / 639kB",
+   "CPUPerc": "0.00%",
+   "Container": "79e439cee790105daed6cd17ed67ca97aff0f33366b2b3ced5c88d1d949a8d1d",
+   "ID": "79e439cee790",
+   "MemPerc": "12.85%",
+   "MemUsage": "65.78MiB / 512MiB",
+   "Name": "keel-minio-1",
+   "NetIO": "242kB / 168kB",
+   "PIDs": "34"
+  }
+ ],
+ "langfuse_cost_fields": {
+  "note": "Langfuse has no price for keel-local; per-run cost is the keel.cost_usd attribute",
+  "total_cost_sum": 0.0
+ },
+ "load_before": {
+  "note": "shared host; SponsorAtlas, Crucible and other sessions were running",
+  "nproc": 32,
+  "uptime": "15:39:55 up 12 days, 20:42,  4 users,  load average: 2.39, 2.41, 2.85"
+ },
+ "model": "qwen3-8b-awq",
+ "pii": {
+  "canaries": 150,
+  "langfuse_blobs_scanned": 72,
+  "langfuse_bytes_scanned": 1884477,
+  "positive_control_keel_run_store_hits": 120,
+  "raw_pii_hits": {}
+ },
+ "public_api": {
+  "count": 180,
+  "endpoint": "/api/public/v2/observations",
+  "sent_ids_returned": 180,
+  "status": 200
+ },
+ "runs": 30,
+ "runs_summary": {
+  "model_calls": 60,
+  "statuses": {
+   "DONE": 30
+  },
+  "tool_calls": 90
+ },
+ "settle": {
+  "reason": "all_sent_stored",
+  "stored": 180,
+  "waited_s": 0.1
+ },
+ "stack_ready_utc": "2026-10-29T22:40:10Z",
+ "stack_removed": true,
+ "summary": {
+  "latency_ms": {
+   "from_export_ack": {
+    "max": 211.7626953125,
+    "n": 180,
+    "p50": 119.45556640625,
+    "p95": 193.090576171875
+   },
+   "from_span_end": {
+    "max": 1215.523681640625,
+    "n": 180,
+    "p50": 578.956298828125,
+    "p95": 1177.9775390625
+   }
+  },
+  "run_cost": [
+   {
+    "langfuse_usd": 0.00021555,
+    "match": true,
+    "runId": "afe0b0ce-3acd-435c-9398-a73a2e0ca8be",
+    "runtime_usd": 0.00021554999999999998,
+    "sent_usd": 0.00021555
+   },
+   {
+    "langfuse_usd": 0.00021675,
+    "match": true,
+    "runId": "f834c1fd-1d2a-416b-8cbc-25d3d26c3c9e",
+    "runtime_usd": 0.00021674999999999998,
+    "sent_usd": 0.00021675
+   },
+   {
+    "langfuse_usd": 0.00021915,
+    "match": true,
+    "runId": "e3bfac26-299d-4105-81a4-7efb8d34f2e8",
+    "runtime_usd": 0.00021915,
+    "sent_usd": 0.00021915
+   },
+   {
+    "langfuse_usd": 0.00021885,
+    "match": true,
+    "runId": "7c9173aa-891a-4ebe-8fd8-98f1415dce58",
+    "runtime_usd": 0.00021884999999999998,
+    "sent_usd": 0.00021885
+   },
+   {
+    "langfuse_usd": 0.0002187,
+    "match": true,
+    "runId": "e7bf4a90-a190-4aea-9139-63801e849d27",
+    "runtime_usd": 0.0002187,
+    "sent_usd": 0.0002187
+   },
+   {
+    "langfuse_usd": 0.00021915,
+    "match": true,
+    "runId": "0d762ab1-eff7-4a5f-ba9e-20706a353f04",
+    "runtime_usd": 0.00021915,
+    "sent_usd": 0.00021915
+   },
+   {
+    "langfuse_usd": 0.0002193,
+    "match": true,
+    "runId": "23cd45f3-9d7b-4b66-b472-590d6f32015f",
+    "runtime_usd": 0.0002193,
+    "sent_usd": 0.0002193
+   },
+   {
+    "langfuse_usd": 0.0002184,
+    "match": true,
+    "runId": "ee2f9b2c-a896-4bfd-b322-b74bfb99c062",
+    "runtime_usd": 0.0002184,
+    "sent_usd": 0.0002184
+   },
+   {
+    "langfuse_usd": 0.00021585,
+    "match": true,
+    "runId": "0635befe-b9bb-4da9-9254-1c72ce99c4a8",
+    "runtime_usd": 0.00021585,
+    "sent_usd": 0.00021585
+   },
+   {
+    "langfuse_usd": 0.0002184,
+    "match": true,
+    "runId": "22d712de-c8e2-44d1-8eda-4662f5642f6a",
+    "runtime_usd": 0.00021839999999999997,
+    "sent_usd": 0.0002184
+   },
+   {
+    "langfuse_usd": 0.00021555,
+    "match": true,
+    "runId": "e84c67c2-59aa-4a44-8af7-ab0892c11d71",
+    "runtime_usd": 0.00021554999999999998,
+    "sent_usd": 0.00021555
+   },
+   {
+    "langfuse_usd": 0.00021675,
+    "match": true,
+    "runId": "5f8c05f6-981e-4ab7-9bf0-2d31452bb561",
+    "runtime_usd": 0.00021674999999999998,
+    "sent_usd": 0.00021675
+   },
+   {
+    "langfuse_usd": 0.00021615,
+    "match": true,
+    "runId": "e9fdcc48-b466-487e-a411-4e9dc18dcc21",
+    "runtime_usd": 0.00021614999999999997,
+    "sent_usd": 0.00021615
+   },
+   {
+    "langfuse_usd": 0.00022785,
+    "match": true,
+    "runId": "c76c1a01-1822-434e-a6bb-1b0166f9bf1e",
+    "runtime_usd": 0.00022784999999999998,
+    "sent_usd": 0.00022785
+   },
+   {
+    "langfuse_usd": 0.0002187,
+    "match": true,
+    "runId": "74900c7a-bd6f-4507-8212-ff06ac0838e9",
+    "runtime_usd": 0.0002187,
+    "sent_usd": 0.0002187
+   },
+   {
+    "langfuse_usd": 0.00021915,
+    "match": true,
+    "runId": "682b6c3c-ef77-4460-bf9d-5a52a75ec983",
+    "runtime_usd": 0.00021915,
+    "sent_usd": 0.00021915
+   },
+   {
+    "langfuse_usd": 0.0002151,
+    "match": true,
+    "runId": "68ba039e-3450-418d-ad68-e1a7f4d5e4e1",
+    "runtime_usd": 0.00021509999999999997,
+    "sent_usd": 0.0002151
+   },
+   {
+    "langfuse_usd": 0.000216,
+    "match": true,
+    "runId": "2e6bb70b-6b24-45a9-82d3-450682033102",
+    "runtime_usd": 0.000216,
+    "sent_usd": 0.000216
+   },
+   {
+    "langfuse_usd": 0.00021645,
+    "match": true,
+    "runId": "9e65f81b-48b3-4c69-b616-4066d4312909",
+    "runtime_usd": 0.00021645,
+    "sent_usd": 0.00021645
+   },
+   {
+    "langfuse_usd": 0.0002184,
+    "match": true,
+    "runId": "e7685fe5-e728-4d54-8d5d-113f6cf9ba6d",
+    "runtime_usd": 0.00021839999999999997,
+    "sent_usd": 0.0002184
+   },
+   {
+    "langfuse_usd": 0.00021555,
+    "match": true,
+    "runId": "dc666ed2-4bc9-4706-8aed-d5f5e7b392b5",
+    "runtime_usd": 0.00021554999999999998,
+    "sent_usd": 0.00021555
+   },
+   {
+    "langfuse_usd": 0.00021675,
+    "match": true,
+    "runId": "4da9bbec-fd0a-4433-adbe-b362652ecba8",
+    "runtime_usd": 0.00021674999999999998,
+    "sent_usd": 0.00021675
+   },
+   {
+    "langfuse_usd": 0.00021615,
+    "match": true,
+    "runId": "c6b4da43-a45b-4921-a686-bf53d79c1615",
+    "runtime_usd": 0.00021614999999999997,
+    "sent_usd": 0.00021615
+   },
+   {
+    "langfuse_usd": 0.00021945,
+    "match": true,
+    "runId": "78253552-343b-4d91-88b0-bdc8ff4265c3",
+    "runtime_usd": 0.00021945,
+    "sent_usd": 0.00021945
+   },
+   {
+    "langfuse_usd": 0.0002187,
+    "match": true,
+    "runId": "3262d001-78f7-4103-ac75-20a3550aa069",
+    "runtime_usd": 0.0002187,
+    "sent_usd": 0.0002187
+   },
+   {
+    "langfuse_usd": 0.00022335,
+    "match": true,
+    "runId": "39e5b5f9-7822-4a59-9308-dfbd075a6c41",
+    "runtime_usd": 0.00022334999999999998,
+    "sent_usd": 0.00022335
+   },
+   {
+    "langfuse_usd": 0.0002151,
+    "match": true,
+    "runId": "cc1df900-371a-43d7-bea9-0dd66ad0d0af",
+    "runtime_usd": 0.00021509999999999997,
+    "sent_usd": 0.0002151
+   },
+   {
+    "langfuse_usd": 0.000216,
+    "match": true,
+    "runId": "e5f18bf2-d29b-4996-905a-b6e5a57c759a",
+    "runtime_usd": 0.000216,
+    "sent_usd": 0.000216
+   },
+   {
+    "langfuse_usd": 0.00021645,
+    "match": true,
+    "runId": "39f68a98-1f7b-46e6-92e3-2d4b1d43b271",
+    "runtime_usd": 0.00021645,
+    "sent_usd": 0.00021645
+   },
+   {
+    "langfuse_usd": 0.0002184,
+    "match": true,
+    "runId": "c3d5a033-c9cf-4a03-95dc-46015db2bf53",
+    "runtime_usd": 0.00021839999999999997,
+    "sent_usd": 0.0002184
+   }
+  ],
+  "spans": {
+   "acknowledged": 180,
+   "missing": 0,
+   "missing_ids": [],
+   "sent": 180,
+   "stored": 180,
+   "stored_not_sent": 0
+  }
+ },
+ "table_rows": {
+  "events_core": 180,
+  "events_full": 180,
+  "observations": 0,
+  "traces": 0
+ }
+}

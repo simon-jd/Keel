@@ -1,0 +1,78 @@
+{
+ "cheap_model": {
+  "license": "apache-2.0",
+  "max_tokens": 2048,
+  "name": "Qwen/Qwen2.5-0.5B-Instruct",
+  "quantization": "none (bf16)",
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "temperature": 0.0,
+  "thinking": false,
+  "tool_parser": "hermes"
+ },
+ "policies": [
+  {
+   "api_cost_usd": 0,
+   "deployable": true,
+   "escalated": 0,
+   "gpu_seconds": 72.86342598700006,
+   "pareto": true,
+   "policy": "cheap-only",
+   "success_rate": 0.76,
+   "successes": 304,
+   "tasks": 400,
+   "tokens": 123924
+  },
+  {
+   "api_cost_usd": 0,
+   "deployable": true,
+   "escalated": 12,
+   "gpu_seconds": 77.31383084400007,
+   "pareto": true,
+   "policy": "cheap-first(schema verifier)",
+   "success_rate": 0.7875,
+   "successes": 315,
+   "tasks": 400,
+   "tokens": 127467
+  },
+  {
+   "api_cost_usd": 0,
+   "deployable": true,
+   "escalated": 0,
+   "gpu_seconds": 143.2079329089998,
+   "pareto": true,
+   "policy": "strong-only",
+   "success_rate": 0.9525,
+   "successes": 381,
+   "tasks": 400,
+   "tokens": 119850
+  },
+  {
+   "api_cost_usd": 0,
+   "deployable": false,
+   "escalated": 96,
+   "gpu_seconds": 107.90723480800001,
+   "pareto": false,
+   "policy": "cheap-first(oracle, not deployable)",
+   "success_rate": 0.9675,
+   "successes": 387,
+   "tasks": 400,
+   "tokens": 153311
+  }
+ ],
+ "strong_model": {
+  "license": "apache-2.0",
+  "max_tokens": 2048,
+  "name": "Qwen/Qwen3-8B-AWQ",
+  "quantization": "AWQ int4",
+  "revision": "4da05a8edb55c6046cce958586c33b61da07bb79",
+  "temperature": 0.0,
+  "thinking": false,
+  "tool_parser": "hermes"
+ },
+ "verifier": {
+  "rejected_correct": 0,
+  "rejected_wrong": 12,
+  "verified_correct": 304,
+  "verified_wrong": 84
+ }
+}

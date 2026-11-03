@@ -1,0 +1,26 @@
+{
+  "tau2": {
+    "repository": "https://github.com/sierra-research/tau2-bench",
+    "commit": "cc1df47baa1544a34bb8c8e5c4ca72ad223b96a2",
+    "license": "MIT",
+    "python": ">=3.12,<3.14",
+    "integration": "HalfDuplexAgent via LLMAgent, original UserSimulator/Orchestrator/evaluate_simulation; only _generate_once transport replaced"
+  },
+  "bfcl": {
+    "repository": "https://github.com/ShishirPatil/gorilla",
+    "commit": "6ea57973c7a6097fd7c5915698c54c17c5b1b6c8",
+    "license": "Apache-2.0",
+    "integration": "BaseHandler via OpenAICompletionsHandler with no SDK client; original function schema conversion, AST decode/checker",
+    "scope": "v4 simple_python; not the full BFCL leaderboard"
+  },
+  "archive_sha256": [
+    {
+      "archive": "bfcl.tar.gz",
+      "sha256": "c6b5081337cabd317b56c6eead2ec735f7a3cb86ac4fd664e3f9c8c02d1f1f1e"
+    },
+    {
+      "archive": "tau2.tar.gz",
+      "sha256": "ff05c5e5f8d4b127e53f7404c0ec6798b99560d7dc8d91782081a4a6b727b626"
+    }
+  ]
+}

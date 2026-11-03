@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "scope": "lossless storage maintenance only; historical negative model outcomes unchanged",
+  "status": "completed-and-independently-verified",
+  "controllerSha256": "b05a564ab0ed4035212cc54c1b8c26694e5f4adb687b5a88cfa85defdf635c5d",
+  "planSha256": "effac135d82927fe14bf093389c89c6bae9926aae8b5e0640fe1b29d839855b9",
+  "privateIndex": ".tools/task9-old-schema-archive-20261025a/index.json",
+  "indexSha256": "631e50626be03770911db605c83ab9d373f8e4462f10730be75ff8e75643031c",
+  "logicalRawBytes": 7283292,
+  "logicalGzipBytes": 547808,
+  "fourFilesAllocatedReductionBytes": 6742016,
+  "inclusiveReductionBeforeFinalIndexBytes": 6729728,
+  "freshPostDiskBytes": 7836470767,
+  "runtimeSeconds": 10.574,
+  "outerMemoryMax": 2147483648,
+  "swapBytes": 0,
+  "outerTTLSeconds": 120,
+  "stopSeconds": 8,
+  "allFourRawByteHashesVerified": true,
+  "new19ApprovalFilesUnchanged": true,
+  "ownedUnitStopped": true,
+  "staticAndActualReview": {
+    "bytes": 56694,
+    "sha256": "ccfd20b6110a68e0745a047784bf0999307428991bbc03f97c21ed799345719e",
+    "spec": "PASS",
+    "quality": "APPROVE",
+    "CIM": [
+      0,
+      0,
+      0
+    ]
+  },
+  "recovery": "Old raw paths now map to gzip below. Decompress in memory and check rawBytes/rawSha256; restoring disk copies needs fresh 8GB admission. No xattr/ACL/full-filesystem restoration claim.",
+  "entries": [
+    {
+      "source": ".tools/annotation-task9/agent-local-json-schema-judge-task9-local-schema-calibration-v1-20261025a.json",
+      "archive": ".tools/task9-old-schema-archive-20261025a/agent-local-json-schema-judge-task9-local-schema-calibration-v1-20261025a.json.gz",
+      "rawBytes": 1834760,
+      "rawSha256": "d7f553d90909c06ee54c6ab6f92b1eb945f243ce36fbc945933b292e31cbcdf7",
+      "gzipBytes": 142897,
+      "gzipSha256": "6b14a4e59df3de4ca8353e90e53150c38f03763a369139dee49c370f1e8731f6",
+      "sourceAllocatedBytes": 1835008,
+      "gzipAllocatedBytes": 143360
+    },
+    {
+      "source": ".tools/annotation-task9/agent-local-json-schema-judge-task9-local-schema-calibration-v1-20261025a.pending.json",
+      "archive": ".tools/task9-old-schema-archive-20261025a/agent-local-json-schema-judge-task9-local-schema-calibration-v1-20261025a.pending.json.gz",
+      "rawBytes": 1808035,
+      "rawSha256": "0cb131ef764f1d13136fbd0869d5966832b60632fa9b669f581f34490f64dabd",
+      "gzipBytes": 130683,
+      "gzipSha256": "d2ae33f732ad8dbdcd59eefa81fd506972b59179d865ddf83a7f303ba5fbd627",
+      "sourceAllocatedBytes": 1810432,
+      "gzipAllocatedBytes": 131072
+    },
+    {
+      "source": ".tools/annotation-task9/agent-local-json-schema-judge-task9-local-schema-calibration-v2-20261025a.json",
+      "archive": ".tools/task9-old-schema-archive-20261025a/agent-local-json-schema-judge-task9-local-schema-calibration-v2-20261025a.json.gz",
+      "rawBytes": 1833611,
+      "rawSha256": "290d5594f749bb13c17d37831e1023a37547b4429b9732063d8f9374a04878b7",
+      "gzipBytes": 143237,
+      "gzipSha256": "0e23d6fc07ab5e345991054848331db9d6cafe956deeb02f5c6264c2748239bf",
+      "sourceAllocatedBytes": 1835008,
+      "gzipAllocatedBytes": 143360
+    },
+    {
+      "source": ".tools/annotation-task9/agent-local-json-schema-judge-task9-local-schema-calibration-v2-20261025a.pending.json",
+      "archive": ".tools/task9-old-schema-archive-20261025a/agent-local-json-schema-judge-task9-local-schema-calibration-v2-20261025a.pending.json.gz",
+      "rawBytes": 1806886,
+      "rawSha256": "c1a5f7136bd35a2ea7ead0391fec4a5ff171c07ce4e3f20f0d4a9a94891a9585",
+      "gzipBytes": 130991,
+      "gzipSha256": "577f78d814e732015ce4d072eba8ceea437eaab5d756dde9320eb62f5e43b8b3",
+      "sourceAllocatedBytes": 1810432,
+      "gzipAllocatedBytes": 131072
+    }
+  ]
+}

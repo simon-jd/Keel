@@ -1,0 +1,43 @@
+{
+  "time_utc": "2026-10-25T08:07:35.855961+00:00",
+  "user_override_quote": "用子agent代替真人标注,然后在输出文档里表明是子agent的,继续完成",
+  "followup_scope_quote": "然后继续推进完成,恢复会话新开会话都可以",
+  "evidence_origin": "subagent",
+  "human_labels": 0,
+  "primary_units": 300,
+  "secondary_blind_units": 100,
+  "primary_label_counts": {
+    "pass": 280,
+    "fail": 20
+  },
+  "secondary_label_counts": {
+    "pass": 95,
+    "fail": 5
+  },
+  "observed_agreement": 0.97,
+  "cohens_kappa": 0.7540983606557374,
+  "nonblind_adjudication_units": 3,
+  "source_cohort_hash": "c48c6dff2d6d594125b0260682d31d5a2d1c68ca3448af689cc69d1406e1699f",
+  "files": {
+    "private_directory": ".tools/annotation-subagent-20261025",
+    "primary": "primary.agent-labels.jsonl",
+    "secondary": "secondary.agent-labels.jsonl",
+    "agreement": "agreement.json",
+    "existing_ts_crosscheck": "existing-ts-agreement-verification.json",
+    "original_disagreements": "disagreements.jsonl",
+    "nonblind_adjudications": "adjudications.jsonl"
+  },
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "temperature": "unknown",
+  "per_call_cost": "unknown",
+  "limitations": [
+    "Two independent conversations, same model family; no statistical independence claim",
+    "AI-AI consistency is not human-human consistency or gold correctness",
+    "Original labels stay frozen; nonblind adjudications do not improve original kappa",
+    "No actual judge-v1/v2 model calibration or five-run reproduction has been executed in this annotation step"
+  ],
+  "human_reference_gate_fulfilled": false,
+  "user_subagent_label_substitution_completed": true,
+  "next": "Continue Task9 review and agent-reference judge calibration using these clearly marked labels; do not require user human labeling after explicit substitution; actual provider/GPU/resource gates still apply."
+}

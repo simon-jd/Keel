@@ -1,0 +1,9 @@
+
+ RUN  v3.2.6 /home/postedism/Desktop/Keel/packages/guard
+
+ ✓ test/egress.test.ts (2 tests) 16ms
+
+ Test Files  1 passed (1)
+      Tests  2 passed (2)
+   Start at  04:27:59
+   Duration  144ms (transform 28ms, setup 0ms, collect 30ms, tests 16ms, environment 0ms, prepare 29ms)

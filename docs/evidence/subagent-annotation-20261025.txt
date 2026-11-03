@@ -1,0 +1,14 @@
+Keel 子agent标注与相关评估（2026-10-25）
+
+用户明确授权使用子agent代替本轮真人标注，并要求在文档注明来源。当前主标300条、独立盲复标100条全部完成，origin=subagent，原始真人标签0。两个标注会话都使用gpt-6.1-sol/high，具有会话隔离，但不具有已证明的统计独立性；温度和逐调用成本未知。
+
+主标：280 pass /20 fail；复标：95 pass /5 fail。
+在复标100个精确ID上，一致97/100，Cohen κ=0.7540983606557374。现有TypeScript agreement/pairLabels实现独立复算一致。
+三条分歧另由第三个子agent进行非盲仲裁，保存独立文件，不回写原标注或重新抬高κ。
+
+每条标签均有专属理由、真实UTC时间、原始行SHA256和固定cohortHash，远端重新打开校验300/100唯一ID与来源绑定通过。AI-AI一致性不能当作人际一致性、正确率或人工金标准。
+
+用户已接受本轮agent标签替代，后续实现可按agent弱参照继续，不继续要求用户先做人工标签。原计划真人条件仅以human_reference_gate_fulfilled=false保留证据等级。实际judge两版本校准、同输入五次模型复现、完整Task9审查及整个项目仍待继续，不能凭标注完成宣告整任务验收。
+
+私有数据目录：.tools/annotation-subagent-20261025/
+机器记录：docs/evidence/subagent-annotation-20261025.json

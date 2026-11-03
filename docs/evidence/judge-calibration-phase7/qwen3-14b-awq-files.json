@@ -1,0 +1,91 @@
+{
+ "repo": "Qwen/Qwen3-14B-AWQ",
+ "revision": "31c69efc29464b6bb0aee1398b5a7b50a99340c3",
+ "files": [
+  {
+   "file": ".gitattributes",
+   "ok": true,
+   "bytes": 1570,
+   "check": "git-blob",
+   "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930"
+  },
+  {
+   "file": "LICENSE",
+   "ok": true,
+   "bytes": 11544,
+   "check": "git-blob",
+   "sha256": "5de36594c10839788a8c589443a8ef9d8b8d17c65a1b5807206ae037fc36c6bd"
+  },
+  {
+   "file": "README.md",
+   "ok": true,
+   "bytes": 16885,
+   "check": "git-blob",
+   "sha256": "0d3e27f85167f83769abfb5eb6ad2069be4a1bc7835cfec1612dd1aa1ac546fa"
+  },
+  {
+   "file": "config.json",
+   "ok": true,
+   "bytes": 907,
+   "check": "git-blob",
+   "sha256": "5244a80c9acdc63504acff475a9c84044cca0f62cb4f184fe0cf7d1792fafb5a"
+  },
+  {
+   "file": "generation_config.json",
+   "ok": true,
+   "bytes": 239,
+   "check": "git-blob",
+   "sha256": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2"
+  },
+  {
+   "file": "merges.txt",
+   "ok": true,
+   "bytes": 1671853,
+   "check": "git-blob",
+   "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+   "file": "model-00001-of-00002.safetensors",
+   "ok": true,
+   "bytes": 4988339832,
+   "check": "sha256",
+   "sha256": "668eb0f1356638310db286f4819b223c12e3916934123f1a81b2b2c0e148c6a2"
+  },
+  {
+   "file": "model-00002-of-00002.safetensors",
+   "ok": true,
+   "bytes": 4988350408,
+   "check": "sha256",
+   "sha256": "c3c1625df80fe01211038bfa520629ebde6adf776556aa80cd49696d986d6657"
+  },
+  {
+   "file": "model.safetensors.index.json",
+   "ok": true,
+   "bytes": 82253,
+   "check": "git-blob",
+   "sha256": "b8243c9f4e592643b48eb2c35f99f5a6c160a2e8a89b01075e05701871851997"
+  },
+  {
+   "file": "tokenizer.json",
+   "ok": true,
+   "bytes": 11422654,
+   "check": "sha256",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+   "file": "tokenizer_config.json",
+   "ok": true,
+   "bytes": 9732,
+   "check": "git-blob",
+   "sha256": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+  },
+  {
+   "file": "vocab.json",
+   "ok": true,
+   "bytes": 2776833,
+   "check": "git-blob",
+   "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  }
+ ],
+ "all_ok": true
+}

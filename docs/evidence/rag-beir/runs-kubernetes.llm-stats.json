@@ -1,0 +1,11 @@
+{
+ "queries": 200,
+ "candidates": 20,
+ "calls": 4000,
+ "failures": 0,
+ "inputTokens": 1488812,
+ "outputTokens": 36639,
+ "seconds": 127.61100014700007,
+ "callMsP50": 509.2172830000054,
+ "callMsP95": 577.400352000026
+}

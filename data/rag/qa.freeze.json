@@ -1,0 +1,131 @@
+{
+  "schema": 1,
+  "frozenAt": "2026-10-25T17:43:34.851584+00:00",
+  "scope": "200 subagent-authored Kubernetes weak-reference QA; frozen before actual retrieval/model evaluation",
+  "human_evidence": false,
+  "human_gold": false,
+  "metric_runs_before_freeze": 0,
+  "corpusVersion": "685b6988b39330405ff97cc69fcf7d600f963a55615e4653be04722cb95be356",
+  "sourceCommit": "47132eb5367cfdcba0a3b33a0b3ffc81185bd7e8",
+  "sourceChunksRawSha256": "2de87b1f8644516bf8ca4844202a4a2fe70035cee01b63cf203216d4abed0c21",
+  "qa": {
+    "path": ".superpowers/sdd/3-keel-agent-plan/rag-qa-frozen-20261025.jsonl",
+    "sha256": "0d7c9ff7be567cab8181b3f2d471c25eed5c909262639a484c43af183f1ee01f",
+    "bytes": 104470,
+    "rows": 200
+  },
+  "audit": {
+    "path": ".superpowers/sdd/3-keel-agent-plan/rag-qa-audit-frozen-20261025.jsonl",
+    "sha256": "72c5b528c4c2c6ae1f35df60665f6afcb5411489e1175958f9a305a604c97ded",
+    "bytes": 304699,
+    "rows": 200
+  },
+  "author_sources": {
+    ".superpowers/sdd/3-keel-agent-plan/rag-qa-primary-20261025a.jsonl": "433b628afbdfaaa2d9e706b86b07a9af3afe88c63e7280c1ecf07116c250e627",
+    ".superpowers/sdd/3-keel-agent-plan/rag-qa-primary-audit-20261025a.jsonl": "99f69fc7ca53ba8179ec68f53a8387a0133334a02d904e397e3603473a28766f",
+    ".superpowers/sdd/3-keel-agent-plan/rag-qa-authoring-input-20261025a.json": "89365a7157adc219f15dcc9ba9a06bc0112faf53e50cdeb2fc2aa26ae557d9d6",
+    ".superpowers/sdd/3-keel-agent-plan/rag-qa-authoring-report-20261025a.md": "759a6039b1fb2fc5ecd1e358f3b6a23f97fea54614ab3061f60be340d0c4dee0",
+    ".superpowers/sdd/3-keel-agent-plan/rag-qa-authoring-amendment-20261025a-01.json": "1494ab18babbe446ed8a40458ba53875deafd0b99b88d4f766779e9306c77cda",
+    ".superpowers/sdd/3-keel-agent-plan/rag-qa-authoring-amendment-20261025a-02.json": "8b07882855f4b499b89935c2a75f9316e1234f3937f19e52f80373a84c5bae83",
+    ".superpowers/sdd/3-keel-agent-plan/rag-qa-authoring-amendment-20261025a-03.json": "3d97d35d13418cfdf4e29083f3f67f09b04407ef86d5842480db37c715ecb974",
+    ".superpowers/sdd/3-keel-agent-plan/rag-qa-authoring-amendment-20261025a-04.json": "d77a75b37a25ef44d69c41c09c9fa462f67f7b0e01f8da8c819e501d6ced640e",
+    ".superpowers/sdd/3-keel-agent-plan/rag-qa-primary-20261025b.jsonl": "14230094e6bafce79d7891b85cbbcd2f8604d546e67f2d71d63d4779e1ff9f14",
+    ".superpowers/sdd/3-keel-agent-plan/rag-qa-primary-audit-20261025b.jsonl": "aab25cfb6d48ae0d0a9a9204442ef5810a9bf0b74cead092b95f1011d2b064c4",
+    ".superpowers/sdd/3-keel-agent-plan/rag-qa-authoring-input-20261025b.json": "d913f09189929a30ad8da61cf1c52e85a91ce9f6f794e48bc80bb7c6d81034c8",
+    ".superpowers/sdd/3-keel-agent-plan/rag-qa-authoring-report-20261025b.md": "1c5802a5381fba9d3b0fbfe1d14b59f292651a7a75e62c12c7184f65e7af263a"
+  },
+  "provenance": [
+    {
+      "origin": "agent",
+      "annotator": "subagent:/root/rag_qa_a:gpt-6.1-sol/high",
+      "auditRef": "keel-rag-qa-agent-authoring-20261025a",
+      "inputHash": "0d7c9ff7be567cab8181b3f2d471c25eed5c909262639a484c43af183f1ee01f"
+    },
+    {
+      "origin": "agent",
+      "annotator": "subagent:/root/rag_qa_b:gpt-6.1-sol/high",
+      "auditRef": "keel-rag-qa-agent-authoring-20261025b",
+      "inputHash": "0d7c9ff7be567cab8181b3f2d471c25eed5c909262639a484c43af183f1ee01f"
+    }
+  ],
+  "review": {
+    "agent": "/root/review_rag_qa",
+    "model": "gpt-6.1-sol",
+    "effort": "xhigh",
+    "kind": "nonblind source/quality audit; all200 QA/answers/full exactchunks/supportlists read, followed by scoped2-row R1",
+    "critical": 0,
+    "important": 0,
+    "minor": [
+      {
+        "ids": [
+          "rag-qa-0024",
+          "rag-qa-0187"
+        ],
+        "kind": "construct overlap, distinct Secret/ConfigMap resource cases"
+      },
+      {
+        "ids": [
+          "rag-qa-0027",
+          "rag-qa-0112"
+        ],
+        "kind": "construct overlap, distinct != and notin operators"
+      },
+      {
+        "ids": [
+          "rag-qa-0133",
+          "rag-qa-0190"
+        ],
+        "kind": "construct overlap, distinct mismatchLabelKeys/matchLabelKeys fields"
+      },
+      {
+        "ids": [
+          "rag-qa-0047"
+        ],
+        "kind": "low information; correctly scoped example port transcription"
+      },
+      {
+        "ids": [
+          "rag-qa-0124"
+        ],
+        "kind": "low information; DaemonSet top-level REST resource fact"
+      }
+    ],
+    "r1_changed_rows": [
+      "rag-qa-0119",
+      "rag-qa-0174"
+    ],
+    "unchanged_qa_audit_rows": 198
+  },
+  "limits": [
+    "Partitioned authors, not repeated labels; no inter-rater kappa claimed.",
+    "All authors/reviewer same model family; statistical independence unproved; temperature and costs unknown.",
+    "Author A saw B completion summary after98 rows beforelast2, never B QA/audit; report disclosed.",
+    "Three construct-overlap pairs remain a conceptual-weighting limitation; exact/normalized duplicates0.",
+    "Two supported sparse items retained; limited depth; not current live Kubernetes validation.",
+    "Four target replacements and two source-review clarifications occurred before metrics; original outputs/assignments/amendments retained."
+  ],
+  "documentCounts": {
+    "content/en/docs/concepts/configuration/configmap.md": 10,
+    "content/en/docs/concepts/overview/working-with-objects/annotations.md": 4,
+    "content/en/docs/concepts/overview/working-with-objects/labels.md": 10,
+    "content/en/docs/concepts/scheduling-eviction/assign-pod-node.md": 10,
+    "content/en/docs/concepts/security/rbac-good-practices.md": 10,
+    "content/en/docs/concepts/services-networking/ingress.md": 10,
+    "content/en/docs/concepts/services-networking/service.md": 10,
+    "content/en/docs/concepts/storage/volumes.md": 10,
+    "content/en/docs/concepts/workloads/controllers/daemonset.md": 10,
+    "content/en/docs/concepts/workloads/controllers/job.md": 9,
+    "content/en/docs/concepts/workloads/pods/_index.md": 9,
+    "content/en/docs/concepts/overview/working-with-objects/common-labels.md": 5,
+    "content/en/docs/concepts/overview/working-with-objects/namespaces.md": 5,
+    "content/en/docs/concepts/scheduling-eviction/taint-and-toleration.md": 10,
+    "content/en/docs/concepts/services-networking/dns-pod-service.md": 10,
+    "content/en/docs/concepts/services-networking/network-policies.md": 10,
+    "content/en/docs/concepts/storage/persistent-volumes.md": 10,
+    "content/en/docs/concepts/workloads/controllers/cron-jobs.md": 10,
+    "content/en/docs/concepts/workloads/controllers/deployment.md": 10,
+    "content/en/docs/concepts/workloads/controllers/replicaset.md": 9,
+    "content/en/docs/concepts/workloads/pods/pod-lifecycle.md": 9,
+    "content/en/docs/concepts/configuration/secret.md": 10
+  }
+}

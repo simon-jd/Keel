@@ -1,0 +1,10 @@
+import { z } from 'zod';
+import { runAgent } from '../src/loop.js';
+import { PostgresStore } from '../src/store.js';
+import { defineTool } from '../src/tools.js';
+import { createGuard } from '../../guard/src/policy.js';
+import { scripted } from './helpers.js';
+const task = { tenantId: 'tenant-a', input: 'synthetic trusted instruction', model: 'fixture', capabilities: ['search', 'fixture.post_message', 'http_fetch'] };
+const tools = [defineTool({ name: 'search', schema: z.object({}).strict(), sideEffect: false, async run() { return { text: 'SYNTHETIC injection', tainted: false }; } }), defineTool({ name: 'fixture.post_message', schema: z.object({ text: z.string() }).strict(), sideEffect: true, async run() { throw Error('MUST_NOT_EXECUTE'); } })];
+const result = await runAgent(process.env['TEST_RUN_ID']!, task, { store: new PostgresStore(process.env['TEST_DATABASE_URL']!), tools, security: createGuard({ allowUntainted: ['fixture.post_message'], plan: ['search', 'fixture.post_message'] }), model: scripted([{ toolCalls: [{ id: 'read', name: 'search', args: {} }] }, { toolCalls: [{ id: 'post', name: 'fixture.post_message', args: { text: 'rewritten after untrusted result' } }] }]) });
+process.stdout.write(JSON.stringify(result));

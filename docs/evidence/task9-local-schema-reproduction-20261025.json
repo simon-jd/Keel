@@ -1,0 +1,148 @@
+{
+  "activePropertiesSha256": "9f9664ae9fde56d2902d9d2ff5e53b97dd4068f024742e0f33d1133ad5dd0bd5",
+  "actualScope": "five same-input calls through authenticated Keel API and reviewed trusted native JSON-schema profile; not universal determinism or full calibration",
+  "allIdsUniqueAndCorrelated": true,
+  "at": "2026-10-25T18:46:45.485Z",
+  "attribution": "configured revision plus controller cached-weight manifest and real load log; not provider wire-observed revision",
+  "cgroupReportedMemoryPeak": "8.8G (systemd display, includes file cache, not sampled RSS)",
+  "cleanup": {
+    "all_children_stopped": true,
+    "ephemeral_files_removed": true,
+    "event": "cleanup",
+    "outcome_code": 0,
+    "owned_cleanup": {
+      "all_owned_stopped": true,
+      "direct_child_returncodes": [
+        {
+          "pid": 3066760,
+          "returncode": 0
+        },
+        {
+          "pid": 3072047,
+          "returncode": 0
+        },
+        {
+          "pid": 3072146,
+          "returncode": 0
+        }
+      ],
+      "errors": [],
+      "owned_descendants_empty": true,
+      "owned_group_empty": true,
+      "seconds": 1.106538,
+      "survivors": []
+    },
+    "peak_disk_bytes": 7820803567,
+    "peak_rss_bytes": 3407663104,
+    "seconds": 48,
+    "span_file": ".tools/task9-local-schema-five-20261025b/safe-spans.jsonl",
+    "startup_drain_error_types": [],
+    "startup_drain_stopped": true,
+    "time": "2026-10-25T18:46:27.291784Z"
+  },
+  "cleanupVerified": true,
+  "controllerSha256": "29431bf8799c886391fa82e9054b704ea936b412d0dfe09bf6e8013a60384ce9",
+  "exactPhysicalAggregateUsageEquality": true,
+  "gitSha": "1ef86c739dfffdaf6907f9e3d7061a7417a49dc4",
+  "gpuMemoryUtilization": 0.8,
+  "human_evidence": false,
+  "identityMarkerNote": "source identity keeps NOT_YET_PROVEN constant; actual trial evidence is separate and does not mutate or overclaim the profile attestation",
+  "implementationSha256": "48ec3495092e32bf26f249e58c869a8a31322dac051be3209fd468289a34ce23",
+  "independentActualDataReview": {
+    "critical": 0,
+    "decision": "Approved bounded actual evidence; reliable judge not admitted",
+    "important": 0,
+    "minor": 2,
+    "publicSummary": "docs/evidence/task9-local-schema-actual-review-20261025.md",
+    "reportBytes": 149982,
+    "reportPath": ".superpowers/sdd/3-keel-agent-plan/task9-local-schema-actual-independent-review-20261025.md",
+    "reportSha256": "19fbee17ca01d266553f254c0b0c1f5180e09abcf1ff0617d0db4f99c17a8810",
+    "rootRead": "complete 1779-line report including every retained command, output and error"
+  },
+  "input": ".tools/annotation-task9/agent-local-json-schema-reproduce-task9-local-schema-five-20261025b.json",
+  "inputTokens": 1655,
+  "internalTimeoutSeconds": 900,
+  "knownLocalApiCostUsd": 0,
+  "labelsEqual": true,
+  "legacyFiveAndFailure78Unchanged": true,
+  "lifecycleSha256": "812e9c1e8fcf230b8cefe18e0d9a729e0468c1572f3cc10a473183c5b4a73f63",
+  "lifecycleTimes": {
+    "admitted": "2026-10-25T18:45:46.593789Z",
+    "cleanup": "2026-10-25T18:46:27.291784Z",
+    "judge_command_finished": "2026-10-25T18:46:26.175211Z",
+    "judge_five_started": "2026-10-25T18:46:22.195391Z",
+    "vllm_ready": "2026-10-25T18:46:21.649769Z"
+  },
+  "localJudgeProfile": {
+    "configured": {
+      "attribution": "operator-configured",
+      "modelRevision": "4da05a8edb55c6046cce958586c33b61da07bb79",
+      "modelSource": "Qwen/Qwen3-8B-AWQ",
+      "runtime": {
+        "name": "vllm",
+        "version": "0.17.1"
+      },
+      "servedModel": "keel-local"
+    },
+    "liveEnforcement": "NOT_YET_PROVEN",
+    "profile": "task9-local-json-schema-v1",
+    "protocol": "openai-chat-completions-sse-json-schema-v1",
+    "schemaSha256": "d50bf2a45960e43fa6e6be0ef4ae110493bbf459263578817aeb9524a027879b",
+    "wirePolicySha256": "f9698e63f922a48a4b59c540268461bd9195b67cc74cabf5ebeddb2a159fac09"
+  },
+  "logical": 5,
+  "memoryHardLimitBytes": 13499998208,
+  "memoryReservedBytes": 13500000000,
+  "memorySwapMaxBytes": 0,
+  "model": "Qwen/Qwen3-8B-AWQ",
+  "next": "Investigate observed rationale failure without editing frozen inputs or prior outcomes; any corrected wire profile is a separately versioned experiment and requires review/fresh admission. Domain/RAG reliability remains unadmitted.",
+  "observedScopeOnly": true,
+  "outerRuntimeMaxSeconds": 930,
+  "outputTokens": 75,
+  "physical": 5,
+  "planSha256": "a537ea3a1d35692309b0f2ccdb89c259d43df9c928af583e71c89adcb9f310c2",
+  "postCleanup": {
+    "at": "2026-10-25T18:46:59.423884Z",
+    "ephemeralKeysAbsent": [
+      ".secrets/task9-local-schema-five-api-token-20261025b",
+      ".secrets/task9-local-schema-five-vllm-token-20261025b"
+    ],
+    "gpuLockAvailable": true,
+    "portsListen18000_18080": "",
+    "postCollectedUnitDefaultPropertiesNotRuntimeClaims": true,
+    "unit": "keel-task9-local-schema-five-20261025b.service",
+    "unitProperties": "LoadState=not-found\nActiveState=inactive\nSubState=dead\nMainPID=0\n"
+  },
+  "rationaleQuality": {
+    "allSingleCharacter": true,
+    "compilerCause": "under separate CPU diagnostic; not established by this actual-data review",
+    "completePreservedRationales": 5,
+    "histograms": {
+      "five": {
+        "A": 5
+      }
+    },
+    "interpretation": "schema-valid but uninformative; does not explain decisive BFCL evidence as rubric requests; no reliability admission"
+  },
+  "rawEqual": false,
+  "rawResponseHashLimit": "Recorded SHA256 values checked for shape/uniqueness and inequality; original raw HTTP bodies not retained, so no independent wire-body rehash.",
+  "reference_origin": "subagent",
+  "requiredPhysicalAggregateObservationUsageEqualityVerified": true,
+  "revision": "4da05a8edb55c6046cce958586c33b61da07bb79",
+  "scope": "root independent actual-data arithmetic/provenance/correlation audit; no inference or model-result relabeling",
+  "semanticEqual": true,
+  "sha256": "17aa673b6a9b06f9be3be456d0e95da7eb2626c1267844b9bf65562253762d77",
+  "sourceSampleAndProtocolBound": true,
+  "spanCount": 5,
+  "spansSha256": "9eaf67fca71ecb4e2626e56634abbd61a0e8d745d349a97e364eaa8f103bdc62",
+  "startupLogSha256": "151ed75c6959222668eaddbf2d96d4378a37b8a392cfab0f4389ba95e0873521",
+  "startupTailNote": "bounded drainer stops retention after readiness and can end mid-output chunk; original retained bytes not rewritten",
+  "unknownAttempts": 0,
+  "verdictsEqual": true,
+  "warningsPreserved": [
+    "TRANSFORMERS_CACHE deprecated (wrapper also sets HF_HOME correctly)",
+    "two upstream invalid-escape SyntaxWarnings",
+    "eager disables compilation/CUDA graphs by design",
+    "model generation_config defaults T0.6/top_k20/top_p0.95 logged; requests explicitly temperature0 and seed0, no claim every other default overridden"
+  ]
+}

@@ -1,0 +1,227 @@
+{
+ "model": {
+  "name": "Qwen/Qwen2.5-0.5B-Instruct",
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "quantization": "none (bf16)",
+  "license": "apache-2.0",
+  "temperature": 0.0,
+  "thinking": false,
+  "tool_parser": "hermes",
+  "max_tokens": 2048
+ },
+ "attempt_rows": 479,
+ "benchmarks": {
+  "tau2": {
+   "jobs": 450,
+   "successes": 6,
+   "original_evaluations": 440,
+   "failed": 10,
+   "incomplete": 0,
+   "success_rate": 0.013333333333333334,
+   "latency_ms": {
+    "mean": 20741.1,
+    "median": 15893.0,
+    "p95": 56799.4
+   },
+   "input_tokens": 252911837,
+   "output_tokens": 1747030,
+   "cost": "unknown; known subtotal $0"
+  }
+ },
+ "cells": {
+  "tau2/airline": {
+   "jobs": 150,
+   "successes": 6,
+   "original_evaluations": 149,
+   "failed": 1,
+   "incomplete": 0,
+   "success_rate": 0.04,
+   "latency_ms": {
+    "mean": 17211.3,
+    "median": 15482.8,
+    "p95": 34638.6
+   },
+   "input_tokens": 63600475,
+   "output_tokens": 475226,
+   "cost": "$0 known"
+  },
+  "tau2/retail": {
+   "jobs": 150,
+   "successes": 0,
+   "original_evaluations": 150,
+   "failed": 0,
+   "incomplete": 0,
+   "success_rate": 0.0,
+   "latency_ms": {
+    "mean": 17917.8,
+    "median": 15090.8,
+    "p95": 51527.0
+   },
+   "input_tokens": 71148697,
+   "output_tokens": 499485,
+   "cost": "$0 known"
+  },
+  "tau2/telecom": {
+   "jobs": 150,
+   "successes": 0,
+   "original_evaluations": 141,
+   "failed": 9,
+   "incomplete": 0,
+   "success_rate": 0.0,
+   "latency_ms": {
+    "mean": 27094.1,
+    "median": 18692.2,
+    "p95": 99080.5
+   },
+   "input_tokens": 118162665,
+   "output_tokens": 772319,
+   "cost": "unknown; known subtotal $0"
+  }
+ },
+ "tau2_seeds": {
+  "airline/seed0": {
+   "jobs": 50,
+   "successes": 3,
+   "original_evaluations": 50,
+   "failed": 0,
+   "incomplete": 0,
+   "success_rate": 0.06,
+   "latency_ms": {
+    "mean": 16655.6,
+    "median": 14923.7,
+    "p95": 32255.8
+   },
+   "input_tokens": 20476655,
+   "output_tokens": 153475,
+   "cost": "$0 known"
+  },
+  "airline/seed1": {
+   "jobs": 50,
+   "successes": 1,
+   "original_evaluations": 49,
+   "failed": 1,
+   "incomplete": 0,
+   "success_rate": 0.02,
+   "latency_ms": {
+    "mean": 17349.5,
+    "median": 15706.9,
+    "p95": 32473.6
+   },
+   "input_tokens": 21646756,
+   "output_tokens": 154815,
+   "cost": "$0 known"
+  },
+  "airline/seed2": {
+   "jobs": 50,
+   "successes": 2,
+   "original_evaluations": 50,
+   "failed": 0,
+   "incomplete": 0,
+   "success_rate": 0.04,
+   "latency_ms": {
+    "mean": 17628.9,
+    "median": 14714.0,
+    "p95": 35663.4
+   },
+   "input_tokens": 21477064,
+   "output_tokens": 166936,
+   "cost": "$0 known"
+  },
+  "retail/seed0": {
+   "jobs": 50,
+   "successes": 0,
+   "original_evaluations": 50,
+   "failed": 0,
+   "incomplete": 0,
+   "success_rate": 0.0,
+   "latency_ms": {
+    "mean": 17795.2,
+    "median": 15202.5,
+    "p95": 53239.9
+   },
+   "input_tokens": 24013860,
+   "output_tokens": 168201,
+   "cost": "$0 known"
+  },
+  "retail/seed1": {
+   "jobs": 50,
+   "successes": 0,
+   "original_evaluations": 50,
+   "failed": 0,
+   "incomplete": 0,
+   "success_rate": 0.0,
+   "latency_ms": {
+    "mean": 17283.3,
+    "median": 14293.9,
+    "p95": 43261.0
+   },
+   "input_tokens": 22784927,
+   "output_tokens": 157026,
+   "cost": "$0 known"
+  },
+  "retail/seed2": {
+   "jobs": 50,
+   "successes": 0,
+   "original_evaluations": 50,
+   "failed": 0,
+   "incomplete": 0,
+   "success_rate": 0.0,
+   "latency_ms": {
+    "mean": 18675.0,
+    "median": 15443.8,
+    "p95": 54341.8
+   },
+   "input_tokens": 24349910,
+   "output_tokens": 174258,
+   "cost": "$0 known"
+  },
+  "telecom/seed0": {
+   "jobs": 50,
+   "successes": 0,
+   "original_evaluations": 47,
+   "failed": 3,
+   "incomplete": 0,
+   "success_rate": 0.0,
+   "latency_ms": {
+    "mean": 26000.9,
+    "median": 18791.7,
+    "p95": 99080.5
+   },
+   "input_tokens": 39439562,
+   "output_tokens": 243945,
+   "cost": "unknown; known subtotal $0"
+  },
+  "telecom/seed1": {
+   "jobs": 50,
+   "successes": 0,
+   "original_evaluations": 46,
+   "failed": 4,
+   "incomplete": 0,
+   "success_rate": 0.0,
+   "latency_ms": {
+    "mean": 28303.1,
+    "median": 18902.7,
+    "p95": 99659.3
+   },
+   "input_tokens": 39077140,
+   "output_tokens": 266175,
+   "cost": "unknown; known subtotal $0"
+  },
+  "telecom/seed2": {
+   "jobs": 50,
+   "successes": 0,
+   "original_evaluations": 48,
+   "failed": 2,
+   "incomplete": 0,
+   "success_rate": 0.0,
+   "latency_ms": {
+    "mean": 26978.3,
+    "median": 18028.4,
+    "p95": 92490.5
+   },
+   "input_tokens": 39645963,
+   "output_tokens": 262199,
+   "cost": "unknown; known subtotal $0"
+  }
+ }
+}

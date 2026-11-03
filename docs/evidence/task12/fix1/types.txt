@@ -1,0 +1,3 @@
+
+> guard@ typecheck /home/postedism/Desktop/Keel/packages/guard
+> tsc -p tsconfig.json

@@ -1,0 +1,1203 @@
+{
+  "version": "685b6988b39330405ff97cc69fcf7d600f963a55615e4653be04722cb95be356",
+  "upstream": {
+    "repository": "https://github.com/kubernetes/website",
+    "commit": "47132eb5367cfdcba0a3b33a0b3ffc81185bd7e8",
+    "rootTree": "b37acd5130f980da9593d8c667d407b2fadd10da",
+    "release": "v1.34"
+  },
+  "license": "CC-BY-4.0",
+  "attribution": "The Kubernetes Authors",
+  "modifiedNotice": "Modified by Keel: YAML and comments removed; shortcode wrappers removed; explicit glossary text retained; unresolved includes/templates omitted and recorded. Markdown is not rendered HTML.",
+  "normalizer": "markdown-lines-v2",
+  "maxChars": 1200,
+  "sources": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/kubernetes/website/47132eb5367cfdcba0a3b33a0b3ffc81185bd7e8/LICENSE",
+      "gitBlobSha": "da6ab6cc8f333d7e89a99812866df8f24374d47c",
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/kubernetes/website/47132eb5367cfdcba0a3b33a0b3ffc81185bd7e8/README.md",
+      "gitBlobSha": "e1b5f3fa1f7f9d091fae6afdac356da66aada419",
+      "bytes": 11016,
+      "sha256": "48ce284ccef992067c8baa65f27a5fc3fdc160e9d95c85a2139d3f33494e32d9"
+    },
+    {
+      "path": "content/en/docs/concepts/overview/working-with-objects/labels.md",
+      "url": "https://raw.githubusercontent.com/kubernetes/website/47132eb5367cfdcba0a3b33a0b3ffc81185bd7e8/content/en/docs/concepts/overview/working-with-objects/labels.md",
+      "gitBlobSha": "c12ee11f8ce42a5c26d493e0723635e8741bbf59",
+      "bytes": 15151,
+      "sha256": "c4ed570a8c341febde085b8b3d28f4bd3d06a1dd10e56805af4a086214e91fb4"
+    },
+    {
+      "path": "content/en/docs/concepts/overview/working-with-objects/annotations.md",
+      "url": "https://raw.githubusercontent.com/kubernetes/website/47132eb5367cfdcba0a3b33a0b3ffc81185bd7e8/content/en/docs/concepts/overview/working-with-objects/annotations.md",
+      "gitBlobSha": "0c5058693f9799dd37047601f2f7ae451fb6ac3d",
+      "bytes": 3998,
+      "sha256": "f61e8003e0b23bb25a3789fbd90867c82bbc13ad960f2f511070cd7a510fc4d1"
+    },
+    {
+      "path": "content/en/docs/concepts/overview/working-with-objects/namespaces.md",
+      "url": "https://raw.githubusercontent.com/kubernetes/website/47132eb5367cfdcba0a3b33a0b3ffc81185bd7e8/content/en/docs/concepts/overview/working-with-objects/namespaces.md",
+      "gitBlobSha": "7643662e8831c231fbb00eedc04adf2c88eb3f67",
+      "bytes": 6433,
+      "sha256": "d508008559fa6f0bb541b8ec4b61af7be4d34ab8021e76b5d946660c0d53a240"
+    },
+    {
+      "path": "content/en/docs/concepts/overview/working-with-objects/common-labels.md",
+      "url": "https://raw.githubusercontent.com/kubernetes/website/47132eb5367cfdcba0a3b33a0b3ffc81185bd7e8/content/en/docs/concepts/overview/working-with-objects/common-labels.md",
+      "gitBlobSha": "d9244c4025249a7229b76613eaa0d09ffbf48dc4",
+      "bytes": 5960,
+      "sha256": "9876c9a31f185fb33b9115b84412f6e6160ac948370f92ac4275e2f556c877c3"
+    },
+    {
+      "path": "content/en/docs/concepts/workloads/pods/_index.md",
+      "url": "https://raw.githubusercontent.com/kubernetes/website/47132eb5367cfdcba0a3b33a0b3ffc81185bd7e8/content/en/docs/concepts/workloads/pods/_index.md",
+      "gitBlobSha": "dd88cdd0ef0c24e8604523d4f126d81406e50a2d",
+      "bytes": 24671,
+      "sha256": "72c2c60cae5022cbc78b9e1caba16c7d4938d65c631fe36e3d3160850cddf1c7"
+    },
+    {
+      "path": "content/en/docs/concepts/workloads/pods/pod-lifecycle.md",
+      "url": "https://raw.githubusercontent.com/kubernetes/website/47132eb5367cfdcba0a3b33a0b3ffc81185bd7e8/content/en/docs/concepts/workloads/pods/pod-lifecycle.md",
+      "gitBlobSha": "baec609d73c982e9675830753a84b163174a748b",
+      "bytes": 47533,
+      "sha256": "ff26050eae537006aac2ba526efac3a392950bfa2922e153385868e88e4201b1"
+    },
+    {
+      "path": "content/en/docs/concepts/workloads/controllers/deployment.md",
+      "url": "https://raw.githubusercontent.com/kubernetes/website/47132eb5367cfdcba0a3b33a0b3ffc81185bd7e8/content/en/docs/concepts/workloads/controllers/deployment.md",
+      "gitBlobSha": "7c7730ef8723fd868452bea09aac9a9aef333612",
+      "bytes": 59075,
+      "sha256": "36e78c3425e4adcf55d9af4c01782e84ae2e46517c7262c2863fcb84d88cddc2"
+    },
+    {
+      "path": "content/en/docs/concepts/workloads/controllers/replicaset.md",
+      "url": "https://raw.githubusercontent.com/kubernetes/website/47132eb5367cfdcba0a3b33a0b3ffc81185bd7e8/content/en/docs/concepts/workloads/controllers/replicaset.md",
+      "gitBlobSha": "bfc736988dfa98df15184383aa67b91c317864bd",
+      "bytes": 19317,
+      "sha256": "a65a21df75853976d9bd939f09923191a2d29321439ceb8de096f7120109339f"
+    },
+    {
+      "path": "content/en/docs/concepts/workloads/controllers/daemonset.md",
+      "url": "https://raw.githubusercontent.com/kubernetes/website/47132eb5367cfdcba0a3b33a0b3ffc81185bd7e8/content/en/docs/concepts/workloads/controllers/daemonset.md",
+      "gitBlobSha": "ef36046f1313c668823a94fc78544b71ef518610",
+      "bytes": 14895,
+      "sha256": "cbc36d3260c95427aa8e17c6d3eda7748699fdc51ed6fd76a479cc0a22ea16d1"
+    },
+    {
+      "path": "content/en/docs/concepts/workloads/controllers/job.md",
+      "url": "https://raw.githubusercontent.com/kubernetes/website/47132eb5367cfdcba0a3b33a0b3ffc81185bd7e8/content/en/docs/concepts/workloads/controllers/job.md",
+      "gitBlobSha": "497f06a409a93cd0021a30819ebfaca7a8d2973c",
+      "bytes": 57511,
+      "sha256": "5504eb7aaec3732bc7eab3953fdaed7ac0cd550bf530d3bc56f0bfb495ca3c75"
+    },
+    {
+      "path": "content/en/docs/concepts/workloads/controllers/cron-jobs.md",
+      "url": "https://raw.githubusercontent.com/kubernetes/website/47132eb5367cfdcba0a3b33a0b3ffc81185bd7e8/content/en/docs/concepts/workloads/controllers/cron-jobs.md",
+      "gitBlobSha": "6da72a6eb24b3d4274ef01025bc76e9cfe4012d7",
+      "bytes": 13912,
+      "sha256": "ad4041ca07f8497ba71cea1edc92ce9d1370d7898bc530917daa04e0cd44d7e0"
+    },
+    {
+      "path": "content/en/docs/concepts/services-networking/service.md",
+      "url": "https://raw.githubusercontent.com/kubernetes/website/47132eb5367cfdcba0a3b33a0b3ffc81185bd7e8/content/en/docs/concepts/services-networking/service.md",
+      "gitBlobSha": "13eae552156e9e3e85bc2f0054200090b0389d26",
+      "bytes": 45493,
+      "sha256": "19b1245ec2e1839d5325aa220fb5507e1618f729c4d1f61e2b56756b505b6f5a"
+    },
+    {
+      "path": "content/en/docs/concepts/services-networking/dns-pod-service.md",
+      "url": "https://raw.githubusercontent.com/kubernetes/website/47132eb5367cfdcba0a3b33a0b3ffc81185bd7e8/content/en/docs/concepts/services-networking/dns-pod-service.md",
+      "gitBlobSha": "c05cd0b6f9df1e4c798f3273ba4bd52f0db2cf4b",
+      "bytes": 15166,
+      "sha256": "29dad6c4a41b72ee310938f10902761877eebe38f5bd548172413b2a4801a568"
+    },
+    {
+      "path": "content/en/docs/concepts/services-networking/ingress.md",
+      "url": "https://raw.githubusercontent.com/kubernetes/website/47132eb5367cfdcba0a3b33a0b3ffc81185bd7e8/content/en/docs/concepts/services-networking/ingress.md",
+      "gitBlobSha": "6324ee2e50f99a9fb9d2bbdcb900f3d91927850c",
+      "bytes": 29055,
+      "sha256": "b93613d1621fe883b67f79a393cf4b5f6a71f0b7f722b162388f3a21e10fa47e"
+    },
+    {
+      "path": "content/en/docs/concepts/services-networking/network-policies.md",
+      "url": "https://raw.githubusercontent.com/kubernetes/website/47132eb5367cfdcba0a3b33a0b3ffc81185bd7e8/content/en/docs/concepts/services-networking/network-policies.md",
+      "gitBlobSha": "06cb3ba06ccdfe63bbe1167eb562a18101b2c8df",
+      "bytes": 22867,
+      "sha256": "55e432cb948b392b42b406afb9fb81b1e64b4ada6acb57ba65acbb6fbff77d60"
+    },
+    {
+      "path": "content/en/docs/concepts/configuration/configmap.md",
+      "url": "https://raw.githubusercontent.com/kubernetes/website/47132eb5367cfdcba0a3b33a0b3ffc81185bd7e8/content/en/docs/concepts/configuration/configmap.md",
+      "gitBlobSha": "aa3e6ac3c18b995a2057bd1f8ca19eb6861606e7",
+      "bytes": 12932,
+      "sha256": "2e3860f6aeb7d86e6d2dd8f32493dbc1d52ce1c54606cb08455107b297a63a2a"
+    },
+    {
+      "path": "content/en/docs/concepts/configuration/secret.md",
+      "url": "https://raw.githubusercontent.com/kubernetes/website/47132eb5367cfdcba0a3b33a0b3ffc81185bd7e8/content/en/docs/concepts/configuration/secret.md",
+      "gitBlobSha": "1ecb0890aee7ccd4807a423aacb0075380b6205d",
+      "bytes": 32368,
+      "sha256": "488b0cccd1e91c96aec44cde09c7a236ad89033054da843885072a0a46daa0a7"
+    },
+    {
+      "path": "content/en/docs/concepts/storage/volumes.md",
+      "url": "https://raw.githubusercontent.com/kubernetes/website/47132eb5367cfdcba0a3b33a0b3ffc81185bd7e8/content/en/docs/concepts/storage/volumes.md",
+      "gitBlobSha": "cb379030de7f39a3b085501019342def4ae159aa",
+      "bytes": 53891,
+      "sha256": "c2d5e801d17661d66d849cc533aace3636ded70c0a35f4b6ee5b86ed85d5564d"
+    },
+    {
+      "path": "content/en/docs/concepts/storage/persistent-volumes.md",
+      "url": "https://raw.githubusercontent.com/kubernetes/website/47132eb5367cfdcba0a3b33a0b3ffc81185bd7e8/content/en/docs/concepts/storage/persistent-volumes.md",
+      "gitBlobSha": "1ede54a14d8310c619780c578f7ae1cb1022accb",
+      "bytes": 53828,
+      "sha256": "e0ecba8ea6a8a16edafd993be15d8ed85b48512925efc1b0272d00da9a90b526"
+    },
+    {
+      "path": "content/en/docs/concepts/scheduling-eviction/assign-pod-node.md",
+      "url": "https://raw.githubusercontent.com/kubernetes/website/47132eb5367cfdcba0a3b33a0b3ffc81185bd7e8/content/en/docs/concepts/scheduling-eviction/assign-pod-node.md",
+      "gitBlobSha": "b21387a901c8dc68755ba7225612df98f39a815d",
+      "bytes": 31708,
+      "sha256": "55341477d692366d67ae1238eeaa9badb0fce9c6321b3035fa379c44f8d8a9ba"
+    },
+    {
+      "path": "content/en/docs/concepts/scheduling-eviction/taint-and-toleration.md",
+      "url": "https://raw.githubusercontent.com/kubernetes/website/47132eb5367cfdcba0a3b33a0b3ffc81185bd7e8/content/en/docs/concepts/scheduling-eviction/taint-and-toleration.md",
+      "gitBlobSha": "c51e01197e84ebf784c04c1aa1c953f530edc5b2",
+      "bytes": 15886,
+      "sha256": "4f92b8eb38579a4d66d5df3f5ef0d78954084ab7c97f8e49c5b4c0d8db56daea"
+    },
+    {
+      "path": "content/en/docs/concepts/security/rbac-good-practices.md",
+      "url": "https://raw.githubusercontent.com/kubernetes/website/47132eb5367cfdcba0a3b33a0b3ffc81185bd7e8/content/en/docs/concepts/security/rbac-good-practices.md",
+      "gitBlobSha": "f935061674b1016877598bb9bacffe81a7d9ef42",
+      "bytes": 11536,
+      "sha256": "ffc1ba948a242fc7c7e35150647ef18ea0b9126bc1a50199e035b7d0071c8f30"
+    }
+  ],
+  "chunksHash": "b98c327d1e680c670f4bb5071196fe41dbd5aed6ddc73bed689f0184e34d196a",
+  "chunkCount": 491,
+  "omissions": [
+    {
+      "docId": "content/en/docs/concepts/overview/working-with-objects/labels.md",
+      "line": 402,
+      "kind": "heading"
+    },
+    {
+      "docId": "content/en/docs/concepts/overview/working-with-objects/annotations.md",
+      "line": 95,
+      "kind": "heading"
+    },
+    {
+      "docId": "content/en/docs/concepts/overview/working-with-objects/namespaces.md",
+      "line": 153,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/overview/working-with-objects/namespaces.md",
+      "line": 160,
+      "kind": "heading"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/pods/_index.md",
+      "line": 69,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/pods/_index.md",
+      "line": 109,
+      "kind": "glossary_tooltip"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/pods/_index.md",
+      "line": 127,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/pods/_index.md",
+      "line": 133,
+      "kind": "skew"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/pods/_index.md",
+      "line": 224,
+      "kind": "param"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/pods/_index.md",
+      "line": 225,
+      "kind": "param"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/pods/_index.md",
+      "line": 264,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/pods/_index.md",
+      "line": 379,
+      "kind": "glossary_tooltip"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/pods/_index.md",
+      "line": 427,
+      "kind": "figure"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/pods/_index.md",
+      "line": 436,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/pods/_index.md",
+      "line": 459,
+      "kind": "heading"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/pods/_index.md",
+      "line": 467,
+      "kind": "api-reference"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/pods/pod-lifecycle.md",
+      "line": 20,
+      "kind": "glossary_tooltip"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/pods/pod-lifecycle.md",
+      "line": 88,
+      "kind": "figure"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/pods/pod-lifecycle.md",
+      "line": 93,
+      "kind": "param"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/pods/pod-lifecycle.md",
+      "line": 286,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/pods/pod-lifecycle.md",
+      "line": 384,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/pods/pod-lifecycle.md",
+      "line": 398,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/pods/pod-lifecycle.md",
+      "line": 439,
+      "kind": "param"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/pods/pod-lifecycle.md",
+      "line": 467,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/pods/pod-lifecycle.md",
+      "line": 525,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/pods/pod-lifecycle.md",
+      "line": 534,
+      "kind": "glossary_tooltip"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/pods/pod-lifecycle.md",
+      "line": 538,
+      "kind": "skew"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/pods/pod-lifecycle.md",
+      "line": 741,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/pods/pod-lifecycle.md",
+      "line": 909,
+      "kind": "heading"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/deployment.md",
+      "line": 24,
+      "kind": "glossary_tooltip"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/deployment.md",
+      "line": 48,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/deployment.md",
+      "line": 1335,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/deployment.md",
+      "line": 1363,
+      "kind": "heading"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/deployment.md",
+      "line": 1367,
+      "kind": "api-reference"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/replicaset.md",
+      "line": 45,
+      "kind": "glossary_tooltip"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/replicaset.md",
+      "line": 61,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/replicaset.md",
+      "line": 170,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/replicaset.md",
+      "line": 324,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/replicaset.md",
+      "line": 360,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/replicaset.md",
+      "line": 397,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/replicaset.md",
+      "line": 453,
+      "kind": "heading"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/replicaset.md",
+      "line": 460,
+      "kind": "api-reference"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/daemonset.md",
+      "line": 44,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/daemonset.md",
+      "line": 157,
+      "kind": "table"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/daemonset.md",
+      "line": 169,
+      "kind": "/table"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/daemonset.md",
+      "line": 260,
+      "kind": "heading"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/daemonset.md",
+      "line": 273,
+      "kind": "api-reference"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/job.md",
+      "line": 45,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/job.md",
+      "line": 275,
+      "kind": "glossary_tooltip"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/job.md",
+      "line": 283,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/job.md",
+      "line": 300,
+      "kind": "glossary_tooltip"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/job.md",
+      "line": 392,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/job.md",
+      "line": 420,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/job.md",
+      "line": 462,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/job.md",
+      "line": 487,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/job.md",
+      "line": 591,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/job.md",
+      "line": 731,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/job.md",
+      "line": 853,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/job.md",
+      "line": 963,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/job.md",
+      "line": 1051,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/job.md",
+      "line": 1066,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/job.md",
+      "line": 1077,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/job.md",
+      "line": 1121,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/job.md",
+      "line": 1194,
+      "kind": "heading"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/job.md",
+      "line": 1205,
+      "kind": "api-reference"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/cron-jobs.md",
+      "line": 19,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/cron-jobs.md",
+      "line": 47,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/cron-jobs.md",
+      "line": 178,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/cron-jobs.md",
+      "line": 229,
+      "kind": "glossary_tooltip"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/cron-jobs.md",
+      "line": 250,
+      "kind": "heading"
+    },
+    {
+      "docId": "content/en/docs/concepts/workloads/controllers/cron-jobs.md",
+      "line": 261,
+      "kind": "api-reference"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/service.md",
+      "line": 22,
+      "kind": "glossary_definition"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/service.md",
+      "line": 30,
+      "kind": "glossary_tooltip"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/service.md",
+      "line": 109,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/service.md",
+      "line": 135,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/service.md",
+      "line": 202,
+      "kind": "glossary_tooltip"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/service.md",
+      "line": 263,
+      "kind": "glossary_tooltip"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/service.md",
+      "line": 300,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/service.md",
+      "line": 318,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/service.md",
+      "line": 354,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/service.md",
+      "line": 639,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/service.md",
+      "line": 655,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/service.md",
+      "line": 666,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/service.md",
+      "line": 688,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/service.md",
+      "line": 994,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/service.md",
+      "line": 1000,
+      "kind": "skew"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/service.md",
+      "line": 1007,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/service.md",
+      "line": 1009,
+      "kind": "skew"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/service.md",
+      "line": 1072,
+      "kind": "param"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/service.md",
+      "line": 1074,
+      "kind": "heading"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/dns-pod-service.md",
+      "line": 221,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/dns-pod-service.md",
+      "line": 304,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/dns-pod-service.md",
+      "line": 332,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/dns-pod-service.md",
+      "line": 359,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/dns-pod-service.md",
+      "line": 394,
+      "kind": "heading"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/ingress.md",
+      "line": 21,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/ingress.md",
+      "line": 22,
+      "kind": "glossary_definition"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/ingress.md",
+      "line": 51,
+      "kind": "glossary_tooltip"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/ingress.md",
+      "line": 57,
+      "kind": "param"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/ingress.md",
+      "line": 59,
+      "kind": "link"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/ingress.md",
+      "line": 64,
+      "kind": "figure"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/ingress.md",
+      "line": 94,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/ingress.md",
+      "line": 161,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/ingress.md",
+      "line": 250,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/ingress.md",
+      "line": 259,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/ingress.md",
+      "line": 307,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/ingress.md",
+      "line": 388,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/ingress.md",
+      "line": 398,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/ingress.md",
+      "line": 426,
+      "kind": "figure"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/ingress.md",
+      "line": 430,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/ingress.md",
+      "line": 470,
+      "kind": "figure"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/ingress.md",
+      "line": 475,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/ingress.md",
+      "line": 486,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/ingress.md",
+      "line": 490,
+      "kind": "glossary_tooltip"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/ingress.md",
+      "line": 524,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/ingress.md",
+      "line": 645,
+      "kind": "heading"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/network-policies.md",
+      "line": 85,
+      "kind": "param"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/network-policies.md",
+      "line": 90,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/network-policies.md",
+      "line": 219,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/network-policies.md",
+      "line": 229,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/network-policies.md",
+      "line": 239,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/network-policies.md",
+      "line": 249,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/network-policies.md",
+      "line": 259,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/network-policies.md",
+      "line": 283,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/network-policies.md",
+      "line": 289,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/network-policies.md",
+      "line": 440,
+      "kind": "skew"
+    },
+    {
+      "docId": "content/en/docs/concepts/services-networking/network-policies.md",
+      "line": 474,
+      "kind": "heading"
+    },
+    {
+      "docId": "content/en/docs/concepts/configuration/configmap.md",
+      "line": 12,
+      "kind": "glossary_definition"
+    },
+    {
+      "docId": "content/en/docs/concepts/configuration/configmap.md",
+      "line": 119,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/configuration/configmap.md",
+      "line": 245,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/configuration/configmap.md",
+      "line": 301,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/configuration/configmap.md",
+      "line": 330,
+      "kind": "heading"
+    },
+    {
+      "docId": "content/en/docs/concepts/configuration/secret.md",
+      "line": 21,
+      "kind": "glossary_tooltip"
+    },
+    {
+      "docId": "content/en/docs/concepts/configuration/secret.md",
+      "line": 84,
+      "kind": "code"
+    },
+    {
+      "docId": "content/en/docs/concepts/configuration/secret.md",
+      "line": 229,
+      "kind": "code"
+    },
+    {
+      "docId": "content/en/docs/concepts/configuration/secret.md",
+      "line": 237,
+      "kind": "param"
+    },
+    {
+      "docId": "content/en/docs/concepts/configuration/secret.md",
+      "line": 257,
+      "kind": "code"
+    },
+    {
+      "docId": "content/en/docs/concepts/configuration/secret.md",
+      "line": 327,
+      "kind": "code"
+    },
+    {
+      "docId": "content/en/docs/concepts/configuration/secret.md",
+      "line": 349,
+      "kind": "code"
+    },
+    {
+      "docId": "content/en/docs/concepts/configuration/secret.md",
+      "line": 382,
+      "kind": "code"
+    },
+    {
+      "docId": "content/en/docs/concepts/configuration/secret.md",
+      "line": 414,
+      "kind": "code"
+    },
+    {
+      "docId": "content/en/docs/concepts/configuration/secret.md",
+      "line": 432,
+      "kind": "code"
+    },
+    {
+      "docId": "content/en/docs/concepts/configuration/secret.md",
+      "line": 512,
+      "kind": "code"
+    },
+    {
+      "docId": "content/en/docs/concepts/configuration/secret.md",
+      "line": 586,
+      "kind": "param"
+    },
+    {
+      "docId": "content/en/docs/concepts/configuration/secret.md",
+      "line": 609,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/configuration/secret.md",
+      "line": 676,
+      "kind": "heading"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/volumes.md",
+      "line": 98,
+      "kind": "skew"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/volumes.md",
+      "line": 112,
+      "kind": "skew"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/volumes.md",
+      "line": 126,
+      "kind": "skew"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/volumes.md",
+      "line": 140,
+      "kind": "skew"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/volumes.md",
+      "line": 150,
+      "kind": "skew"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/volumes.md",
+      "line": 322,
+      "kind": "skew"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/volumes.md",
+      "line": 389,
+      "kind": "skew"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/volumes.md",
+      "line": 575,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/volumes.md",
+      "line": 582,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/volumes.md",
+      "line": 628,
+      "kind": "skew"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/volumes.md",
+      "line": 784,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/volumes.md",
+      "line": 822,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/volumes.md",
+      "line": 824,
+      "kind": "skew"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/volumes.md",
+      "line": 840,
+      "kind": "skew"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/volumes.md",
+      "line": 872,
+      "kind": "skew"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/volumes.md",
+      "line": 927,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/volumes.md",
+      "line": 1091,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/volumes.md",
+      "line": 1102,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/volumes.md",
+      "line": 1115,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/volumes.md",
+      "line": 1129,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/volumes.md",
+      "line": 1162,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/volumes.md",
+      "line": 1259,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/volumes.md",
+      "line": 1285,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/volumes.md",
+      "line": 1293,
+      "kind": "thirdparty-content"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/volumes.md",
+      "line": 1307,
+      "kind": "heading"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/persistent-volumes.md",
+      "line": 253,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/persistent-volumes.md",
+      "line": 379,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/persistent-volumes.md",
+      "line": 421,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/persistent-volumes.md",
+      "line": 440,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/persistent-volumes.md",
+      "line": 588,
+      "kind": "glossary_tooltip"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/persistent-volumes.md",
+      "line": 595,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/persistent-volumes.md",
+      "line": 637,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/persistent-volumes.md",
+      "line": 709,
+      "kind": "skew"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/persistent-volumes.md",
+      "line": 766,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/persistent-volumes.md",
+      "line": 897,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/persistent-volumes.md",
+      "line": 960,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/persistent-volumes.md",
+      "line": 1061,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/persistent-volumes.md",
+      "line": 1115,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/persistent-volumes.md",
+      "line": 1130,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/persistent-volumes.md",
+      "line": 1217,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/storage/persistent-volumes.md",
+      "line": 1288,
+      "kind": "heading"
+    },
+    {
+      "docId": "content/en/docs/concepts/scheduling-eviction/assign-pod-node.md",
+      "line": 128,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/scheduling-eviction/assign-pod-node.md",
+      "line": 178,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/scheduling-eviction/assign-pod-node.md",
+      "line": 193,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/scheduling-eviction/assign-pod-node.md",
+      "line": 321,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/scheduling-eviction/assign-pod-node.md",
+      "line": 374,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/scheduling-eviction/assign-pod-node.md",
+      "line": 383,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/scheduling-eviction/assign-pod-node.md",
+      "line": 388,
+      "kind": "skew"
+    },
+    {
+      "docId": "content/en/docs/concepts/scheduling-eviction/assign-pod-node.md",
+      "line": 440,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/scheduling-eviction/assign-pod-node.md",
+      "line": 445,
+      "kind": "skew"
+    },
+    {
+      "docId": "content/en/docs/concepts/scheduling-eviction/assign-pod-node.md",
+      "line": 627,
+      "kind": "/"
+    },
+    {
+      "docId": "content/en/docs/concepts/scheduling-eviction/assign-pod-node.md",
+      "line": 647,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/scheduling-eviction/assign-pod-node.md",
+      "line": 704,
+      "kind": "heading"
+    },
+    {
+      "docId": "content/en/docs/concepts/scheduling-eviction/taint-and-toleration.md",
+      "line": 75,
+      "kind": "code_sample"
+    },
+    {
+      "docId": "content/en/docs/concepts/scheduling-eviction/taint-and-toleration.md",
+      "line": 220,
+      "kind": "feature-state"
+    },
+    {
+      "docId": "content/en/docs/concepts/scheduling-eviction/taint-and-toleration.md",
+      "line": 340,
+      "kind": "heading"
+    },
+    {
+      "docId": "content/en/docs/concepts/security/rbac-good-practices.md",
+      "line": 206,
+      "kind": "heading"
+    }
+  ]
+}

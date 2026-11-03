@@ -1,0 +1,104 @@
+{
+ "reference": {
+  "n": 300,
+  "pass": 295,
+  "fail": 5
+ },
+ "versions": {
+  "v1": {
+   "labeled": 300,
+   "failed": 0,
+   "errors": {},
+   "confusion": {
+    "reference_pass_judge_pass": 281,
+    "reference_pass_judge_fail": 14,
+    "reference_fail_judge_pass": 4,
+    "reference_fail_judge_fail": 1
+   },
+   "kappaOnLabeled": 0.07692307692307535
+  },
+  "v2": {
+   "labeled": 300,
+   "failed": 0,
+   "errors": {},
+   "confusion": {
+    "reference_pass_judge_pass": 273,
+    "reference_pass_judge_fail": 22,
+    "reference_fail_judge_pass": 3,
+    "reference_fail_judge_fail": 2
+   },
+   "kappaOnLabeled": 0.11347517730496388
+  }
+ },
+ "selection": {
+  "referenceCoverage": {
+   "expected": 300,
+   "labeled": 300,
+   "missing": [],
+   "complete": true
+  },
+  "versions": {
+   "v1": {
+    "coverage": {
+     "expected": 300,
+     "labeled": 300,
+     "missing": [],
+     "complete": true
+    },
+    "agreement": {
+     "n": 300,
+     "po": 0.94,
+     "pe": 0.935,
+     "kappa": 0.07692307692307535,
+     "categories": [
+      "fail",
+      "pass"
+     ],
+     "matrix": [
+      [
+       1,
+       4
+      ],
+      [
+       14,
+       281
+      ]
+     ]
+    },
+    "reason": null
+   },
+   "v2": {
+    "coverage": {
+     "expected": 300,
+     "labeled": 300,
+     "missing": [],
+     "complete": true
+    },
+    "agreement": {
+     "n": 300,
+     "po": 0.9166666666666666,
+     "pe": 0.906,
+     "kappa": 0.11347517730496388,
+     "categories": [
+      "fail",
+      "pass"
+     ],
+     "matrix": [
+      [
+       2,
+       3
+      ],
+      [
+       22,
+       273
+      ]
+     ]
+    },
+    "reason": null
+   }
+  },
+  "selected": "v2",
+  "status": "compared",
+  "selectionRule": "all versions complete and defined; highest ordinary kappa; lexical version tie; in-sample only"
+ }
+}

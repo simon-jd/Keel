@@ -1,0 +1,12 @@
+{
+ "batch": 1,
+ "manifestHash": "65c4e5b4ce3a228b72eed3c5371e17e34f43abcd2d3c3bae439a1fb2ce12b292",
+ "startedAt": "2026-11-01T07:13:46.395629+00:00",
+ "finishedAt": "2026-11-01T07:48:52.015041+00:00",
+ "seconds": 2105.6,
+ "workers": 12,
+ "submitted": 3138,
+ "completedThisBatch": 3138,
+ "completed": 3138,
+ "planned": 3138
+}

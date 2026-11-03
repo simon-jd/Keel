@@ -1,0 +1,36 @@
+{
+ "qwen2.5-0.5b": {
+  "multiple": {
+   "jobs": 200,
+   "checkerPass": 146,
+   "notCompleted": 4
+  },
+  "parallel": {
+   "jobs": 200,
+   "checkerPass": 96,
+   "notCompleted": 7
+  },
+  "parallel_multiple": {
+   "jobs": 200,
+   "checkerPass": 84,
+   "notCompleted": 4
+  }
+ },
+ "qwen3-8b-awq": {
+  "multiple": {
+   "jobs": 200,
+   "checkerPass": 187,
+   "notCompleted": 3
+  },
+  "parallel": {
+   "jobs": 200,
+   "checkerPass": 185,
+   "notCompleted": 0
+  },
+  "parallel_multiple": {
+   "jobs": 200,
+   "checkerPass": 179,
+   "notCompleted": 0
+  }
+ }
+}

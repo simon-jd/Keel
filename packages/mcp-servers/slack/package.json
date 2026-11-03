@@ -1,0 +1,27 @@
+{
+  "name": "mcp-slack",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./*": "./src/*.ts"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "zod": "4.1.12",
+    "mcp-common": "workspace:*",
+    "oauth": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/pg": "8.23.1",
+    "@testcontainers/postgresql": "10.28.0",
+    "tsx": "4.20.6",
+    "@modelcontextprotocol/client": "2.4.0",
+    "pg": "8.23.1",
+    "oauth": "workspace:*",
+    "runtime": "workspace:*"
+  }
+}

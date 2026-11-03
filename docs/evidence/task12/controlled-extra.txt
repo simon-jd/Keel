@@ -1,0 +1,9 @@
+
+ RUN  v3.2.6 /home/postedism/Desktop/Keel/packages/guard
+
+ ✓ test/controlled.test.ts (13 tests) 7ms
+
+ Test Files  1 passed (1)
+      Tests  13 passed (13)
+   Start at  04:27:14
+   Duration  218ms (transform 84ms, setup 0ms, collect 109ms, tests 7ms, environment 0ms, prepare 30ms)

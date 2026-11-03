@@ -1,0 +1,1 @@
+{"name":"evals","private":true,"type":"module","exports":{"./matrix":"./src/matrix.ts","./gate":"./src/gate.ts","./routing":"./src/routing.ts"},"scripts":{"test":"vitest run","typecheck":"tsc -p tsconfig.json"}}

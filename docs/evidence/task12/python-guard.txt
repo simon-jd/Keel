@@ -1,0 +1,9 @@
+test_actual_ts_guard_gates_original_agentdojo_tools_after_injection (test_keel_guard.KeelGuardTests.test_actual_ts_guard_gates_original_agentdojo_tools_after_injection) ... ok
+test_interrupted_dispatch_and_changed_policy_cannot_reset_security (test_keel_guard.KeelGuardTests.test_interrupted_dispatch_and_changed_policy_cannot_reset_security) ... ok
+test_original_tool_capability_and_frozen_plan_denials (test_keel_guard.KeelGuardTests.test_original_tool_capability_and_frozen_plan_denials) ... ok
+test_trusted_explicit_initial_policy_path_executes_original_tool (test_keel_guard.KeelGuardTests.test_trusted_explicit_initial_policy_path_executes_original_tool) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 2.032s
+
+OK

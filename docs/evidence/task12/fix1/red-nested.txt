@@ -1,0 +1,322 @@
+test_nested_guard_containing_capability_and_plan_deny_before_any_handler (test_keel_guard.KeelGuardTests.test_nested_guard_containing_capability_and_plan_deny_before_any_handler) ...
+  test_nested_guard_containing_capability_and_plan_deny_before_any_handler (test_keel_guard.KeelGuardTests.test_nested_guard_containing_capability_and_plan_deny_before_any_handler) (capabilities=['get_webpage'], plan=['get_webpage', 'send_direct_message']) ... ERROR
+  test_nested_guard_containing_capability_and_plan_deny_before_any_handler (test_keel_guard.KeelGuardTests.test_nested_guard_containing_capability_and_plan_deny_before_any_handler) (capabilities=['get_webpage', 'send_direct_message'], plan=['get_webpage']) ... ERROR
+test_nested_guard_denies_tainted_outer_without_human_approval (test_keel_guard.KeelGuardTests.test_nested_guard_denies_tainted_outer_without_human_approval) ... ERROR
+test_nested_guard_nested_capability_and_plan_denial_blocks_outer (test_keel_guard.KeelGuardTests.test_nested_guard_nested_capability_and_plan_denial_blocks_outer) ...
+  test_nested_guard_nested_capability_and_plan_denial_blocks_outer (test_keel_guard.KeelGuardTests.test_nested_guard_nested_capability_and_plan_denial_blocks_outer) (capabilities=['send_direct_message'], plan=['get_webpage', 'send_direct_message']) ... ERROR
+  test_nested_guard_nested_capability_and_plan_denial_blocks_outer (test_keel_guard.KeelGuardTests.test_nested_guard_nested_capability_and_plan_denial_blocks_outer) (capabilities=['get_webpage', 'send_direct_message'], plan=['send_direct_message']) ... ERROR
+test_nested_guard_positive_binds_exact_resolved_and_validated_outer_args (test_keel_guard.KeelGuardTests.test_nested_guard_positive_binds_exact_resolved_and_validated_outer_args) ... ERROR
+test_nested_guard_preserves_original_validation_error_before_outer_handler (test_keel_guard.KeelGuardTests.test_nested_guard_preserves_original_validation_error_before_outer_handler) ... ERROR
+
+======================================================================
+ERROR: test_nested_guard_containing_capability_and_plan_deny_before_any_handler (test_keel_guard.KeelGuardTests.test_nested_guard_containing_capability_and_plan_deny_before_any_handler) (capabilities=['get_webpage'], plan=['get_webpage', 'send_direct_message'])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/tests/test_keel_guard.py", line 170, in test_nested_guard_containing_capability_and_plan_deny_before_any_handler
+    result = run_agentdojo_case(self.nested_client(), suite_name='slack', user_task_id='user_task_0',
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/agentdojo_agent.py", line 134, in run_agentdojo_case
+    utility, attack_success = suite.run_task_with_pipeline(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/.tools/bench-upstream/agentdojo-089ed468cf3ed0322acc66b0211f26d9d90dbf60/src/agentdojo/task_suite/task_suite.py", line 386, in run_task_with_pipeline
+    _, _, task_environment, messages, _ = agent_pipeline.query(prompt, runtime, task_environment)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/.tools/bench-upstream/agentdojo-089ed468cf3ed0322acc66b0211f26d9d90dbf60/src/agentdojo/agent_pipeline/agent_pipeline.py", line 192, in query
+    query, runtime, env, messages, extra_args = element.query(query, runtime, env, messages, extra_args)
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/.tools/bench-upstream/agentdojo-089ed468cf3ed0322acc66b0211f26d9d90dbf60/src/agentdojo/agent_pipeline/tool_execution.py", line 155, in query
+    query, runtime, env, messages, extra_args = element.query(query, runtime, env, messages, extra_args)
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/.tools/bench-upstream/agentdojo-089ed468cf3ed0322acc66b0211f26d9d90dbf60/src/agentdojo/agent_pipeline/tool_execution.py", line 103, in query
+    tool_call_result, error = runtime.run_function(env, tool_call.function, tool_call.args)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/agentdojo_agent.py", line 113, in run_function
+    trusted_guard.dispatch({'function': function, 'args': copy.deepcopy(dict(kwargs)), 'environment': env})
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/tests/test_keel_guard.py", line 117, in record
+    dispatch(event)
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/keel_guard.py", line 38, in dispatch
+    self._invoke({'op': 'dispatch', 'tool': event['function'], 'args': event['args']})
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/keel_guard.py", line 25, in _invoke
+    input=json.dumps(event, allow_nan=False), text=True, capture_output=True,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/home/postedism/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/home/postedism/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type FunctionCall is not JSON serializable
+
+======================================================================
+ERROR: test_nested_guard_containing_capability_and_plan_deny_before_any_handler (test_keel_guard.KeelGuardTests.test_nested_guard_containing_capability_and_plan_deny_before_any_handler) (capabilities=['get_webpage', 'send_direct_message'], plan=['get_webpage'])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/tests/test_keel_guard.py", line 170, in test_nested_guard_containing_capability_and_plan_deny_before_any_handler
+    result = run_agentdojo_case(self.nested_client(), suite_name='slack', user_task_id='user_task_0',
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/agentdojo_agent.py", line 134, in run_agentdojo_case
+    utility, attack_success = suite.run_task_with_pipeline(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/.tools/bench-upstream/agentdojo-089ed468cf3ed0322acc66b0211f26d9d90dbf60/src/agentdojo/task_suite/task_suite.py", line 386, in run_task_with_pipeline
+    _, _, task_environment, messages, _ = agent_pipeline.query(prompt, runtime, task_environment)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/.tools/bench-upstream/agentdojo-089ed468cf3ed0322acc66b0211f26d9d90dbf60/src/agentdojo/agent_pipeline/agent_pipeline.py", line 192, in query
+    query, runtime, env, messages, extra_args = element.query(query, runtime, env, messages, extra_args)
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/.tools/bench-upstream/agentdojo-089ed468cf3ed0322acc66b0211f26d9d90dbf60/src/agentdojo/agent_pipeline/tool_execution.py", line 155, in query
+    query, runtime, env, messages, extra_args = element.query(query, runtime, env, messages, extra_args)
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/.tools/bench-upstream/agentdojo-089ed468cf3ed0322acc66b0211f26d9d90dbf60/src/agentdojo/agent_pipeline/tool_execution.py", line 103, in query
+    tool_call_result, error = runtime.run_function(env, tool_call.function, tool_call.args)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/agentdojo_agent.py", line 113, in run_function
+    trusted_guard.dispatch({'function': function, 'args': copy.deepcopy(dict(kwargs)), 'environment': env})
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/tests/test_keel_guard.py", line 117, in record
+    dispatch(event)
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/keel_guard.py", line 38, in dispatch
+    self._invoke({'op': 'dispatch', 'tool': event['function'], 'args': event['args']})
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/keel_guard.py", line 25, in _invoke
+    input=json.dumps(event, allow_nan=False), text=True, capture_output=True,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/home/postedism/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/home/postedism/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type FunctionCall is not JSON serializable
+
+======================================================================
+ERROR: test_nested_guard_denies_tainted_outer_without_human_approval (test_keel_guard.KeelGuardTests.test_nested_guard_denies_tainted_outer_without_human_approval)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/tests/test_keel_guard.py", line 152, in test_nested_guard_denies_tainted_outer_without_human_approval
+    result = run_agentdojo_case(self.nested_client(), suite_name='slack', user_task_id='user_task_0',
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/agentdojo_agent.py", line 134, in run_agentdojo_case
+    utility, attack_success = suite.run_task_with_pipeline(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/.tools/bench-upstream/agentdojo-089ed468cf3ed0322acc66b0211f26d9d90dbf60/src/agentdojo/task_suite/task_suite.py", line 386, in run_task_with_pipeline
+    _, _, task_environment, messages, _ = agent_pipeline.query(prompt, runtime, task_environment)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/.tools/bench-upstream/agentdojo-089ed468cf3ed0322acc66b0211f26d9d90dbf60/src/agentdojo/agent_pipeline/agent_pipeline.py", line 192, in query
+    query, runtime, env, messages, extra_args = element.query(query, runtime, env, messages, extra_args)
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/.tools/bench-upstream/agentdojo-089ed468cf3ed0322acc66b0211f26d9d90dbf60/src/agentdojo/agent_pipeline/tool_execution.py", line 155, in query
+    query, runtime, env, messages, extra_args = element.query(query, runtime, env, messages, extra_args)
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/.tools/bench-upstream/agentdojo-089ed468cf3ed0322acc66b0211f26d9d90dbf60/src/agentdojo/agent_pipeline/tool_execution.py", line 103, in query
+    tool_call_result, error = runtime.run_function(env, tool_call.function, tool_call.args)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/agentdojo_agent.py", line 113, in run_function
+    trusted_guard.dispatch({'function': function, 'args': copy.deepcopy(dict(kwargs)), 'environment': env})
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/tests/test_keel_guard.py", line 117, in record
+    dispatch(event)
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/keel_guard.py", line 38, in dispatch
+    self._invoke({'op': 'dispatch', 'tool': event['function'], 'args': event['args']})
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/keel_guard.py", line 25, in _invoke
+    input=json.dumps(event, allow_nan=False), text=True, capture_output=True,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/home/postedism/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/home/postedism/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type FunctionCall is not JSON serializable
+
+======================================================================
+ERROR: test_nested_guard_nested_capability_and_plan_denial_blocks_outer (test_keel_guard.KeelGuardTests.test_nested_guard_nested_capability_and_plan_denial_blocks_outer) (capabilities=['send_direct_message'], plan=['get_webpage', 'send_direct_message'])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/tests/test_keel_guard.py", line 188, in test_nested_guard_nested_capability_and_plan_denial_blocks_outer
+    result = run_agentdojo_case(self.nested_client(), suite_name='slack', user_task_id='user_task_0',
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/agentdojo_agent.py", line 134, in run_agentdojo_case
+    utility, attack_success = suite.run_task_with_pipeline(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/.tools/bench-upstream/agentdojo-089ed468cf3ed0322acc66b0211f26d9d90dbf60/src/agentdojo/task_suite/task_suite.py", line 386, in run_task_with_pipeline
+    _, _, task_environment, messages, _ = agent_pipeline.query(prompt, runtime, task_environment)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/.tools/bench-upstream/agentdojo-089ed468cf3ed0322acc66b0211f26d9d90dbf60/src/agentdojo/agent_pipeline/agent_pipeline.py", line 192, in query
+    query, runtime, env, messages, extra_args = element.query(query, runtime, env, messages, extra_args)
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/.tools/bench-upstream/agentdojo-089ed468cf3ed0322acc66b0211f26d9d90dbf60/src/agentdojo/agent_pipeline/tool_execution.py", line 155, in query
+    query, runtime, env, messages, extra_args = element.query(query, runtime, env, messages, extra_args)
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/.tools/bench-upstream/agentdojo-089ed468cf3ed0322acc66b0211f26d9d90dbf60/src/agentdojo/agent_pipeline/tool_execution.py", line 103, in query
+    tool_call_result, error = runtime.run_function(env, tool_call.function, tool_call.args)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/agentdojo_agent.py", line 113, in run_function
+    trusted_guard.dispatch({'function': function, 'args': copy.deepcopy(dict(kwargs)), 'environment': env})
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/tests/test_keel_guard.py", line 117, in record
+    dispatch(event)
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/keel_guard.py", line 38, in dispatch
+    self._invoke({'op': 'dispatch', 'tool': event['function'], 'args': event['args']})
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/keel_guard.py", line 25, in _invoke
+    input=json.dumps(event, allow_nan=False), text=True, capture_output=True,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/home/postedism/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/home/postedism/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type FunctionCall is not JSON serializable
+
+======================================================================
+ERROR: test_nested_guard_nested_capability_and_plan_denial_blocks_outer (test_keel_guard.KeelGuardTests.test_nested_guard_nested_capability_and_plan_denial_blocks_outer) (capabilities=['get_webpage', 'send_direct_message'], plan=['send_direct_message'])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/tests/test_keel_guard.py", line 188, in test_nested_guard_nested_capability_and_plan_denial_blocks_outer
+    result = run_agentdojo_case(self.nested_client(), suite_name='slack', user_task_id='user_task_0',
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/agentdojo_agent.py", line 134, in run_agentdojo_case
+    utility, attack_success = suite.run_task_with_pipeline(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/.tools/bench-upstream/agentdojo-089ed468cf3ed0322acc66b0211f26d9d90dbf60/src/agentdojo/task_suite/task_suite.py", line 386, in run_task_with_pipeline
+    _, _, task_environment, messages, _ = agent_pipeline.query(prompt, runtime, task_environment)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/.tools/bench-upstream/agentdojo-089ed468cf3ed0322acc66b0211f26d9d90dbf60/src/agentdojo/agent_pipeline/agent_pipeline.py", line 192, in query
+    query, runtime, env, messages, extra_args = element.query(query, runtime, env, messages, extra_args)
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/.tools/bench-upstream/agentdojo-089ed468cf3ed0322acc66b0211f26d9d90dbf60/src/agentdojo/agent_pipeline/tool_execution.py", line 155, in query
+    query, runtime, env, messages, extra_args = element.query(query, runtime, env, messages, extra_args)
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/.tools/bench-upstream/agentdojo-089ed468cf3ed0322acc66b0211f26d9d90dbf60/src/agentdojo/agent_pipeline/tool_execution.py", line 103, in query
+    tool_call_result, error = runtime.run_function(env, tool_call.function, tool_call.args)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/agentdojo_agent.py", line 113, in run_function
+    trusted_guard.dispatch({'function': function, 'args': copy.deepcopy(dict(kwargs)), 'environment': env})
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/tests/test_keel_guard.py", line 117, in record
+    dispatch(event)
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/keel_guard.py", line 38, in dispatch
+    self._invoke({'op': 'dispatch', 'tool': event['function'], 'args': event['args']})
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/keel_guard.py", line 25, in _invoke
+    input=json.dumps(event, allow_nan=False), text=True, capture_output=True,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/home/postedism/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/home/postedism/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type FunctionCall is not JSON serializable
+
+======================================================================
+ERROR: test_nested_guard_positive_binds_exact_resolved_and_validated_outer_args (test_keel_guard.KeelGuardTests.test_nested_guard_positive_binds_exact_resolved_and_validated_outer_args)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/tests/test_keel_guard.py", line 131, in test_nested_guard_positive_binds_exact_resolved_and_validated_outer_args
+    result = run_agentdojo_case(self.nested_client(), suite_name='slack', user_task_id='user_task_0',
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/agentdojo_agent.py", line 134, in run_agentdojo_case
+    utility, attack_success = suite.run_task_with_pipeline(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/.tools/bench-upstream/agentdojo-089ed468cf3ed0322acc66b0211f26d9d90dbf60/src/agentdojo/task_suite/task_suite.py", line 386, in run_task_with_pipeline
+    _, _, task_environment, messages, _ = agent_pipeline.query(prompt, runtime, task_environment)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/.tools/bench-upstream/agentdojo-089ed468cf3ed0322acc66b0211f26d9d90dbf60/src/agentdojo/agent_pipeline/agent_pipeline.py", line 192, in query
+    query, runtime, env, messages, extra_args = element.query(query, runtime, env, messages, extra_args)
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/.tools/bench-upstream/agentdojo-089ed468cf3ed0322acc66b0211f26d9d90dbf60/src/agentdojo/agent_pipeline/tool_execution.py", line 155, in query
+    query, runtime, env, messages, extra_args = element.query(query, runtime, env, messages, extra_args)
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/.tools/bench-upstream/agentdojo-089ed468cf3ed0322acc66b0211f26d9d90dbf60/src/agentdojo/agent_pipeline/tool_execution.py", line 103, in query
+    tool_call_result, error = runtime.run_function(env, tool_call.function, tool_call.args)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/agentdojo_agent.py", line 113, in run_function
+    trusted_guard.dispatch({'function': function, 'args': copy.deepcopy(dict(kwargs)), 'environment': env})
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/tests/test_keel_guard.py", line 117, in record
+    dispatch(event)
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/keel_guard.py", line 38, in dispatch
+    self._invoke({'op': 'dispatch', 'tool': event['function'], 'args': event['args']})
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/keel_guard.py", line 25, in _invoke
+    input=json.dumps(event, allow_nan=False), text=True, capture_output=True,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/home/postedism/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/home/postedism/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type FunctionCall is not JSON serializable
+
+======================================================================
+ERROR: test_nested_guard_preserves_original_validation_error_before_outer_handler (test_keel_guard.KeelGuardTests.test_nested_guard_preserves_original_validation_error_before_outer_handler)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/tests/test_keel_guard.py", line 204, in test_nested_guard_preserves_original_validation_error_before_outer_handler
+    result = run_agentdojo_case(client, suite_name='slack', user_task_id='user_task_0',
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/agentdojo_agent.py", line 134, in run_agentdojo_case
+    utility, attack_success = suite.run_task_with_pipeline(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/.tools/bench-upstream/agentdojo-089ed468cf3ed0322acc66b0211f26d9d90dbf60/src/agentdojo/task_suite/task_suite.py", line 386, in run_task_with_pipeline
+    _, _, task_environment, messages, _ = agent_pipeline.query(prompt, runtime, task_environment)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/.tools/bench-upstream/agentdojo-089ed468cf3ed0322acc66b0211f26d9d90dbf60/src/agentdojo/agent_pipeline/agent_pipeline.py", line 192, in query
+    query, runtime, env, messages, extra_args = element.query(query, runtime, env, messages, extra_args)
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/.tools/bench-upstream/agentdojo-089ed468cf3ed0322acc66b0211f26d9d90dbf60/src/agentdojo/agent_pipeline/tool_execution.py", line 155, in query
+    query, runtime, env, messages, extra_args = element.query(query, runtime, env, messages, extra_args)
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/.tools/bench-upstream/agentdojo-089ed468cf3ed0322acc66b0211f26d9d90dbf60/src/agentdojo/agent_pipeline/tool_execution.py", line 103, in query
+    tool_call_result, error = runtime.run_function(env, tool_call.function, tool_call.args)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/agentdojo_agent.py", line 113, in run_function
+    trusted_guard.dispatch({'function': function, 'args': copy.deepcopy(dict(kwargs)), 'environment': env})
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/tests/test_keel_guard.py", line 117, in record
+    dispatch(event)
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/keel_guard.py", line 38, in dispatch
+    self._invoke({'op': 'dispatch', 'tool': event['function'], 'args': event['args']})
+  File "/home/postedism/Desktop/Keel/services/bench-adapters/keel_guard.py", line 25, in _invoke
+    input=json.dumps(event, allow_nan=False), text=True, capture_output=True,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/home/postedism/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/postedism/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/home/postedism/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type FunctionCall is not JSON serializable
+
+----------------------------------------------------------------------
+Ran 5 tests in 1.075s
+
+FAILED (errors=7)

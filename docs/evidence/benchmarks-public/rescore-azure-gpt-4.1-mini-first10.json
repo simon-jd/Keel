@@ -1,0 +1,13 @@
+{
+ "changed": [
+  "simple_python_1",
+  "simple_python_2",
+  "simple_python_3",
+  "simple_python_8",
+  "simple_python_9"
+ ],
+ "recorded_successes": 4,
+ "rescored_successes": 9,
+ "results_file": "commercial-bfcl-westus-owned-restore-first10-20261024-results.jsonl",
+ "tasks": 10
+}

@@ -1,0 +1,99 @@
+{
+  "schema": 1,
+  "status": "failed-before-inference; closed; no resume",
+  "phase": "task9-agent-judge-azure-mini-v1",
+  "prepared_git_sha": "dd8cba6eb835a972f0093efbbb9a3f3b64fe3af0",
+  "implementation_sha256": "19393fd1890b596599b347ca3ef51b1163afa9a5d59300bab975c84a47224761",
+  "reference_origin": "subagent",
+  "human_evidence": false,
+  "human_reference_gate_fulfilled": false,
+  "reference_labels": {
+    "primary": 300,
+    "blind_secondary": 100,
+    "human": 0
+  },
+  "requested_model": {
+    "provider": "azureCommercial",
+    "name": "gpt-4.1-mini",
+    "version": "2025-04-14",
+    "region": "westus",
+    "sku": "GlobalStandard",
+    "upgrade": "NoAutoUpgrade"
+  },
+  "actual_deployed_model_verified": false,
+  "logical_planned": 605,
+  "physical_ceiling": 625,
+  "logical_completed": 0,
+  "physical_model_attempts": 0,
+  "known_model_usage_cost_usd": "0",
+  "cost_interpretation": "no inference was dispatched; not an Azure invoice",
+  "new_reservation_usd": "2.516582400",
+  "cumulative_reserved_usd": "6.739654400",
+  "old_reservation_unchanged": true,
+  "reserve_refunded": false,
+  "claim_recovered": false,
+  "new_phase_status": "failed",
+  "reproduction": null,
+  "judge_predictions": {
+    "v1": 0,
+    "v2": 0
+  },
+  "calibration": null,
+  "selected": null,
+  "sessions": [
+    {
+      "session": "a",
+      "stopped_at": "2026-10-25T13:43:52.761899Z",
+      "reason": "HARD_MEMORY_LIMIT_REQUIRED",
+      "admitted": false,
+      "exit_code": 1,
+      "elapsed_seconds": 4,
+      "peak_disk_bytes": 7813873135,
+      "peak_rss_bytes": 38854656,
+      "owned_tree_stopped": true
+    },
+    {
+      "session": "b",
+      "stopped_at": "2026-10-25T13:49:10.857042Z",
+      "reason": "CURRENT_CAPACITY_QUOTA",
+      "admitted": false,
+      "exit_code": 1,
+      "elapsed_seconds": 8,
+      "peak_disk_bytes": 7814110703,
+      "peak_rss_bytes": 38916096,
+      "owned_tree_stopped": true
+    },
+    {
+      "session": "c",
+      "stopped_at": "2026-10-25T13:55:53.306668Z",
+      "reason": "CHILD_FAILED",
+      "admitted": true,
+      "exit_code": 1,
+      "elapsed_seconds": 36,
+      "peak_disk_bytes": 7814651375,
+      "peak_rss_bytes": 47169536,
+      "owned_tree_stopped": true
+    }
+  ],
+  "account_failure": {
+    "operation": "Microsoft.CognitiveServices/accounts/write",
+    "timestamp": "2026-10-25T13:55:53.1951427Z",
+    "status": "Failed",
+    "sub_status": "BadRequest",
+    "provider_code": "InsufficientQuota",
+    "message": "Insufficient quota. Cannot create/update/move requested project account."
+  },
+  "cleanup": {
+    "group_absent": true,
+    "observed_at": "2026-10-25T13:56:14.332106Z",
+    "evidence_kind": "observed az group exists CLI stdout Boolean; not raw HTTP/GET proof",
+    "ephemeral_credentials_absent": true,
+    "owned_trees_stopped": true,
+    "runtime_unit_properties_verified": true,
+    "memory_max_bytes": 1999998976,
+    "swap_max_bytes": 0,
+    "runtime_max_seconds": 6600
+  },
+  "review_status": "independent closure data review pending",
+  "recorded_at": "2026-10-25T14:00:18.919353Z"
+}

@@ -1,0 +1,7 @@
+Scope: 3 of 14 workspace projects
+packages/guard typecheck$ tsc -p tsconfig.json
+packages/runtime typecheck$ tsc -p tsconfig.json
+packages/guard typecheck: Done
+packages/runtime typecheck: Done
+packages/mcp-servers/common typecheck$ tsc -p tsconfig.json
+packages/mcp-servers/common typecheck: Done

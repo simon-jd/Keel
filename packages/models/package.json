@@ -1,0 +1,25 @@
+{
+  "name": "models",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./types": "./src/types.ts",
+    "./router": "./src/router.ts",
+    "./openai": "./src/openai.ts",
+    "./anthropic": "./src/anthropic.ts",
+    "./openaiCompatible": "./src/openaiCompatible.ts",
+    "./azureCommercial": "./src/azureCommercial.ts",
+    "./rag": "./src/rag.ts",
+    "./localJudgeProfile": "./src/localJudgeProfile.ts"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "msw": "2.14.6"
+  },
+  "dependencies": {
+    "tracing": "workspace:*"
+  }
+}

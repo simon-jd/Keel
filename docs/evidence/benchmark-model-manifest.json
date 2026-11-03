@@ -1,0 +1,68 @@
+{
+  "incident": "inherited HF_HUB_CACHE overrode HF_HOME",
+  "source": "/home/postedism/data/models/huggingface/hub/models--Qwen--Qwen3-8B-AWQ",
+  "corrected_target": "/home/postedism/.cache/huggingface/hub/models--Qwen--Qwen3-8B-AWQ",
+  "method": "same-filesystem rename of this task-created repo only; source had one new snapshot, no refs, all 12 blobs had task download timestamps",
+  "files": [
+    {
+      "file": "merges.txt",
+      "bytes": 1671853,
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+    },
+    {
+      "file": "README.md",
+      "bytes": 16875,
+      "sha256": "5c397e99916138e00686567882ea1308524c95c2962f05d0ef57ebfa0d2c81fb"
+    },
+    {
+      "file": "tokenizer.json",
+      "bytes": 11422654,
+      "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+    },
+    {
+      "file": "LICENSE",
+      "bytes": 11544,
+      "sha256": "5de36594c10839788a8c589443a8ef9d8b8d17c65a1b5807206ae037fc36c6bd"
+    },
+    {
+      "file": ".gitattributes",
+      "bytes": 1570,
+      "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930"
+    },
+    {
+      "file": "vocab.json",
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    },
+    {
+      "file": "model-00002-of-00002.safetensors",
+      "bytes": 1244659840,
+      "sha256": "20c2d6366ab85c90786ccdd829cd2b9e7d30ef3b2ebbb998280e7e4014b542ff"
+    },
+    {
+      "file": "config.json",
+      "bytes": 1042,
+      "sha256": "7457674d8044143cd4159e47deecf28fd6698a9826569094b60d7bead8f351ee"
+    },
+    {
+      "file": "model-00001-of-00002.safetensors",
+      "bytes": 4853922024,
+      "sha256": "6e112429856bc65e3837a9f38d6f6b71ffdda832cb46299a12f4fa8f6352516e"
+    },
+    {
+      "file": "model.safetensors.index.json",
+      "bytes": 74029,
+      "sha256": "ad18bc45a440aea0a3298ddfd41d01c48eb9afbd94345f6176c4290e1b524175"
+    },
+    {
+      "file": "generation_config.json",
+      "bytes": 239,
+      "sha256": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2"
+    },
+    {
+      "file": "tokenizer_config.json",
+      "bytes": 9732,
+      "sha256": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+    }
+  ]
+}

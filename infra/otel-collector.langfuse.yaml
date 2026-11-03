@@ -1,0 +1,58 @@
+# Explicit opt-in, metrics-only path. Default otel-collector.yaml remains nop.
+# SDK exporter sanitizes first; reject unexpected scopes, events, links and unsafe values here.
+receivers:
+  otlp:
+    protocols:
+      grpc:
+        endpoint: 0.0.0.0:4317
+      http:
+        endpoint: 0.0.0.0:4318
+processors:
+  memory_limiter:
+    check_interval: 1s
+    limit_mib: 128
+    spike_limit_mib: 32
+  filter/keel:
+    error_mode: propagate
+    trace_conditions:
+      - "scope.name != \"keel\""
+      - "span.name != \"llm\" and span.name != \"tool\" and span.name != \"retrieval\" and span.name != \"operation\""
+      - "Len(span.events) > 0 or Len(span.links) > 0"
+      - "span.attributes[\"gen_ai.system\"] != nil and (span.attributes[\"gen_ai.system\"] != \"openai\" and span.attributes[\"gen_ai.system\"] != \"anthropic\" and span.attributes[\"gen_ai.system\"] != \"openaiCompatible\")"
+      - "span.attributes[\"gen_ai.provider.name\"] != nil and (span.attributes[\"gen_ai.provider.name\"] != \"openai\" and span.attributes[\"gen_ai.provider.name\"] != \"anthropic\" and span.attributes[\"gen_ai.provider.name\"] != \"openaiCompatible\")"
+      - "span.attributes[\"gen_ai.operation.name\"] != nil and (span.attributes[\"gen_ai.operation.name\"] != \"chat\" and span.attributes[\"gen_ai.operation.name\"] != \"execute_tool\" and span.attributes[\"gen_ai.operation.name\"] != \"retrieval\")"
+      - "span.attributes[\"keel.cost_status\"] != nil and (span.attributes[\"keel.cost_status\"] != \"known\" and span.attributes[\"keel.cost_status\"] != \"unknown\")"
+      - "span.attributes[\"error.type\"] != nil and (span.attributes[\"error.type\"] != \"operation_failed\")"
+      - "span.attributes[\"gen_ai.usage.input_tokens\"] != nil and (not IsInt(span.attributes[\"gen_ai.usage.input_tokens\"]) or span.attributes[\"gen_ai.usage.input_tokens\"] < 0)"
+      - "span.attributes[\"gen_ai.usage.output_tokens\"] != nil and (not IsInt(span.attributes[\"gen_ai.usage.output_tokens\"]) or span.attributes[\"gen_ai.usage.output_tokens\"] < 0)"
+      - "span.attributes[\"keel.attempt_count\"] != nil and (not IsInt(span.attributes[\"keel.attempt_count\"]) or span.attributes[\"keel.attempt_count\"] < 0)"
+      - "span.attributes[\"keel.unknown_attempt_count\"] != nil and (not IsInt(span.attributes[\"keel.unknown_attempt_count\"]) or span.attributes[\"keel.unknown_attempt_count\"] < 0)"
+      - "span.attributes[\"keel.cost_usd\"] != nil and ((not IsDouble(span.attributes[\"keel.cost_usd\"]) and not IsInt(span.attributes[\"keel.cost_usd\"])) or span.attributes[\"keel.cost_usd\"] < 0)"
+      - "span.attributes[\"gen_ai.request.model\"] != nil and not IsMatch(span.attributes[\"gen_ai.request.model\"], \"^[a-zA-Z0-9][a-zA-Z0-9._:/-]{0,127}$\")"
+      - "span.attributes[\"keel.run_id\"] != nil and not IsMatch(span.attributes[\"keel.run_id\"], \"^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$\")"
+      - "span.attributes[\"keel.call_id\"] != nil and not IsMatch(span.attributes[\"keel.call_id\"], \"^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}:[0-9]+$\")"
+  transform/privacy:
+    error_mode: propagate
+    trace_statements:
+      - "keep_keys(resource.attributes, [])"
+      - "set(resource.attributes[\"service.name\"], \"keel\")"
+      - "set(resource.schema_url, \"\")"
+      - "keep_keys(scope.attributes, [])"
+      - "set(scope.version, \"\")"
+      - "set(scope.schema_url, \"\")"
+      - "set(span.trace_state, \"\")"
+      - "set(span.status.message, \"\")"
+      - "keep_keys(span.attributes, [\"gen_ai.system\", \"gen_ai.provider.name\", \"gen_ai.operation.name\", \"gen_ai.request.model\", \"gen_ai.usage.input_tokens\", \"gen_ai.usage.output_tokens\", \"keel.cost_usd\", \"keel.cost_status\", \"keel.run_id\", \"keel.call_id\", \"keel.attempt_count\", \"keel.unknown_attempt_count\", \"error.type\"])"
+  batch: {}
+exporters:
+  otlphttp/langfuse:
+    endpoint: http://langfuse:3000/api/public/otel
+    headers:
+      Authorization: "Basic ${env:LANGFUSE_OTLP_AUTH_BASE64}"
+      x-langfuse-ingestion-version: "4"
+service:
+  pipelines:
+    traces:
+      receivers: [otlp]
+      processors: [memory_limiter, filter/keel, transform/privacy, batch]
+      exporters: [otlphttp/langfuse]

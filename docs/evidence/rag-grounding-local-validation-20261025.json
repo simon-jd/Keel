@@ -1,0 +1,209 @@
+{
+  "activeLockSha256": "d21ab383bc1b4fce730726db58c9542d3eac81152ce900e483a7020dd85d8c38",
+  "activePropertiesSha256": "06b6dab459692e719bed407a4312010905dcca9f0b80ad242bce954f795e4170",
+  "actualRagFaithfulnessAdmission": "still closed pending actual-data/source review and explicit bounded-proxy admission; never reliabletruth from this study",
+  "agreement": {
+    "categories": [
+      "fail",
+      "pass"
+    ],
+    "kappa": 0.24,
+    "matrix": [
+      [
+        12,
+        38
+      ],
+      [
+        0,
+        50
+      ]
+    ],
+    "n": 100,
+    "pe": 0.5,
+    "po": 0.62
+  },
+  "allSourceProtocolIntentAndThreeLayerUsageChecks": true,
+  "at": "2026-10-25T19:57:23.325Z",
+  "calibrationScope": "one alreadyselectedbaseversion v1; no inventedsecondversion or modelselection on domainoutcomes",
+  "cleanup": {
+    "all_children_stopped": true,
+    "ephemeral_files_removed": true,
+    "event": "cleanup",
+    "outcome_code": 0,
+    "owned_cleanup": {
+      "all_owned_stopped": true,
+      "direct_child_returncodes": [
+        {
+          "pid": 3419745,
+          "returncode": 0
+        },
+        {
+          "pid": 3424184,
+          "returncode": 0
+        },
+        {
+          "pid": 3424803,
+          "returncode": 0
+        }
+      ],
+      "errors": [],
+      "owned_descendants_empty": true,
+      "owned_group_empty": true,
+      "seconds": 0.804609,
+      "survivors": []
+    },
+    "peak_disk_bytes": 7841480175,
+    "peak_rss_bytes": 3952242688,
+    "seconds": 111,
+    "span_file": ".tools/task14-grounding-domain-20261025a/safe-spans.jsonl",
+    "startup_drain_error_types": [],
+    "startup_drain_stopped": true,
+    "time": "2026-10-25T19:56:12.284870Z"
+  },
+  "cleanupVerified": true,
+  "configuredBackend": {
+    "backend": "xgrammar",
+    "disable_fallback": true,
+    "identity": "operator-configured plus retained runtime configuration, no provider-wire revision proof",
+    "libraryVersion": "0.1.29"
+  },
+  "controllerSha256": "861f3055a22354daff00d88b49daf3734cd2270051d6fa0273c408cb1f72a1e0",
+  "documents": 17,
+  "estimatedExtraDiskReserveBytes": 10000000,
+  "freezeSha256": "f8b059bcde210073e4f775e96ce58be25cb0f3662d46d4bf8aa071e104eaec2c",
+  "gitSha": "08b74ddff346fe982d24b1b090dac6e9a09f8606",
+  "human_evidence": false,
+  "human_reference_gate_fulfilled": false,
+  "implementationSha256": "18f3d87d1329e9f9b6528332ff282749578c41a28c8a48ee2251cdb4ef8b85a0",
+  "independentActualDataReview": "pending combined705records newv2five/600/domain100",
+  "input": ".tools/annotation-rag/domain-judge-20261025a.json",
+  "inputTokens": 53662,
+  "internalTimeoutSeconds": 900,
+  "judgePassRate": 0.88,
+  "knownLocalApiCostUsd": 0,
+  "lifecycleSha256": "1fa3bca68a78fc15836a7caa1b7c1bc86d2d88182a745edbd4205af712fcb74c",
+  "limitations": [
+    "controlled supported/contradicted pairs, not natural model errors",
+    "50 paired source facts /17documents are clustered, not100independent cases",
+    "same author writes questions, alternatives and primary labels",
+    "same model family author/reviewer bias; nonblind review, not human/independent kappa evidence",
+    "balanced construction/direct contradiction/short single-chunk inputs limit generality"
+  ],
+  "logical": 100,
+  "memoryHardLimitBytes": 13499998208,
+  "memoryReservedBytes": 13500000000,
+  "next": "integrate honestlyseparate calibration/domain protocols, exactfrozen200QA and provenance; actualRAG metrics must expose poorjudge agreement/proxy limitation, not claimgold accuracy",
+  "outerTimeoutSeconds": 930,
+  "outputTokens": 5885,
+  "pairedFacts": 50,
+  "physical": 100,
+  "planSha256": "8ac34d6ebd45426386f2e7a1aeed22891e0b32b5fabdcadcdd98661ae44f8526",
+  "postCleanup": {
+    "at": "2026-10-25T19:59:49.762559+00:00",
+    "disk": {
+      "admitted": true,
+      "container_writable_bytes": 0,
+      "image_bytes": 1616465391,
+      "limit_bytes": 8000000000,
+      "missing_images_not_pulled": [
+        "cgr.dev/chainguard/minio@sha256:a893442cd57d795411ace0b9a78f26a65e3f6e546d3f25c24e19f8446b0d9718",
+        "clickhouse/clickhouse-server:25.12",
+        "docker.langfuse.com/langfuse/langfuse-worker:4.69.0",
+        "docker.langfuse.com/langfuse/langfuse:4.69.0"
+      ],
+      "note": "Images are conservatively counted at full local size; shared HF cache excluded.",
+      "planned_bytes": 0,
+      "project": "keel",
+      "project_bytes": 6225027072,
+      "total_bytes": 7841492463,
+      "volume_bytes": 0
+    },
+    "ephemeralKeysAbsent": [
+      ".secrets/task14-grounding-domain-api-token-20261025a",
+      ".secrets/task14-grounding-domain-vllm-token-20261025a"
+    ],
+    "gpuLockAvailable": true,
+    "otherReservedBytes": 2214940672,
+    "portsListen18000_18080": "",
+    "postCollectedUnitDefaultPropertiesNotRuntimeClaims": true,
+    "unitProperties": "LoadState=not-found\nActiveState=inactive\nSubState=dead\nMainPID=0\n",
+    "unitQueryExit": 0
+  },
+  "profile": {
+    "configured": {
+      "attribution": "operator-configured",
+      "modelRevision": "4da05a8edb55c6046cce958586c33b61da07bb79",
+      "modelSource": "Qwen/Qwen3-8B-AWQ",
+      "runtime": {
+        "name": "vllm",
+        "version": "0.17.1"
+      },
+      "servedModel": "keel-local"
+    },
+    "liveEnforcement": "NOT_YET_PROVEN",
+    "profile": "task9-local-json-schema-v2",
+    "protocol": "openai-chat-completions-sse-json-schema-v2",
+    "schemaSha256": "8555d7a223d87b528cdb74e2a259d725a40780fef2b3e722ea45a68f8e2e3c4d",
+    "wirePolicySha256": "b898e61bc1b8513b74c36245bcf0b595aad2a2ee67d87bbfc8380d1e4b86c988"
+  },
+  "protocol": {
+    "basePromptHash": "9dfc0a6c440cf3d22c969d987e2469d221e064d4ccbc0eae890189fd22a574d1",
+    "localJudgeProfile": {
+      "configured": {
+        "attribution": "operator-configured",
+        "modelRevision": "4da05a8edb55c6046cce958586c33b61da07bb79",
+        "modelSource": "Qwen/Qwen3-8B-AWQ",
+        "runtime": {
+          "name": "vllm",
+          "version": "0.17.1"
+        },
+        "servedModel": "keel-local"
+      },
+      "liveEnforcement": "NOT_YET_PROVEN",
+      "profile": "task9-local-json-schema-v2",
+      "protocol": "openai-chat-completions-sse-json-schema-v2",
+      "schemaSha256": "8555d7a223d87b528cdb74e2a259d725a40780fef2b3e722ea45a68f8e2e3c4d",
+      "wirePolicySha256": "b898e61bc1b8513b74c36245bcf0b595aad2a2ee67d87bbfc8380d1e4b86c988"
+    },
+    "rubricHash": "3ab7fb80e1f204b5be7dfb5ead892e8f1d4a7be3fe94b9705668f3fd882d8da1",
+    "selectedTask9PromptVersion": "v1",
+    "systemPromptHash": "eba8411d8c02a8105972d4ff9ed5b1578b0742e40a1be5a25d95ebcb875c3b9e",
+    "version": "kubernetes-grounding-local-verdict-v1"
+  },
+  "protocolHash": "9106caf13db850b817d04febd14a4fe0566251c91d42e5a12e6a0b2719dff00b",
+  "qualityInterpretation": "62/100 agreement, kappa0.24; all50referencepass predictedpass,38/50referencefail predictedpass. Weaklocaljudge has strongpassbias on these controlledcases; not reliablefaithfulness truth. Separate grounding rubric/fullsystem/protocol hashes explicitly differ from BFCL. No retuning/relabeling on these outcomes.",
+  "rationaleQuality": {
+    "count": 100,
+    "maxLength": 464,
+    "minLength": 69,
+    "oneCharacter": 0
+  },
+  "rawHashLimit": "recorded values only, original raw HTTP bodies not retained",
+  "referenceFailDetected": 12,
+  "referenceFailPredictedPass": 38,
+  "referenceSha256": "a90ad5327af37e5f07d26e6740c9331c3e9fd1285b4e2e2d28ed64dca4a5608a",
+  "referenceSupportedFraction": 0.5,
+  "reference_origin": "subagent",
+  "reliableJudgeAdmitted": false,
+  "reserveIsEstimateNotWorstCase": true,
+  "retries": 0,
+  "runnerSha256": "715b4324094d1f79b712670e8c9ff8906fa1d428fef5a42bf31dd88a42bd0842",
+  "samplesSha256": "c0597b2d2362614d1297a968d871a787d7cb392758fe75e59950567969c5428a",
+  "schema": 1,
+  "scope": "root actual100 controlled-domain artifact/intent/usage/span/source audit and descriptive ordinarykappa; not human/gold accuracy or independent naturalerror estimate",
+  "selectedTask9PromptVersion": "v1",
+  "selectionSha256": "efca82942b54071fc72cf53cb6e57b2c549352fcd9c55556b71daf04d4ae94c1",
+  "sourceSha256": "994cd47419f8b2f03fb4f9a3f39e2111e4ecf147b419f39ff1c8fdafaa7e1357",
+  "spanCount": 100,
+  "spansSha256": "23e4a752461cc38a7654d96db55d688d7347661de113be0df62ec8e95143a4e7",
+  "startupLogSha256": "b2049c21373e919975481fc924842a39485168662aecb4b955d77eee22ac9594",
+  "startupRetention": "bounded original ends midchunk after readiness; separate lifecycle/CLI/unit supportcompletion",
+  "startupWarnings": [
+    "TRANSFORMERS_CACHE deprecation",
+    "two upstream invalidescape SyntaxWarnings",
+    "eager disables Inductor/CUDAgraphs",
+    "generation_config defaultsnotice; explicittemperature0/seed0"
+  ],
+  "status": "completed one-pass100controlledweakreference domaindiagnostic; independent actual-data review pending",
+  "unknownAttempts": 0
+}

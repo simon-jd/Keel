@@ -1,0 +1,40 @@
+{
+  "at": "2026-10-25T18:44:04.361529Z",
+  "cleanupFlags": {
+    "all_owned_stopped": false,
+    "errors": [
+      {
+        "code": "PROCESS_TRACKING_NOT_ADMITTED",
+        "pid": 3050477
+      }
+    ],
+    "owned_descendants_empty": false,
+    "owned_group_empty": false,
+    "survivors": []
+  },
+  "controllerSha256": "03aeca787670c24b00506bba0f5cd86be2b2f1eaa92f24888ce9a6f247f24112",
+  "cpuDiagnosticFileSha256": "1df71bc99603a1f76c305c72a3fd543e7d062827b83bc1e75bddef6cd47deea3",
+  "diagnosis": "launcher passed nominal MemoryMax13500000000 while controller asserts explicit13499998208; systemd keeps nominal property and kernel floors only memory.max; guard correctly rejected before admission",
+  "diagnosticActual": {
+    "diagnosticExit": 0,
+    "kernelMemoryMax": "13499998208",
+    "swap": "0",
+    "systemdMemoryMax": "13500000000"
+  },
+  "ephemeralKeysCreated": false,
+  "executionGitSha": "8891332f412f0e6e75b9490301ef9f29177b6e3a",
+  "failedAt": "2026-10-25T18:41:11.101308Z",
+  "failurePreserved": true,
+  "gpuLockAvailable": true,
+  "launchLogSha256": "84a2a79f397b17171b6b87b346c9cb1c7d9fed8c4f812509d4312d9f610da758",
+  "lifecycleSha256": "44101067e979c34e4445dfcbb2cdecdab234e4cc581158eefd54370f83258956",
+  "modelOrApiServicesStarted": false,
+  "modelRequests": 0,
+  "next": "new exclusive b namespace + explicit rounded outer MemoryMax13499998208; no guard relaxation, newresourceplan/review required",
+  "note": "controller owntracking was not admitted and cleanup reports its conservative false flags, not proof of leaked children; independent unit absent/lock/ports check above closes own transientwrapper after0calls",
+  "planSha256": "127e7afdfced7a4f6544c8b3e59540b32c8eb48d93bcc09a97764be785eb7e2f",
+  "postListen18000_18080": "",
+  "postUnitProperties": "LoadState=not-found\nActiveState=inactive\nSubState=dead\nMainPID=0\n",
+  "schema": 1,
+  "scope": "new schema five attempt a pre-admission failure; not a model trial"
+}

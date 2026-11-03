@@ -1,0 +1,34 @@
+
+> guard@ test /home/postedism/Desktop/Keel/packages/guard
+> vitest run -- test/policy.test.ts
+
+
+ RUN  v3.2.6 /home/postedism/Desktop/Keel/packages/guard
+
+ ✓ tests/attacks.test.ts (18 tests) 9ms
+
+⎯⎯⎯⎯⎯⎯ Failed Suites 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  test/policy.test.ts [ test/policy.test.ts ]
+Error: Cannot find module '../src/taint.js' imported from '/home/postedism/Desktop/Keel/packages/guard/test/policy.test.ts'
+ ❯ test/policy.test.ts:2:1
+      1| import { expect, test } from 'vitest';
+      2| import { concat, fromTool, trusted, template, jsonStringify, jsonParse…
+       | ^
+      3| import { check, createGuard } from '../src/policy.js';
+      4| import { approvalMatches } from '../src/approval.js';
+
+Caused by: Error: Failed to load url ../src/taint.js (resolved id: ../src/taint.js) in /home/postedism/Desktop/Keel/packages/guard/test/policy.test.ts. Does the file exist?
+ ❯ loadAndTransform ../../node_modules/.pnpm/vite@7.3.7_@types+node@20.19.43_tsx@4.21.0_yaml@2.9.1/node_modules/vite/dist/node/chunks/config.js:22907:33
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 1 passed (2)
+      Tests  18 passed (18)
+   Start at  04:16:01
+   Duration  244ms (transform 62ms, setup 0ms, collect 42ms, tests 9ms, environment 0ms, prepare 124ms)
+
+/home/postedism/Desktop/Keel/packages/guard:
+ ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL  guard@ test: `vitest run -- test/policy.test.ts`
+Exit status 1

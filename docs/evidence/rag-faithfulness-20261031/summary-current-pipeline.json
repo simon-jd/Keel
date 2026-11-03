@@ -1,0 +1,70 @@
+{
+ "conditions": {
+  "before": {
+   "n": 200,
+   "faithful": 198,
+   "judged": 199,
+   "answerFailed": 0,
+   "judgeFailed": 1,
+   "rate": 0.99,
+   "rateOnJudged": 0.9949748743718593
+  },
+  "after": {
+   "n": 200,
+   "faithful": 199,
+   "judged": 200,
+   "answerFailed": 0,
+   "judgeFailed": 0,
+   "rate": 0.995,
+   "rateOnJudged": 0.995
+  }
+ },
+ "paired": {
+  "both": 199,
+  "improved": 0,
+  "degraded": 0,
+  "tied": 199
+ },
+ "byGold": {
+  "before": {
+   "goldRetrieved": {
+    "n": 196,
+    "faithful": 194,
+    "judged": 195,
+    "answerFailed": 0,
+    "judgeFailed": 1,
+    "rate": 0.9897959183673469,
+    "rateOnJudged": 0.9948717948717949
+   },
+   "goldMissed": {
+    "n": 4,
+    "faithful": 4,
+    "judged": 4,
+    "answerFailed": 0,
+    "judgeFailed": 0,
+    "rate": 1,
+    "rateOnJudged": 1
+   }
+  },
+  "after": {
+   "goldRetrieved": {
+    "n": 198,
+    "faithful": 197,
+    "judged": 198,
+    "answerFailed": 0,
+    "judgeFailed": 0,
+    "rate": 0.9949494949494949,
+    "rateOnJudged": 0.9949494949494949
+   },
+   "goldMissed": {
+    "n": 2,
+    "faithful": 2,
+    "judged": 2,
+    "answerFailed": 0,
+    "judgeFailed": 0,
+    "rate": 1,
+    "rateOnJudged": 1
+   }
+  }
+ }
+}

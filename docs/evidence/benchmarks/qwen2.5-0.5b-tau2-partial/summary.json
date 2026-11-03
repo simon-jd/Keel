@@ -1,0 +1,195 @@
+{
+ "model": {
+  "name": "Qwen/Qwen2.5-0.5B-Instruct",
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "quantization": "none (bf16)",
+  "license": "apache-2.0",
+  "temperature": 0.0,
+  "thinking": false,
+  "tool_parser": "hermes",
+  "max_tokens": 2048
+ },
+ "attempt_rows": 342,
+ "benchmarks": {
+  "tau2": {
+   "jobs": 321,
+   "successes": 6,
+   "original_evaluations": 319,
+   "failed": 2,
+   "incomplete": 0,
+   "success_rate": 0.018691588785046728,
+   "latency_ms": {
+    "mean": 18004.2,
+    "median": 15327.7,
+    "p95": 43261.0
+   },
+   "input_tokens": 150423922,
+   "output_tokens": 1072079,
+   "cost": "unknown; known subtotal $0"
+  }
+ },
+ "cells": {
+  "tau2/airline": {
+   "jobs": 150,
+   "successes": 6,
+   "original_evaluations": 149,
+   "failed": 1,
+   "incomplete": 0,
+   "success_rate": 0.04,
+   "latency_ms": {
+    "mean": 17211.3,
+    "median": 15482.8,
+    "p95": 34638.6
+   },
+   "input_tokens": 63600475,
+   "output_tokens": 475226,
+   "cost": "$0 known"
+  },
+  "tau2/retail": {
+   "jobs": 150,
+   "successes": 0,
+   "original_evaluations": 150,
+   "failed": 0,
+   "incomplete": 0,
+   "success_rate": 0.0,
+   "latency_ms": {
+    "mean": 17917.8,
+    "median": 15090.8,
+    "p95": 51527.0
+   },
+   "input_tokens": 71148697,
+   "output_tokens": 499485,
+   "cost": "$0 known"
+  },
+  "tau2/telecom": {
+   "jobs": 21,
+   "successes": 0,
+   "original_evaluations": 20,
+   "failed": 1,
+   "incomplete": 0,
+   "success_rate": 0.0,
+   "latency_ms": {
+    "mean": 24284.5,
+    "median": 16135.5,
+    "p95": 82269.5
+   },
+   "input_tokens": 15674750,
+   "output_tokens": 97368,
+   "cost": "unknown; known subtotal $0"
+  }
+ },
+ "tau2_seeds": {
+  "airline/seed0": {
+   "jobs": 50,
+   "successes": 3,
+   "original_evaluations": 50,
+   "failed": 0,
+   "incomplete": 0,
+   "success_rate": 0.06,
+   "latency_ms": {
+    "mean": 16655.6,
+    "median": 14923.7,
+    "p95": 32255.8
+   },
+   "input_tokens": 20476655,
+   "output_tokens": 153475,
+   "cost": "$0 known"
+  },
+  "airline/seed1": {
+   "jobs": 50,
+   "successes": 1,
+   "original_evaluations": 49,
+   "failed": 1,
+   "incomplete": 0,
+   "success_rate": 0.02,
+   "latency_ms": {
+    "mean": 17349.5,
+    "median": 15706.9,
+    "p95": 32473.6
+   },
+   "input_tokens": 21646756,
+   "output_tokens": 154815,
+   "cost": "$0 known"
+  },
+  "airline/seed2": {
+   "jobs": 50,
+   "successes": 2,
+   "original_evaluations": 50,
+   "failed": 0,
+   "incomplete": 0,
+   "success_rate": 0.04,
+   "latency_ms": {
+    "mean": 17628.9,
+    "median": 14714.0,
+    "p95": 35663.4
+   },
+   "input_tokens": 21477064,
+   "output_tokens": 166936,
+   "cost": "$0 known"
+  },
+  "retail/seed0": {
+   "jobs": 50,
+   "successes": 0,
+   "original_evaluations": 50,
+   "failed": 0,
+   "incomplete": 0,
+   "success_rate": 0.0,
+   "latency_ms": {
+    "mean": 17795.2,
+    "median": 15202.5,
+    "p95": 53239.9
+   },
+   "input_tokens": 24013860,
+   "output_tokens": 168201,
+   "cost": "$0 known"
+  },
+  "retail/seed1": {
+   "jobs": 50,
+   "successes": 0,
+   "original_evaluations": 50,
+   "failed": 0,
+   "incomplete": 0,
+   "success_rate": 0.0,
+   "latency_ms": {
+    "mean": 17283.3,
+    "median": 14293.9,
+    "p95": 43261.0
+   },
+   "input_tokens": 22784927,
+   "output_tokens": 157026,
+   "cost": "$0 known"
+  },
+  "retail/seed2": {
+   "jobs": 50,
+   "successes": 0,
+   "original_evaluations": 50,
+   "failed": 0,
+   "incomplete": 0,
+   "success_rate": 0.0,
+   "latency_ms": {
+    "mean": 18675.0,
+    "median": 15443.8,
+    "p95": 54341.8
+   },
+   "input_tokens": 24349910,
+   "output_tokens": 174258,
+   "cost": "$0 known"
+  },
+  "telecom/seed0": {
+   "jobs": 21,
+   "successes": 0,
+   "original_evaluations": 20,
+   "failed": 1,
+   "incomplete": 0,
+   "success_rate": 0.0,
+   "latency_ms": {
+    "mean": 24284.5,
+    "median": 16135.5,
+    "p95": 82269.5
+   },
+   "input_tokens": 15674750,
+   "output_tokens": 97368,
+   "cost": "unknown; known subtotal $0"
+  }
+ }
+}

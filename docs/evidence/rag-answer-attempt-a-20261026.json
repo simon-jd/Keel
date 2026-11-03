@@ -1,0 +1,112 @@
+{
+  "schema": 1,
+  "kind": "actual failed local RAG Phase-B a; not a completed quality study",
+  "executionGitSha": "20290609aef63af19771566fa5b7ffc406cba3d8",
+  "producerSha256": "39efb875f47beec62f25e9ac959df30c071ee7c1f261661e1f2b9aa2ef79542a",
+  "status": "failed",
+  "failure": "EVALUATION_INCOMPLETE",
+  "preciseCause": "not durably recorded; resource freshness remains hypothesis",
+  "actualNewPhysicalAttempts": 9,
+  "actualDurablyAccountedLogicalCalls": 9,
+  "configuredLocalApiCostUsd": 0,
+  "incurredCostStatus": "known",
+  "knownInputTokens": 2998,
+  "knownOutputTokens": 81,
+  "nativeRunnerLogicalSpans": 10,
+  "successfulNativeSpans": 9,
+  "zeroAttemptAbortedLogicalSpans": 1,
+  "apiJudgeSpans": 0,
+  "answers": 0,
+  "judgeCompleted": 0,
+  "completedPredictions": 0,
+  "metrics": null,
+  "faithfulness": null,
+  "reliableJudgeAdmitted": false,
+  "humanEvidence": false,
+  "rawEvaluation": {
+    "total": 200,
+    "completed": 0,
+    "complete": false,
+    "costStatus": "unknown",
+    "rawZeroRecallFieldsAreNotMetrics": true
+  },
+  "artifacts": {
+    "answer-manifest.json": {
+      "bytes": 3612,
+      "sha256": "d1e8bdafb7fdbef8618dfbe241c49142f71342efdca43e622a3c62e210072c92"
+    },
+    "journal.jsonl.gz": {
+      "bytes": 7875,
+      "sha256": "cbcc7d0b50ab84aeb8f663081477ef748914c1a60d91ff94916cb6bd3051cb7c"
+    },
+    "native-spans.jsonl.gz": {
+      "bytes": 4150,
+      "sha256": "db4c61e06d54d89879c398466fa67ea989af97905f8749553078b663539eec71"
+    },
+    "records.jsonl.gz": {
+      "bytes": 677,
+      "sha256": "c2d712a3eff7ca41e0ed7f35a3830fa7dd8e659566646c7752ea11088deb6a96"
+    },
+    "evaluation.json.gz": {
+      "bytes": 12808,
+      "sha256": "a9d39e3c343314322b073ee3e0b3c825f297ec33ca412c8b3774548105b857c8"
+    },
+    "lifecycle.jsonl.gz": {
+      "bytes": 1829,
+      "sha256": "271283fef3861c6e1966e53cf9ae5a7fb24d66c0d8a6b92edc883ccda213668d"
+    }
+  },
+  "independentAudit": {
+    "bytes": 17456,
+    "sha256": "d299a48ced5eca2ca6ec2a1b3636b8c45ae7168697b956909e3ae91360d42584",
+    "boundedDataSpec": "PASS",
+    "boundedQuality": "APPROVED",
+    "C": 0,
+    "I": 0,
+    "M": 0,
+    "sourceFilesCurrentVerified": 700,
+    "trackedHistoricalBlobsVerified": 182,
+    "sourceHeadHoldReleased": true
+  },
+  "cleanup": {
+    "at": "2026-10-26T00:19:29.856142+00:00",
+    "ownedCleanupSeconds": 0.702781,
+    "directChildExitCodes": [
+      0,
+      0,
+      1
+    ],
+    "groupAndDescendantsEmpty": true,
+    "keysRemoved": true,
+    "drainersStopped": true,
+    "failedTemporaryEvidence": false
+  },
+  "post": {
+    "at": "2026-10-26T00:22:13.542067+00:00",
+    "unitGarbageCollected": true,
+    "knownOwnedPidsAbsent": true,
+    "ports18000And18080Bindable": true,
+    "gpuLockAvailable": true,
+    "ephemeralKeysAbsent": true,
+    "cachedFileHashesUnchanged": 21,
+    "sourceIdentityUnchanged": true,
+    "inclusiveDiskBytes": 7832104431,
+    "otherReservedMemoryBytes": 2443567104
+  },
+  "continuation": {
+    "oldEvidenceImmutable": true,
+    "freshnessGuardMs": 2500,
+    "newOperationalProtocolRequiresIndependentReview": true,
+    "priorPhaseBPhysicalCallsStillCounted": 9,
+    "nextPhysicalCeiling": 4791,
+    "combinedPhaseBPhysicalCeiling": 4800,
+    "noModelPromptQaRetuning": true
+  },
+  "commercialClosedReserveUsd": 6.7396544,
+  "limits": [
+    "No raw HTTP wire bodies or provider revision attestation",
+    "Exact failure cause unproven",
+    "Point-in-time resource evidence",
+    "Partial scores and failed default recalls are not a quality result"
+  ]
+}

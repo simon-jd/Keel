@@ -1,0 +1,195 @@
+name: keel
+
+x-langfuse-environment: &langfuse-environment
+  DATABASE_URL: postgresql://langfuse:${LANGFUSE_POSTGRES_PASSWORD:?Set URL-safe LANGFUSE_POSTGRES_PASSWORD}@langfuse-postgres:5432/langfuse
+  NEXTAUTH_URL: http://localhost:${LANGFUSE_PORT:-13000}
+  SALT: ${LANGFUSE_SALT:?Set LANGFUSE_SALT}
+  ENCRYPTION_KEY: ${LANGFUSE_ENCRYPTION_KEY:?Set a 64-hex-character LANGFUSE_ENCRYPTION_KEY}
+  TELEMETRY_ENABLED: "false"
+  CLICKHOUSE_MIGRATION_URL: clickhouse://clickhouse:9000
+  CLICKHOUSE_URL: http://clickhouse:8123
+  CLICKHOUSE_USER: langfuse
+  CLICKHOUSE_PASSWORD: ${CLICKHOUSE_PASSWORD:?Set CLICKHOUSE_PASSWORD}
+  CLICKHOUSE_CLUSTER_ENABLED: "false"
+  REDIS_HOST: redis
+  REDIS_PORT: "6379"
+  REDIS_AUTH: ${REDIS_PASSWORD:?Set REDIS_PASSWORD}
+  LANGFUSE_S3_EVENT_UPLOAD_BUCKET: langfuse
+  LANGFUSE_S3_EVENT_UPLOAD_REGION: auto
+  LANGFUSE_S3_EVENT_UPLOAD_ACCESS_KEY_ID: ${MINIO_ROOT_USER:?Set MINIO_ROOT_USER}
+  LANGFUSE_S3_EVENT_UPLOAD_SECRET_ACCESS_KEY: ${MINIO_ROOT_PASSWORD:?Set MINIO_ROOT_PASSWORD}
+  LANGFUSE_S3_EVENT_UPLOAD_ENDPOINT: http://minio:9000
+  LANGFUSE_S3_EVENT_UPLOAD_FORCE_PATH_STYLE: "true"
+  LANGFUSE_S3_EVENT_UPLOAD_PREFIX: events/
+  LANGFUSE_S3_MEDIA_UPLOAD_BUCKET: langfuse
+  LANGFUSE_S3_MEDIA_UPLOAD_REGION: auto
+  LANGFUSE_S3_MEDIA_UPLOAD_ACCESS_KEY_ID: ${MINIO_ROOT_USER:?Set MINIO_ROOT_USER}
+  LANGFUSE_S3_MEDIA_UPLOAD_SECRET_ACCESS_KEY: ${MINIO_ROOT_PASSWORD:?Set MINIO_ROOT_PASSWORD}
+  LANGFUSE_S3_MEDIA_UPLOAD_ENDPOINT: http://minio:9000
+  LANGFUSE_S3_MEDIA_UPLOAD_FORCE_PATH_STYLE: "true"
+  LANGFUSE_S3_MEDIA_UPLOAD_PREFIX: media/
+
+x-langfuse-dependencies: &langfuse-dependencies
+  langfuse-postgres:
+    condition: service_healthy
+  redis:
+    condition: service_healthy
+  clickhouse:
+    condition: service_healthy
+  minio:
+    condition: service_healthy
+
+# mem_limits total 8 GiB so the whole stack plus a Task 4 GPU batch (6.4 GB cap, scripts/langfuse_ingest.py)
+# stays under the 16 GB share; idle use measured 2026-10-29: langfuse 0.84, worker 0.49, clickhouse 0.77 GiB.
+services:
+  postgres:
+    mem_limit: 512m
+    labels:
+      com.keel.project: keel
+      com.keel.owner: codex-keel
+    image: pgvector/pgvector:0.8.1-pg17
+    environment:
+      POSTGRES_USER: keel
+      POSTGRES_DB: keel
+      POSTGRES_PASSWORD: ${KEEL_POSTGRES_PASSWORD:?Set KEEL_POSTGRES_PASSWORD}
+    ports:
+      - "127.0.0.1:${KEEL_POSTGRES_PORT:-15432}:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "keel", "-d", "keel"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  langfuse-postgres:
+    mem_limit: 768m
+    labels:
+      com.keel.project: keel
+      com.keel.owner: codex-keel
+    image: postgres:17.11-alpine
+    environment:
+      POSTGRES_USER: langfuse
+      POSTGRES_DB: langfuse
+      POSTGRES_PASSWORD: ${LANGFUSE_POSTGRES_PASSWORD:?Set URL-safe LANGFUSE_POSTGRES_PASSWORD}
+    volumes:
+      - langfuse-postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "langfuse", "-d", "langfuse"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    mem_limit: 256m
+    labels:
+      com.keel.project: keel
+      com.keel.owner: codex-keel
+    image: redis:7.4-alpine
+    command: ["redis-server", "--requirepass", "${REDIS_PASSWORD:?Set REDIS_PASSWORD}", "--maxmemory-policy", "noeviction", "--appendonly", "yes"]
+    environment:
+      REDISCLI_AUTH: ${REDIS_PASSWORD:?Set REDIS_PASSWORD}
+    ports:
+      - "127.0.0.1:${KEEL_REDIS_PORT:-16379}:6379"
+    volumes:
+      - redis-data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  clickhouse:
+    mem_limit: 2560m
+    labels:
+      com.keel.project: keel
+      com.keel.owner: codex-keel
+    image: clickhouse/clickhouse-server:25.12
+    user: "101:101"
+    environment:
+      CLICKHOUSE_DB: default
+      CLICKHOUSE_USER: langfuse
+      CLICKHOUSE_PASSWORD: ${CLICKHOUSE_PASSWORD:?Set CLICKHOUSE_PASSWORD}
+    volumes:
+      - clickhouse-data:/var/lib/clickhouse
+      - clickhouse-logs:/var/log/clickhouse-server
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:8123/ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  minio:
+    mem_limit: 512m
+    labels:
+      com.keel.project: keel
+      com.keel.owner: codex-keel
+    image: cgr.dev/chainguard/minio@sha256:a893442cd57d795411ace0b9a78f26a65e3f6e546d3f25c24e19f8446b0d9718
+    entrypoint: sh
+    command: ["-c", "mkdir -p /data/langfuse && minio server --address ':9000' --console-address ':9001' /data"]
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:?Set MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:?Set MINIO_ROOT_PASSWORD}
+    ports:
+      - "127.0.0.1:${MINIO_PORT:-19000}:9000"
+    volumes:
+      - minio-data:/data
+    healthcheck:
+      test: ["CMD", "mc", "ready", "local"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  langfuse:
+    mem_limit: 1536m
+    labels:
+      com.keel.project: keel
+      com.keel.owner: codex-keel
+    image: docker.langfuse.com/langfuse/langfuse:4.69.0
+    depends_on: *langfuse-dependencies
+    ports:
+      - "127.0.0.1:${LANGFUSE_PORT:-13000}:3000"
+    environment:
+      <<: *langfuse-environment
+      NEXTAUTH_SECRET: ${LANGFUSE_NEXTAUTH_SECRET:?Set LANGFUSE_NEXTAUTH_SECRET}
+      # Optional headless project for local ingestion runs (scripts/langfuse_ingest.py); empty = UI setup.
+      LANGFUSE_INIT_ORG_ID: ${LANGFUSE_INIT_ORG_ID:-}
+      LANGFUSE_INIT_ORG_NAME: ${LANGFUSE_INIT_ORG_NAME:-}
+      LANGFUSE_INIT_PROJECT_ID: ${LANGFUSE_INIT_PROJECT_ID:-}
+      LANGFUSE_INIT_PROJECT_NAME: ${LANGFUSE_INIT_PROJECT_NAME:-}
+      LANGFUSE_INIT_PROJECT_PUBLIC_KEY: ${LANGFUSE_INIT_PROJECT_PUBLIC_KEY:-}
+      LANGFUSE_INIT_PROJECT_SECRET_KEY: ${LANGFUSE_INIT_PROJECT_SECRET_KEY:-}
+      LANGFUSE_S3_MEDIA_UPLOAD_ENDPOINT: http://localhost:${MINIO_PORT:-19000}
+      LANGFUSE_S3_MEDIA_UPLOAD_INTERNAL_ENDPOINT: http://minio:9000
+
+  langfuse-worker:
+    mem_limit: 1536m
+    labels:
+      com.keel.project: keel
+      com.keel.owner: codex-keel
+    image: docker.langfuse.com/langfuse/langfuse-worker:4.69.0
+    depends_on: *langfuse-dependencies
+    environment: *langfuse-environment
+
+  collector:
+    mem_limit: 512m
+    labels:
+      com.keel.project: keel
+      com.keel.owner: codex-keel
+    image: otel/opentelemetry-collector-contrib:0.160.0
+    command: ["--config=/etc/otelcol/config.yaml"]
+    environment:
+      LANGFUSE_OTLP_AUTH_BASE64: ${LANGFUSE_OTLP_AUTH_BASE64:-}
+    volumes:
+      - ${OTEL_COLLECTOR_CONFIG:-./otel-collector.yaml}:/etc/otelcol/config.yaml:ro
+    ports:
+      - "127.0.0.1:${OTEL_GRPC_PORT:-14317}:4317"
+      - "127.0.0.1:${OTEL_HTTP_PORT:-14318}:4318"
+
+volumes:
+  postgres-data:
+  langfuse-postgres-data:
+  redis-data:
+  clickhouse-data:
+  clickhouse-logs:
+  minio-data:

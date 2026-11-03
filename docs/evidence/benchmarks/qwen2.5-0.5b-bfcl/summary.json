@@ -1,0 +1,50 @@
+{
+ "model": {
+  "name": "Qwen/Qwen2.5-0.5B-Instruct",
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "quantization": "none (bf16)",
+  "license": "apache-2.0",
+  "temperature": 0.0,
+  "thinking": false,
+  "tool_parser": "hermes",
+  "max_tokens": 2048
+ },
+ "attempt_rows": 400,
+ "benchmarks": {
+  "bfcl": {
+   "jobs": 400,
+   "successes": 304,
+   "original_evaluations": 396,
+   "failed": 4,
+   "incomplete": 0,
+   "success_rate": 0.76,
+   "latency_ms": {
+    "mean": 196.0,
+    "median": 177.0,
+    "p95": 315.3
+   },
+   "input_tokens": 108825,
+   "output_tokens": 15099,
+   "cost": "$0 known"
+  }
+ },
+ "cells": {
+  "bfcl/simple_python": {
+   "jobs": 400,
+   "successes": 304,
+   "original_evaluations": 396,
+   "failed": 4,
+   "incomplete": 0,
+   "success_rate": 0.76,
+   "latency_ms": {
+    "mean": 196.0,
+    "median": 177.0,
+    "p95": 315.3
+   },
+   "input_tokens": 108825,
+   "output_tokens": 15099,
+   "cost": "$0 known"
+  }
+ },
+ "tau2_seeds": {}
+}

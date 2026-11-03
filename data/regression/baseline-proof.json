@@ -1,0 +1,1 @@
+{"actualInference":"retained Task8 outputs; no new inference","costStatus":"known","failures":176,"kind":"actual-historical-400-baseline","knownApiCostUsd":0,"materialBindingSha256":"17d00775f7edc016a4d5b6d495906649952e8e63dd50eea673fc8ddcec2c81f9","population":400,"reportSha256":"c1c2a6f5e57ae303fcd738f4f382a5a569ee1edbe93636750d085c6fd6b0be94","schema":1,"successes":224}

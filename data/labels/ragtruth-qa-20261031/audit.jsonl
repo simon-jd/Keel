@@ -1,0 +1,320 @@
+{"id": "ragtruth-13745", "model": "llama-2-70b-chat", "spans": []}
+{"id": "ragtruth-15553", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-14135", "model": "llama-2-70b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-12134", "model": "mistral-7B-instruct", "spans": []}
+{"id": "ragtruth-11905", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-14994", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-13153", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-12044", "model": "mistral-7B-instruct", "spans": ["Evident Baseless Info", "Evident Baseless Info", "Evident Baseless Info", "Evident Baseless Info"]}
+{"id": "ragtruth-15456", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-12183", "model": "llama-2-7b-chat", "spans": []}
+{"id": "ragtruth-15966", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-13465", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-15726", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-13938", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-13209", "model": "llama-2-7b-chat", "spans": []}
+{"id": "ragtruth-12243", "model": "llama-2-7b-chat", "spans": []}
+{"id": "ragtruth-12917", "model": "llama-2-70b-chat", "spans": ["Evident Conflict"]}
+{"id": "ragtruth-17567", "model": "llama-2-70b-chat", "spans": []}
+{"id": "ragtruth-16146", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-13535", "model": "llama-2-70b-chat", "spans": []}
+{"id": "ragtruth-15902", "model": "mistral-7B-instruct", "spans": []}
+{"id": "ragtruth-15789", "model": "llama-2-7b-chat", "spans": []}
+{"id": "ragtruth-12135", "model": "llama-2-7b-chat", "spans": []}
+{"id": "ragtruth-13489", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-16059", "model": "llama-2-7b-chat", "spans": []}
+{"id": "ragtruth-15270", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-17199", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info", "Evident Baseless Info"]}
+{"id": "ragtruth-13308", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-17102", "model": "mistral-7B-instruct", "spans": ["Evident Conflict"]}
+{"id": "ragtruth-15343", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-13129", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-13366", "model": "llama-2-13b-chat", "spans": ["Evident Conflict"]}
+{"id": "ragtruth-12521", "model": "llama-2-70b-chat", "spans": ["Subtle Baseless Info"]}
+{"id": "ragtruth-12457", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-17234", "model": "mistral-7B-instruct", "spans": []}
+{"id": "ragtruth-16879", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-15481", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-16892", "model": "mistral-7B-instruct", "spans": []}
+{"id": "ragtruth-13943", "model": "llama-2-70b-chat", "spans": []}
+{"id": "ragtruth-16664", "model": "mistral-7B-instruct", "spans": []}
+{"id": "ragtruth-13493", "model": "llama-2-70b-chat", "spans": []}
+{"id": "ragtruth-15010", "model": "llama-2-13b-chat", "spans": ["Evident Conflict", "Evident Conflict"]}
+{"id": "ragtruth-16632", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-15673", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-13534", "model": "llama-2-13b-chat", "spans": []}
+{"id": "ragtruth-16686", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-12527", "model": "llama-2-70b-chat", "spans": []}
+{"id": "ragtruth-14701", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-13469", "model": "llama-2-70b-chat", "spans": ["Evident Baseless Info", "Subtle Baseless Info"]}
+{"id": "ragtruth-15342", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-16850", "model": "mistral-7B-instruct", "spans": []}
+{"id": "ragtruth-12242", "model": "mistral-7B-instruct", "spans": []}
+{"id": "ragtruth-12016", "model": "llama-2-13b-chat", "spans": []}
+{"id": "ragtruth-12104", "model": "mistral-7B-instruct", "spans": []}
+{"id": "ragtruth-14053", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-12556", "model": "llama-2-13b-chat", "spans": []}
+{"id": "ragtruth-15207", "model": "llama-2-7b-chat", "spans": []}
+{"id": "ragtruth-12471", "model": "llama-2-7b-chat", "spans": ["Evident Conflict", "Evident Conflict"]}
+{"id": "ragtruth-14505", "model": "llama-2-7b-chat", "spans": []}
+{"id": "ragtruth-14289", "model": "llama-2-7b-chat", "spans": []}
+{"id": "ragtruth-13741", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-16853", "model": "llama-2-70b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-16056", "model": "gpt-4-0613", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-12840", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-16506", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-15736", "model": "llama-2-13b-chat", "spans": []}
+{"id": "ragtruth-14688", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-16667", "model": "llama-2-70b-chat", "spans": []}
+{"id": "ragtruth-13341", "model": "llama-2-7b-chat", "spans": []}
+{"id": "ragtruth-14511", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-15555", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info", "Evident Baseless Info"]}
+{"id": "ragtruth-12469", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-16689", "model": "llama-2-7b-chat", "spans": []}
+{"id": "ragtruth-12765", "model": "llama-2-7b-chat", "spans": ["Evident Conflict"]}
+{"id": "ragtruth-13155", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info", "Evident Baseless Info", "Evident Baseless Info", "Subtle Baseless Info"]}
+{"id": "ragtruth-12180", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-15460", "model": "llama-2-13b-chat", "spans": []}
+{"id": "ragtruth-14132", "model": "mistral-7B-instruct", "spans": []}
+{"id": "ragtruth-17053", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-16511", "model": "llama-2-70b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-15712", "model": "llama-2-13b-chat", "spans": ["Evident Conflict"]}
+{"id": "ragtruth-17115", "model": "llama-2-7b-chat", "spans": []}
+{"id": "ragtruth-13467", "model": "llama-2-7b-chat", "spans": []}
+{"id": "ragtruth-15628", "model": "llama-2-13b-chat", "spans": []}
+{"id": "ragtruth-13339", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-13158", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-12903", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-15781", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-15275", "model": "llama-2-70b-chat", "spans": []}
+{"id": "ragtruth-15629", "model": "llama-2-70b-chat", "spans": []}
+{"id": "ragtruth-14208", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-14713", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-14283", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info", "Evident Baseless Info"]}
+{"id": "ragtruth-14290", "model": "llama-2-13b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-12435", "model": "llama-2-7b-chat", "spans": ["Evident Conflict"]}
+{"id": "ragtruth-14099", "model": "llama-2-70b-chat", "spans": []}
+{"id": "ragtruth-12706", "model": "llama-2-13b-chat", "spans": []}
+{"id": "ragtruth-17564", "model": "mistral-7B-instruct", "spans": []}
+{"id": "ragtruth-14365", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-17280", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-15785", "model": "llama-2-70b-chat", "spans": []}
+{"id": "ragtruth-12042", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-16665", "model": "llama-2-7b-chat", "spans": []}
+{"id": "ragtruth-16772", "model": "mistral-7B-instruct", "spans": []}
+{"id": "ragtruth-17758", "model": "llama-2-13b-chat", "spans": []}
+{"id": "ragtruth-13917", "model": "llama-2-7b-chat", "spans": ["Evident Conflict", "Evident Conflict"]}
+{"id": "ragtruth-16457", "model": "llama-2-70b-chat", "spans": []}
+{"id": "ragtruth-15484", "model": "llama-2-13b-chat", "spans": []}
+{"id": "ragtruth-14369", "model": "llama-2-70b-chat", "spans": []}
+{"id": "ragtruth-13910", "model": "mistral-7B-instruct", "spans": ["Subtle Baseless Info"]}
+{"id": "ragtruth-12517", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-16119", "model": "llama-2-7b-chat", "spans": []}
+{"id": "ragtruth-13531", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-17196", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-12220", "model": "llama-2-13b-chat", "spans": []}
+{"id": "ragtruth-12522", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-14098", "model": "llama-2-13b-chat", "spans": ["Subtle Baseless Info"]}
+{"id": "ragtruth-15672", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-15011", "model": "llama-2-70b-chat", "spans": ["Evident Conflict"]}
+{"id": "ragtruth-15780", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-14201", "model": "llama-2-70b-chat", "spans": []}
+{"id": "ragtruth-12137", "model": "llama-2-70b-chat", "spans": []}
+{"id": "ragtruth-12232", "model": "llama-2-13b-chat", "spans": []}
+{"id": "ragtruth-15128", "model": "mistral-7B-instruct", "spans": []}
+{"id": "ragtruth-13263", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-12449", "model": "llama-2-70b-chat", "spans": ["Evident Baseless Info", "Evident Baseless Info"]}
+{"id": "ragtruth-12245", "model": "llama-2-70b-chat", "spans": []}
+{"id": "ragtruth-15106", "model": "llama-2-13b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-13491", "model": "llama-2-7b-chat", "spans": []}
+{"id": "ragtruth-15466", "model": "llama-2-13b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-17397", "model": "llama-2-7b-chat", "spans": []}
+{"id": "ragtruth-15127", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-14398", "model": "llama-2-13b-chat", "spans": []}
+{"id": "ragtruth-16796", "model": "mistral-7B-instruct", "spans": []}
+{"id": "ragtruth-12914", "model": "mistral-7B-instruct", "spans": []}
+{"id": "ragtruth-13343", "model": "llama-2-70b-chat", "spans": []}
+{"id": "ragtruth-15675", "model": "llama-2-7b-chat", "spans": []}
+{"id": "ragtruth-13720", "model": "llama-2-13b-chat", "spans": []}
+{"id": "ragtruth-15467", "model": "llama-2-70b-chat", "spans": []}
+{"id": "ragtruth-12442", "model": "llama-2-13b-chat", "spans": []}
+{"id": "ragtruth-16848", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-16060", "model": "llama-2-13b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-16900", "model": "llama-2-13b-chat", "spans": []}
+{"id": "ragtruth-14052", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-13340", "model": "mistral-7B-instruct", "spans": ["Subtle Baseless Info"]}
+{"id": "ragtruth-12229", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-12619", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-14763", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-12526", "model": "llama-2-13b-chat", "spans": []}
+{"id": "ragtruth-15730", "model": "llama-2-13b-chat", "spans": []}
+{"id": "ragtruth-14379", "model": "llama-2-7b-chat", "spans": []}
+{"id": "ragtruth-13466", "model": "mistral-7B-instruct", "spans": []}
+{"id": "ragtruth-14004", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-15719", "model": "llama-2-70b-chat", "spans": []}
+{"id": "ragtruth-15709", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-12601", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-14751", "model": "llama-2-7b-chat", "spans": []}
+{"id": "ragtruth-15784", "model": "llama-2-13b-chat", "spans": []}
+{"id": "ragtruth-17233", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-13159", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-15346", "model": "llama-2-13b-chat", "spans": []}
+{"id": "ragtruth-12019", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-13909", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-14352", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-14775", "model": "llama-2-7b-chat", "spans": []}
+{"id": "ragtruth-12012", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-17101", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-14859", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info", "Evident Conflict"]}
+{"id": "ragtruth-14693", "model": "llama-2-70b-chat", "spans": []}
+{"id": "ragtruth-16903", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-13291", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-13133", "model": "llama-2-70b-chat", "spans": []}
+{"id": "ragtruth-14861", "model": "llama-2-70b-chat", "spans": []}
+{"id": "ragtruth-17398", "model": "llama-2-13b-chat", "spans": []}
+{"id": "ragtruth-15192", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-16117", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-12228", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-15735", "model": "llama-2-7b-chat", "spans": ["Subtle Baseless Info"]}
+{"id": "ragtruth-12105", "model": "llama-2-7b-chat", "spans": []}
+{"id": "ragtruth-14803", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-12021", "model": "llama-2-7b-chat", "spans": []}
+{"id": "ragtruth-14097", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-17569", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-15178", "model": "llama-2-13b-chat", "spans": ["Evident Conflict"]}
+{"id": "ragtruth-15930", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-15201", "model": "llama-2-7b-chat", "spans": ["Evident Conflict", "Evident Baseless Info", "Subtle Baseless Info"]}
+{"id": "ragtruth-17284", "model": "llama-2-13b-chat", "spans": []}
+{"id": "ragtruth-16360", "model": "llama-2-13b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-14818", "model": "llama-2-13b-chat", "spans": []}
+{"id": "ragtruth-15648", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-16663", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-14380", "model": "llama-2-13b-chat", "spans": []}
+{"id": "ragtruth-13264", "model": "llama-2-13b-chat", "spans": []}
+{"id": "ragtruth-17515", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-15774", "model": "gpt-4-0613", "spans": []}
+{"id": "ragtruth-14396", "model": "mistral-7B-instruct", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-12694", "model": "llama-2-13b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-14689", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-12069", "model": "llama-2-7b-chat", "spans": []}
+{"id": "ragtruth-13717", "model": "gpt-3.5-turbo-0613", "spans": []}
+{"id": "ragtruth-14819", "model": "llama-2-70b-chat", "spans": []}
+{"id": "ragtruth-17105", "model": "llama-2-70b-chat", "spans": ["Evident Baseless Info", "Subtle Baseless Info", "Subtle Baseless Info", "Subtle Baseless Info"]}
+{"id": "ragtruth-16420", "model": "llama-2-13b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-14007", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-13108", "model": "llama-2-13b-chat", "spans": ["Subtle Baseless Info"]}
+{"id": "ragtruth-15755", "model": "llama-2-70b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-14717", "model": "llama-2-70b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-15104", "model": "mistral-7B-instruct", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-14715", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info", "Evident Baseless Info", "Evident Baseless Info", "Evident Baseless Info", "Evident Baseless Info", "Evident Baseless Info"]}
+{"id": "ragtruth-13363", "model": "gpt-3.5-turbo-0613", "spans": ["Subtle Baseless Info"]}
+{"id": "ragtruth-12219", "model": "llama-2-7b-chat", "spans": ["Evident Conflict"]}
+{"id": "ragtruth-12695", "model": "llama-2-70b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-15556", "model": "llama-2-13b-chat", "spans": ["Evident Baseless Info", "Subtle Baseless Info"]}
+{"id": "ragtruth-13156", "model": "llama-2-13b-chat", "spans": ["Evident Baseless Info", "Evident Baseless Info", "Evident Baseless Info", "Evident Baseless Info"]}
+{"id": "ragtruth-16359", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-16881", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-13442", "model": "mistral-7B-instruct", "spans": ["Evident Conflict"]}
+{"id": "ragtruth-15687", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-13163", "model": "llama-2-70b-chat", "spans": ["Evident Baseless Info", "Subtle Baseless Info", "Subtle Baseless Info"]}
+{"id": "ragtruth-16121", "model": "llama-2-70b-chat", "spans": ["Evident Baseless Info", "Subtle Baseless Info"]}
+{"id": "ragtruth-15008", "model": "mistral-7B-instruct", "spans": ["Evident Baseless Info", "Evident Conflict"]}
+{"id": "ragtruth-12461", "model": "llama-2-70b-chat", "spans": ["Evident Baseless Info", "Evident Baseless Info"]}
+{"id": "ragtruth-16883", "model": "llama-2-70b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-17104", "model": "llama-2-13b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-16895", "model": "llama-2-70b-chat", "spans": ["Evident Baseless Info", "Evident Baseless Info"]}
+{"id": "ragtruth-16798", "model": "llama-2-13b-chat", "spans": ["Evident Baseless Info", "Subtle Baseless Info", "Subtle Baseless Info", "Subtle Baseless Info"]}
+{"id": "ragtruth-13210", "model": "llama-2-13b-chat", "spans": ["Evident Conflict"]}
+{"id": "ragtruth-12842", "model": "mistral-7B-instruct", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-12693", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-13262", "model": "mistral-7B-instruct", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-13532", "model": "mistral-7B-instruct", "spans": ["Evident Conflict", "Evident Conflict"]}
+{"id": "ragtruth-11908", "model": "llama-2-13b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-14846", "model": "mistral-7B-instruct", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-15485", "model": "llama-2-70b-chat", "spans": ["Evident Baseless Info", "Evident Baseless Info"]}
+{"id": "ragtruth-13919", "model": "llama-2-70b-chat", "spans": ["Subtle Baseless Info"]}
+{"id": "ragtruth-14378", "model": "mistral-7B-instruct", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-13160", "model": "mistral-7B-instruct", "spans": ["Subtle Baseless Info"]}
+{"id": "ragtruth-16509", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info", "Subtle Baseless Info"]}
+{"id": "ragtruth-13136", "model": "mistral-7B-instruct", "spans": ["Evident Baseless Info", "Evident Baseless Info"]}
+{"id": "ragtruth-12233", "model": "llama-2-70b-chat", "spans": ["Evident Conflict"]}
+{"id": "ragtruth-12902", "model": "mistral-7B-instruct", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-15676", "model": "llama-2-13b-chat", "spans": ["Subtle Baseless Info", "Subtle Baseless Info"]}
+{"id": "ragtruth-13293", "model": "llama-2-7b-chat", "spans": ["Subtle Baseless Info"]}
+{"id": "ragtruth-12345", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-13105", "model": "gpt-3.5-turbo-0613", "spans": ["Evident Baseless Info", "Evident Baseless Info", "Evident Baseless Info", "Evident Baseless Info"]}
+{"id": "ragtruth-16419", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-14133", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info", "Evident Baseless Info", "Evident Baseless Info", "Evident Baseless Info"]}
+{"id": "ragtruth-12692", "model": "mistral-7B-instruct", "spans": ["Evident Conflict"]}
+{"id": "ragtruth-16775", "model": "llama-2-70b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-15345", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-14295", "model": "llama-2-7b-chat", "spans": ["Subtle Baseless Info"]}
+{"id": "ragtruth-14806", "model": "llama-2-13b-chat", "spans": ["Evident Baseless Info", "Evident Baseless Info"]}
+{"id": "ragtruth-17255", "model": "llama-2-70b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-15129", "model": "llama-2-7b-chat", "spans": ["Subtle Baseless Info"]}
+{"id": "ragtruth-17060", "model": "mistral-7B-instruct", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-15557", "model": "llama-2-70b-chat", "spans": ["Evident Baseless Info", "Subtle Baseless Info"]}
+{"id": "ragtruth-17283", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-12262", "model": "llama-2-13b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-14293", "model": "gpt-3.5-turbo-0613", "spans": ["Subtle Baseless Info"]}
+{"id": "ragtruth-14134", "model": "llama-2-13b-chat", "spans": ["Evident Baseless Info", "Evident Baseless Info"]}
+{"id": "ragtruth-15465", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info", "Evident Baseless Info", "Subtle Baseless Info"]}
+{"id": "ragtruth-15777", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-13161", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info", "Evident Baseless Info", "Evident Conflict", "Evident Baseless Info"]}
+{"id": "ragtruth-15728", "model": "mistral-7B-instruct", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-16155", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-15677", "model": "llama-2-70b-chat", "spans": ["Subtle Baseless Info", "Subtle Baseless Info"]}
+{"id": "ragtruth-14860", "model": "llama-2-13b-chat", "spans": ["Evident Baseless Info", "Evident Baseless Info"]}
+{"id": "ragtruth-13367", "model": "llama-2-70b-chat", "spans": ["Subtle Baseless Info"]}
+{"id": "ragtruth-13107", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-14131", "model": "gpt-3.5-turbo-0613", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-12261", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info", "Evident Baseless Info"]}
+{"id": "ragtruth-15716", "model": "mistral-7B-instruct", "spans": ["Evident Conflict"]}
+{"id": "ragtruth-14324", "model": "mistral-7B-instruct", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-14692", "model": "llama-2-13b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-12602", "model": "mistral-7B-instruct", "spans": ["Evident Conflict"]}
+{"id": "ragtruth-16421", "model": "llama-2-70b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-16852", "model": "llama-2-13b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-12045", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info", "Evident Baseless Info"]}
+{"id": "ragtruth-16797", "model": "llama-2-7b-chat", "spans": ["Subtle Baseless Info"]}
+{"id": "ragtruth-15713", "model": "llama-2-70b-chat", "spans": ["Subtle Baseless Info"]}
+{"id": "ragtruth-13070", "model": "mistral-7B-instruct", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-12260", "model": "mistral-7B-instruct", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-15688", "model": "llama-2-13b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-16418", "model": "mistral-7B-instruct", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-13137", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info", "Evident Baseless Info", "Evident Baseless Info"]}
+{"id": "ragtruth-15651", "model": "llama-2-7b-chat", "spans": ["Subtle Baseless Info", "Subtle Baseless Info"]}
+{"id": "ragtruth-13042", "model": "llama-2-13b-chat", "spans": ["Subtle Baseless Info", "Subtle Baseless Info"]}
+{"id": "ragtruth-13376", "model": "mistral-7B-instruct", "spans": ["Evident Baseless Info", "Evident Baseless Info"]}
+{"id": "ragtruth-12297", "model": "llama-2-7b-chat", "spans": ["Evident Conflict"]}
+{"id": "ragtruth-12458", "model": "mistral-7B-instruct", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-12046", "model": "llama-2-13b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-13342", "model": "llama-2-13b-chat", "spans": ["Subtle Baseless Info"]}
+{"id": "ragtruth-12460", "model": "llama-2-13b-chat", "spans": ["Evident Baseless Info", "Evident Baseless Info", "Evident Baseless Info"]}
+{"id": "ragtruth-14381", "model": "llama-2-70b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-14469", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-13564", "model": "llama-2-13b-chat", "spans": ["Subtle Baseless Info"]}
+{"id": "ragtruth-16467", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-13265", "model": "llama-2-70b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-15929", "model": "llama-2-70b-chat", "spans": ["Subtle Baseless Info"]}
+{"id": "ragtruth-14397", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-16851", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info", "Evident Baseless Info"]}
+{"id": "ragtruth-15971", "model": "llama-2-70b-chat", "spans": ["Subtle Baseless Info"]}
+{"id": "ragtruth-14284", "model": "llama-2-13b-chat", "spans": ["Evident Conflict"]}
+{"id": "ragtruth-15273", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-16898", "model": "mistral-7B-instruct", "spans": ["Subtle Baseless Info"]}
+{"id": "ragtruth-14764", "model": "llama-2-13b-chat", "spans": ["Evident Baseless Info", "Evident Baseless Info", "Evident Baseless Info"]}
+{"id": "ragtruth-14765", "model": "llama-2-70b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-15753", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-16510", "model": "llama-2-13b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-15195", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info", "Evident Baseless Info"]}
+{"id": "ragtruth-13157", "model": "llama-2-70b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-12459", "model": "llama-2-7b-chat", "spans": ["Evident Baseless Info", "Evident Baseless Info"]}
+{"id": "ragtruth-13162", "model": "llama-2-13b-chat", "spans": ["Subtle Baseless Info"]}
+{"id": "ragtruth-14690", "model": "mistral-7B-instruct", "spans": ["Evident Baseless Info", "Evident Baseless Info"]}
+{"id": "ragtruth-14297", "model": "llama-2-70b-chat", "spans": ["Subtle Baseless Info"]}
+{"id": "ragtruth-14702", "model": "mistral-7B-instruct", "spans": ["Evident Baseless Info", "Evident Baseless Info"]}
+{"id": "ragtruth-12518", "model": "mistral-7B-instruct", "spans": ["Subtle Baseless Info"]}
+{"id": "ragtruth-16469", "model": "llama-2-70b-chat", "spans": ["Evident Baseless Info"]}
+{"id": "ragtruth-14323", "model": "gpt-3.5-turbo-0613", "spans": ["Evident Conflict"]}
+{"id": "ragtruth-15927", "model": "llama-2-7b-chat", "spans": ["Subtle Baseless Info"]}

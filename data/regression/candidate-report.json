@@ -1,0 +1,3619 @@
+{
+ "execution": {
+  "implementation": "4915704a593bc0ca11ca9d6c6238e519ecf0c277cdd21be00c4cc7f0443ae8b9",
+  "models": [
+   "e7f79d294fb1e4fdb026566cd6e2f091893e5c625e5b1004c8a4b15a6a64b145"
+  ],
+  "policy": "local-only",
+  "prompt": "27aa700780813117f690e4c8fd0e6ecd4ed8416dc58ebdb40467e8fa0ea37ccf"
+ },
+ "population": {
+  "dataset": "6ea57973c7a6097fd7c5915698c54c17c5b1b6c8",
+  "protocol": "bfcl-v4-simple_python-single-turn",
+  "scorer": "BFCL-AST:6ea57973c7a6097fd7c5915698c54c17c5b1b6c8:underscore_to_dot",
+  "seed": 0,
+  "settings": "778959f4af7b8ef4aa41815d7e218499e930c3f2673925dddac6e7addb286a56"
+ },
+ "runs": [
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_0",
+   "runId": "1bf07c58-1e06-4315-b7ec-900959dbd7f6",
+   "status": "completed",
+   "success": true,
+   "taskHash": "167fa4687fad0439d209928c655411b262235c1f045f75348a9f3c3aab8cba1d"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_1",
+   "runId": "5d6dd448-4284-4b60-a017-afdd7caef407",
+   "status": "completed",
+   "success": true,
+   "taskHash": "7a7282448f61f64d27e4b361fb63be5f4b3b9272e2a0fb2e8fd43f0462a81431"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_2",
+   "runId": "5d2bdca5-86b2-4837-9d53-25cb07a87230",
+   "status": "completed",
+   "success": true,
+   "taskHash": "709b7be5f05760ed07046055493e309676b44589ad382f105f4833e2d0c36fbe"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_3",
+   "runId": "fb5ed1c5-5d88-411e-8135-e135ed443eab",
+   "status": "completed",
+   "success": true,
+   "taskHash": "23c6caeec4e6655d292f53db6c6c3f3aa8d256a2be6fbd766199506d7f186d11"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_4",
+   "runId": "6981ef5e-008a-40d7-b9a8-44ab50ba6f58",
+   "status": "completed",
+   "success": true,
+   "taskHash": "4d7b7e300a5c7aeeaf5d92e8a4f0913cc3f4d4fe43135cd5db7bc7a8f2ba9211"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_5",
+   "runId": "34716f6a-48fb-44b5-b69c-e49e54f9be64",
+   "status": "completed",
+   "success": true,
+   "taskHash": "a9d2de2a459674de73ff3edd4dc9d03075170b2a587032291b104041c0a24e63"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_6",
+   "runId": "3c5491ba-620b-48a8-a6de-e590133cbea0",
+   "status": "completed",
+   "success": true,
+   "taskHash": "d805321c586c84602f4a8937228d5b3a1a81490a432455decc9c67591aa7e8ec"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_7",
+   "runId": "7037691f-c117-46ef-8263-9aa4a121c3ab",
+   "status": "completed",
+   "success": true,
+   "taskHash": "34e119a094a773208c266a4df72e736aeb7a44fdf7eb75798e958ac3be88397d"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_8",
+   "runId": "1660620d-8651-4012-b7b0-ee443b511641",
+   "status": "completed",
+   "success": false,
+   "taskHash": "7d58a1a047b735a7ad3335aec286406bc3b992bbacf37d3b22aed1c8dc6f6f7d"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_9",
+   "runId": "f3ff3f07-7240-4dc1-9a54-f62a152f4075",
+   "status": "completed",
+   "success": true,
+   "taskHash": "2809478dcd498a37a1c5a5154927296bb3e42a61adf68990a4949f45401d9a41"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_10",
+   "runId": "f7a10e39-e1fb-4d8c-86c1-bd549cd7473f",
+   "status": "completed",
+   "success": true,
+   "taskHash": "b65f08f7580e2d0f91e5430c7bb3cc464a9e37fb40021aafa4c3c99cefe4f1ec"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_11",
+   "runId": "95ed576a-4930-4afa-aa47-e6ca373d1601",
+   "status": "completed",
+   "success": true,
+   "taskHash": "51d4e95bdee2120886c8cac53b67aed151e7558654e71da0099e15359c11e190"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_12",
+   "runId": "312ff168-569f-4ab5-8e9c-bc937ed5b9f8",
+   "status": "completed",
+   "success": false,
+   "taskHash": "dfa20be5e2c7127ab8e40fdb9154e4e0072fc2c2b5938706faa82f246369705c"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_13",
+   "runId": "8acedc37-1439-4fc4-b835-370c0a6f288e",
+   "status": "completed",
+   "success": false,
+   "taskHash": "48badda1dbfb8ae17b6162435aa88da922ea8835b9c536d4b2051b36fa922ae4"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_14",
+   "runId": "329fbed9-97b6-48d7-a9cd-b072d6942229",
+   "status": "completed",
+   "success": true,
+   "taskHash": "93c467a2efa01ecd9a9a057751348f35d6534ced6e44f0b5159d19eda49d84b9"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_15",
+   "runId": "3906a798-923a-409a-b375-d82e7428b75e",
+   "status": "completed",
+   "success": true,
+   "taskHash": "66a7390cb527f59a64d0daebfd71e132d901bd850b5046a0b4f1234d5b5c2f23"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_16",
+   "runId": "549d4cd7-cf49-4f7b-8854-538bb4ae8907",
+   "status": "completed",
+   "success": true,
+   "taskHash": "1750850d7586e43fafffc3a8926834043c2806a243314bea236e9cf4c5f5aa3d"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_17",
+   "runId": "00cd2496-28db-4c0f-9aa4-b1634c1b68f7",
+   "status": "completed",
+   "success": true,
+   "taskHash": "2436a31f2a06598a0641ebd4a713af7ed509277bf4a71f12dc574607eb84d468"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_18",
+   "runId": "0240b235-a4b0-4bba-9b7e-8000e95b07d8",
+   "status": "completed",
+   "success": true,
+   "taskHash": "b7644fc52b930fddf1708b5e55ef83e63e06f816effedf2344303a2e3a4b6565"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_19",
+   "runId": "d29ec2c7-469d-4ed1-8b16-aa50682d6b79",
+   "status": "completed",
+   "success": true,
+   "taskHash": "722d92a8830f561b325b22e5bd1b16092e6586506d09f971a4e6c2d36516bfa6"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_20",
+   "runId": "cf673450-2cff-411a-a77a-19a9b72692a9",
+   "status": "completed",
+   "success": true,
+   "taskHash": "cc1788a3e4f9566f44dd168465453250116ee09a75c489ed2fde09c99c3e8244"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_21",
+   "runId": "40bc6f68-b461-4575-8e7a-f3d74ea4a88c",
+   "status": "completed",
+   "success": true,
+   "taskHash": "6a6d098ddd71230e12d0bf69cfc0ab3c39e785593e5bef7cc7650f3499034dcd"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_22",
+   "runId": "3bc306de-dc58-4b4b-970c-e1c064dbadde",
+   "status": "completed",
+   "success": true,
+   "taskHash": "d51a0357634acf8331e837d10596247ac5acd415c9318f08ca8e05475dfa52b8"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_23",
+   "runId": "8485340d-198a-4e85-9779-948b279e4b60",
+   "status": "completed",
+   "success": false,
+   "taskHash": "a30049c9cb282aade52254c3e15bfc2b870fe6351a9b4a39407cdd2bdf2d6ce0"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_24",
+   "runId": "a457c36b-2b14-4136-a4f7-2c07146b731f",
+   "status": "completed",
+   "success": true,
+   "taskHash": "500cf23201540fcef51b1ca49e60fcd1157e5e66e036cbf9b9a4adef0e76c185"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_25",
+   "runId": "fb149c3e-a6ed-453f-8ebc-89d039c26e7c",
+   "status": "completed",
+   "success": false,
+   "taskHash": "aa046de6fc23caec5370451ce51ed49b8992ff383f8189e2644eafdab9d494f8"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_26",
+   "runId": "5e3b073d-b915-4555-9a4a-da0168266b0e",
+   "status": "completed",
+   "success": true,
+   "taskHash": "82bbab5d7a28118b3195d0858d7daddc02fdda568f00d08c08b9502ea563ac33"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_27",
+   "runId": "5788055d-0521-477c-8957-764a4f1add6c",
+   "status": "completed",
+   "success": true,
+   "taskHash": "8824f942c41c2c5a90878bd469f2ab3190534ae553bb1f5b26cbeb736cd39ba2"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_28",
+   "runId": "b68600ab-43ea-4a2d-8d33-1c84a573d9eb",
+   "status": "completed",
+   "success": true,
+   "taskHash": "5ba013bdfa1b0df5c0d5fe6b866d4fb33667e4a487756cf2377e4a6bdd8d1695"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_29",
+   "runId": "e8402339-057f-42e0-9541-51c1171431a0",
+   "status": "completed",
+   "success": false,
+   "taskHash": "7e07e6de778d6526f00f207e578db04df858d51733a44d1f1afebf3cc3af41cf"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_30",
+   "runId": "af141f33-a106-47fb-9ca2-1392bd7836b9",
+   "status": "completed",
+   "success": true,
+   "taskHash": "419577c50574eecc4e593da4eb1184e6b2064dcfc5ce36bd9968ffabe1473de7"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_31",
+   "runId": "4ce531e8-8411-47b5-85a7-7e8672eccc70",
+   "status": "completed",
+   "success": true,
+   "taskHash": "347a66c73bc32cd9456f1af3d0d5f6b4cd17201edf28202f6ab4b338f75fbdc6"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_32",
+   "runId": "ef7e1402-c18c-43ef-abc1-c64fdd74888b",
+   "status": "completed",
+   "success": true,
+   "taskHash": "47342769fea03bc71bda821855db0a5bd9e7a4923223594813db0ddc908170c1"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_33",
+   "runId": "ed1e948a-79ff-40b0-8d80-47adf41b49cc",
+   "status": "completed",
+   "success": true,
+   "taskHash": "8bfb33492e7058236540d7e8e519c6f30e6f593a8cf97cf22c3faf8f0f7f700b"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_34",
+   "runId": "dea0df0e-0fde-4458-9658-543e8fc98b44",
+   "status": "completed",
+   "success": true,
+   "taskHash": "c0afc276e8bfc064cc3feb5aab96b29a3054a986471e0b8376a91a91aaa5d851"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_35",
+   "runId": "8db14ada-9cc9-447a-af89-2749a5bff7c8",
+   "status": "completed",
+   "success": false,
+   "taskHash": "f787117694d73d0fa3a1c24d869512d0510ca2dba29b7a2f9baa2463f6649e72"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_36",
+   "runId": "17e6841f-bf55-4d12-9db6-02f15375f5c9",
+   "status": "completed",
+   "success": false,
+   "taskHash": "5a90df2f885b8f328fcdbded32f4b2c2c8716c1b77b6e15860180b3d180d2870"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_37",
+   "runId": "65b1f2a7-ad19-4dc5-85f2-017ac8bb19a1",
+   "status": "completed",
+   "success": true,
+   "taskHash": "6556c3d3e76a5b5745d6fad66f414f8e3c10a79cb6ecf19ab5e0199fc4a18111"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_38",
+   "runId": "5c9fad39-e969-4235-a599-57ca0143c380",
+   "status": "completed",
+   "success": false,
+   "taskHash": "5657956deb9a079151b2d92b3b155c30c19d15e28a7bcdbe60b4aa8f451c7ca9"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_39",
+   "runId": "9ec02c6a-5cb3-41f6-b495-42b539079698",
+   "status": "completed",
+   "success": false,
+   "taskHash": "93f88da67600c229f5a2fbb77a17da64079719d795f0a1381fc791883340cbb4"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_40",
+   "runId": "5f0e125c-7059-4616-9fae-52052945338c",
+   "status": "failed",
+   "success": false,
+   "taskHash": "a85997e8dc33df6a3c8c31e022bcfcb3fd77b45824c29ea7515dfe22bb353799"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_41",
+   "runId": "a42cfbf6-4116-41b8-bda5-76f49fe9b6f7",
+   "status": "completed",
+   "success": false,
+   "taskHash": "5768d186ca769d92d2a21f1a2b95515f7c209a68134ea27b9d314741e76819fe"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_42",
+   "runId": "a15e11c6-0dbc-4222-be1d-6f7ac15c1f01",
+   "status": "completed",
+   "success": false,
+   "taskHash": "8958253ac8a1b43a94c5714196185025f4682aba119382832c0dcfa7c35c564f"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_43",
+   "runId": "60a3b105-941f-4680-b23f-78b3fb23280e",
+   "status": "completed",
+   "success": false,
+   "taskHash": "c41909cc47ef5539acc185465c6ccefd294d4bc5ad44610ec3282fe5dc4c12a3"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_44",
+   "runId": "83ba6893-cf26-46d1-a87f-7cdf1dd2a971",
+   "status": "completed",
+   "success": true,
+   "taskHash": "404d04b94fd96d9011ea715d66a2a0d154e923dda210899527fd6590262f6d1c"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_45",
+   "runId": "9cbb5b2c-4dc1-4011-bd25-b75af571d5c8",
+   "status": "completed",
+   "success": false,
+   "taskHash": "0e3ea0fc0e3cd3416520401fb7dc28bb8fb12eb46c8794824b7264e75845e8cb"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_46",
+   "runId": "4a3ac3b0-e0e3-4e2a-a3d0-761fc1f68272",
+   "status": "completed",
+   "success": false,
+   "taskHash": "f5c384dc4372ecbcef320b2b124c993f9d921b4515bf9b10927620cc531106eb"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_47",
+   "runId": "119a17eb-cf99-4693-aaa9-01402964841a",
+   "status": "completed",
+   "success": true,
+   "taskHash": "c168e032f491db09bf305a6b7434f80298c1ce22230c56ad4e51f404922c9a36"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_48",
+   "runId": "2861ca47-2143-4650-827f-5fc93d29d121",
+   "status": "completed",
+   "success": true,
+   "taskHash": "85e5303992750e23090b0ac417e19a0ec2bd4b27e2804308413b61a697486a7b"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_49",
+   "runId": "8148374c-5d0a-419c-9619-54d113e7af2b",
+   "status": "completed",
+   "success": true,
+   "taskHash": "fde1e0546e113c9e04581dac9fed3d96d4e4f1257bae60ee6c499b1274a0b7d8"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_50",
+   "runId": "3cb4cba7-207d-40b5-847b-994e666d0382",
+   "status": "completed",
+   "success": true,
+   "taskHash": "7a9c0a01af60c2d38c6b7d2c2efdc8e3391908b258c535f4ba03bc313875e96d"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_51",
+   "runId": "b5a72c25-c478-43da-82f4-736fbd9b8f7e",
+   "status": "completed",
+   "success": true,
+   "taskHash": "8e9aaacd769854952df55673651e815a8bec0533746b97def349c6faf11cdf0a"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_52",
+   "runId": "38ffe1a7-ef47-4b9f-a104-b2ad31b72d2b",
+   "status": "completed",
+   "success": true,
+   "taskHash": "70c6ee066658e70912eefcd1bc7b89487bb09834da634555c8153f3c408dc7ce"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_53",
+   "runId": "60efa16b-3f3e-4793-8c41-2814880bfe55",
+   "status": "completed",
+   "success": true,
+   "taskHash": "b41242188a90d06b937bbed9722723198dd48281d3d11770fd7ef03a27d322bf"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_54",
+   "runId": "88ac7762-43f1-463f-8cff-b0b81116af91",
+   "status": "completed",
+   "success": true,
+   "taskHash": "790de3e057bf2064786647865fc44314e116c162541ed2afcefdf3d4161319c1"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_55",
+   "runId": "a2f3d369-5c79-483b-8d1f-c6387e49a6a1",
+   "status": "completed",
+   "success": false,
+   "taskHash": "0c1ff28c67ab4864221f05b80c079de57b77d4d296d8314d462a20e1c7946879"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_56",
+   "runId": "56a9c675-ec0e-4ca2-a9c0-9dae1c20ed05",
+   "status": "completed",
+   "success": true,
+   "taskHash": "238e2f33c71b0c5d47c8735b245b1ca8fa01809b45aa2c27fdb7764703faa565"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_57",
+   "runId": "7c649dd5-168b-4926-b985-b39a716560b4",
+   "status": "completed",
+   "success": true,
+   "taskHash": "daf087b989cd4459dee50ae5f70a675ae2445c4fdec35fac8fa08dc57d010d5b"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_58",
+   "runId": "8b641a66-361f-48a1-9193-2f6fe402dcef",
+   "status": "completed",
+   "success": true,
+   "taskHash": "4e55b85442693ce50a19411787466d8d70f0e104650e21d7ac65f9152e2967f0"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_59",
+   "runId": "21de86f0-953e-4328-a674-5864e1ba2698",
+   "status": "completed",
+   "success": true,
+   "taskHash": "db37de3d0a19d2de1c7936205f1515bb112789f161481f316bfe0a500c3237f3"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_60",
+   "runId": "083212a7-cddc-4e4b-b6a5-fe7ed07ac121",
+   "status": "completed",
+   "success": false,
+   "taskHash": "6555d6c01f48f17e427c9f18e22facd1dbe8cd7a7232ab53feb4799f6d12134a"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_61",
+   "runId": "0b4aced5-f859-4550-bc18-d3cc0e5151ac",
+   "status": "completed",
+   "success": true,
+   "taskHash": "c93b6925f0acc9488fa66602d7242cccf9c14b3ac858abb5bb164af5eee585f3"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_62",
+   "runId": "decb8bdc-f2de-4bef-8e0a-2f0c69609e8c",
+   "status": "completed",
+   "success": true,
+   "taskHash": "c85c40771c734585707bfff204709d93a1937800aee25ba7a5ec5332715c80ba"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_63",
+   "runId": "6f30be97-ca48-43d9-9d04-9b52f7fe11d7",
+   "status": "completed",
+   "success": true,
+   "taskHash": "948062f6c16acb44c1bf66507e93ea6eda2ea3322f77142df88e369bb97b9fa1"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_64",
+   "runId": "6e0e08bd-618b-4363-a77f-f70b0a78f395",
+   "status": "completed",
+   "success": true,
+   "taskHash": "0f84bf58c45c819c8876a39dd28bcbd1ae64f54aa7efab0974b98321d769e7bf"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_65",
+   "runId": "f488fc64-4010-4655-871b-6b3581b5089d",
+   "status": "completed",
+   "success": true,
+   "taskHash": "f080baa7604b8cb2002431310094ee37b5e62829ef998c9dbef91658877e4a50"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_66",
+   "runId": "e12a25ff-0592-4cc6-b09b-d4f5725aed46",
+   "status": "completed",
+   "success": true,
+   "taskHash": "eddaca3cae3dc3041d2f3a27c0e27c560f8394bee54d39e1e112014bf51398da"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_67",
+   "runId": "47f98bd0-c356-4b04-9d0a-0bbbe3bb1fdf",
+   "status": "completed",
+   "success": true,
+   "taskHash": "4ae7979ca237efb16cb29c94fb9eacbca18b244f3333cde72933c71790f713a0"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_68",
+   "runId": "825edb2a-a8f7-4aac-872f-99f4198998d8",
+   "status": "completed",
+   "success": true,
+   "taskHash": "47f61cb2e7d0e8b099733be3f380c5432798e6954014c2b535b448e7adbcdd79"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_69",
+   "runId": "e2f6152d-1ff6-4a0a-83c1-38a804a671c8",
+   "status": "completed",
+   "success": true,
+   "taskHash": "a318d0f406d442a93e359d9e9efd4fbf366761afd1a643a19c78657e3a629832"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_70",
+   "runId": "bf020219-d5e8-48bc-941a-a68654b12cc1",
+   "status": "completed",
+   "success": false,
+   "taskHash": "cc8a3305a253bd0aba6e2f027dfbd049765a62fc4bbcfc3a47f43f3365fbaa98"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_71",
+   "runId": "04389914-d00d-4772-b6ba-513166a98da3",
+   "status": "completed",
+   "success": true,
+   "taskHash": "724b2f0f50e70edddf25c15e76860496937eb29258b0141d2a7ee72ba57801fc"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_72",
+   "runId": "1fa306a9-62c9-4e0c-89a5-56cd596a2b00",
+   "status": "completed",
+   "success": true,
+   "taskHash": "eac6f35bd49270d94e8dc9c8796eaa4115de61ced10aff88d56b4d08b6095457"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_73",
+   "runId": "259087c9-d756-4080-8162-114d2414145e",
+   "status": "completed",
+   "success": true,
+   "taskHash": "8dfc235a2b0fbcaff338778836493a7fad418210d61f7bec92885a23a420a8ae"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_74",
+   "runId": "cb4cab31-7e8e-49c3-9627-0d02b0bb6151",
+   "status": "completed",
+   "success": false,
+   "taskHash": "da33544e8c68d467e027be9cc49acd408534ba0192f6eb78c54d768bcd1683f6"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_75",
+   "runId": "0a6b4248-100b-4815-a69f-c3bbe48008ae",
+   "status": "completed",
+   "success": true,
+   "taskHash": "840d9e043c2f76a09e26f1279b13e333a0e8615e15b2d5a81d6f1237160c156a"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_76",
+   "runId": "4d48dccc-1522-4ce7-a01a-8b14fa459495",
+   "status": "completed",
+   "success": true,
+   "taskHash": "996edaa07ffb723d7644b13a8904bd14fbeb73d0f6a8b08c8ca0e18252977220"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_77",
+   "runId": "45d639b9-76a0-4608-9e3e-e7bbe2022bc4",
+   "status": "completed",
+   "success": false,
+   "taskHash": "08ffa09af206eeb041dc299468a5352204c4d153200fee3c62ecf6678daf792a"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_78",
+   "runId": "5a8a20bd-c6a7-45d6-87c3-2a50573ce1ad",
+   "status": "completed",
+   "success": true,
+   "taskHash": "7c9338165a38a57c7e62cab97da8a7ee01abd0c1dd4ac45b4710fd4718f84cf2"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_79",
+   "runId": "dc0bffad-8018-4ea7-9623-0f7808dcf30c",
+   "status": "completed",
+   "success": true,
+   "taskHash": "3d8d7e6479945266f499629d9dfe992b4ad17c2d89aa0ad96461930b6b2050a5"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_80",
+   "runId": "ac3fcbae-42f9-409d-b5b1-a8f0bd0025a4",
+   "status": "completed",
+   "success": true,
+   "taskHash": "c102495ca2a557678378cfa3ec1373197c80b488d8fbcb27bf25ed13558d4938"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_81",
+   "runId": "775a530a-69a2-4700-89f5-f8dace867dfc",
+   "status": "completed",
+   "success": true,
+   "taskHash": "2703a9dd57e704b5d9f63d7c087b8f2599e8cfa468b038c6097e49961bf99b46"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_82",
+   "runId": "940b7faa-6d3a-4c2c-9288-2b18c1d69d88",
+   "status": "completed",
+   "success": false,
+   "taskHash": "1eab7e61831258f1d6026b344be46068918a49f35697824b9ac1bfeb79519767"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_83",
+   "runId": "eb1c5144-ea11-4cc4-9380-401b3603cf70",
+   "status": "completed",
+   "success": true,
+   "taskHash": "fc12df9b1d1bf4b51a12e9af9c5c51a4036a00c5e60abf0fd0b079d6503b3126"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_84",
+   "runId": "40e8d8a5-f2dc-4f92-a925-74a186b39715",
+   "status": "completed",
+   "success": false,
+   "taskHash": "1761e53034ac91e4640ffaa88f4760fc1e2c1fc7ce55f07ec28d462b4a485aac"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_85",
+   "runId": "9e8f159e-a9f6-4892-a12a-fdc592101414",
+   "status": "completed",
+   "success": true,
+   "taskHash": "1022c8d1471e02b60df409a8c3fa67a369df938a67120fc8e00fc38119844d47"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_86",
+   "runId": "532fa808-2be0-4be5-9460-cf7948ba6fce",
+   "status": "completed",
+   "success": true,
+   "taskHash": "61ad54923b82100475ab845ab8d6fec9eb8c56cb457daf672d29162a13b000c8"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_87",
+   "runId": "33c3af04-343e-448d-9233-8ce2b3b44234",
+   "status": "completed",
+   "success": false,
+   "taskHash": "7ff43ee5e35350d2030b72bd90222dd63f09baf40a47df69f9f91fcab51997d8"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_88",
+   "runId": "153748b5-3964-4f24-ad13-cd5cd1621852",
+   "status": "completed",
+   "success": true,
+   "taskHash": "6a30af028fb2f8fb570306ce0b7e54460eeba97c32b813196af80da924e529ed"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_89",
+   "runId": "68ee14f2-4e80-4390-9692-9532ec36fb82",
+   "status": "completed",
+   "success": true,
+   "taskHash": "bfd6a6f22508928dd31fb3427c8dc2277d1fb45f1906a239cd8c55432c8517c7"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_90",
+   "runId": "648217b7-b691-44da-b3c2-3ad9670ba032",
+   "status": "completed",
+   "success": true,
+   "taskHash": "760971b081cdae9e0651bb70fc059d637a73ea092ef16388a403c4db781fa44f"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_91",
+   "runId": "e5d70733-d469-4ff8-892d-0445e2c57caf",
+   "status": "completed",
+   "success": true,
+   "taskHash": "71a7b0d9d50c1e14ae09e7b4ece5307be9dd67978372deac7453a3f854c89de2"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_92",
+   "runId": "47bcd9e1-f8d3-4eaa-9b3d-d2bc93c87692",
+   "status": "completed",
+   "success": true,
+   "taskHash": "bdc5d0d33bb0c0f9f8a559fedcf918cc61f432ffb319d258a681172349340131"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_93",
+   "runId": "d84eb543-0377-401e-85fd-7c48625978da",
+   "status": "completed",
+   "success": true,
+   "taskHash": "d86a0f4944c4d294a9f9f70ab18f47b577a9db3bf5b942ec764bb3d142fbaf0d"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_94",
+   "runId": "5021166d-d445-4702-892e-bb42e410ed50",
+   "status": "completed",
+   "success": true,
+   "taskHash": "a4eca7d256ab18290f233135b74bb8b1a8b51e0da5e2d42f0582339aa1275eb9"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_95",
+   "runId": "807ee645-cec2-49db-bf73-39e8df44f4e2",
+   "status": "completed",
+   "success": true,
+   "taskHash": "27e3c2e9beec17c07862cc818d8a9e5ad35e19b9216f209be2bbcf6c569bdb89"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_96",
+   "runId": "8109337a-b599-4c47-b031-e09962fae23f",
+   "status": "completed",
+   "success": false,
+   "taskHash": "adb44ca77c3d67a0563e53ee2e902487b8fc75c9e0c4253a44c0ea66c3a62d53"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_97",
+   "runId": "daa4057f-1301-4b70-9b44-2d5e61019885",
+   "status": "completed",
+   "success": true,
+   "taskHash": "0292e3da73e124eb7bac82ed6efae09a9aac2bafa092746c2fe0eb7b3d4de6d2"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_98",
+   "runId": "ff1dc9ac-3d53-4e2c-a6ea-cdcf7c7b80f6",
+   "status": "completed",
+   "success": true,
+   "taskHash": "2de00069301d9924075cbe475a9d28a453e381c9de26399c68289b579243ac30"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_99",
+   "runId": "e86be3c7-14d8-4102-bb87-304d48894da4",
+   "status": "completed",
+   "success": false,
+   "taskHash": "baee55042b3d667838c09acda6ecd8b89ac70132cd27cae32a058df3ac156597"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_100",
+   "runId": "d3aec095-db4c-466d-85b3-9ea8e0780d47",
+   "status": "failed",
+   "success": false,
+   "taskHash": "b9b09f7d23f3307fe00dd7212754ba8a08d69094fb6da38c15fef2737062da2f"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_101",
+   "runId": "52553b65-d587-4758-82bb-49c7b10f3441",
+   "status": "completed",
+   "success": true,
+   "taskHash": "51f7f3bab2a4c3ac98cf838777bc750307490235b8bd37e154364eb708786cd1"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_102",
+   "runId": "334a8fe9-7600-4b5e-940e-810c1fdda3e7",
+   "status": "failed",
+   "success": false,
+   "taskHash": "d4acd9f513b2a0e5d8494321c9bb135d1f906821de8cfe565d5f57d9265a96db"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_103",
+   "runId": "42fb37e9-0eef-4c16-a50a-ef797b8b3950",
+   "status": "completed",
+   "success": false,
+   "taskHash": "7ded13faa3a8324f394545db43a931096f443c7338097ad9b524d04de0cd0a91"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_104",
+   "runId": "d973c97c-525a-4937-996b-c2485a8a47f9",
+   "status": "completed",
+   "success": false,
+   "taskHash": "e2a5ab4e24390c5ff7d14308838c5feaea3c7e3fae083a7ce469f248369f8b63"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_105",
+   "runId": "21edc2a5-4426-4002-a08d-447443c70d9c",
+   "status": "failed",
+   "success": false,
+   "taskHash": "6ba67dd104fe993db70861ad5be60aaac13c77ca827f2ea46969f1d24c4c47b2"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_106",
+   "runId": "7e5e1c25-0fba-47b4-9368-c69d89485326",
+   "status": "completed",
+   "success": true,
+   "taskHash": "fd8da848d39aa2ba189ad3176c848e4ebbfe57620c996b2ebba73541baddb8ad"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_107",
+   "runId": "c5c63a93-bee1-4e5c-bb1f-1edba9beed5a",
+   "status": "completed",
+   "success": true,
+   "taskHash": "1eda0269833ba92fc117a71e015e0266b79eff83a7565e955a686492fa6c728f"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_108",
+   "runId": "4d783962-a3fd-4125-af1a-35865bb6c7ff",
+   "status": "completed",
+   "success": true,
+   "taskHash": "4182011c2c44cf66f1a4f280b36b1945c9a468d5154a31935c1a6f120e755642"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_109",
+   "runId": "8e75d54a-785b-4c23-80ac-9be0fecd72a0",
+   "status": "completed",
+   "success": true,
+   "taskHash": "95affabd1e78bd3d92286c99ee461cef5af9996c0d216fbd4b7053859797a951"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_110",
+   "runId": "c152cf23-054c-403f-bbbe-817f48b0a628",
+   "status": "completed",
+   "success": true,
+   "taskHash": "03c35cf4a7816b5fb13e20d67b4111ca9b61c5758ff7af045918617c56032fa8"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_111",
+   "runId": "b08500f9-1acd-4053-b675-29ef7be64f2d",
+   "status": "completed",
+   "success": true,
+   "taskHash": "8789f038aef1558f7e208a513d3d90ed42088d82ca604da664a75f7bbe794156"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_112",
+   "runId": "8d611db2-163b-45d9-b428-a5068d916508",
+   "status": "completed",
+   "success": true,
+   "taskHash": "e2951d4d4a0e0c846f4cdb38559f027f20e7b66cd58a6a8c5f235d0f1cc7b7a1"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_113",
+   "runId": "ad02d7f2-38dc-44ff-8378-fa62f5f78ed5",
+   "status": "failed",
+   "success": false,
+   "taskHash": "deb92e5add3262b6c237b78c5acf71369245d78dc8d5fe40bc93700f5610ee34"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_114",
+   "runId": "e63b5e3f-ef32-4ebd-b749-c20d82ed22ad",
+   "status": "completed",
+   "success": true,
+   "taskHash": "72f9902a61b21ff68166ebfcc00b6bc9028cdf7f5f43f3108a0ec093745d8af4"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_115",
+   "runId": "4bb1bcea-3ea5-4013-b12d-a3cfac9dd6ef",
+   "status": "completed",
+   "success": true,
+   "taskHash": "634261f3c97105f00bb85e6333de9b2c7f4ba39600a5f3e57dcf1102f65a42d7"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_116",
+   "runId": "6ab3a4dd-4ced-4a49-af00-ec747cc27d92",
+   "status": "failed",
+   "success": false,
+   "taskHash": "78e5f69f8433de3c820907f989817850c6dc880512fc23a12a22860ef0b50950"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_117",
+   "runId": "a7260e74-2361-473a-b48d-add4346e1231",
+   "status": "completed",
+   "success": true,
+   "taskHash": "dbb9f9f9444868e593e92baf8e4f5e68849ca309cd6bb23c583e5facf0d12e6f"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_118",
+   "runId": "39e1856f-de21-4520-add1-59d3258f60bf",
+   "status": "completed",
+   "success": true,
+   "taskHash": "8a4820fe9c30740eab27cac217c5ec6ee20e155f16969fbd327130dd4477080d"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_119",
+   "runId": "9606d4a8-2829-4540-ba4c-ed62b9e5249f",
+   "status": "completed",
+   "success": true,
+   "taskHash": "3f5c710729312839af7af3c1b7f6bc1f6e101ce69cf453739b996030111a2b18"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_120",
+   "runId": "74aaab05-1390-4400-a9fa-84d70203eb3d",
+   "status": "completed",
+   "success": true,
+   "taskHash": "58174e1d1b9f668e2faf886f92abd3f9edf045576fa1bfe9f6aaa5cde999b7bb"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_121",
+   "runId": "ae42eaef-3f35-4cff-abb8-fb41ce8956f6",
+   "status": "completed",
+   "success": true,
+   "taskHash": "1a4faa19c8bcf48f4b9d56e5643f03efd69fd773276c4f58d2b6ed3625fe3852"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_122",
+   "runId": "8a9ea940-a9b5-4822-b525-d91d5a43bec1",
+   "status": "completed",
+   "success": true,
+   "taskHash": "edc970dffb2147601481bf84a0ec02601a4f7647fe1d177b96b4105c73a26861"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_123",
+   "runId": "3ca97698-b76f-433e-b3b7-bda0501bb24c",
+   "status": "completed",
+   "success": true,
+   "taskHash": "3972882bc45140beb92a48a14e726a3083f717994a1d71f95070e441935a28ae"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_124",
+   "runId": "ec983932-81c6-494c-a027-f69da0826a29",
+   "status": "completed",
+   "success": true,
+   "taskHash": "3f27068d75f176ee3d84f2039db051938887970ebcc5b3552d6079484d57db47"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_125",
+   "runId": "3725dd32-aaf8-4862-bc9a-3eb3df8d7749",
+   "status": "completed",
+   "success": true,
+   "taskHash": "b17ec4c31c184bc21240ce4ef70c08ff393dba20fc21ac3860fb2ebaf8817cef"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_126",
+   "runId": "b61eb3ae-fb58-4bfa-942c-b86f93843973",
+   "status": "completed",
+   "success": true,
+   "taskHash": "0e4215c5f35f9c1478af1ee59ffafd564da72e6e67b837dd63e60ec8094e2133"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_127",
+   "runId": "27b9a937-c09f-4388-93ea-76ad8f843fdc",
+   "status": "completed",
+   "success": true,
+   "taskHash": "31717eeae31162e1bfd3e2cde8d72b5ae4f1bed8147bac4aba50f64099500ec2"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_128",
+   "runId": "57e6ddbd-c8b5-4645-94ee-3471ec725326",
+   "status": "completed",
+   "success": true,
+   "taskHash": "5490f0887e89e418d4a21caa225693eeb10532cad9eba48cf85788aa93974fdd"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_129",
+   "runId": "37fd69d3-9f1f-4b35-b9ba-623131e9f886",
+   "status": "completed",
+   "success": true,
+   "taskHash": "41c75d633384de48954fe94380593c448672a134785b25772f289f17de3df5e1"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_130",
+   "runId": "81100b65-ddac-4022-8ab7-047ab05609bb",
+   "status": "completed",
+   "success": false,
+   "taskHash": "df30e3c983dd41f52e5c403456f271e68831de1e9703ac52bd871cb49f476ba6"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_131",
+   "runId": "f136f682-1976-40d9-8e27-2a742f99b9e5",
+   "status": "completed",
+   "success": true,
+   "taskHash": "2377f95e63b4f5096fc4c3271fb9f0cbaf126ba167cf4ce5f05a8f089ba3e670"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_132",
+   "runId": "49d982a5-fd74-49e4-bffb-a204fed6fcf3",
+   "status": "completed",
+   "success": true,
+   "taskHash": "554746322c6abca4dc44d76c93640757ccbc24a3e22d17e4385fdd35f687c7ea"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_133",
+   "runId": "29647cf6-4ea2-4b09-9f94-ae2dd622c89a",
+   "status": "completed",
+   "success": true,
+   "taskHash": "b2ee472320729081a03cec3235dfdb3ba7971c8ee7628bd01f98a2715962ae8d"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_134",
+   "runId": "7d81e9bb-86e7-4ae3-99c4-446066f709c0",
+   "status": "completed",
+   "success": true,
+   "taskHash": "fd8da0c243710bebd4f7ed74b18b5a276a7e6f61312d2b933828a85c46e37f9e"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_135",
+   "runId": "6f7140b8-de0a-4099-8dd1-7fc37a590cab",
+   "status": "completed",
+   "success": true,
+   "taskHash": "3c39f917aca070efb83029c710c08c0a4e5a8d904e079d17d1b69bcb106ec952"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_136",
+   "runId": "63d4549a-cdba-4e07-b7d7-daa611a4109f",
+   "status": "completed",
+   "success": false,
+   "taskHash": "4fa79bc8f710fbba47538cc7c953af364dbdb0798638e41910e7bafc3bf7dcc1"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_137",
+   "runId": "5b56de4e-d749-4107-824b-054d225b17d1",
+   "status": "completed",
+   "success": true,
+   "taskHash": "0575f72748e85370d212c71bbb6b3d68421e1104a73627078570c0f87dba4fa2"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_138",
+   "runId": "816ded31-99ce-4fc1-9a41-8700db138e89",
+   "status": "completed",
+   "success": true,
+   "taskHash": "839ed2e755aa12b9c01fc2ff1cf4b57bc04d593a37a6e3b5ee4f46b41acdd28b"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_139",
+   "runId": "ca34fb60-daf1-4e2d-bf7b-34b86e86ae7b",
+   "status": "completed",
+   "success": false,
+   "taskHash": "1c1cf035a24db9c93f748191f88fa91380b39a73771b896832490ddb9a2ba5d5"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_140",
+   "runId": "d3228b67-91d9-4aa4-a456-625acd5c16a2",
+   "status": "completed",
+   "success": true,
+   "taskHash": "b3a88cd41480a33b1e83b749a6144fbe2e1083c4d4fb417d1ee4c13b0900ac8e"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_141",
+   "runId": "f2b77431-e2bd-410e-b786-e5e66b7fb6cb",
+   "status": "completed",
+   "success": true,
+   "taskHash": "7b01cd4bc87faf058faf0441c5fe7add7a3d686ecc8d6b5c598fa433ec4f5b8b"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_142",
+   "runId": "b33ef435-62fb-474d-b050-d3d63b1b0c6a",
+   "status": "completed",
+   "success": false,
+   "taskHash": "92fbcc3a02c5a56171609b9972755805b71a8f48c0ea2097f7acd80692cc79de"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_143",
+   "runId": "7b70234a-18b3-4c9c-85d2-95d308dc9fd1",
+   "status": "completed",
+   "success": false,
+   "taskHash": "73c2534cd93c695d5df9cb307ce5acd6e8c3bdf371e82feb62dbaab07088e599"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_144",
+   "runId": "600b6eeb-ae6a-436a-b2bd-c12c0381c33c",
+   "status": "completed",
+   "success": true,
+   "taskHash": "0fdae162dd53329d30af9ad0ac43756ca3b380a1c7779d6f4dedc68db9ce3927"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_145",
+   "runId": "6d50f93e-15e9-472e-ab7d-87a04e078891",
+   "status": "completed",
+   "success": true,
+   "taskHash": "0722bb3e3a36c4205e96e77acad32c9fd66ba4ec877863fb3658395335af70b5"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_146",
+   "runId": "74eaa73a-b1c0-4cca-800a-89bdf4dc3a0d",
+   "status": "completed",
+   "success": true,
+   "taskHash": "bd3b86fca11c00bd11f14951c22939df4437616e76ff9a9b1c5eee0f1420b117"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_147",
+   "runId": "38f6439d-40bb-4474-9ace-11b6d75e47a2",
+   "status": "completed",
+   "success": true,
+   "taskHash": "3202273b9957bf73e222d784db730e2b5d22201892d4e2b9776317e4cfc0e9bd"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_148",
+   "runId": "8d8f4ee0-c2e0-4194-8973-c04a5344b228",
+   "status": "completed",
+   "success": true,
+   "taskHash": "dc1485069215fb8251365498840cdd8f182c827b9c58013fc91290c91a3f8cc3"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_149",
+   "runId": "b630abd4-8046-4696-bcc3-2efa547e2c16",
+   "status": "completed",
+   "success": true,
+   "taskHash": "a32cccb1137c3b7609700f3123001f8c95e5c79fe7cefa13bd3d9b25bd436c69"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_150",
+   "runId": "34664563-ff5b-4dc1-aac6-de5f94d11ac8",
+   "status": "completed",
+   "success": true,
+   "taskHash": "80bdbf2ffc1c461b4a6d44d2976befee18fdb6bd2d6aa638f7a411839d99dc93"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_151",
+   "runId": "6e5bf3a7-3be5-4bea-87ba-d0ef2544cddd",
+   "status": "completed",
+   "success": true,
+   "taskHash": "5a3a4d073eea7ea3b83f117b276fb05fa413bc84f1ae85129979219360c2d6ce"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_152",
+   "runId": "76ea811a-0db3-470f-88f4-9fd1893d9cab",
+   "status": "completed",
+   "success": true,
+   "taskHash": "c7ecee509e9dc2b319fe4b1394aeaea4b54fd932f146fe9ed849034aa52a5543"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_153",
+   "runId": "77a9fa48-0fcf-4f74-951f-92d9084f1110",
+   "status": "completed",
+   "success": true,
+   "taskHash": "0ac5c021843ba5019d917097114e465ab353f4abd4bb29cbdcb405ed39fcf368"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_154",
+   "runId": "731edda0-b1bb-4efb-a5bb-2d642c47c847",
+   "status": "completed",
+   "success": true,
+   "taskHash": "708f687c3aeeaae9728597b948e1ddd6120977f845c2e6bba9b301504973edde"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_155",
+   "runId": "3867c76d-3ab2-4287-a1e5-f9cfc0912989",
+   "status": "completed",
+   "success": true,
+   "taskHash": "00a4f5ae7c6e52fa93d2cbb7045eab385276f473e2487030435028a5073f8483"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_156",
+   "runId": "e894f0f8-f6c4-406c-a6f6-cc9f824fb510",
+   "status": "completed",
+   "success": true,
+   "taskHash": "533f56d753787ebb8f07c9ac92d4a6b098532f342d6d68796c4e59c315e0831e"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_157",
+   "runId": "bf59816c-c948-4763-aa58-b1805051a294",
+   "status": "completed",
+   "success": true,
+   "taskHash": "8154274ccf3e6000b9004e2b4f22a0f323a34092cf5e21e5a40557205ee0e857"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_158",
+   "runId": "d5e7f746-d067-4ec5-96bc-52764071dc70",
+   "status": "completed",
+   "success": false,
+   "taskHash": "0c57d02dcdae8d8c39c668c5b4b63c734d553e132ac65ad0f35fe18e98bbe5de"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_159",
+   "runId": "2e93ee11-54cf-439f-b264-0d730fbc86c6",
+   "status": "completed",
+   "success": true,
+   "taskHash": "fd78d09234bf25a5819bed3f11396db5f1553e7e85f6298ad634f7aea1ddd8b8"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_160",
+   "runId": "8d7f2c51-30e5-440b-8493-eb9cfdf0cdfb",
+   "status": "completed",
+   "success": true,
+   "taskHash": "2225d70dba8c1ca9badab1f2741ed7c8528699232d8d41f4573141d89f088cfb"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_161",
+   "runId": "562967bd-aca0-4e4b-ad27-ccef028f74e5",
+   "status": "completed",
+   "success": true,
+   "taskHash": "4a58d419bb2c1cc46b7e21ccbc8fbcad7b7804ff4ea52e4f777d2b4ff9e7e492"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_162",
+   "runId": "67ac46be-103e-40b3-a96a-01c0f39ee18b",
+   "status": "completed",
+   "success": true,
+   "taskHash": "7934f905ed04fdceadf726a45a5da4b8f683d53e7beded55b924391c09899c99"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_163",
+   "runId": "dbe11c89-c01f-4d17-abc3-3a1f2803ca34",
+   "status": "completed",
+   "success": true,
+   "taskHash": "bcc9410687126a7fad3a0dbf14a62ae1e7c9df498c8aa5ef6dc3781ccd3338f0"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_164",
+   "runId": "1d52e39e-bf0f-45fb-8770-13c7ae3fdd34",
+   "status": "completed",
+   "success": false,
+   "taskHash": "9493aac96ce019ec77f83756149221dd769247c7f50c549ba16e3abf18fef964"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_165",
+   "runId": "aa288c43-647f-4538-92b3-d02e3db4fc2b",
+   "status": "completed",
+   "success": true,
+   "taskHash": "a00da6ca3ce72d8696ad975529e5073695d68b60404bf61f8536d6c58aa298a9"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_166",
+   "runId": "a60859aa-977d-42a0-91aa-acc401506016",
+   "status": "completed",
+   "success": false,
+   "taskHash": "740cb90821811211cca23d2b0170b260ff6db7f7430af88f63d3926958da8f45"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_167",
+   "runId": "ba669ca2-d5bb-4298-8bde-a0b5e8cec1b4",
+   "status": "completed",
+   "success": true,
+   "taskHash": "e4fe581b16d4aaca69e4626df8c1dfc9c53ac7e18b972743e7d7a89019a41aab"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_168",
+   "runId": "8e44c561-bc97-4816-8a22-5aaed23d54ac",
+   "status": "completed",
+   "success": false,
+   "taskHash": "3bad27f0f38d3aa9aff2d14f172524645db7335a8fac3ce60e27bc03011b6e83"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_169",
+   "runId": "ca3846ed-e605-4350-9004-0ac29eedc5d3",
+   "status": "completed",
+   "success": true,
+   "taskHash": "6366a2e919a7e074ad38c49458177a3fc082eaf90641f2b91e85d16dc4a371df"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_170",
+   "runId": "b8001759-3cbe-42ae-9123-dcd1b821dd36",
+   "status": "completed",
+   "success": true,
+   "taskHash": "52f0108ab4b30218d5a21015058c9da376a3867bc2ff29849831496fff3bb70c"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_171",
+   "runId": "becc1e98-43e6-4940-acda-f5312c412156",
+   "status": "completed",
+   "success": true,
+   "taskHash": "812c59a7e6e348b88e2be5fb73041215bd79dc7c64f6fcc208675b2d559bef3c"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_172",
+   "runId": "b699f9f4-fa0c-4728-afd9-4e81944e58ad",
+   "status": "completed",
+   "success": true,
+   "taskHash": "f20ebeea8a24384b6e391443d4376a6ad1faadf164be9cbd29df9635446c507e"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_173",
+   "runId": "a9366232-85d2-4f26-88b2-8964720e0411",
+   "status": "completed",
+   "success": true,
+   "taskHash": "5481d8b054f3e96fec84024c139d7c23957ed1bd5bbedc4eb4db644749c311d3"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_174",
+   "runId": "25714235-65e8-4319-a1b6-a4ffd191a4d3",
+   "status": "completed",
+   "success": true,
+   "taskHash": "257a2bc1e2eccd08584c2867133da4ec7c3be499ecbcf2f455694e040327266a"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_175",
+   "runId": "258c51fe-c922-4209-a656-84620c16e03a",
+   "status": "completed",
+   "success": true,
+   "taskHash": "9a44db31db5d13c8f0e151c9a3b42464a5a05f40092ab6650c39806d0c4f993b"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_176",
+   "runId": "33ee8788-2dfc-48e1-a3c3-6b7cbceda4d2",
+   "status": "completed",
+   "success": true,
+   "taskHash": "fbdbe47238f1e80f7c6dc2bea333dbeab431c8e1a89db0ebcec4547fa6a26120"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_177",
+   "runId": "5a8cd8c1-9790-45d2-b600-c79bd75981fd",
+   "status": "completed",
+   "success": true,
+   "taskHash": "e4abc110b8d4f4a550b6e48e363b457d1db3931ee610dd8c2ca62a22a199002e"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_178",
+   "runId": "71020bc8-5289-474b-9396-0e868ab0b3e1",
+   "status": "completed",
+   "success": true,
+   "taskHash": "1e014f9e5858e1af8c552971ff241d06b6b40e00418121a0c4a8bddac057bf98"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_179",
+   "runId": "ea3d02ca-fd3f-4ae3-8e10-806eeca4d563",
+   "status": "completed",
+   "success": true,
+   "taskHash": "9fd1a12b86c51626ee5f278fc2b79a089e2a36fe82c32f7880b1f00ed5e7b810"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_180",
+   "runId": "d3659953-1ce7-4cee-8388-45c681696097",
+   "status": "completed",
+   "success": true,
+   "taskHash": "6b7fd4a82bc65d4a8d3e38cff6b665e65f9189ea3c54098ccf18c96b25d53792"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_181",
+   "runId": "1d9ac846-e27c-4e19-9d47-098d612ff045",
+   "status": "completed",
+   "success": true,
+   "taskHash": "b4baba0cb5a341de5f239bb91c92f460302c5d59b01981f5caabb0533dd8fe6a"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_182",
+   "runId": "08cb7ed8-c4d7-4fef-96ce-d51fb049de60",
+   "status": "completed",
+   "success": true,
+   "taskHash": "acd489ebcee50deefc9bae849a668c075e6be130671ac26e731eaeb1bccc05d1"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_183",
+   "runId": "54356c9d-777d-4e0a-b164-9f0a78916c16",
+   "status": "completed",
+   "success": true,
+   "taskHash": "3296ced15fe7d1cbd662595e699a02491a8e125d2a4ac056bcd395a7976761df"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_184",
+   "runId": "6d6fa79b-a32f-46a9-a5bf-2fd93a19e7d9",
+   "status": "completed",
+   "success": true,
+   "taskHash": "b0ac206efe9ef876012751404dc9e4f008efe4e972e602d75428bf00087943de"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_185",
+   "runId": "0c908ece-9333-4499-a421-9234627df85a",
+   "status": "completed",
+   "success": true,
+   "taskHash": "7a5fc0d3b81ebb29c5a77e87cbf91f6d985cf15ef3025f0166ad14bd33d1bb6c"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_186",
+   "runId": "aa94b8de-7900-4786-a955-aa8466e2edda",
+   "status": "completed",
+   "success": false,
+   "taskHash": "bf8d755bbf29364630df72e7798a3f26f0f6176a71ed96e2081fa2df246a00f7"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_187",
+   "runId": "3628d3e9-505e-43a4-bba4-e22bc82af110",
+   "status": "completed",
+   "success": true,
+   "taskHash": "a28e96dabeea355a2b441f7b6e04185795f6e2e3ed05c71b8d750235943a749f"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_188",
+   "runId": "1bf163bf-6cfd-451e-a296-6a023c4f651a",
+   "status": "completed",
+   "success": true,
+   "taskHash": "a68e1fe3930d47a08e4c17aad30ac184d4bbbbbf6ee066e5a2a833ba6c00c011"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_189",
+   "runId": "0175eee0-399d-4ee9-999a-9adbe7e9c821",
+   "status": "completed",
+   "success": true,
+   "taskHash": "a6c2283f1d4674e96d0002c274665bd0ea3898b346288bfaa6eed263c53f923a"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_190",
+   "runId": "727c22df-d57c-4a8e-aa37-31bdf76e3cb0",
+   "status": "completed",
+   "success": true,
+   "taskHash": "e7737e89e67243ae5ccaa81da8e2fc0c312d91f1594a61a0b406cb6126d33727"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_191",
+   "runId": "2697a11f-6b9e-4b65-a918-941ebc76c340",
+   "status": "completed",
+   "success": true,
+   "taskHash": "1bb3ba2768e479fe052bb78dacf3fec4d8ff4ce98c7937410b57241d5536f87f"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_192",
+   "runId": "763d85fd-aabb-4d68-a608-bfdaa97d97f9",
+   "status": "completed",
+   "success": true,
+   "taskHash": "aabc82da6c549590e7adddf316fe23688aff427aa1a4298ae3d93e2d4bfb0fa1"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_193",
+   "runId": "f7884882-7908-4475-9fd3-0c6aaa0a5f47",
+   "status": "completed",
+   "success": true,
+   "taskHash": "ef68f6c86a4c72e217027ed0e3dc5b8191567a6ef9a14b11b3d5d78daef32b69"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_194",
+   "runId": "2385e098-8ad3-4269-a679-57d8ec8ae043",
+   "status": "completed",
+   "success": true,
+   "taskHash": "8f1abb89ac4e5620034e94bd0e3a0f6009fbbe161bd84d9f86f34c8eab8faa79"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_195",
+   "runId": "60d9fa72-0812-434b-a07c-a2beebf22b02",
+   "status": "completed",
+   "success": true,
+   "taskHash": "f51e0b733345e78cfa3562f01e5fd4b9c9f5bff50201cfaa3cd7c5cd1d79f9cd"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_196",
+   "runId": "c2eaeb88-aa1c-466d-8e01-c6b3d00a2de9",
+   "status": "completed",
+   "success": false,
+   "taskHash": "4b283d45cb8ab6f595f2579b23bd885bbcdd1a50a8ea270672a0c0056f01ca42"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_197",
+   "runId": "3ab8a595-6d30-4c80-ae27-5a706843a06d",
+   "status": "completed",
+   "success": true,
+   "taskHash": "bbf0c1697a669420cf366785dce88b1ae57777598305db14a30910564602e348"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_198",
+   "runId": "307fa12d-4f26-4248-a342-f79a0d5ec06b",
+   "status": "completed",
+   "success": true,
+   "taskHash": "dea7d13b77b4189ea63f9907218e45a062fc898e05154f7c3de335ea53b82d27"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_199",
+   "runId": "769154ff-46fa-4c9a-beab-24699eb93e9c",
+   "status": "completed",
+   "success": true,
+   "taskHash": "50f9e3c846bf256f13137afc6536e16765c75414bafe22a4252011929b3199c0"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_200",
+   "runId": "a0b1d0d9-e73b-4a6b-8f8b-bbaeea03c0a0",
+   "status": "completed",
+   "success": true,
+   "taskHash": "414b7399d827953bb8221ccad2768425b7025311cf48a73cb666bb04556a2c43"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_201",
+   "runId": "0ac93e06-b2c6-4a52-b922-ddbeb82653d4",
+   "status": "completed",
+   "success": false,
+   "taskHash": "12f1a8ad570a70a2b755777a40a3cca05c7c0f28e13fbe035e8e2961fb9fe642"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_202",
+   "runId": "8ba720c3-9195-43b3-a0d7-1bd43d6c215c",
+   "status": "completed",
+   "success": true,
+   "taskHash": "a58f455b774984c2a36477d3f9215675d7d19b10ed5b6db51b7a618feeaa131a"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_203",
+   "runId": "dc80ef01-5760-4a6a-b2f2-39349f7748cc",
+   "status": "completed",
+   "success": true,
+   "taskHash": "0cc74e71b2fa36d71a0e2492f311cbe6d77b1b3893299d7e7820beaaa0003b51"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_204",
+   "runId": "e85c8286-38ad-4ff4-bb2f-c61d19cec344",
+   "status": "completed",
+   "success": true,
+   "taskHash": "e8b150ab0f467ebe5452206e26401064c09752f921e400a52bfc30465fd9ec62"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_205",
+   "runId": "a6f1859d-2391-4926-b76c-7114d8626d26",
+   "status": "completed",
+   "success": true,
+   "taskHash": "38faf4ea488983d37ac6d87172ca1a7abde2f6412be42b5cf6950ec6abd8ad9e"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_206",
+   "runId": "9b34e4fd-cdcc-42d5-a7fe-07b5a9c73c45",
+   "status": "completed",
+   "success": true,
+   "taskHash": "acc7f9044c18f394bd9242bcf48076318aba21a2ff6acfff58338abccef68c36"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_207",
+   "runId": "6b46fdc3-e3d6-4b0f-907c-c8c8922d324b",
+   "status": "completed",
+   "success": true,
+   "taskHash": "11a10af2320ab693ce6174461526fe4aa6bc36ff4c4fed5056e875c708effa6b"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_208",
+   "runId": "7240d0c7-3735-4ecd-96bb-d339b51ce89c",
+   "status": "completed",
+   "success": true,
+   "taskHash": "e7d73c0f9b39028b6b1889914e0ad6a5747d2a7cd89811f56e9ecf6d609295eb"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_209",
+   "runId": "47c86de3-318b-4643-90cc-93a7ba8177ef",
+   "status": "completed",
+   "success": false,
+   "taskHash": "dbae9abc0c7870a9ec41b60dc945943d5db7e5200ca289e4fe602aa45ffdb776"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_210",
+   "runId": "5e0ba61f-b477-4515-b925-01e2902425e8",
+   "status": "completed",
+   "success": true,
+   "taskHash": "43d186cc52922f26b690b6207ba2466c3edf0a5fcd7863cea2f950ae58d67949"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_211",
+   "runId": "13856ed7-e868-485e-a0e2-99b16d57d997",
+   "status": "completed",
+   "success": true,
+   "taskHash": "97862f196db87dbcf43560b093ceb6baf31287bb17b8b93aa874403f4a631966"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_212",
+   "runId": "866f185c-75ea-480c-9690-d1b97c46c582",
+   "status": "completed",
+   "success": true,
+   "taskHash": "9a19fc34647ed567ff139ecfd0fc2133dc55c71452139fa944779dbc6909d88a"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_213",
+   "runId": "a1688ad0-0fa8-4176-b548-21cea8df6e35",
+   "status": "completed",
+   "success": true,
+   "taskHash": "8bdef6ab95c58596f8793bbf2ca327b7a01a9f8013b7ee5ab2d11e4d9b53f555"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_214",
+   "runId": "f4f28c72-a53f-4951-bae3-d5da6ec0eb4d",
+   "status": "completed",
+   "success": true,
+   "taskHash": "43ee94caf80ed8f2d5877e52b61e87af0c97b1a394866389a63552a8ac93c27a"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_215",
+   "runId": "1fa1da2b-73c4-47e8-8a91-e0565b1bb65b",
+   "status": "completed",
+   "success": true,
+   "taskHash": "724ebc018f08e340574b8fcf2a107cf6215e02318812d68c99a93e9370a77e49"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_216",
+   "runId": "452e95b1-e854-437b-9a69-f12ff136d50a",
+   "status": "completed",
+   "success": true,
+   "taskHash": "49dce3b0ebae111ec0f984b2c4c342ddbfee48b757f2d4174ef6b9007c75d1a7"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_217",
+   "runId": "2916e2d6-5f4f-42ba-95f6-9c447262baf0",
+   "status": "completed",
+   "success": true,
+   "taskHash": "db93c717ef0b0c8b6344d08d9a85f098e7965cf201ec40d233e126caccaa1e67"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_218",
+   "runId": "87af4c0d-43c5-46b0-830f-7d680903f464",
+   "status": "completed",
+   "success": true,
+   "taskHash": "7a07d101dfc07925c86b1c073733ab3ca442c2ddb33eec559175ecf778a741a0"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_219",
+   "runId": "b4711661-dd26-4e0c-98b4-225bbaaa48c9",
+   "status": "completed",
+   "success": false,
+   "taskHash": "1bfd8bbebfdc9cc0f24349e2d84d33815261ec0db08e5824771429deb2603c22"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_220",
+   "runId": "03153240-c5c4-4d5d-ab65-eb84edd1c7bf",
+   "status": "completed",
+   "success": true,
+   "taskHash": "c319a99f3bcd5dd6a0adf5811d1f313df1144b876b3e4c7ff5c187c42bbf5287"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_221",
+   "runId": "186b8403-ca44-41f0-b278-8f487a7975b5",
+   "status": "completed",
+   "success": true,
+   "taskHash": "ff8893b0cbf07e9c439a0743cf15809ba592a51c0ad5fc349b011c3c03dca57b"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_222",
+   "runId": "88ea5911-7679-4951-9eec-97ddf015b325",
+   "status": "completed",
+   "success": false,
+   "taskHash": "7bc04250b4868a330f6b026221126eda5e265ed81f4caaf3a5726786925f718b"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_223",
+   "runId": "45a5b4a9-4e81-488e-a8a2-16a3f612ae96",
+   "status": "completed",
+   "success": true,
+   "taskHash": "224c6c919f23c317be7da0941c87d75dac95a6bc4eee039f78596cd587f4cee6"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_224",
+   "runId": "2f6256b4-9970-4388-9cb7-990486bd87c0",
+   "status": "completed",
+   "success": false,
+   "taskHash": "389aa42e54655bc315d397d2d3e2448c1727e4c32ba1d3c98b2c0a8df885ae11"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_225",
+   "runId": "d0d1213f-13b9-42bb-b4f0-50d262b9ac95",
+   "status": "completed",
+   "success": false,
+   "taskHash": "2e124fbec5c4c2c82e9f841953bb1a046d1559755e751d6dd335bb8cb74510e8"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_226",
+   "runId": "657c7051-27be-481b-9583-e8aaf889a4e5",
+   "status": "completed",
+   "success": true,
+   "taskHash": "80bda52e52da6e3fdf7529bf325bf1c8d756ec78ed2b1f4db03fb66c929fa102"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_227",
+   "runId": "85370adc-7d97-48e7-b334-3ff74292905b",
+   "status": "completed",
+   "success": true,
+   "taskHash": "8329c4081c73a16b5fff8082ec25813c4035a95cef16adf7f7885f053b6bf84d"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_228",
+   "runId": "23f463cc-bc90-4bb8-8bde-31d571f78e85",
+   "status": "completed",
+   "success": true,
+   "taskHash": "4734164f853f1e16ad04807b431a1bc79d6eb37ab1fb3fc56b0181f798dd2351"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_229",
+   "runId": "f8da9406-86ee-4ff0-9484-6a840b2e65e9",
+   "status": "completed",
+   "success": true,
+   "taskHash": "e25c31499bbec554b0bcd4b0da60fbfa664ee3821587b0ef855df04383903de7"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_230",
+   "runId": "e8a3a76c-81a9-4028-ac02-73def6d88b80",
+   "status": "completed",
+   "success": true,
+   "taskHash": "b6fbd26da614080fa6fc111c79294aecdf644bb963722f53a7da721241314ad6"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_231",
+   "runId": "5c2b8901-768c-4a1e-9f2c-504f147fa306",
+   "status": "completed",
+   "success": true,
+   "taskHash": "8081192e36ffdf3f3f19ed9c94f093d8164dbaa6d96385f13a21aab5b884d38e"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_232",
+   "runId": "e19d48f9-eafe-47b7-9726-7b749ee4cb98",
+   "status": "completed",
+   "success": true,
+   "taskHash": "7b9ea6d04b4af4882ad7dbe7ff8e60636c1d9e7d4b881bbcee7fcbaba04807ff"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_233",
+   "runId": "ba7add62-89ea-4bf7-97cb-861e8c5d0be2",
+   "status": "completed",
+   "success": true,
+   "taskHash": "ef2654362dbd6a0eb9eead82d44afa80c54e7ddc41c5312ec9629d5dc5ea8cca"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_234",
+   "runId": "f7f71314-01ef-4c2d-bdce-1d3b3adfd632",
+   "status": "completed",
+   "success": true,
+   "taskHash": "7d78c88a7d821cf8f2d46a5e648e0a3827ba602aca2820d4d0f31b16ba94ef92"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_235",
+   "runId": "9fedafc8-208f-422e-89f5-fb6f1283c70f",
+   "status": "completed",
+   "success": true,
+   "taskHash": "dec2750a2056c808eaf9e97d810be23e9a2ffe2b92add638c321e4ad25412a90"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_236",
+   "runId": "dbfca2ba-d1cf-4960-99b8-9781c7b17474",
+   "status": "completed",
+   "success": true,
+   "taskHash": "4f046e35cffcb4416af65fae9b02b41eac64ffe7acd9d94809b0bce853d6a2d9"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_237",
+   "runId": "770fc053-8bed-46de-839b-ae9f60502a88",
+   "status": "completed",
+   "success": true,
+   "taskHash": "5d74761908919e0f4cbd0b1146ac95a81eb6bfa6be6884e41168010bcfc48260"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_238",
+   "runId": "a1de0426-2d55-4a18-bf5e-8315f8120e89",
+   "status": "failed",
+   "success": false,
+   "taskHash": "b96e233767a8795e50cdeb1e5e0aa6cc24707485fc717041a356b65c18830434"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_239",
+   "runId": "b966e9a7-fd65-42fe-ad1d-9e4283bdfece",
+   "status": "completed",
+   "success": true,
+   "taskHash": "08c28b4379319c0d8ccb0148fc8d67c075040e5e59881e2bab6d1b343bca6f07"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_240",
+   "runId": "a835f1c6-37f3-4a1b-b91c-e994ee040084",
+   "status": "completed",
+   "success": true,
+   "taskHash": "a61dc772a2b267f054adac51d84727742e8a896155c837781cc94acfb3b31746"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_241",
+   "runId": "54e0bf95-f538-41bc-b540-6c0abfd1ac42",
+   "status": "failed",
+   "success": false,
+   "taskHash": "ef0872baa626508cf4bce854a779efdef44544acc6e1b496cd0fd593723bf357"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_242",
+   "runId": "63379570-6874-4b32-88dd-ffae3e1aa4e2",
+   "status": "completed",
+   "success": true,
+   "taskHash": "c080fba341f004a43e419ec319faebb41e3108c17a8dcaa5d6ccad8c5b2956b3"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_243",
+   "runId": "db48ade3-ed25-4b88-8881-e343ddf3249a",
+   "status": "completed",
+   "success": true,
+   "taskHash": "19612286152e6d41850b1b5265e810eba325a8cc3f6a6955d9c3e24684897351"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_244",
+   "runId": "4f9cb21d-a418-4b55-9165-ec8f77a8ce96",
+   "status": "completed",
+   "success": true,
+   "taskHash": "597f296571b7e587839c44add40359379bc720f6c92a31dc8c57d73b4c2a6ef3"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_245",
+   "runId": "745ac186-9a14-4540-b06e-d6e210120f36",
+   "status": "completed",
+   "success": true,
+   "taskHash": "8e2e54a1355277630eb035c46442c3594d265223ccc4313d7304d9ac14085556"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_246",
+   "runId": "a6e03584-dd39-43a6-b5fd-e03f44541458",
+   "status": "completed",
+   "success": false,
+   "taskHash": "5b94aa5fca322370e3ef1255cbf54195cd1d31dd39845a6fa436b4b6625bdfd9"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_247",
+   "runId": "b9190a5f-66f1-46f2-8b60-a4c2dbcbf677",
+   "status": "completed",
+   "success": false,
+   "taskHash": "9689869fed76cb258da4e55af4f6183ec909ab258e877bfedc047cbf2c4db6d3"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_248",
+   "runId": "92044ba8-6769-4ddc-aa27-593e4df738f6",
+   "status": "completed",
+   "success": true,
+   "taskHash": "151b4b439bfa964d565b2c00a177259ad1632dcab5c1cf4a0811200054fb7450"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_249",
+   "runId": "ec0d9cb4-3eb1-4e21-ba69-ea6f2315b35b",
+   "status": "completed",
+   "success": false,
+   "taskHash": "15200222d5983c7a6c0530be9424ad773c5573e040067901f1f277ec70a45d6e"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_250",
+   "runId": "4cb96bf2-f0df-4051-8fc4-816f8c3dcbfc",
+   "status": "completed",
+   "success": true,
+   "taskHash": "e0afa3143b19bdfe79e52abf3ed47f0f5d267c213045bdcf22aab0a9da4f977c"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_251",
+   "runId": "7777b775-22ce-4fa1-afcc-f30f7aed5716",
+   "status": "completed",
+   "success": true,
+   "taskHash": "d4f8afe14f55fbf4019f7e9d88d93a8ff5a66ab8373ab6054b9bc483f3ed7814"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_252",
+   "runId": "fd9e0d49-a90b-46b0-9317-f863811c6f0f",
+   "status": "completed",
+   "success": true,
+   "taskHash": "0f0c726e1c675928273266a6bfd8108a37de13915c94b919c549f673943a9daf"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_253",
+   "runId": "029c4489-7c61-42c5-80d6-2a4c81e123c5",
+   "status": "completed",
+   "success": true,
+   "taskHash": "c15247da6666895fd37d7789bf93dae9aedc6a2743fd8ca07ed02b976eefd3f6"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_254",
+   "runId": "21bbf863-fcdb-4dc1-a52f-1187b33b6b9e",
+   "status": "completed",
+   "success": true,
+   "taskHash": "9dca8e082136067380d8f243fefb7ed3b498f96372d1f731f9078d141996e63f"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_255",
+   "runId": "985da326-4933-4e79-9db7-015c6c969dbb",
+   "status": "completed",
+   "success": true,
+   "taskHash": "984df94dd09253dee171088920a5b91f8a1e6009cf65df9645dbd88094285925"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_256",
+   "runId": "6ab60123-a4e4-4464-97f5-39472aa2fc42",
+   "status": "completed",
+   "success": true,
+   "taskHash": "58d326bd7c55df2dac1170b003503b06d17bbad11335a8610c0648ef18415b76"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_257",
+   "runId": "24801ab6-f799-4828-b3af-05380ffa5184",
+   "status": "completed",
+   "success": true,
+   "taskHash": "903d67b84f2d850a5189f887e5b6193b699f8ac0ee0ad21dc6afef0560a10175"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_258",
+   "runId": "a4137858-15fa-4cb1-afae-ee8d5e0abbe0",
+   "status": "completed",
+   "success": true,
+   "taskHash": "bbdeeed55864edfe7a189b6122fcb38d8256df9e2dbb2ab4370d11d97434e8af"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_259",
+   "runId": "48dba1fc-722e-41bf-8799-cda0a7b04c6d",
+   "status": "completed",
+   "success": true,
+   "taskHash": "62036830777a2b7bea4ef4c9c5f4290b6a00e74f092afcbbb49643dacc674c8a"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_260",
+   "runId": "33f382a5-659a-4d2f-82c3-ec4523173402",
+   "status": "completed",
+   "success": true,
+   "taskHash": "4bfadbfa071b0e8e04cd8aefa19e9230500277cee6e5a089ae1b81552ffb611c"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_261",
+   "runId": "c27d2a38-0438-4607-8dd5-6a10a5fec203",
+   "status": "completed",
+   "success": true,
+   "taskHash": "2b0565b862b501eac6d3110f739fe280909e5164fe567fc3ee6872f2a0087ac4"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_262",
+   "runId": "e067f077-fb8c-4f79-bb76-54db2282050f",
+   "status": "completed",
+   "success": true,
+   "taskHash": "ddeef46ee032634de89f5b714696be6c3900d9fb7d467c3d808f52c96b6e592b"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_263",
+   "runId": "7bf46382-4c8a-430a-a645-e02667b9f92f",
+   "status": "completed",
+   "success": true,
+   "taskHash": "4c8d565e1609a21c750f82f38e17e574223b5ce490f763d1f467b0d8e209ef77"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_264",
+   "runId": "b6d7edee-9f52-42ac-a8fa-c9ddddf9bda9",
+   "status": "completed",
+   "success": false,
+   "taskHash": "a88dc8071f7b1706302023bc3578082ed554daf185041de31693cab383975252"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_265",
+   "runId": "cb543118-7d8f-4230-84f4-f07f4e3ad87e",
+   "status": "completed",
+   "success": true,
+   "taskHash": "7b132e7274361efcb6d9e4815539a1fc9f98bc6bf8f4f2f17e8f9e7c47f0f30f"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_266",
+   "runId": "d1f96116-3cb4-4004-aaad-a71a4862da5e",
+   "status": "completed",
+   "success": true,
+   "taskHash": "f98e3bad550a0ccb0d87ecd2420566d1ec4785525561268a14cc4a2fec35e872"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_267",
+   "runId": "24c85778-a396-4bd2-b680-2c0f2ea2d4eb",
+   "status": "completed",
+   "success": false,
+   "taskHash": "b673566039a4d8f9ff28b1713e33364f05c369658d42df04beac901ca1381ca0"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_268",
+   "runId": "5fe49386-2b9a-4d23-b83d-bc2e9d9377f4",
+   "status": "completed",
+   "success": true,
+   "taskHash": "87cf531d3bdb933adfd5a99063114cce6ecbd65239f7a7379bf23dbdc01504e5"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_269",
+   "runId": "47dcb44d-636c-4bbd-a683-40cec2c44518",
+   "status": "completed",
+   "success": true,
+   "taskHash": "3c1f8ce28769838a5950f1d3cf4341fc20686f9431703b2aed1713fe674883ed"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_270",
+   "runId": "f7f81b7a-34ef-4710-acb8-5ebebd6b1039",
+   "status": "completed",
+   "success": true,
+   "taskHash": "e04858c9cb777df24db380677de49738207418690bd470f4bf953ef55302cb11"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_271",
+   "runId": "0bb0692e-2263-4e9d-83ae-c33455fa3e9e",
+   "status": "completed",
+   "success": true,
+   "taskHash": "2b38919cb3168397a516b6c98aee4ef67085b77ea41c6814bac3a69ec1753f32"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_272",
+   "runId": "fb10ef32-4570-4710-8524-44d23f82d042",
+   "status": "completed",
+   "success": true,
+   "taskHash": "1eef036f922ba2feb3db0260b2f8b8b10c6b014832fab55d3a3693d3dec4cea8"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_273",
+   "runId": "292ba817-737a-44c7-aaee-8959920a906e",
+   "status": "completed",
+   "success": true,
+   "taskHash": "08fa47524b7d6567c4a21e76b87464c048967cf4d28185b7f90337c1c282d273"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_274",
+   "runId": "d19f7cce-6204-4cda-b509-158fad8b230a",
+   "status": "completed",
+   "success": true,
+   "taskHash": "51f884be636391a86c325b7519a0141be8cdc158b6ab4f1793d5e6826554e9ab"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_275",
+   "runId": "7cc796e1-e45d-4c86-8920-c2250b76bc43",
+   "status": "completed",
+   "success": true,
+   "taskHash": "cacfb1e2692787255bcaa23b24e88dd7516bf7531f9e1682feeb670426ae2f85"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_276",
+   "runId": "93331038-2cb1-42b6-97ae-c120cad72557",
+   "status": "completed",
+   "success": true,
+   "taskHash": "9e1f35d79b56b7e26e6d97b794761d68809be7028234a96f5bb2b87c32505918"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_277",
+   "runId": "adbad0ee-b911-4559-8d8a-be80c3c66480",
+   "status": "completed",
+   "success": false,
+   "taskHash": "d7206b26e8bae4c4c745099af94c164dc6643d74897095fdb3a81ffe4507eac8"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_278",
+   "runId": "b0dfd883-f315-4e3b-a8a0-6c39d9472d5e",
+   "status": "completed",
+   "success": true,
+   "taskHash": "551b118885a019d2f62295e6cd7fd71cc96060773eeb96f3fbf5d390bd906bdc"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_279",
+   "runId": "0d444032-f78b-429a-9c57-aa74a2e8279a",
+   "status": "completed",
+   "success": true,
+   "taskHash": "d1332da3f87deef98c0957d3a1fb78a99fc78536e160a9c60b495e908031a7d8"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_280",
+   "runId": "48312ab6-b985-4538-b801-4a4a48aa55d0",
+   "status": "completed",
+   "success": true,
+   "taskHash": "673d96fdd97a14cb4310c4060818e2fcad4b3be4f3a4207a9caa249a77cdf767"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_281",
+   "runId": "1555060a-056c-4773-9c60-25254dc89682",
+   "status": "completed",
+   "success": true,
+   "taskHash": "514d775d24f3b0ba7ec56d38f5c3d5127a8602063d35b6e0068c7ec084d89fef"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_282",
+   "runId": "5a9c2232-dda0-474c-ad01-7875ee43fa10",
+   "status": "completed",
+   "success": true,
+   "taskHash": "d9ec7ce735599de3d748e276de6079adaee0d0c691c077fd66ef0944e20486b3"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_283",
+   "runId": "0f6f7cc1-bc86-4a9c-b1cf-a1a73195cfdf",
+   "status": "completed",
+   "success": true,
+   "taskHash": "06af67e746882674ab0765c1c355ebc6d19d705591385f76f4f1c1eaa59501c9"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_284",
+   "runId": "a1460543-4b1e-4b4e-9b39-247310eb47e2",
+   "status": "completed",
+   "success": true,
+   "taskHash": "b5744d2b476d55de0ade39e62159313e1a5c4cb1d52b9384ffbc1adffc0185f9"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_285",
+   "runId": "66746799-3c08-4f33-a36d-e662e654e337",
+   "status": "completed",
+   "success": false,
+   "taskHash": "87d67d5d9f64f6c990e20d456c90f1f56efcb486a027bb61201da6e423948b3f"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_286",
+   "runId": "73919f25-3355-4091-8bf7-9271bd002f2b",
+   "status": "completed",
+   "success": true,
+   "taskHash": "b7ea94ced3cfe77f0a2d0a8cf24258e598580f43c4bfd3aa6e87ca24bf3e1605"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_287",
+   "runId": "1335da5a-e79d-4090-b6aa-a3ca50b79813",
+   "status": "completed",
+   "success": true,
+   "taskHash": "142dd041e8eacd9d1405c367c2f72ff85c5fa5dcc09eb0ab020f25590bb8d4c2"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_288",
+   "runId": "b4d9ca6e-3f76-4f5e-af7a-e1aaaa5190e5",
+   "status": "completed",
+   "success": true,
+   "taskHash": "8dc6be301ea7133beb0c8b4e55769d5e7424b5063a07fbd1ba93d88669475094"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_289",
+   "runId": "fe8fc6d7-da3d-44e8-a729-914dff0fc86e",
+   "status": "completed",
+   "success": true,
+   "taskHash": "11f3e0ab52435b053b0df40e90184c876f269585a984c0a757477ccb467e7c18"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_290",
+   "runId": "f1d6f19a-1a60-46a0-bc87-170cc97e8e2b",
+   "status": "completed",
+   "success": true,
+   "taskHash": "90d1816fce35d6a18d57c3d595d910cd019b63895bc390b8bcaeb61e62bd35d4"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_291",
+   "runId": "c3ce13a5-6103-4a41-bbad-20780a165459",
+   "status": "completed",
+   "success": true,
+   "taskHash": "6ea1edfe9599f190dd3807300bd62f1a6fa9c03892e8be60ac8ed236f3feed1c"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_292",
+   "runId": "f7685c8e-ff64-4e17-a8a7-0ef7ac8afd7d",
+   "status": "completed",
+   "success": true,
+   "taskHash": "e1061112eff6e5ec4e5324b4af9434601709ce2b309cbc709aaa0765d2bdf5d2"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_293",
+   "runId": "2417f12d-eca7-45e3-be31-d0d6ac0a156d",
+   "status": "completed",
+   "success": true,
+   "taskHash": "4a402ab33b530e29edaa7a53123158730fb99f2c5324be6009e54bd41134699f"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_294",
+   "runId": "1afc8eaf-e280-4aa7-b2c4-eb1325335e1f",
+   "status": "completed",
+   "success": true,
+   "taskHash": "5423c33980e7936e2f8dfb055b7dfa2111d0d75c9cc1ee57e0b228c50a6a5fcb"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_295",
+   "runId": "9e76e048-9eb2-4ec6-a394-08340d01206f",
+   "status": "completed",
+   "success": true,
+   "taskHash": "4469ea6700b58239498b874bf8b6e6845e204f7285494e2bed80592cd7de9bd3"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_296",
+   "runId": "dffca037-9e7c-4750-98a9-f50dba0c7ada",
+   "status": "completed",
+   "success": true,
+   "taskHash": "1ffb036f766d80538fd84013ea901e74fc494851ea6bd1b2a53ed144b0cbf669"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_297",
+   "runId": "ddca4a77-d0e6-44f8-b9b8-152d76c25dee",
+   "status": "completed",
+   "success": true,
+   "taskHash": "69df03e15887cd205beb15c3c03f75647d66807762d10784ee5254d5d2b55edd"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_298",
+   "runId": "bf5bc698-0dd1-4442-b16f-2011504c8fd1",
+   "status": "completed",
+   "success": true,
+   "taskHash": "9a37f1859e84881959de8442f9b3530da3980f2be2bab2c87c8ae236fdc75c24"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_299",
+   "runId": "9b2984d1-9b9d-404e-9904-52c060ef4d37",
+   "status": "failed",
+   "success": false,
+   "taskHash": "4a5a3c01b0838e97cd25f355841c439717e59fc1fe2076a714b36216c119b2c0"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_300",
+   "runId": "457d6a6d-74f0-4dcd-9720-97651cb4f0db",
+   "status": "completed",
+   "success": true,
+   "taskHash": "dfdb824c748882f171b45657b60782bdbfac15ff64a8b26a02805f64accad7d9"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_301",
+   "runId": "90b960dd-314c-4f97-a8f4-eae493c04ffc",
+   "status": "failed",
+   "success": false,
+   "taskHash": "78d457aa1c27eceff9cb12ed8bba75f320a0aa5209fb7cdd524f27c24ca1cb2a"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_302",
+   "runId": "fcf12e47-01c4-4775-82dd-18f71ef998a6",
+   "status": "completed",
+   "success": true,
+   "taskHash": "f947a5d1353f752f9c590b5f43a933b342945760aa5824883fa85ff08ee6bb69"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_303",
+   "runId": "6320cfa9-56bd-4d2b-983b-002ac4b1a8f7",
+   "status": "completed",
+   "success": false,
+   "taskHash": "ee27a081fc03f8f9e0b80ce7252ed149d0e4cc76ea34a8683b4493fbd9bf4c8b"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_304",
+   "runId": "36cac83a-b046-4d79-beb6-0f70cb6b2ac7",
+   "status": "completed",
+   "success": true,
+   "taskHash": "eab02ef93f95fc09ca6563d3be75ee71bd7559e3ac381232eaab48b49159767e"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_305",
+   "runId": "ffe3374b-e5d1-4d63-bd77-9466799aba30",
+   "status": "completed",
+   "success": true,
+   "taskHash": "ae92dba59573c5307b12771341adfaf9b7420b7369e12ed934669b4b18bc25e0"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_306",
+   "runId": "1d52dfa1-ca9f-40cb-be0a-2c0380e408a6",
+   "status": "completed",
+   "success": true,
+   "taskHash": "c84b73f8b330a95a10d36b8fdfd7b6a145d6e2151f17fe757944d2466ad13048"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_307",
+   "runId": "6be65acd-8345-479c-bbb1-e87c9be6caa9",
+   "status": "completed",
+   "success": true,
+   "taskHash": "ac9d406edf4d1e39c148cb8cd1c311dec71465639c8707912e71c20e0644b514"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_308",
+   "runId": "d7532430-a73f-47e3-b9e2-b06b73bd2e48",
+   "status": "completed",
+   "success": true,
+   "taskHash": "79072e86e0c5e9197a05f6f20ed768b589aa5aa13cba70ef19b6d33dd0e1c686"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_309",
+   "runId": "2e811e49-9ecb-4314-a5d9-39f4d0bb3177",
+   "status": "completed",
+   "success": true,
+   "taskHash": "8a249f4c947b566be1fbaf79d923ea3a255f5912feb0890fa748f68af97a0d8b"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_310",
+   "runId": "b4dbf654-7cd3-4bd8-aa9d-c88d4e23f045",
+   "status": "completed",
+   "success": true,
+   "taskHash": "46c5d81fb0a0732300efddc634595731d5ba976af6664764923dfb680a48d280"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_311",
+   "runId": "8968437c-7daf-4e33-b6d9-34e1c7abb593",
+   "status": "completed",
+   "success": true,
+   "taskHash": "03f5cd41bfeedb90e5512b39e3dcd6258edae76309143b8c4f4d6a3c56d05c4b"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_312",
+   "runId": "5828411e-ea06-4aab-8dcf-c4e15a74141e",
+   "status": "completed",
+   "success": true,
+   "taskHash": "ce862288ac695d4e5ca4c798eb0816d65da19a471c9bc5f79f8d611d0151e3a2"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_313",
+   "runId": "69d311fe-40ea-4a71-a965-e542e04ca617",
+   "status": "completed",
+   "success": true,
+   "taskHash": "d7437ab738729d2448d1fcd2c79f2fee87b355da171be1ed75d50aedf17d32ef"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_314",
+   "runId": "062feb18-f0aa-4fa0-ba2a-6e8e2d5de0e2",
+   "status": "completed",
+   "success": false,
+   "taskHash": "e5f665919ffb250513ea9556478a6d4bcc594398998eaf4b3c3fe27765f0bbc4"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_315",
+   "runId": "77b74dad-0c7c-49ef-bec5-a6a9269202e0",
+   "status": "completed",
+   "success": true,
+   "taskHash": "df4b9276d91566925a41b465ff181fc3bafceef03f9b2de23f033cb1edcdd741"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_316",
+   "runId": "bd1bf735-dc5e-43a9-bc2c-4929601e94d9",
+   "status": "completed",
+   "success": true,
+   "taskHash": "61690384b07ca7b59f3c0f39313fc03708cf22237abc26345261bc3fb31ee581"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_317",
+   "runId": "44bef27a-3d3e-4224-b868-41cffdaaef92",
+   "status": "completed",
+   "success": true,
+   "taskHash": "06cda2ab804fda256fc363bb8d01a9631fc3ecedd3c5c35d838283c676d171eb"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_318",
+   "runId": "f1c035d1-a924-4fd0-af11-08f35fd06309",
+   "status": "completed",
+   "success": true,
+   "taskHash": "9163bdfa83c42b5139ef58ff1fd7ad4a2fee52f9b7882f1dc63596a5ebba1cdb"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_319",
+   "runId": "61d7202f-616c-45fc-b40a-72fab66296cd",
+   "status": "completed",
+   "success": true,
+   "taskHash": "b388808b7c73721a6f78cc36066683892d221aa59abb77b201cb3fec1a1e4b15"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_320",
+   "runId": "bc22efe2-e76b-485b-aa60-4e8c508f6b01",
+   "status": "completed",
+   "success": true,
+   "taskHash": "8f0686129c0dd00b824b6ce43fa3678ffa3823f461648a89bb65004051b3c97d"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_321",
+   "runId": "6f536d8c-3568-4f83-989c-74b7cf96dba3",
+   "status": "completed",
+   "success": true,
+   "taskHash": "863a165a157d678e6971041e9d6125639a9f4c25429bd3a260f327dcbf99cd14"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_322",
+   "runId": "50adc9f3-68b0-47b1-8e16-de464a1b6a35",
+   "status": "completed",
+   "success": true,
+   "taskHash": "24791afd7561dc7b5b60756a258ad289553ccc514f3cd1ab91fd0835730ebbf9"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_323",
+   "runId": "75aad893-369c-49ba-abd2-1065e316da0f",
+   "status": "completed",
+   "success": true,
+   "taskHash": "251e5e37058bcc3ed9c06f1d914c3782713f093c169a7ce34d6819a8075e8ed6"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_324",
+   "runId": "5c8143e2-e88d-44ba-9990-88857aa8d53c",
+   "status": "completed",
+   "success": true,
+   "taskHash": "8036ea161f2861c6b641cbd78f543f2f7d995f835076bdd266165b5c16fcab27"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_325",
+   "runId": "c7b417c8-2e4d-4647-8b04-cf9131aa3804",
+   "status": "completed",
+   "success": true,
+   "taskHash": "b9af63913a5ae02d701309d4500e742ef1ff561836fa978927cbdac16b067c88"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_326",
+   "runId": "b46d08de-9dc3-4a3f-ac77-654d9f4bdbb3",
+   "status": "completed",
+   "success": true,
+   "taskHash": "8484138cb068fe7e9635d10004d9b11eb74c249f1c0cbd981419c479d20e36cc"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_327",
+   "runId": "f25b0c8a-2a6c-4272-9eb0-24ca67a1037b",
+   "status": "completed",
+   "success": true,
+   "taskHash": "e21486d61fa79855967f38add5faefb3a01ec2967ad626e27003062c75f88a20"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_328",
+   "runId": "e66b98cc-047f-45f3-96f1-95fc7a862f83",
+   "status": "completed",
+   "success": false,
+   "taskHash": "669a689b089c70994735bd8d5c58b2ef44ed2192e284b2cd7c7fcaad5f6f1dd9"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_329",
+   "runId": "4c78fefb-19e1-491b-a86d-2714571b622e",
+   "status": "completed",
+   "success": true,
+   "taskHash": "b13792c925c96c425fcd4084035e975099ab0f2030f7d25ddda33e6c8a7311a4"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_330",
+   "runId": "697a5b1d-da85-4d84-92d1-9ee4421262e9",
+   "status": "completed",
+   "success": true,
+   "taskHash": "68f54ff2d82ee8840105c870d090a9bfc08ca59cba7d3e5f7dd8f273d7138ff3"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_331",
+   "runId": "0917f8a4-6e62-428d-b535-d44f034271bd",
+   "status": "completed",
+   "success": true,
+   "taskHash": "5ff1e846efd216f0042f0c6c7b64fbcc8b83706ee27456ac08d5fc642c02759b"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_332",
+   "runId": "693f3909-558d-4df3-af53-df27656eae99",
+   "status": "completed",
+   "success": true,
+   "taskHash": "aa18882c43ec02367976e416afeefc8aa4244fd5f93d904724964ed6d44bb2b4"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_333",
+   "runId": "2c09e232-f2f6-408d-bb7a-b9c69a5199fe",
+   "status": "completed",
+   "success": true,
+   "taskHash": "866edb03e91c76425b2d94aa60ae5a00b1b5a30baddcee0fd505256d11550b1b"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_334",
+   "runId": "58c35062-3116-4079-81b4-c5f139b3e404",
+   "status": "completed",
+   "success": true,
+   "taskHash": "6f7258111400dc862f0bbe108997f7fd2b447bafb8d062c36a59d21467c643df"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_335",
+   "runId": "94548851-a6b7-452f-bc3c-f4689f9532ee",
+   "status": "completed",
+   "success": true,
+   "taskHash": "633cbe27ac88f08703cf45aaebbc0eb0d81c11b10d30baa2089c5cf0485de599"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_336",
+   "runId": "1049f2e2-0300-4b6d-9bd1-0567d9c269f3",
+   "status": "completed",
+   "success": true,
+   "taskHash": "2b89dc6408ce6afb983c19b33b71d59b6cece78f5db806eabece26558b0e38e2"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_337",
+   "runId": "6a56e90a-e7a4-4f4a-aa59-245ad4f7c30f",
+   "status": "completed",
+   "success": true,
+   "taskHash": "92d0b5bce7ea2671113f1aeb97096fdd86f1faf0e2a97e81fdf2c11947f0683f"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_338",
+   "runId": "e8122577-525a-4892-a645-a635221dbfbe",
+   "status": "failed",
+   "success": false,
+   "taskHash": "898bfeaa0454b415796e598b4e0d0c7c1a0d50a0388a5d7d7f17e1d4a7d37570"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_339",
+   "runId": "b2dbbd70-3e5d-4a43-affa-3b62f6fb9960",
+   "status": "failed",
+   "success": false,
+   "taskHash": "dcb9066241fbf09a34b9b2bb421b0adba673d73c5f68370dfc1f49416372e8f8"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_340",
+   "runId": "d6a16875-9079-4c3d-b4a6-51d5566154aa",
+   "status": "completed",
+   "success": true,
+   "taskHash": "5944bad88fda7a475335917b079a2526a64edeb4a22ca78141f0706e1f004e32"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_341",
+   "runId": "dab198e8-36e9-4afd-a827-1415b5b50325",
+   "status": "completed",
+   "success": false,
+   "taskHash": "3dfd1fbbc70ea8171be3f64f6964df4c9ad7ad3ef89927d968d542f870c362ce"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_342",
+   "runId": "840b01fc-8fc8-497e-a7f9-0fae49d76e8c",
+   "status": "completed",
+   "success": true,
+   "taskHash": "4e1ab281ce0ee7dfd30e7d942b1ceead5a11120d52d4fe31a4bd73ef4b4486c1"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_343",
+   "runId": "01849991-d121-452a-9a0b-26998dcfa0b8",
+   "status": "completed",
+   "success": true,
+   "taskHash": "41ea6b6910702ab44448f700d0c08fea31417e065ecfd94cf0139c3e33df8570"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_344",
+   "runId": "fa9a1976-7211-42ca-8fc3-b55755e26339",
+   "status": "completed",
+   "success": true,
+   "taskHash": "7c21fc5efa0b67c303840856457987e4c66f993284e53cf890764392437130f4"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_345",
+   "runId": "f3063423-0cdc-42d4-90a2-a59045452f69",
+   "status": "completed",
+   "success": true,
+   "taskHash": "a70bb04acfb4a5a92daf6502f4c8f3d7bf65e377c87a2afd17e6bae127842318"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_346",
+   "runId": "76099791-44a1-426e-9116-df9a9a09edfa",
+   "status": "completed",
+   "success": true,
+   "taskHash": "d79f1f7629a0a5e0dca1dedac95744e6dd7782b5bf7136c34ecc111bb82abc3d"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_347",
+   "runId": "a9d49474-b8c7-41c4-8dc7-52924d3bc968",
+   "status": "completed",
+   "success": true,
+   "taskHash": "207410e187c1b6ce30b2ed1bbf202e938e991d236fda3b34674cf2e217cccab7"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_348",
+   "runId": "0a9f4fd4-b395-407e-84c9-e0d48196e26a",
+   "status": "completed",
+   "success": true,
+   "taskHash": "5be6912c207d8e0654db4bd46c9e257af6cd72240418b1434930695da324b11d"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_349",
+   "runId": "9d220030-ffe7-4f89-974e-a1ebc222a096",
+   "status": "completed",
+   "success": true,
+   "taskHash": "dd47bcae0c736d048df69f7630abf897d7cb21a6a7c562273851ee87cbd0e972"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_350",
+   "runId": "309070d6-ad1b-4dab-9c11-114f51726961",
+   "status": "completed",
+   "success": true,
+   "taskHash": "cec8ed768d8338c88de3b3b768839971cbfacdca30708b06cfbf6b037e29c09d"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_351",
+   "runId": "f6c038a8-ee76-4f5c-b3e0-e43c4b16fb90",
+   "status": "completed",
+   "success": true,
+   "taskHash": "e9894dc8088da701a8797a12c3f6f5b10166ced171de062bbc26b25089008dde"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_352",
+   "runId": "dd60fa94-79ff-4b62-9dc9-36518e0e960c",
+   "status": "completed",
+   "success": true,
+   "taskHash": "906371716859ad96334c60ea8c51b46eebe5d087a80132aaa50d70c6f9f4a8b1"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_353",
+   "runId": "8f927cad-65fb-4584-a635-cd6080d81e5b",
+   "status": "completed",
+   "success": true,
+   "taskHash": "77c781a9e9cf73d836c5e3033f8eedefe2e30946d1c247d7e73414de2373e972"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_354",
+   "runId": "397a9e7b-0202-4226-8a42-e958dfd502da",
+   "status": "completed",
+   "success": true,
+   "taskHash": "8806ec737b1ca10eb2cc0fd3a7b7f0037581b0d8f18b7a32ca609946646f54a5"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_355",
+   "runId": "8c738146-d5b9-4987-9518-33fcdc9c7509",
+   "status": "completed",
+   "success": true,
+   "taskHash": "ea8c42f17d9804ad4c34130c626712bbce04aa52ea3bf48aed02592a45ae9f37"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_356",
+   "runId": "59cb1c12-e451-466d-8893-b7d676d7b0c4",
+   "status": "completed",
+   "success": true,
+   "taskHash": "f5126c27a39cbc532917541e5e86f66c94a81bf27ab6c194b0420dd5d6d10257"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_357",
+   "runId": "fbb809b1-938d-4c1e-bb96-2c91b5c76696",
+   "status": "completed",
+   "success": true,
+   "taskHash": "f1d50671c15018e277be0dcab414d056419a7f4f718dcb2ff00c9238971cc0ab"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_358",
+   "runId": "b5912251-a1e6-4fd6-9140-e3cf245af6b2",
+   "status": "completed",
+   "success": true,
+   "taskHash": "ff863848ba0b219a609e7664a55339ff48ae50db6c265bed9e4914f780854460"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_359",
+   "runId": "7aa9b5b9-1df9-438a-b47a-5506c8a6605c",
+   "status": "completed",
+   "success": true,
+   "taskHash": "3f03ac14cf456016b1fa40c46db4a15d6906f305540f4846f8393253253c155a"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_360",
+   "runId": "43944764-9fe0-48f9-a75e-0d553fd6a797",
+   "status": "completed",
+   "success": true,
+   "taskHash": "75958c696ebcf4907e2b78da9f66e699289a52985b907fb6b6d18672a04faab9"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_361",
+   "runId": "8138bd1f-882e-4141-a62e-36244a02c6f9",
+   "status": "completed",
+   "success": true,
+   "taskHash": "b9f1eaa80fa31fe3c24a8dcd9c6ceec1ac7f046464348463287846c6c6eab270"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_362",
+   "runId": "fd16a31f-645a-4ba6-83ea-a1b6d9c577e2",
+   "status": "completed",
+   "success": true,
+   "taskHash": "6bf08086e3993b63252483a9f6959c8cd63656fe42dc477c5219691752ee7423"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_363",
+   "runId": "2213fb35-69d5-4fcd-96a1-f3a98fef1ba6",
+   "status": "completed",
+   "success": true,
+   "taskHash": "f7541a0ba1b07dc260dafaf1f3011bbfdf18d0185e17926dcb0197017a60157d"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_364",
+   "runId": "e7dd739c-a393-4215-9d2d-da3c76c22d9a",
+   "status": "completed",
+   "success": true,
+   "taskHash": "13119f9c673138309f8e7ca4c928d268b527590ad8d573660cbb8bb6a6788695"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_365",
+   "runId": "52cd3e3d-4865-4be2-a9fe-985f0df793ee",
+   "status": "completed",
+   "success": true,
+   "taskHash": "30ad9f03096586b3ebd51ae407873d85fb9e6010e165a37a0751678e9d43d514"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_366",
+   "runId": "7a24e257-1c0a-4b98-9071-49b2ad1e5c34",
+   "status": "completed",
+   "success": false,
+   "taskHash": "914b0407ac56776bdaf929cc6b12dc8f9dce9cbaa773e5df299452c1552b1888"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_367",
+   "runId": "3a66b9d6-c57d-41c4-b9da-bdb4ad49b06d",
+   "status": "completed",
+   "success": false,
+   "taskHash": "6c0aee38920488fbb5b5470c43c37313629a0e98282936bef54d944d008e2534"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_368",
+   "runId": "5cab4f78-52c4-4589-80c8-f95cc3e33366",
+   "status": "completed",
+   "success": true,
+   "taskHash": "3d93ac8f8bab96aa269c851948b160b07f2a3ac4d5b88d2c404c8fdd001adcd9"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_369",
+   "runId": "4541e6f4-048e-4bfd-8875-6cb5dbdb775e",
+   "status": "completed",
+   "success": true,
+   "taskHash": "5c2c1e00568f7b0dd5e97de0ede0d950cf323055a6f86b363e4cba0749cc7bff"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_370",
+   "runId": "7598f725-ea35-445f-9c5d-75a2fe0b782f",
+   "status": "completed",
+   "success": true,
+   "taskHash": "012d1d6153df9b3c5a0c788dcbd33af6770215fb6de7c6efe0bae286d9c7142e"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_371",
+   "runId": "a5387026-c585-4621-8242-796d024bbfea",
+   "status": "completed",
+   "success": true,
+   "taskHash": "7b663b7c8933934662f7fbebd01eb3502cfcaa4212696f80ad35bfb6e371fc38"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_372",
+   "runId": "14eb1b6d-da30-4847-98f2-ee3f281e853b",
+   "status": "completed",
+   "success": false,
+   "taskHash": "1c2071862fb4564d0cd968381a0a7aa117300e3941c56e25b33654c80484a66c"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_373",
+   "runId": "85649e41-cb42-434f-8c2d-353049592bca",
+   "status": "completed",
+   "success": false,
+   "taskHash": "8bd81f5b5046f6dc160e1ce2102155f2aa83787ca4b89c968728402e3a209012"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_374",
+   "runId": "eaf991b5-7794-4196-a33b-83a655d58746",
+   "status": "completed",
+   "success": true,
+   "taskHash": "66870273c034c21ba1435a378302cc1c8afcb4e61a50ece213f8b094ac5be34b"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_375",
+   "runId": "17fde0e8-029e-45a8-9943-62dd818ab642",
+   "status": "completed",
+   "success": true,
+   "taskHash": "6673a8c724d0c19966ee195e2b7225a9068e617740cdbf2fb838c48eb086510f"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_376",
+   "runId": "d5dbc004-6cd4-4df0-848c-59d47e67ef1a",
+   "status": "completed",
+   "success": false,
+   "taskHash": "7b4d86ad93845bc4f93a0c63efacc2851e438b56491c1cf9f8d730acf6ed70e6"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_377",
+   "runId": "7a1facbd-cae0-4073-bb77-c1f5b2fea676",
+   "status": "completed",
+   "success": true,
+   "taskHash": "024866adec53c40dbd4ec61546b26064b352a60c262ab04f4bdeefc376d7871c"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_378",
+   "runId": "4195b4c5-92cc-47c9-b522-fe6bf90ebfc5",
+   "status": "completed",
+   "success": true,
+   "taskHash": "48cd1ae838f5e38623d9e3a7ae0c07434da39df21f38036ffdee03d3ba0b9503"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_379",
+   "runId": "695436f2-e780-4a5a-ab56-9be1e20baaa3",
+   "status": "completed",
+   "success": true,
+   "taskHash": "28921e5a90b94499c7b56b63c23825fa49de0f024db48e2f3418b9194e10d19b"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_380",
+   "runId": "aa82a68b-0b15-441d-ae29-1db4b1d20a93",
+   "status": "completed",
+   "success": true,
+   "taskHash": "5a0c96610f871b8ac72c8be3610648e6fdef810fef8b40e05ef14b7627cd3340"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_381",
+   "runId": "8dc1d1fb-66ca-4fe2-b6cc-c9f9887da3ee",
+   "status": "completed",
+   "success": true,
+   "taskHash": "1978b84f4cb7561b5a1a54c52e88cda4dda805abbda48e14ba7f91be65ce3ca6"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_382",
+   "runId": "407099aa-2ad1-43bf-a5f0-3a19fa2de76e",
+   "status": "completed",
+   "success": true,
+   "taskHash": "ef47d8a188085ce20aab9a2c146250cba78575428bffec331d83177af13daeb3"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_383",
+   "runId": "d9a71b5d-36e7-455d-beed-ac2747bb43ef",
+   "status": "completed",
+   "success": false,
+   "taskHash": "85e181e47cb89d3b9f595b0fd9e5027ad461486c5516deeb582a9112a404576c"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_384",
+   "runId": "a8eb279a-b535-4a7a-b045-36613f2f656d",
+   "status": "completed",
+   "success": true,
+   "taskHash": "0bbe8b130747f9d3fd89585f192a7a08eeb0d5890992e412429968c8978bd28f"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_385",
+   "runId": "a1e95525-99ab-4505-b6f8-c9fd01c42a18",
+   "status": "completed",
+   "success": false,
+   "taskHash": "509a656b6f183cdf225cfb61e4214426b54c97430024c08e5a76ea9a25b1262d"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_386",
+   "runId": "9d191c0e-4e11-46a0-b473-1ad9a96ac125",
+   "status": "completed",
+   "success": true,
+   "taskHash": "2027db88cb31d1931187b19002a0bfcf9f93d890d77618937c7ff0c5f002c59d"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_387",
+   "runId": "215e03f3-1869-4c59-a4d3-efd76b40e10c",
+   "status": "completed",
+   "success": false,
+   "taskHash": "2c4deff5b34f23fca9b140cb829d2623745580abf290c89ca786c91ac9b0cd48"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_388",
+   "runId": "3c0d293b-0065-4480-9b2a-cdadd432f003",
+   "status": "completed",
+   "success": true,
+   "taskHash": "ddf2f96c9009d963c1f3c7d2a89d11b8e62b2d3a2d6c5941d0a1ba44ddb0bee1"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_389",
+   "runId": "fd3f4567-92b6-4504-9266-925535626552",
+   "status": "completed",
+   "success": true,
+   "taskHash": "5fc8c75b33c595a6d66db2140ecd50e5730340147b30a8c26f1d32092a26746f"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_390",
+   "runId": "6da52ef2-399e-4b4a-bf1d-49a07e9c07a5",
+   "status": "completed",
+   "success": true,
+   "taskHash": "18987d3b251f5af65c708e14ef44a3ce3ca936f9b061cfc9f56c9d3ca3b6c8ed"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_391",
+   "runId": "79cc24d9-b015-4318-8ea0-25a554aaf230",
+   "status": "completed",
+   "success": true,
+   "taskHash": "107cd3de194a8342d396779cf02a6af51eaacf494e1e8eecc0787e99c9ef1507"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_392",
+   "runId": "90b3dc56-3895-4ff0-af1a-d036e2810908",
+   "status": "completed",
+   "success": true,
+   "taskHash": "2df1699500dbcd5df7ad57669b48064501da424c0cdca890541eb0317002b852"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_393",
+   "runId": "71d90cb1-bac9-4637-b772-820eb4f181c4",
+   "status": "completed",
+   "success": true,
+   "taskHash": "70035567c46d11e4839379343b4ca10cc5d96be3b55fe243aa0bb8de89122378"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_394",
+   "runId": "ba60c24b-09e1-43e7-82da-3d561fabca5b",
+   "status": "completed",
+   "success": false,
+   "taskHash": "b6ae1fa32113785787a4e98b77e4fc72cdd18e8151c823e2b4fbec49fd03b522"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_395",
+   "runId": "33ea8c75-70c4-4102-89a7-4c873c4541ed",
+   "status": "completed",
+   "success": false,
+   "taskHash": "ab3436fdb44e85cf45f10edb25e790ab889b69bbeba85d9a73149de15ece0451"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_396",
+   "runId": "73353fd4-6650-4257-98ec-4f2f98a6a764",
+   "status": "completed",
+   "success": true,
+   "taskHash": "e071ff079ca26fcd52ca42e409d0211086fe505b673696d66f13f8e09a5c448b"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_397",
+   "runId": "c1ad86c6-948f-4397-98b4-d5ec29430ba0",
+   "status": "completed",
+   "success": true,
+   "taskHash": "a0ccc33c60da4993e0dc989b66786e023f1677969a149796a3048778937437d4"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_398",
+   "runId": "e817e9bc-daa3-4ff4-8712-cb2a4c25492c",
+   "status": "completed",
+   "success": true,
+   "taskHash": "6ad7728b8815fbafec2407e3b66f5a57cfaebcb7087d5dc846b32580fea0c767"
+  },
+  {
+   "costStatus": "known",
+   "costUsd": 0,
+   "id": "simple_python_399",
+   "runId": "6fdb63d7-2e56-4273-a599-01dffefe0352",
+   "status": "completed",
+   "success": true,
+   "taskHash": "02e56e8a820caeee221b9904fd931f9bdf0c77f20a80b093e3217e2f3aca061e"
+  }
+ ]
+}

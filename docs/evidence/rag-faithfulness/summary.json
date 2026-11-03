@@ -1,0 +1,99 @@
+{
+ "conditions": {
+  "stored": {
+   "n": 200,
+   "faithful": 132,
+   "judged": 176,
+   "answerFailed": 0,
+   "judgeFailed": 24,
+   "rate": 0.66,
+   "rateOnJudged": 0.75
+  },
+  "before": {
+   "n": 200,
+   "faithful": 115,
+   "judged": 177,
+   "answerFailed": 0,
+   "judgeFailed": 23,
+   "rate": 0.575,
+   "rateOnJudged": 0.6497175141242938
+  },
+  "after": {
+   "n": 200,
+   "faithful": 130,
+   "judged": 173,
+   "answerFailed": 0,
+   "judgeFailed": 27,
+   "rate": 0.65,
+   "rateOnJudged": 0.7514450867052023
+  }
+ },
+ "paired": {
+  "both": 163,
+  "improved": 23,
+  "degraded": 10,
+  "tied": 130
+ },
+ "byGold": {
+  "stored": {
+   "goldRetrieved": {
+    "n": 51,
+    "faithful": 44,
+    "judged": 45,
+    "answerFailed": 0,
+    "judgeFailed": 6,
+    "rate": 0.8627450980392157,
+    "rateOnJudged": 0.9777777777777777
+   },
+   "goldMissed": {
+    "n": 149,
+    "faithful": 88,
+    "judged": 131,
+    "answerFailed": 0,
+    "judgeFailed": 18,
+    "rate": 0.5906040268456376,
+    "rateOnJudged": 0.6717557251908397
+   }
+  },
+  "before": {
+   "goldRetrieved": {
+    "n": 44,
+    "faithful": 39,
+    "judged": 39,
+    "answerFailed": 0,
+    "judgeFailed": 5,
+    "rate": 0.8863636363636364,
+    "rateOnJudged": 1
+   },
+   "goldMissed": {
+    "n": 156,
+    "faithful": 76,
+    "judged": 138,
+    "answerFailed": 0,
+    "judgeFailed": 18,
+    "rate": 0.48717948717948717,
+    "rateOnJudged": 0.5507246376811594
+   }
+  },
+  "after": {
+   "goldRetrieved": {
+    "n": 51,
+    "faithful": 44,
+    "judged": 45,
+    "answerFailed": 0,
+    "judgeFailed": 6,
+    "rate": 0.8627450980392157,
+    "rateOnJudged": 0.9777777777777777
+   },
+   "goldMissed": {
+    "n": 149,
+    "faithful": 86,
+    "judged": 128,
+    "answerFailed": 0,
+    "judgeFailed": 21,
+    "rate": 0.5771812080536913,
+    "rateOnJudged": 0.671875
+   }
+  }
+ }
+}

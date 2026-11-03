@@ -1,0 +1,168 @@
+{
+ "note": "Downloaded from huggingface.co with curl on 2026-10-30. LFS files match the publisher sha256 (tree API lfs.oid); other files match the git blob id. Dataset revisions are the last ones before the 2026 Parquet conversion (no parquet reader exists in the project environments).",
+ "datasets": {
+  "scifact": {
+   "repo": "BeIR/scifact",
+   "revision": "984eed826375f18d27936c4a32bf0f8491e3f414",
+   "qrelsRepo": "BeIR/scifact-qrels",
+   "qrelsRevision": "2938d17dc3b09882fdb8c12bbbe2e2dc0e75a029",
+   "files": {
+    "corpus.jsonl.gz": {
+     "bytes": 2758600,
+     "sha256": "2f4a2a264485e5b5b95ae9cd5534817447757423991a4767d6da811539c0853e",
+     "gitBlobSha1": "633825d8d975773b9d9283142c23c98eaa86871d"
+    },
+    "queries.jsonl.gz": {
+     "bytes": 49271,
+     "sha256": "c29574b9cb8fdf043df8494f689de15f4604ac4b585eb34bda9b6a389aa6c4d3",
+     "gitBlobSha1": "702c0b84bad1e15c14f3f6bec8fbeaaf38787645"
+    },
+    "test.tsv": {
+     "bytes": 5389,
+     "sha256": "0864bb985e0ca2367ba217977e72004d549054b2b06666ed9d4825ac7c21284c",
+     "gitBlobSha1": "c62f58c75f10c0cee23483b7269bff2902ae4080"
+    }
+   }
+  },
+  "nfcorpus": {
+   "repo": "BeIR/nfcorpus",
+   "revision": "e28763e68d85db0fa71652ba3c4afabf8c5b3bb7",
+   "qrelsRepo": "BeIR/nfcorpus-qrels",
+   "qrelsRevision": "a451b3b26d3ae1358f259c1a3a4dd61fcea35a65",
+   "files": {
+    "corpus.jsonl.gz": {
+     "bytes": 1978293,
+     "sha256": "ae4d6ab2ab88d880e7e180776c956a09c19c43a703457742cd850d2422035802",
+     "gitBlobSha1": "3005790dd1ffcee1d81a2a3799f3533497d37c7b"
+    },
+    "queries.jsonl.gz": {
+     "bytes": 79080,
+     "sha256": "baba3504a2736b0e32265962f04acc4fecfaf9649e0ea08e49ff441246f75364",
+     "gitBlobSha1": "383f780129b25c43be5298e0a2f255e92316fe87"
+    },
+    "test.tsv": {
+     "bytes": 279572,
+     "sha256": "f8fba6ef3d4dd9c3a242a8ba4ae38276fc3622fce7dcbae764766d564542fd2a",
+     "gitBlobSha1": "615081e6e8a76050060caf45d23fe68342d8d360"
+    }
+   }
+  },
+  "fiqa": {
+   "repo": "BeIR/fiqa",
+   "revision": "e31855201132ea2a257d7df77c828d7c02427521",
+   "qrelsRepo": "BeIR/fiqa-qrels",
+   "qrelsRevision": "252958f2d646e22cab6d0c72dd3f0d5de6d0655a",
+   "files": {
+    "corpus.jsonl.gz": {
+     "bytes": 17662437,
+     "sha256": "6d2c7e27aeb8c646791178e3e5591a373813642f38d9c992c0a4f6cbf4092f72",
+     "gitBlobSha1": "6fec22249c81a4829b062e605b3e68ed323de06b"
+    },
+    "queries.jsonl.gz": {
+     "bytes": 193723,
+     "sha256": "a683bbedd2fd3b1fcb1a44fbd706daf9aff27291cd99e7a086b3cf7624785acb",
+     "gitBlobSha1": "814be223330d20d9e3b6f793fea6adbad20dca38"
+    },
+    "test.tsv": {
+     "bytes": 25256,
+     "sha256": "6adc2a640dcdd22bb8b3858f89107adef2a7c3db20a63550dfa7a0f71e379e44",
+     "gitBlobSha1": "4e4ef51a72222ce611f6c36b8c7c02d32e370e81"
+    }
+   }
+  }
+ },
+ "models": {
+  "bge-base-en-v1.5": {
+   "repo": "BAAI/bge-base-en-v1.5",
+   "revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+   "files": {
+    "1_Pooling/config.json": {
+     "bytes": 190,
+     "sha256": "c9bef85e8bbf4b2eab4941b3fb62bd33f88686748b478f2e264d256472d9643b",
+     "gitBlobSha1": "da5bfd57e34ca45582e4bdbaa3e6deb9efffa08d"
+    },
+    "config.json": {
+     "bytes": 777,
+     "sha256": "bc00af31a4a31b74040d73370aa83b62da34c90b75eb77bfa7db039d90abd591",
+     "gitBlobSha1": "09a8200d8a549a3b9dba53b67156ca26810cc720"
+    },
+    "config_sentence_transformers.json": {
+     "bytes": 124,
+     "sha256": "940d5f50db195fa6e5e6a4f122c095f77880de259d74b14a65779ed48bdd7c56",
+     "gitBlobSha1": "dcb0c0d97d09b930d13600b1a773ddb27e441aab"
+    },
+    "model.safetensors": {
+     "bytes": 437955512,
+     "sha256": "c7c1988aae201f80cf91a5dbbd5866409503b89dcaba877ca6dba7dd0a5167d7",
+     "gitBlobSha1": "ad71116bb50c81fabbd09934c61c52dac2f0d7c0"
+    },
+    "modules.json": {
+     "bytes": 349,
+     "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf",
+     "gitBlobSha1": "952a9b81c0bfd99800fabf352f69c7ccd46c5e43"
+    },
+    "sentence_bert_config.json": {
+     "bytes": 52,
+     "sha256": "84e39fda68ccbff05bfa723ae9c0e70e23e2ec373b76e0f8c6e71af72a693cbf",
+     "gitBlobSha1": "ea85692bff64b0d1917833c31ddbca8ab10f5455"
+    },
+    "special_tokens_map.json": {
+     "bytes": 125,
+     "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+     "gitBlobSha1": "a8b3208c2884c4efb86e49300fdd3dc877220cdf"
+    },
+    "tokenizer.json": {
+     "bytes": 711396,
+     "sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+     "gitBlobSha1": "688882a79f44442ddc1f60d70334a7ff5df0fb47"
+    },
+    "tokenizer_config.json": {
+     "bytes": 366,
+     "sha256": "9261e7d79b44c8195c1cada2b453e55b00aeb81e907a6664974b4d7776172ab3",
+     "gitBlobSha1": "37fca74771bc76a8e01178ce3a6055a0995f8093"
+    },
+    "vocab.txt": {
+     "bytes": 231508,
+     "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+     "gitBlobSha1": "fb140275c155a9c7c5a3b3e0e77a9e839594a938"
+    }
+   }
+  },
+  "bge-reranker-base": {
+   "repo": "BAAI/bge-reranker-base",
+   "revision": "2cfc18c9415c912f9d8155881c133215df768a70",
+   "files": {
+    "config.json": {
+     "bytes": 799,
+     "sha256": "289adf7ada1eb6b4afa7589a48a032d45a076cf2e46dcdb3b4cabc33be14f708",
+     "gitBlobSha1": "ff248a5f7d76e27b10778b3c593c9fba1df4c448"
+    },
+    "model.safetensors": {
+     "bytes": 1112206140,
+     "sha256": "ced967c45fd1902eb92716c9ceeca7c95a936770ea9db611f5a841b926e33fbd",
+     "gitBlobSha1": "48dae8bef33b4562ad702ac6e9a37232973a2bcb"
+    },
+    "sentencepiece.bpe.model": {
+     "bytes": 5069051,
+     "sha256": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865",
+     "gitBlobSha1": "db9af13bf09fd3028ca32be90d3fb66d5e470399"
+    },
+    "special_tokens_map.json": {
+     "bytes": 279,
+     "sha256": "d5469a60db23249c7f8945013d78df30b44b6bf686c6bb4740f4223f77b1b535",
+     "gitBlobSha1": "68171d1ff68b731a33d119708476692c094a466b"
+    },
+    "tokenizer.json": {
+     "bytes": 17098107,
+     "sha256": "9eb652ac4e40cc093272bbbe0f55d521cf67570060227109b5cdc20945a4489e",
+     "gitBlobSha1": "d8df69ed69ec373d122b1c139ce22dd9b3372f17"
+    },
+    "tokenizer_config.json": {
+     "bytes": 443,
+     "sha256": "a1d6bc8734a6f635dc158508bef000f8e2e5a759c7d92f984b2c86e5ff53425b",
+     "gitBlobSha1": "059214673d9d6d2ee319411e2ffec8c024b816d5"
+    }
+   }
+  }
+ }
+}

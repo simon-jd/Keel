@@ -1,0 +1,25 @@
+{
+  "asOf": "2026-10-23",
+  "currency": "USD",
+  "unit": "per 1000000 tokens",
+  "scope": "Historical fixture reference rates for standard uncached text only, not proof of current model availability. No cache, batch, regional, long-context or other provider surcharges supported.",
+  "models": {
+    "gpt-4.1-mini-2025-04-14": {
+      "provider": "openai",
+      "inputPerMillion": 0.4,
+      "outputPerMillion": 1.6,
+      "fixtureOnly": true,
+      "availability": "not verified; family page marked deprecated",
+      "source": "https://developers.openai.com/api/docs/models/gpt-4.1-mini"
+    },
+    "claude-sonnet-4-5-20250929": {
+      "provider": "anthropic",
+      "inputPerMillion": 3,
+      "outputPerMillion": 15,
+      "fixtureOnly": true,
+      "availability": "not verified; historical fixture",
+      "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+    }
+  },
+  "openaiCompatible": "No default prices. Supply explicit deployment inputPerMillion/outputPerMillion."
+}

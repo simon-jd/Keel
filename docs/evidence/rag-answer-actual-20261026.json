@@ -1,0 +1,243 @@
+{
+  "schema": 1,
+  "kind": "independently-reviewed staged actual Kubernetes RAG comparison",
+  "status": "completed within disclosed weak-reference scope",
+  "humanEvidence": false,
+  "humanGold": false,
+  "executionGitSha": "4fa8f3f50092046b53eefa2d70c39534788c556f",
+  "implementationSha256": "39efb875f47beec62f25e9ac959df30c071ee7c1f261661e1f2b9aa2ef79542a",
+  "protocolSha256": "f9105b6cd11acc151eac5a5c359f5a29b10738a3493520f0dc98a15a16f2b4ee",
+  "plan": {
+    "path": ".tools/task14-answer-plan-20261026b.json",
+    "bytes": 5630,
+    "sha256": "21307a70614ce61712760e8600f4ca752222af3ed9504ea17ae61c03907730e2"
+  },
+  "independentReview": {
+    "path": ".superpowers/sdd/3-keel-agent-plan/task14-answer-b-actual-independent-review-20261026.md",
+    "bytes": 12104,
+    "sha256": "7e698a2fdcd1aa78992b4614511f991efba1a07a933c94cce8d048c53dfaa93b",
+    "dataSpec": "PASS",
+    "quality": "APPROVED WITH ONE MINOR OUTPUT LIMITATION",
+    "critical": 0,
+    "important": 0,
+    "minor": 1,
+    "sourceHoldReleased": true
+  },
+  "rootReadCompleteIndependentReport": true,
+  "qa": {
+    "path": "data/rag/qa.jsonl",
+    "bytes": 104470,
+    "sha256": "0d7c9ff7be567cab8181b3f2d471c25eed5c909262639a484c43af183f1ee01f",
+    "count": 200,
+    "origin": "subagent-authored same-family weak reference",
+    "audit": {
+      "path": "data/rag/qa.audit.jsonl",
+      "bytes": 304699,
+      "sha256": "72c5b528c4c2c6ae1f35df60665f6afcb5411489e1175958f9a305a604c97ded"
+    },
+    "freeze": {
+      "path": "data/rag/qa.freeze.json",
+      "bytes": 6714,
+      "sha256": "6a38ca444e8259803c6a0e862bd8d803ee68e14abf663bc91224a49403aa75f4"
+    },
+    "corpusVersion": "685b6988b39330405ff97cc69fcf7d600f963a55615e4653be04722cb95be356",
+    "chunks": 491
+  },
+  "actualB": {
+    "newLogicalCalls": 4400,
+    "newPhysicalAttempts": 4400,
+    "relevanceCalls": 4000,
+    "answers": 200,
+    "weakJudges": 200,
+    "usage": {
+      "input": 2653877,
+      "output": 86394
+    },
+    "retries": 0,
+    "unknownAttempts": 0,
+    "unaccountedIntents": 0,
+    "configuredLocalApiUsd": 0,
+    "costStatus": "known",
+    "runnerNativeSpans": 4200,
+    "apiNativeSpans": 200,
+    "evaluateCallsIncludingHistoricalQueries": 4600,
+    "historicalQueryCallsCountedOnce": 200
+  },
+  "cumulativeTask14": {
+    "newPhaseBKnownAccounted": 4400,
+    "newPhaseBPhysicalAttempts": 4400,
+    "unaccountedAttemptIntents": 0,
+    "priorPhaseA216": 216,
+    "priorDimension208": 208,
+    "priorFailedPhaseB9": 9,
+    "totalTask14KnownAccounted": 4833,
+    "totalTask14PhysicalAttempts": 4833,
+    "evaluateContainsHistoricalQuery200": true,
+    "phaseAIngest16CountedOnce": true
+  },
+  "metrics": {
+    "beforeRecallAt10": {
+      "numerator": 44,
+      "denominator": 200,
+      "value": 0.22
+    },
+    "afterRecallAt10": {
+      "numerator": 51,
+      "denominator": 200,
+      "value": 0.255
+    },
+    "recallDeltaPercentagePoints": 3.5,
+    "pairedChanges": {
+      "improved": 7,
+      "degraded": 0,
+      "tied": 193
+    },
+    "weakDiagnosticJudgePassRate": {
+      "numerator": 168,
+      "denominator": 200,
+      "value": 0.84
+    },
+    "faithfulness": null,
+    "reliableJudgeAdmitted": false
+  },
+  "postHocCitationDescription": {
+    "bracketedFullProvidedIdAnswerCount": 115,
+    "withoutBracketedFullProvidedId": 85,
+    "numericBracketCitationAnswerCount": 8,
+    "answerLocalDistinctFullProvidedIdMentions": 124,
+    "foreignBracketedFullIds": 0,
+    "denominator": 200,
+    "someMissingCitationsAreAbstentions": true,
+    "semanticCorrectnessNotMeasured": true,
+    "predeclaredPrimaryMetric": false,
+    "noRetuningOrReplay": true
+  },
+  "latency": {
+    "basis": "reported serial prediction timings; excludes weak judge; historical retrieval reused, not online end-to-end",
+    "historicalRetrievalMs": 15216.423,
+    "rerankMs": 1182569.929,
+    "answerMs": 363677.98,
+    "predictionTotalMs": 1563375.5,
+    "wholeUnitSeconds": 1939.764,
+    "otherPredictionOverheadMs": 1911.168
+  },
+  "artifacts": {
+    "answer-manifest.json": {
+      "path": ".tools/task14-answer-20261026b/answer-manifest.json",
+      "bytes": 3957,
+      "sha256": "c7a4e85ed21e04e2aa18abd075e14fda068ac358646deb8d34f736f5ffeb0745"
+    },
+    "api-safe-spans.jsonl": {
+      "path": ".tools/task14-answer-20261026b/api-safe-spans.jsonl",
+      "bytes": 151941,
+      "sha256": "3202a92aa92c362c7a192265a1efa477677c1f1fcfe2b78a5a095e32a5034a92"
+    },
+    "api-stopped.json": {
+      "path": ".tools/task14-answer-20261026b/api-stopped.json",
+      "bytes": 345,
+      "sha256": "c1217e3bd85263aed6a53ab43beef7ee7fcefbf240c775b770db475372101632"
+    },
+    "evaluation.json.gz": {
+      "path": ".tools/task14-answer-20261026b/evaluation.json.gz",
+      "bytes": 157876,
+      "sha256": "3d4aad2fd24e901dd17d1efdbf0405716ee2a74b2e618da87a0bdd9dddced50c"
+    },
+    "journal.jsonl.gz": {
+      "path": ".tools/task14-answer-20261026b/journal.jsonl.gz",
+      "bytes": 2552327,
+      "sha256": "cd962abb341118b93de79426dd1919ae1380862c5063037425e0274489e6ce62"
+    },
+    "lifecycle.jsonl.gz": {
+      "path": ".tools/task14-answer-20261026b/lifecycle.jsonl.gz",
+      "bytes": 1918,
+      "sha256": "18767abb5a1c20b30d0057f5ad0503a6ed2d4b8321b00591cc5a1c453a5d0a4c"
+    },
+    "native-spans.jsonl.gz": {
+      "path": ".tools/task14-answer-20261026b/native-spans.jsonl.gz",
+      "bytes": 1751914,
+      "sha256": "2d30d4f639cfe9aa8724ef8cb99f8fb36a60f591f6047c7dd0a3279e516c3c33"
+    },
+    "records.jsonl.gz": {
+      "path": ".tools/task14-answer-20261026b/records.jsonl.gz",
+      "bytes": 680596,
+      "sha256": "16cd558cb938e18e30c73f78cdd684d2aa8d3536875065675dca9c523b82ac0d"
+    },
+    "resource-admission.json": {
+      "path": ".tools/task14-answer-20261026b/resource-admission.json",
+      "bytes": 161,
+      "sha256": "3fe38a524a4c1768438091f692dc0a62f7b4d712500d5b997f7c4f019c5b8423"
+    },
+    "runner-ready.json": {
+      "path": ".tools/task14-answer-20261026b/runner-ready.json",
+      "bytes": 103,
+      "sha256": "dba116cdfa814aac42ea8cb1eb73587349629764905262eeb2074254d314a234"
+    },
+    "runner-safe.log": {
+      "path": ".tools/task14-answer-20261026b/runner-safe.log",
+      "bytes": 85,
+      "sha256": "5ba673150b0aef5ac77a40045038cf28b207dcca01c536a85b1f2c3c1df2dce2"
+    },
+    "vllm-safe-startup.log": {
+      "path": ".tools/task14-answer-20261026b/vllm-safe-startup.log",
+      "bytes": 11483,
+      "sha256": "acd7d1a296b798be55d4fdd1e666736009e8a2c31a23555d57f1afa2dd56f052"
+    }
+  },
+  "runtimeAndCleanup": {
+    "admittedAt": "2026-10-26T00:53:48.682904+00:00",
+    "completedAt": "2026-10-26T01:26:00.763365+00:00",
+    "unit": "keel-task14-answer-20261026b.service",
+    "invocationId": "1cb9225b4a7b44a786d9fbee63d77a02",
+    "exitCode": 0,
+    "memoryMaxBytes": 12499996672,
+    "swapMaxBytes": 0,
+    "sampledPeakRssBytes": 3591213056,
+    "peakInclusiveDiskBytes": 7838858735,
+    "postInclusiveDiskBytes": 7838850543,
+    "gpuMemoryUtilization": 0.8,
+    "flock": "/var/tmp/rtx4090.lock",
+    "postProof": {
+      "path": ".superpowers/sdd/3-keel-agent-plan/task14-answer-post-cleanup-20261026b.json",
+      "bytes": 11009,
+      "sha256": "ae0167331f6a3f74e406eae48e9ea8087cb33c72871088acb36ebe848fc1f01d"
+    },
+    "knownPidsAbsent": 7,
+    "unitInactiveMainPidZero": true,
+    "portsBindable": [
+      18000,
+      18080
+    ],
+    "ephemeralKeysAbsent": true,
+    "gpuLockAvailableAtPost": true,
+    "cachedFilesUnchanged": 21,
+    "pointInTimeAndSampledEvidence": true
+  },
+  "retainedEarlierFailures": {
+    "aNinePhysicalAttempts": "docs/evidence/rag-answer-attempt-a-20261026.json",
+    "bFirstZeroCallPreflight": {
+      "path": ".superpowers/sdd/3-keel-agent-plan/task14-answer-first-preflight-failure-20261026b.json",
+      "bytes": 1169,
+      "sha256": "1b3dc0c5bbf04228da3274ebb456f53fddc139e13783b2522e0cba0b4d15c781"
+    },
+    "bPreflightModeOnlyCorrection": "config0664 to0600; source bytes and fresh plan unchanged; no OUT/keys/model calls before correction"
+  },
+  "budget": {
+    "newPaidCalls": 0,
+    "closedCommercialReserveUsd": 6.7396544,
+    "azureReaperPrecheck": {
+      "path": ".superpowers/sdd/3-keel-agent-plan/root-azure-reaper-20261026b.json",
+      "bytes": 398,
+      "sha256": "68a172ffb54fba9ef80f7b09b016b9defd4441dd86f2af1d0cb89617e7071cc1"
+    },
+    "protectedResourceGroupUntouched": true
+  },
+  "limits": [
+    "QA is frozen subagent weak reference, human=false, same-family independence unproved",
+    "negative Task9 kappa/domain false-pass limits retained; weak pass is not reliable faithfulness or correctness",
+    "85 answers lack bracketed full provided context ID; some abstain; no semantic inference from this count",
+    "embedding is generative last-token pooling, not a trained embedding checkpoint",
+    "configured revision and source/wire hashes are not raw HTTP capture or independent provider attestation",
+    "serial staged timings reuse historical retrieval and exclude weak judge; not online end-to-end",
+    "all failed attempts and zero-call preflight remain retained; no outcome-driven data/prompt changes"
+  ]
+}

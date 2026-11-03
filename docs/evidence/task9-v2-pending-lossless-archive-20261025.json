@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "scope": "lossless storage maintenance of two completed schema-v2 pending checkpoints only; canonical complete results and original negative outcomes unchanged",
+  "status": "completed-and-independently-verified",
+  "controllerSha256": "281853e909099db5e71a4813e9e263d187b80fdb645edb634ccdee281e266597",
+  "planSha256": "d6fb898d538969b38966de428acf895763869285f1961c48f388716b1e2589d7",
+  "privateIndex": ".tools/task9-v2-pending-archive-20261025a/index.json",
+  "indexSha256": "4f688c7d6c7a774f80a19747dc7c9fa2adbddf43f8b040ed68fedf5ebf429962",
+  "logicalRawBytes": 4244801,
+  "logicalGzipBytes": 441088,
+  "sourceFilesAllocatedReductionBytes": 3801088,
+  "inclusiveReductionBeforeFinalIndexBytes": 3792896,
+  "freshPostDiskBytes": 7836790255,
+  "controllerRuntimeSeconds": 9.37,
+  "unitRuntimeSeconds": 9.465,
+  "outerMemoryMax": 2147483648,
+  "swapBytes": 0,
+  "outerTTLSeconds": 120,
+  "stopSeconds": 8,
+  "allTwoRawByteHashesVerified": true,
+  "all19ApprovalFilesUnchanged": true,
+  "ownedUnitStopped": true,
+  "staticAndActualReview": {
+    "bytes": 32365,
+    "sha256": "287856d702bc792172970392cd4d31c8559b2443a8df737895153cd92177fa99",
+    "spec": "PASS",
+    "quality": "APPROVE",
+    "CIM": [
+      0,
+      0,
+      0
+    ]
+  },
+  "recovery": "Original pending paths map to gzip below. Decompress in memory and check rawBytes/rawSha256. Restore copies only after fresh 8GB admission. Canonical completed JSON files remain at original paths. No xattr/ACL/full-filesystem restoration claim.",
+  "entries": [
+    {
+      "source": ".tools/annotation-task9/agent-local-json-schema-v2-judge-task9-rationale-v2-calibration-v1-20261025a.pending.json",
+      "archive": ".tools/task9-v2-pending-archive-20261025a/agent-local-json-schema-v2-judge-task9-rationale-v2-calibration-v1-20261025a.pending.json.gz",
+      "rawBytes": 2129899,
+      "rawSha256": "96f17f68ef1231c081d17814d2eaf5fc0af57467d0a0e736055afb8af197d7fa",
+      "gzipBytes": 221292,
+      "gzipSha256": "b965a7e8f3b95d58a14484935951a5052a74eaad2047d0a3e6996065b78a5eec",
+      "sourceAllocatedBytes": 2129920,
+      "gzipAllocatedBytes": 225280
+    },
+    {
+      "source": ".tools/annotation-task9/agent-local-json-schema-v2-judge-task9-rationale-v2-calibration-v2-20261025a.pending.json",
+      "archive": ".tools/task9-v2-pending-archive-20261025a/agent-local-json-schema-v2-judge-task9-rationale-v2-calibration-v2-20261025a.pending.json.gz",
+      "rawBytes": 2114902,
+      "rawSha256": "3acd9f3462670cfb41da6b5e67f83f837686ddcf185d77399302177625b44c2b",
+      "gzipBytes": 219796,
+      "gzipSha256": "4bd9e692de2b3080e115b9de62d34fcd03e4d2e41ab4ab880c807c0cd2f3ea97",
+      "sourceAllocatedBytes": 2117632,
+      "gzipAllocatedBytes": 221184
+    }
+  ]
+}

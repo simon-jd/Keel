@@ -1,0 +1,24 @@
+{
+  "name": "rag",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json",
+    "prepare:corpus": "tsx src/prepare.ts"
+  },
+  "dependencies": {
+    "models": "workspace:*",
+    "tracing": "workspace:*",
+    "pg": "8.23.1"
+  },
+  "devDependencies": {
+    "@types/pg": "8.23.1"
+  },
+  "exports": {
+    "./ingest": "./src/ingest.ts",
+    "./retrieve": "./src/retrieve.ts",
+    "./rerank": "./src/rerank.ts",
+    "./eval": "./src/eval.ts"
+  }
+}

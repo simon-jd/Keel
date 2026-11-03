@@ -1,0 +1,18 @@
+node_modules/
+.tools/
+.pnpm-store/
+.superpowers/
+.env
+.env.*
+!.env.example
+dist/
+coverage/
+__pycache__/
+.pytest_cache/
+.venv/
+*.log
+.secrets/
+.cache/
+
+# Runtime reservation mutex; the companion JSON ledger is versioned.
+/docs/azure-spend.json.lock

@@ -1,0 +1,1 @@
+{"cohortHash":"c48c6dff2d6d594125b0260682d31d5a2d1c68ca3448af689cc69d1406e1699f","primary":{"expected":300,"labeled":300,"missing":[],"complete":true},"secondary":{"expected":100,"labeled":100,"missing":[],"complete":true},"interRater":{"n":100,"po":0.94,"pe":0.9032,"kappa":0.3801652892561978,"categories":["fail","pass"],"matrix":[[2,0],[6,92]]},"interRaterReason":null}

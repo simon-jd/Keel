@@ -1,0 +1,322 @@
+{
+  "activePropertiesSha256": "7dea7865f032cca60433786d93a254556cdc36edc3a65e20754af12953533824",
+  "allIdsUniqueAndCorrelated": true,
+  "at": "2026-10-25T18:52:39.519Z",
+  "cgroupReportedMemoryPeak": "2.6G (systemd display, not sampled RSS or configured reservation; cached pages can be charged elsewhere)",
+  "cleanup": {
+    "all_children_stopped": true,
+    "ephemeral_files_removed": true,
+    "event": "cleanup",
+    "outcome_code": 0,
+    "owned_cleanup": {
+      "all_owned_stopped": true,
+      "direct_child_returncodes": [
+        {
+          "pid": 3082699,
+          "returncode": 0
+        },
+        {
+          "pid": 3087052,
+          "returncode": 0
+        },
+        {
+          "pid": 3087730,
+          "returncode": 0
+        },
+        {
+          "pid": 3100245,
+          "returncode": 0
+        }
+      ],
+      "errors": [],
+      "owned_descendants_empty": true,
+      "owned_group_empty": true,
+      "seconds": 0.72774,
+      "survivors": []
+    },
+    "peak_disk_bytes": 7828344303,
+    "peak_rss_bytes": 3570257920,
+    "seconds": 203,
+    "span_file": ".tools/task9-local-schema-calibration-20261025a/safe-spans.jsonl",
+    "startup_drain_error_types": [],
+    "startup_drain_stopped": true,
+    "time": "2026-10-25T18:52:30.293620Z"
+  },
+  "cleanupVerified": true,
+  "cohortHash": "c48c6dff2d6d594125b0260682d31d5a2d1c68ca3448af689cc69d1406e1699f",
+  "comparison": {
+    "human_evidence": false,
+    "human_reference_gate_fulfilled": false,
+    "referenceCoverage": {
+      "complete": true,
+      "expected": 300,
+      "labeled": 300,
+      "missing": []
+    },
+    "reference_origin": "subagent",
+    "scope": "in-sample judge agreement with attributed weak subagent reference; not human or gold accuracy",
+    "selected": "v1",
+    "selectionRule": "all versions complete and defined; highest ordinary kappa; lexical version tie; in-sample only",
+    "status": "compared",
+    "versions": {
+      "v1": {
+        "agreement": {
+          "categories": [
+            "fail",
+            "pass"
+          ],
+          "kappa": -0.03174603174603223,
+          "matrix": [
+            [
+              0,
+              20
+            ],
+            [
+              6,
+              274
+            ]
+          ],
+          "n": 300,
+          "pe": 0.916,
+          "po": 0.9133333333333333
+        },
+        "coverage": {
+          "complete": true,
+          "expected": 300,
+          "labeled": 300,
+          "missing": []
+        },
+        "reason": null
+      },
+      "v2": {
+        "agreement": {
+          "categories": [
+            "fail",
+            "pass"
+          ],
+          "kappa": -0.03174603174603223,
+          "matrix": [
+            [
+              0,
+              20
+            ],
+            [
+              6,
+              274
+            ]
+          ],
+          "n": 300,
+          "pe": 0.916,
+          "po": 0.9133333333333333
+        },
+        "coverage": {
+          "complete": true,
+          "expected": 300,
+          "labeled": 300,
+          "missing": []
+        },
+        "reason": null
+      }
+    }
+  },
+  "comparisonReportSha256": "3b51b25e2bf2cef5c6f0b8da35c3e763e1e1c126355bbd1e2af66ba61232ebe9",
+  "controllerSha256": "c918dac8139eae3eecb20ef5787a8320957a2a600fe6a2e3e592dd582010da7d",
+  "exactPhysicalAggregateObservationUsageEquality": true,
+  "gitSha": "2ae5b0b999ed809fdf027bda936c9e9b40d89f15",
+  "gpuMemoryUtilization": 0.8,
+  "human_evidence": false,
+  "implementationSha256": "48ec3495092e32bf26f249e58c869a8a31322dac051be3209fd468289a34ce23",
+  "independentActualDataReview": {
+    "critical": 0,
+    "decision": "Approved bounded actual evidence; reliable judge not admitted",
+    "important": 0,
+    "minor": 2,
+    "publicSummary": "docs/evidence/task9-local-schema-actual-review-20261025.md",
+    "reportBytes": 149982,
+    "reportPath": ".superpowers/sdd/3-keel-agent-plan/task9-local-schema-actual-independent-review-20261025.md",
+    "reportSha256": "19fbee17ca01d266553f254c0b0c1f5180e09abcf1ff0617d0db4f99c17a8810",
+    "rootRead": "complete 1779-line report including every retained command, output and error"
+  },
+  "inputTokens": 210872,
+  "internalTimeoutSeconds": 1800,
+  "knownLocalApiCostUsd": 0,
+  "legacyFiveAndFailed78Preserved": true,
+  "lifecycleSha256": "a78c6528f4984ea8ac0460ec38509f7e0988dabc4977be3d0e53f01b08f220b6",
+  "lifecycleTimes": [
+    {
+      "at": "2026-10-25T18:49:13.912061Z",
+      "event": "admitted",
+      "promptVersion": null
+    },
+    {
+      "at": "2026-10-25T18:49:41.813851Z",
+      "event": "vllm_ready",
+      "promptVersion": null
+    },
+    {
+      "at": "2026-10-25T18:49:46.894705Z",
+      "event": "judge_version_started",
+      "promptVersion": "v1"
+    },
+    {
+      "at": "2026-10-25T18:51:08.651302Z",
+      "event": "judge_version_finished",
+      "promptVersion": "v1"
+    },
+    {
+      "at": "2026-10-25T18:51:13.618987Z",
+      "event": "judge_version_started",
+      "promptVersion": "v2"
+    },
+    {
+      "at": "2026-10-25T18:52:29.547589Z",
+      "event": "judge_version_finished",
+      "promptVersion": "v2"
+    },
+    {
+      "at": "2026-10-25T18:52:29.556561Z",
+      "event": "judge_commands_finished",
+      "promptVersion": null
+    },
+    {
+      "at": "2026-10-25T18:52:30.293620Z",
+      "event": "cleanup",
+      "promptVersion": null
+    }
+  ],
+  "logical": 600,
+  "mechanicalSelectionOnly": true,
+  "memoryHardLimitBytes": 13499998208,
+  "memoryReservedBytes": 13500000000,
+  "memorySwapMaxBytes": 0,
+  "model": "Qwen/Qwen3-8B-AWQ",
+  "newFiveBSourceSha256": "17aa673b6a9b06f9be3be456d0e95da7eb2626c1267844b9bf65562253762d77",
+  "next": "Investigate observed rationale failure without editing frozen inputs or prior outcomes; any corrected wire profile is a separately versioned experiment and requires review/fresh admission. Domain/RAG reliability remains unadmitted.",
+  "outerRuntimeMaxSeconds": 1830,
+  "outputTokens": 10138,
+  "physical": 600,
+  "planSha256": "938718f66c6eed7ac298e907dc13a9a818ce44e4aa3653d9796eea5c682de2d4",
+  "postCleanup": {
+    "at": "2026-10-25T18:54:34.470002Z",
+    "ephemeralKeysAbsent": [
+      ".secrets/task9-local-schema-calibration-api-token-20261025a",
+      ".secrets/task9-local-schema-calibration-vllm-token-20261025a"
+    ],
+    "gpuLockAvailable": true,
+    "inclusiveDiskBytes": 7829057007,
+    "otherReservedMemoryBytes": 2119294976,
+    "portsListen18000_18080": "",
+    "postCollectedUnitDefaultPropertiesNotRuntimeClaims": true,
+    "unit": "keel-task9-local-schema-calibration-20261025a.service",
+    "unitProperties": "LoadState=not-found\nActiveState=inactive\nSubState=dead\nMainPID=0\n"
+  },
+  "profile": {
+    "configured": {
+      "attribution": "operator-configured",
+      "modelRevision": "4da05a8edb55c6046cce958586c33b61da07bb79",
+      "modelSource": "Qwen/Qwen3-8B-AWQ",
+      "runtime": {
+        "name": "vllm",
+        "version": "0.17.1"
+      },
+      "servedModel": "keel-local"
+    },
+    "liveEnforcement": "NOT_YET_PROVEN",
+    "profile": "task9-local-json-schema-v1",
+    "protocol": "openai-chat-completions-sse-json-schema-v1",
+    "schemaSha256": "d50bf2a45960e43fa6e6be0ef4ae110493bbf459263578817aeb9524a027879b",
+    "wirePolicySha256": "f9698e63f922a48a4b59c540268461bd9195b67cc74cabf5ebeddb2a159fac09"
+  },
+  "qualityInterpretation": "Both prompts disagree below chance-corrected baseline against accepted weak subagent reference. All20 reference-fail cases predicted pass; six reference-pass cases predicted fail. Lexical tie selectsv1, which is not a competence or human/gold accuracy claim. Keep actualRAG faithfulness gate closed until separate source-domain validation and reviewed admission.",
+  "rationaleQuality": {
+    "allSingleCharacter": true,
+    "compilerCause": "under separate CPU diagnostic; not established by this actual-data review",
+    "completePreservedRationales": 600,
+    "histograms": {
+      "v1": {
+        "A": 293,
+        "M": 3,
+        "S": 3,
+        "W": 1
+      },
+      "v2": {
+        "A": 290,
+        "M": 4,
+        "S": 4,
+        "T": 1,
+        "W": 1
+      }
+    },
+    "interpretation": "schema-valid but uninformative; does not explain decisive BFCL evidence as rubric requests; no reliability admission"
+  },
+  "rawResponseHashLimit": "Recorded SHA256 values checked for shape/uniqueness and inequality; original raw HTTP bodies not retained, so no independent wire-body rehash.",
+  "referenceAlwaysPassBaseline": 0.9333333333333333,
+  "reference_origin": "subagent",
+  "reliableJudgeAdmitted": false,
+  "retries": 0,
+  "revision": "4da05a8edb55c6046cce958586c33b61da07bb79",
+  "scope": "root independent actual-data provenance/intent/accounting/span and manual kappa arithmetic audit; no inference/relabel",
+  "selected": "v1",
+  "selectionRule": "complete300each; highest ordinary kappa; lexical version tie; in-sample weak-reference only",
+  "sourceHashes": {
+    "v1": "d7f553d90909c06ee54c6ab6f92b1eb945f243ce36fbc945933b292e31cbcdf7",
+    "v2": "290d5594f749bb13c17d37831e1023a37547b4429b9732063d8f9374a04878b7"
+  },
+  "spanCount": 600,
+  "spansSha256": "2562affcadc570560809b754c8c47dbe8fc7ec5f645adcaa55c2883d21ea73e5",
+  "startupLogSha256": "ecd0d83d7ca004bf948a7bd05a2b7855ac704dac16f673ba6c29e0c45c0b4fb6",
+  "startupWarnings": "Same TRANSFORMERS_CACHE deprecation, two upstream invalid-escape SyntaxWarnings, deliberate eager/compile-disabled warnings and model generation_config default-sampling notice retained. Explicitrequest temp0/seed0; no claim all other defaults overridden. Bounded retention can end midchunk after readiness.",
+  "unknownAttempts": 0,
+  "versions": {
+    "v1": {
+      "confusionRowsReferenceColumnsJudge": [
+        "fail",
+        "pass"
+      ],
+      "expectedAgreement": 0.916,
+      "inputTokens": 102436,
+      "kappa": -0.03174603174603223,
+      "logical": 300,
+      "matrix": [
+        [
+          0,
+          20
+        ],
+        [
+          6,
+          274
+        ]
+      ],
+      "observedAgreement": 0.9133333333333333,
+      "outputTokens": 5199,
+      "physical": 300,
+      "predictedFail": 6,
+      "referenceFail": 20
+    },
+    "v2": {
+      "confusionRowsReferenceColumnsJudge": [
+        "fail",
+        "pass"
+      ],
+      "expectedAgreement": 0.916,
+      "inputTokens": 108436,
+      "kappa": -0.03174603174603223,
+      "logical": 300,
+      "matrix": [
+        [
+          0,
+          20
+        ],
+        [
+          6,
+          274
+        ]
+      ],
+      "observedAgreement": 0.9133333333333333,
+      "outputTokens": 4939,
+      "physical": 300,
+      "predictedFail": 6,
+      "referenceFail": 20
+    }
+  }
+}

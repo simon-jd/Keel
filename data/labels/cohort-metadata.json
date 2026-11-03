@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "protocol": "bfcl-single-turn-v1",
+  "selection": "sha256(bfcl-single-turn-v1:primary:contentHash), lexical ascending; secondary uses secondary salt",
+  "population": 400,
+  "cohortHash": "c48c6dff2d6d594125b0260682d31d5a2d1c68ca3448af689cc69d1406e1699f",
+  "rubricVersion": "bfcl-action-v1",
+  "rubricHash": "1c8497a87274ab4964cd9df65dfdfe7354b5b1d6e40ea98e8845c86cec7dae8c",
+  "promptVersions": [
+    "v1",
+    "v2"
+  ],
+  "promptHashes": {
+    "v1": "9dfc0a6c440cf3d22c969d987e2469d221e064d4ccbc0eae890189fd22a574d1",
+    "v2": "c65750c67f87e78d389296592bdb47f5526c6d66d8fb06a7fdfc2195d96559b4"
+  },
+  "primaryHash": "6cb0bef56d1dfd8b0f8905c49bf74b1da4cc71549bf4293c1f40204ab0208d45",
+  "secondaryHash": "202f12e92937db08d187b5e83dd207cc4efc06a3cf50a875ad583abb07251391",
+  "auditHash": "075a5349f961f36b6c26a6b1a0723aa6ab9738d4170c5291716af8175d871845",
+  "manifestSha256": "b1bc00fb3fc6dfc2261e7a660026dc9e49e6fd69c547d1287efd9fc56b9db38a",
+  "sourceSnapshotSha256": "3fbacb6de864310bc707970ff99979a7e133cdb8a36ffea775ac5526f86f490a",
+  "sourceSnapshotBytes": 10780899,
+  "implementationSha256": "864bcdb6dbaeb31487173c3a0f6697af401ca9c19d5fd08612f3db24516c44f1",
+  "indexSha256": "851e8b6b36a1033b7bfe5bfc82ca39104702f4f79ebaa78c7bd959537858296f",
+  "primaryUnits": 300,
+  "secondaryUnits": 100,
+  "humanPrimaryLabels": 0,
+  "humanSecondaryLabels": 0,
+  "status": "frozen material; accepted subagent reference; local five and v1/v2 actual study independently verified; negative agreement / uninformative rationales; reliable judge not admitted",
+  "scope": "complete distinct single-turn original local BFCL; no tau2/RAG/SaaS generalization",
+  "agent_reference": {
+    "reference_origin": "subagent",
+    "human_evidence": false,
+    "human_reference_gate_fulfilled": false,
+    "accepted_user_substitution": true,
+    "primaryUnits": 300,
+    "secondaryUnits": 100,
+    "primaryLabelCounts": {
+      "pass": 280,
+      "fail": 20
+    },
+    "secondaryLabelCounts": {
+      "pass": 95,
+      "fail": 5
+    },
+    "primarySha256": "1350432881dc718cda5d48b7065c09d5c20a315c493f3665a67f783737bfc3cf",
+    "secondarySha256": "db8bdc15d285b7e81a69d9c86c83c866323ed01c3749e36cf8600fc4ec83e5dd",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "high",
+    "temperature": "unknown",
+    "per_call_cost": "unknown",
+    "limitations": "AI-AI consistency only; no statistical independence or accuracy claim; three nonblind adjudications excluded"
+  }
+}

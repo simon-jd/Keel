@@ -1,0 +1,30 @@
+{
+ "scifact": {
+  "docs": 5183,
+  "queries": 300,
+  "bm25IndexMs": 2040.762283,
+  "bm25QueryMsP50": 0.7521379999998317,
+  "denseQueryMsP50": 4.341543999999885
+ },
+ "nfcorpus": {
+  "docs": 3633,
+  "queries": 323,
+  "bm25IndexMs": 1678.4519680000003,
+  "bm25QueryMsP50": 0.07143400000040856,
+  "denseQueryMsP50": 3.916540000000168
+ },
+ "fiqa": {
+  "docs": 57638,
+  "queries": 648,
+  "bm25IndexMs": 12867.930871,
+  "bm25QueryMsP50": 10.70148799999879,
+  "denseQueryMsP50": 66.52685100000235
+ },
+ "kubernetes": {
+  "docs": 491,
+  "queries": 200,
+  "bm25IndexMs": 134.86502100000507,
+  "bm25QueryMsP50": 0.10532499999681022,
+  "denseQueryMsP50": 0.49192099999345373
+ }
+}

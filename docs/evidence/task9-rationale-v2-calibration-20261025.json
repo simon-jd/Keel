@@ -1,0 +1,296 @@
+{
+  "activeLockSha256": "27fb9be0e03da8ef7903765daf25728255c8dcd8661250693b2b38eaab506e78",
+  "activePropertiesSha256": "58d4ad406cf989a22fb98271a3fbb983e6f4b1c25f8c0dc2dddb18200bb96c39",
+  "allIdsUniqueAndCorrelated": true,
+  "at": "2026-10-25T19:50:01.581Z",
+  "changedLabelsAgainstOldSchemaV1": {
+    "v1": 0,
+    "v2": 0
+  },
+  "cleanup": {
+    "all_children_stopped": true,
+    "ephemeral_files_removed": true,
+    "event": "cleanup",
+    "outcome_code": 0,
+    "owned_cleanup": {
+      "all_owned_stopped": true,
+      "direct_child_returncodes": [
+        {
+          "pid": 3330141,
+          "returncode": 0
+        },
+        {
+          "pid": 3334383,
+          "returncode": 0
+        },
+        {
+          "pid": 3335063,
+          "returncode": 0
+        },
+        {
+          "pid": 3368228,
+          "returncode": 0
+        }
+      ],
+      "errors": [],
+      "owned_descendants_empty": true,
+      "owned_group_empty": true,
+      "seconds": 0.748339,
+      "survivors": []
+    },
+    "peak_disk_bytes": 7839456751,
+    "peak_rss_bytes": 3759144960,
+    "seconds": 469,
+    "span_file": ".tools/task9-rationale-v2-calibration-20261025a/safe-spans.jsonl",
+    "startup_drain_error_types": [],
+    "startup_drain_stopped": true,
+    "time": "2026-10-25T19:49:38.652562Z"
+  },
+  "cleanupVerified": true,
+  "cohortHash": "c48c6dff2d6d594125b0260682d31d5a2d1c68ca3448af689cc69d1406e1699f",
+  "comparison": {
+    "human_evidence": false,
+    "human_reference_gate_fulfilled": false,
+    "referenceCoverage": {
+      "complete": true,
+      "expected": 300,
+      "labeled": 300,
+      "missing": []
+    },
+    "reference_origin": "subagent",
+    "scope": "in-sample judge agreement with attributed weak subagent reference; not human or gold accuracy",
+    "selected": "v1",
+    "selectionRule": "all versions complete and defined; highest ordinary kappa; lexical version tie; in-sample only",
+    "status": "compared",
+    "versions": {
+      "v1": {
+        "agreement": {
+          "categories": [
+            "fail",
+            "pass"
+          ],
+          "kappa": -0.03174603174603223,
+          "matrix": [
+            [
+              0,
+              20
+            ],
+            [
+              6,
+              274
+            ]
+          ],
+          "n": 300,
+          "pe": 0.916,
+          "po": 0.9133333333333333
+        },
+        "coverage": {
+          "complete": true,
+          "expected": 300,
+          "labeled": 300,
+          "missing": []
+        },
+        "reason": null
+      },
+      "v2": {
+        "agreement": {
+          "categories": [
+            "fail",
+            "pass"
+          ],
+          "kappa": -0.03174603174603223,
+          "matrix": [
+            [
+              0,
+              20
+            ],
+            [
+              6,
+              274
+            ]
+          ],
+          "n": 300,
+          "pe": 0.916,
+          "po": 0.9133333333333333
+        },
+        "coverage": {
+          "complete": true,
+          "expected": 300,
+          "labeled": 300,
+          "missing": []
+        },
+        "reason": null
+      }
+    }
+  },
+  "comparisonReportSha256": "efca82942b54071fc72cf53cb6e57b2c549352fcd9c55556b71daf04d4ae94c1",
+  "configuredBackend": {
+    "backend": "xgrammar",
+    "disable_fallback": true,
+    "evidence": "actual retained server and engineconfiguration plus installed metadata check",
+    "libraryVersion": "0.1.29"
+  },
+  "controllerReviewSha256": "6af785294140d34b16f09808927bb5de5f9228c4ca6769ab5eff8f42881efaf1",
+  "controllerSha256": "04aaba9f7ddc922bdf89d727d20efae05a03b674485605a87af0ee13587d4b75",
+  "estimatedExtraDiskReserveBytes": 18000000,
+  "exactPhysicalAggregateObservationUsageEquality": true,
+  "gitSha": "9fa9f2cb643bfdb80bcdd2d38ec8f04883c1a34c",
+  "historicalTrials": "original605singlecharnegative/legacy78failure/promptfive/0calladmissionfailure retained unchanged; no cross-profile mixture",
+  "human_evidence": false,
+  "implementationSha256": "18f3d87d1329e9f9b6528332ff282749578c41a28c8a48ee2251cdb4ef8b85a0",
+  "independentActualDataReview": "pending fresh combined newv2 five/600 and separate domain diagnostic",
+  "inputTokens": 210872,
+  "internalTimeoutSeconds": 1800,
+  "knownLocalApiCostUsd": 0,
+  "lifecycleSha256": "7f4b623a76621853a0eebd16559552804ec04cfbcb1cb8076579305482401f57",
+  "logical": 600,
+  "mechanicalSelectionOnly": true,
+  "memoryHardLimitBytes": 13499998208,
+  "memoryReservedBytes": 13500000000,
+  "next": "one selectedversion pass over immutable100Kubernetes domaincases using separately fixed rubric/systemhash; sourcequality/observedaccuracy distinctions explicit; no edits from outcomes",
+  "outerTimeoutSeconds": 1830,
+  "outputTokens": 43376,
+  "physical": 600,
+  "planSha256": "0fbe04bfb85d908884b2b869235a2306f6dad997fa944dd2ddf576ee43dc7a98",
+  "postCleanup": {
+    "at": "2026-10-25T19:51:53.660729+00:00",
+    "disk": {
+      "admitted": true,
+      "container_writable_bytes": 0,
+      "image_bytes": 1616465391,
+      "limit_bytes": 8000000000,
+      "missing_images_not_pulled": [
+        "cgr.dev/chainguard/minio@sha256:a893442cd57d795411ace0b9a78f26a65e3f6e546d3f25c24e19f8446b0d9718",
+        "clickhouse/clickhouse-server:25.12",
+        "docker.langfuse.com/langfuse/langfuse-worker:4.69.0",
+        "docker.langfuse.com/langfuse/langfuse:4.69.0"
+      ],
+      "note": "Images are conservatively counted at full local size; shared HF cache excluded.",
+      "planned_bytes": 0,
+      "project": "keel",
+      "project_bytes": 6223224832,
+      "total_bytes": 7839690223,
+      "volume_bytes": 0
+    },
+    "ephemeralKeysAbsent": [
+      ".secrets/task9-rationale-v2-calibration-api-token-20261025a",
+      ".secrets/task9-rationale-v2-calibration-vllm-token-20261025a"
+    ],
+    "gpuLockAvailable": true,
+    "otherReservedBytes": 2208960512,
+    "portsListen18000_18080": "",
+    "postCollectedUnitDefaultPropertiesNotRuntimeClaims": true,
+    "unitProperties": "LoadState=not-found\nActiveState=inactive\nSubState=dead\nMainPID=0\n",
+    "unitQueryExit": 0
+  },
+  "productionReviewSha256": "63f8bec233e8d144f10824e0516f14646fa8006691e9f4fe5c7e3660509a49d6",
+  "profile": {
+    "configured": {
+      "attribution": "operator-configured",
+      "modelRevision": "4da05a8edb55c6046cce958586c33b61da07bb79",
+      "modelSource": "Qwen/Qwen3-8B-AWQ",
+      "runtime": {
+        "name": "vllm",
+        "version": "0.17.1"
+      },
+      "servedModel": "keel-local"
+    },
+    "liveEnforcement": "NOT_YET_PROVEN",
+    "profile": "task9-local-json-schema-v2",
+    "protocol": "openai-chat-completions-sse-json-schema-v2",
+    "schemaSha256": "8555d7a223d87b528cdb74e2a259d725a40780fef2b3e722ea45a68f8e2e3c4d",
+    "wirePolicySha256": "b898e61bc1b8513b74c36245bcf0b595aad2a2ee67d87bbfc8380d1e4b86c988"
+  },
+  "qualityInterpretation": "Removing the grammar one-character restriction restored154–710character explanations but did not improve label agreement: all300labels of each prompt equal prior schema-v1 labels, same negative kappa. All20 reference-fail cases predictedpass and6 reference-pass predictedfail. WeakAI reference is not gold; do not declare either side correct. Mechanical lexicaltie selectsv1, no reliablejudge or RAGtransfer admission.",
+  "rationaleQuality": {
+    "count": 600,
+    "maxLength": 710,
+    "minLength": 154,
+    "oneCharacter": 0,
+    "scope": "length is descriptive; usefulness requires independent semantic review"
+  },
+  "rawHashLimitation": "original raw HTTP bytes not retained; recorded SHA values only",
+  "referenceAlwaysPassBaseline": 0.9333333333333333,
+  "referenceProvenance": {
+    "human_evidence": false,
+    "human_reference_gate_fulfilled": false,
+    "origin": "subagent",
+    "sameModelFamilyLimit": true
+  },
+  "reference_origin": "subagent",
+  "reliableJudgeAdmitted": false,
+  "reserveIsEstimateNotWorstCase": true,
+  "retries": 0,
+  "schema": 1,
+  "scope": "root independent actual-data provenance/intent/accounting/span and manual kappa arithmetic audit; no inference/relabel",
+  "selected": "v1",
+  "selectionRule": "complete300each; highest ordinary kappa; lexical version tie; in-sample weak-reference only",
+  "sourceHashes": {
+    "v1": "54a7f28d7be4cf1705edb8f756d4a5c897417f227c848168423a4ac1410e19cb",
+    "v2": "00069ab6db954adac87ca12effd24b7aa89b04eaec3d01d42d28768e6609997e"
+  },
+  "spanCount": 600,
+  "spansSha256": "7349dbdaec6645e9dd6bbebfa78d674e80ba88ba0db4c2d361a521bc07c8f2ff",
+  "startupLogSha256": "9d71c69d5f43ef62665e95231475cfe19b2748b70eea7ffbc3aee740db3d5a1d",
+  "startupRetention": "original bounded redacted startup ends midchunk, warnings retained; separate CLI/lifecycle/unit prove completion",
+  "startupWarnings": [
+    "TRANSFORMERS_CACHE deprecation",
+    "two invalidescape upstream SyntaxWarnings",
+    "deliberate eager/Inductor/CUDAgraph disable warnings",
+    "model generation_config defaults notice; explicittemperature0/seed0 remain requested"
+  ],
+  "status": "completed actual new schema-v2 study; independent actual-data review pending",
+  "unknownAttempts": 0,
+  "versions": {
+    "v1": {
+      "confusionRowsReferenceColumnsJudge": [
+        "fail",
+        "pass"
+      ],
+      "expectedAgreement": 0.916,
+      "inputTokens": 102436,
+      "kappa": -0.03174603174603223,
+      "logical": 300,
+      "matrix": [
+        [
+          0,
+          20
+        ],
+        [
+          6,
+          274
+        ]
+      ],
+      "observedAgreement": 0.9133333333333333,
+      "outputTokens": 22054,
+      "physical": 300,
+      "predictedFail": 6,
+      "referenceFail": 20
+    },
+    "v2": {
+      "confusionRowsReferenceColumnsJudge": [
+        "fail",
+        "pass"
+      ],
+      "expectedAgreement": 0.916,
+      "inputTokens": 108436,
+      "kappa": -0.03174603174603223,
+      "logical": 300,
+      "matrix": [
+        [
+          0,
+          20
+        ],
+        [
+          6,
+          274
+        ]
+      ],
+      "observedAgreement": 0.9133333333333333,
+      "outputTokens": 21322,
+      "physical": 300,
+      "predictedFail": 6,
+      "referenceFail": 20
+    }
+  }
+}

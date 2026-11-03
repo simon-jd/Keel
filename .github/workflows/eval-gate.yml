@@ -1,0 +1,24 @@
+name: eval-gate
+on:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Gate and routing unit tests
+        run: pnpm --filter evals test
+      # The candidate report is produced offline by a real model run on the regression set
+      # and committed with the change under review. CI has no model access; it only compares.
+      - name: Compare candidate report with baseline (2pp success / 10% cost)
+        run: node_modules/.bin/tsx packages/evals/src/gateCli.ts data/regression/baseline-qwen3-8b-awq.json data/regression/candidate-report.json

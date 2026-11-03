@@ -1,0 +1,74 @@
+{
+ "scifact.corpus": {
+  "texts": 5183,
+  "calls": 162,
+  "inputTokens": 1693234,
+  "seconds": 3.2501303660000005,
+  "callLatencyMsP50": 154.2404690000003,
+  "callLatencyMsP95": 191.33611799999994,
+  "sha256": "542bdb2360e0058dc8641d9496d0225e37226a7dfe428f0b0015c068225fc1ee"
+ },
+ "scifact.queries": {
+  "texts": 300,
+  "calls": 10,
+  "inputTokens": 9253,
+  "seconds": 0.11083026500000005,
+  "callLatencyMsP50": 79.11974999999984,
+  "callLatencyMsP95": 92.70313099999976,
+  "sha256": "b029e69d5e0225638f75888639d7c5eff4ccfbee6229cabb8660fe0a5da7a3c6"
+ },
+ "nfcorpus.corpus": {
+  "texts": 3633,
+  "calls": 114,
+  "inputTokens": 1264140,
+  "seconds": 2.221872775,
+  "callLatencyMsP50": 152.8634779999993,
+  "callLatencyMsP95": 166.81462800000008,
+  "sha256": "3ac321c9924624b51cbca4c20e966bb81fbdfca90bb9f1e4c8583b88d031753a"
+ },
+ "nfcorpus.queries": {
+  "texts": 323,
+  "calls": 11,
+  "inputTokens": 4844,
+  "seconds": 0.1508997470000004,
+  "callLatencyMsP50": 96.27494999999999,
+  "callLatencyMsP95": 106.25173199999972,
+  "sha256": "abd8fe3b20dd67bcac5e845f522dc4743d26cff826dc0ca2053395d5aa775f73"
+ },
+ "fiqa.corpus": {
+  "texts": 57638,
+  "calls": 1802,
+  "inputTokens": 9616047,
+  "seconds": 23.472325674,
+  "callLatencyMsP50": 98.27958200000012,
+  "callLatencyMsP95": 146.7371740000017,
+  "sha256": "07a278e168af2fc9f24ad8e3b7d88236320379cfa341a7a9da1230e5a1d576aa"
+ },
+ "fiqa.queries": {
+  "texts": 648,
+  "calls": 21,
+  "inputTokens": 15287,
+  "seconds": 0.22709723300000043,
+  "callLatencyMsP50": 79.48183499999868,
+  "callLatencyMsP95": 99.45843599999716,
+  "sha256": "737cfedde3a6be3eb9f61146a35831a2c642f9a632fc5655148bec5bad6af26e"
+ },
+ "kubernetes.corpus": {
+  "texts": 491,
+  "calls": 16,
+  "inputTokens": 141778,
+  "seconds": 0.27460241900000254,
+  "callLatencyMsP50": 123.10028199999942,
+  "callLatencyMsP95": 161.62374500000078,
+  "sha256": "439b0fa6d1cfe276a2e9c25ba0ed8d9bf8c7f1e927e600ef6338dda96a22913c"
+ },
+ "kubernetes.queries": {
+  "texts": 200,
+  "calls": 7,
+  "inputTokens": 5998,
+  "seconds": 0.07498614599999928,
+  "callLatencyMsP50": 69.89494800000102,
+  "callLatencyMsP95": 74.22217499999897,
+  "sha256": "e3ae85ec3fcc4870606330028efda0f85c20288f3c111ed336a128220ca09aa8"
+ }
+}

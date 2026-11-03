@@ -1,0 +1,170 @@
+{
+  "schema": 1,
+  "scope": "lossless storage mapping for seventeen closed historical Task8 native span journals",
+  "status": "root and independent actual byte audits approved",
+  "independentReview": {
+    "bytes": 56749,
+    "sha256": "507b9cc76d58ad6152e6923cecf791b1aa9ce853d9b05647099ebe9a3905a241",
+    "dataSpec": "PASS",
+    "quality": "APPROVED",
+    "critical": 0,
+    "important": 0,
+    "minor": 0
+  },
+  "index": {
+    "path": ".tools/task8-spans-archive-20261025a/index.json",
+    "bytes": 24651,
+    "sha256": "4de3cb0ac3a05b690c47e21945ff3e754d0affb6f4ecb208375b379b3447d887"
+  },
+  "rawBytes": 12642151,
+  "gzipBytes": 1033657,
+  "sourceFileAllocatedSavingsBytes": 11649024,
+  "sampledInclusiveSavingsBytes": 11624448,
+  "archiveRawRows": 16621,
+  "rowCountLimit": "Counts rows in these historical files only; does not redefine Task8 logical/physical calls or admitted span counts. No new model calls/spans.",
+  "protectedCalibrationMaterialsUnchanged": 19,
+  "modelCacheAndEnvironmentsModified": false,
+  "unitRuntimeSeconds": 12.832,
+  "postUnit": "not-found/inactive/dead/MainPID0",
+  "postDiskBytes": 7830572527,
+  "entries": [
+    {
+      "source": ".tools/spans-1792860064964726173.jsonl",
+      "archive": ".tools/task8-spans-archive-20261025a/spans-1792860064964726173.jsonl.gz",
+      "rawBytes": 760637,
+      "rawSha256": "6bb8e9206d636f7c1da9a2987e24b7dd68688a55b73b10da20ac2c8e8cac8280",
+      "gzipBytes": 61374,
+      "gzipSha256": "9617df656fc106c9208adea2c99bc09216eb8cc1bf8b47fdfc69e89e039c8048"
+    },
+    {
+      "source": ".tools/spans-1792861072690705629.jsonl",
+      "archive": ".tools/task8-spans-archive-20261025a/spans-1792861072690705629.jsonl.gz",
+      "rawBytes": 760435,
+      "rawSha256": "ccca17cb1017afc5d416ee10319592ce5a3e63322f889b06eb44730698050e00",
+      "gzipBytes": 61676,
+      "gzipSha256": "a28fdb249b2a30a6fdc3246cc33d9ab4b1f81cb1c595d867ca671087f59a59d0"
+    },
+    {
+      "source": ".tools/spans-1792861875592273274.jsonl",
+      "archive": ".tools/task8-spans-archive-20261025a/spans-1792861875592273274.jsonl.gz",
+      "rawBytes": 760759,
+      "rawSha256": "405dba865cda9e5b64cec8944d11362bef4851f1a08bde16ab2b10e832707e61",
+      "gzipBytes": 61436,
+      "gzipSha256": "e33667b4ef34d40ffac1cc56caf533944480ea10e37c46e8cf0b0ebf0fff85b8"
+    },
+    {
+      "source": ".tools/spans-1792862627573536116.jsonl",
+      "archive": ".tools/task8-spans-archive-20261025a/spans-1792862627573536116.jsonl.gz",
+      "rawBytes": 696673,
+      "rawSha256": "32b52def734a2201da91ba981b0662260281d6a3642ec061da5323291d1b483e",
+      "gzipBytes": 55853,
+      "gzipSha256": "f752df2f199bf3171802f108f620c6cab31314576fd036faea08ab6d0ed5f6e3"
+    },
+    {
+      "source": ".tools/spans-1792863902709864272.jsonl",
+      "archive": ".tools/task8-spans-archive-20261025a/spans-1792863902709864272.jsonl.gz",
+      "rawBytes": 760577,
+      "rawSha256": "288b448a693bfe6f774ce002555d700013d9f3968fe1e440d256ec27899a3edf",
+      "gzipBytes": 61619,
+      "gzipSha256": "0f446e85890fb89038741bb80455410cbaf351cb192a6b9fff3b113258515de2"
+    },
+    {
+      "source": ".tools/spans-1792865175951518354.jsonl",
+      "archive": ".tools/task8-spans-archive-20261025a/spans-1792865175951518354.jsonl.gz",
+      "rawBytes": 760520,
+      "rawSha256": "080d3425993345c52e91d334eb0286b6a7163d8b0167fc97c1aca0991458c973",
+      "gzipBytes": 61757,
+      "gzipSha256": "b7c018b899a09b54042efa77478d7b3881e673f93fba5f70c4e82e1c648c3cc6"
+    },
+    {
+      "source": ".tools/spans-1792867482976351856.jsonl",
+      "archive": ".tools/task8-spans-archive-20261025a/spans-1792867482976351856.jsonl.gz",
+      "rawBytes": 760818,
+      "rawSha256": "490f655503305b39e9808c3f5399e88d2b81baaf54c32c5edee8426d16ffd0e1",
+      "gzipBytes": 61402,
+      "gzipSha256": "2bae79e0d053aebaa8105fb2c0ac90cd1a407d1cfae28b4671ccca936b132409"
+    },
+    {
+      "source": ".tools/spans-1792868789562777253.jsonl",
+      "archive": ".tools/task8-spans-archive-20261025a/spans-1792868789562777253.jsonl.gz",
+      "rawBytes": 760539,
+      "rawSha256": "a7ce9e46fabd715d9e565139bfeba110fce00fc1e2964d2ace1d2103aad67cd3",
+      "gzipBytes": 60951,
+      "gzipSha256": "06faedee1b3543d0da410c65a8e10ff20d354578fccf2df9da297294801e0b99"
+    },
+    {
+      "source": ".tools/spans-1792869555711748126.jsonl",
+      "archive": ".tools/task8-spans-archive-20261025a/spans-1792869555711748126.jsonl.gz",
+      "rawBytes": 760840,
+      "rawSha256": "4f3f17b484679547491a3ac81af3d9c1c8403c4d321bfd2a3a9ec4f0b1633db4",
+      "gzipBytes": 61284,
+      "gzipSha256": "80647fb65e08a693417d0fcc95df203a5e500d6fe4e2f248d35de066a80bde73"
+    },
+    {
+      "source": ".tools/spans-1792870530425865144.jsonl",
+      "archive": ".tools/task8-spans-archive-20261025a/spans-1792870530425865144.jsonl.gz",
+      "rawBytes": 760415,
+      "rawSha256": "cdf87476223f6c33c7404fb4b3345d5654a3f06121495f4933e153d8ad7c491b",
+      "gzipBytes": 60980,
+      "gzipSha256": "597d9b9d469702904a92d45e99acadeeffd87056eb016309ec3b83e1d05f2a3c"
+    },
+    {
+      "source": ".tools/spans-1792871202947114467.jsonl",
+      "archive": ".tools/task8-spans-archive-20261025a/spans-1792871202947114467.jsonl.gz",
+      "rawBytes": 760801,
+      "rawSha256": "cb441e36a1a44d7b46df7c2ae73e0f3d6b110ce12c561caec43402c4bdb96ede",
+      "gzipBytes": 61562,
+      "gzipSha256": "aacd6e24a3dffb2e1cb9dea978887d0f0b845b3dcfc4a3fc6352d5c2367fea57"
+    },
+    {
+      "source": ".tools/spans-1792872134805420060.jsonl",
+      "archive": ".tools/task8-spans-archive-20261025a/spans-1792872134805420060.jsonl.gz",
+      "rawBytes": 760580,
+      "rawSha256": "6fb77a699f32b7281365e22cc4a93536b1beba9d56e2ff91b82e2bc8e885c6be",
+      "gzipBytes": 60886,
+      "gzipSha256": "df0b619d8ca8ba4c8a20302a56d7797d57f1baf0548c96bff1eb385585220519"
+    },
+    {
+      "source": ".tools/spans-1792873219712552992.jsonl",
+      "archive": ".tools/task8-spans-archive-20261025a/spans-1792873219712552992.jsonl.gz",
+      "rawBytes": 760678,
+      "rawSha256": "ace0a2875a80f9ad38d4dd07ac801235c21db7b9cad21462586164deecfa522f",
+      "gzipBytes": 61646,
+      "gzipSha256": "a8ebca963ce2d9eec71a8088f1447f3a4921c2ef974a5a66a7295d31f68933f1"
+    },
+    {
+      "source": ".tools/spans-1792874207484663023.jsonl",
+      "archive": ".tools/task8-spans-archive-20261025a/spans-1792874207484663023.jsonl.gz",
+      "rawBytes": 760732,
+      "rawSha256": "dee9f31089fa9679b6b66012a575fcf136a9d613fe20ba19bea9f351dff27490",
+      "gzipBytes": 61934,
+      "gzipSha256": "e65be9f8b5e57a4150ffd1e710d28e658105452a2873b93e9ba90f61cebb1fc8"
+    },
+    {
+      "source": ".tools/spans-1792877181708865873.jsonl",
+      "archive": ".tools/task8-spans-archive-20261025a/spans-1792877181708865873.jsonl.gz",
+      "rawBytes": 760783,
+      "rawSha256": "a1c0715ed820276aa676c565cca3cc360a4c6f7ce883168d1974eb20f22eb48c",
+      "gzipBytes": 62210,
+      "gzipSha256": "e9370f387b28c8eacdd42aa98803963beb06323a32bb3b5198fcf1b5316b9f9f"
+    },
+    {
+      "source": ".tools/spans-1792878413294145483.jsonl",
+      "archive": ".tools/task8-spans-archive-20261025a/spans-1792878413294145483.jsonl.gz",
+      "rawBytes": 760738,
+      "rawSha256": "7348359609d5290d868f9ca0080cfd2c99cc04667d456254a2af2c93cbf24873",
+      "gzipBytes": 62430,
+      "gzipSha256": "f219eecaeed2761d4ee83a05ca6aa62ed05ce442f35ff1d20e667a8ddd75bc59"
+    },
+    {
+      "source": ".tools/spans-1792879552726250824.jsonl",
+      "archive": ".tools/task8-spans-archive-20261025a/spans-1792879552726250824.jsonl.gz",
+      "rawBytes": 535626,
+      "rawSha256": "b858cc6c4dbfb2d751a111ac2db7ebd2da238e3aec52df306aa89974aed93e8c",
+      "gzipBytes": 54657,
+      "gzipSha256": "f037c847b5bc82f002ec23a671788f064da8ed775342f796586d45da2a99f045"
+    }
+  ],
+  "recovery": "Read gzip in memory and verify rawBytes/rawSha256. Original source/captured paths are absent. Raw restoration requires fresh project8GB admission and must not overwrite existing paths. Full original metadata is retained privately; no xattr/ACL/full filesystem restoration claim.",
+  "limits": "Saved resource snapshots and final index do not independently replay intermediate fsync/rename timing. Different logical/file-allocation/inclusive savings are not interchangeable."
+}

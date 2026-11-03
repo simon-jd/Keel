@@ -1,0 +1,73 @@
+{
+  "phase": "task9-agent-judge-azure-mini-v1",
+  "endpoint": "https://keel-judge-b05c-20261025.openai.azure.com/openai/v1",
+  "deployment": "keel-judge-gpt41mini-20250414",
+  "model": "gpt-4.1-mini",
+  "version": "2025-04-14",
+  "region": "westus",
+  "sku": "GlobalStandard",
+  "upgradePolicy": "NoAutoUpgrade",
+  "alias": "azureJudge",
+  "cohortHash": "c48c6dff2d6d594125b0260682d31d5a2d1c68ca3448af689cc69d1406e1699f",
+  "referenceSourceHashes": {
+    "primary": "1350432881dc718cda5d48b7065c09d5c20a315c493f3665a67f783737bfc3cf",
+    "secondary": "db8bdc15d285b7e81a69d9c86c83c866323ed01c3749e36cf8600fc4ec83e5dd"
+  },
+  "rubricHash": "1c8497a87274ab4964cd9df65dfdfe7354b5b1d6e40ea98e8845c86cec7dae8c",
+  "promptHashes": {
+    "v1": "9dfc0a6c440cf3d22c969d987e2469d221e064d4ccbc0eae890189fd22a574d1",
+    "v2": "c65750c67f87e78d389296592bdb47f5526c6d66d8fb06a7fdfc2195d96559b4"
+  },
+  "maxBodyBytes": 3072,
+  "ordinaryInputEstimate": 4096,
+  "ordinaryOutputEstimate": 1024,
+  "fullInputCeiling": 1048576,
+  "fullOutputCeiling": 32768,
+  "logicalRequests": 605,
+  "physicalCeiling": 625,
+  "recoverySlots": 20,
+  "wire": {
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    },
+    "n": 1,
+    "max_completion_tokens": 1024,
+    "temperature": 0,
+    "seed": 0,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "keel_judge_verdict_v1",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string",
+              "enum": [
+                "pass",
+                "fail"
+              ]
+            },
+            "rationale": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "label",
+            "rationale"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  },
+  "minStartIntervalMs": 4000,
+  "fullModelCapSource": {
+    "url": "https://ai.azure.com/catalog/models/gpt-4.1-mini?publisher=OpenAI",
+    "version": "2025-04-14",
+    "observedAt": "2026-10-25",
+    "scope": "Root-provided Azure catalog ceilings for the terminal billing contingency; ordinary input is an estimate."
+  }
+}

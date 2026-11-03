@@ -1,0 +1,44 @@
+{
+ "embedding": {
+  "model": "BAAI/bge-base-en-v1.5",
+  "revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+  "dimension": 768,
+  "queryInstruction": "Represent this sentence for searching relevant passages: ",
+  "truncateTokens": 512
+ },
+ "crossEncoder": {
+  "model": "BAAI/bge-reranker-base",
+  "revision": "2cfc18c9415c912f9d8155881c133215df768a70",
+  "truncateTokens": 512
+ },
+ "llm": {
+  "model": "Qwen/Qwen3-8B-AWQ",
+  "revision": "4da05a8edb55c6046cce958586c33b61da07bb79",
+  "candidates": 20,
+  "documentChars": 2000
+ },
+ "datasets": [
+  {
+   "name": "scifact",
+   "corpus": ".cache/phase6/beir/scifact/corpus.jsonl.gz",
+   "queries": ".cache/phase6/beir/scifact/queries.jsonl.gz",
+   "qrels": ".cache/phase6/beir/scifact/test.tsv"
+  },
+  {
+   "name": "nfcorpus",
+   "corpus": ".cache/phase6/beir/nfcorpus/corpus.jsonl.gz",
+   "queries": ".cache/phase6/beir/nfcorpus/queries.jsonl.gz",
+   "qrels": ".cache/phase6/beir/nfcorpus/test.tsv"
+  },
+  {
+   "name": "fiqa",
+   "corpus": ".cache/phase6/beir/fiqa/corpus.jsonl.gz",
+   "queries": ".cache/phase6/beir/fiqa/queries.jsonl.gz",
+   "qrels": ".cache/phase6/beir/fiqa/test.tsv"
+  }
+ ],
+ "kubernetes": {
+  "chunks": "data/rag/chunks.jsonl",
+  "qa": "data/rag/qa.jsonl"
+ }
+}

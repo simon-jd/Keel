@@ -1,0 +1,7 @@
+{
+  "name": "runtime", "private": true, "type": "module",
+  "exports": { "./loop": "./src/loop.ts", "./tools": "./src/tools.ts", "./store": "./src/store.ts", "./types": "./src/types.ts", "./actions": "./src/actions.ts", "./http": "./src/http.ts" },
+  "scripts": { "test": "vitest run", "typecheck": "tsc -p tsconfig.json" },
+  "dependencies": { "db": "workspace:*", "models": "workspace:*", "tracing": "workspace:*", "drizzle-orm": "0.45.4", "pg": "8.23.1", "zod": "4.1.12" },
+  "devDependencies": { "@testcontainers/postgresql": "10.28.0", "@types/pg": "8.23.1", "tsx": "4.20.6" }
+}

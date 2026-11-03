@@ -1,0 +1,19 @@
+{
+ "protocol": "keel-ragtruth-qa-20261031",
+ "population": {
+  "n": 875,
+  "fail": 160,
+  "pass": 715
+ },
+ "cohort": {
+  "n": 320,
+  "fail": 160,
+  "pass": 160
+ },
+ "files": {
+  "samples.jsonl": "0d2b9c7760839b5b090c8fd5d302631d419a8493c959446f4dac8a2a7a689d6d",
+  "reference.jsonl": "3ed141d6276058886ade777ed63394928c1869e9a6c5559bb2cd37fb3fe8eac4",
+  "audit.jsonl": "cedbe3f94f199c46df80b3350a60afd5008268ab158a33d9bb2b0f9e6497047b"
+ },
+ "cohortHash": "19d030db268068880cf64ca26e565700c6034009b1c014374a8fc15ee163eed3"
+}

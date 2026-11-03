@@ -1,0 +1,560 @@
+[
+  {
+    "path": "data/tau2/multilingual/en/airline_metadata_en.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c03c07bc3de33dc9dfd6f807864f7a18df457c19",
+    "size": 3733,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/c03c07bc3de33dc9dfd6f807864f7a18df457c19",
+    "sha256": "d40cb3ab048cb0818483da9721bbdfb365c193c9cf4b8771094a2c6db5062b2d"
+  },
+  {
+    "path": "data/tau2/multilingual/en/pack.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ce96565b5296b7c36778ad7cd6aebb9259fe0c3f",
+    "size": 10125,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/ce96565b5296b7c36778ad7cd6aebb9259fe0c3f",
+    "sha256": "6453ef2c2f06ca34fb0a4f90841780913a2f7af28b680a08be402190876e6435"
+  },
+  {
+    "path": "data/tau2/multilingual/en/retail_metadata_en.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3eab8916b121a1f97f8e3a81ae18c7cb6237db90",
+    "size": 3765,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/3eab8916b121a1f97f8e3a81ae18c7cb6237db90",
+    "sha256": "357c5ad5768b30a0bdf05a126d5588238034ad206ccb39c688b439e368ce2ac9"
+  },
+  {
+    "path": "data/tau2/multilingual/en/retail_tasks_en.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "03feba659718b884af3d051d540f5de01c9ae187",
+    "size": 128941,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/03feba659718b884af3d051d540f5de01c9ae187",
+    "sha256": "431d7c1ba3554bfcf687509b0bd0c6fab9b7c04edc745dae94d509658f7b5753"
+  },
+  {
+    "path": "data/tau2/multilingual/en/telecom_metadata_en.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "489dbb7c4e33af8c99c76992d4bcd5b4d9275944",
+    "size": 15061,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/489dbb7c4e33af8c99c76992d4bcd5b4d9275944",
+    "sha256": "ec0130b2285e582ea75d824f1735f872e7900b0623a30f76f8c3735112ccfd8b"
+  },
+  {
+    "path": "data/tau2/multilingual/en/telecom_tasks_en.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bd047b51ce4629b7393c267de886ec2049937826",
+    "size": 502397,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/bd047b51ce4629b7393c267de886ec2049937826",
+    "sha256": "e0e83ebc389bf561901f38b4e60522a16ebace8428d1f2b0dbae50921a249875"
+  },
+  {
+    "path": "data/tau2/multilingual/es/airline_metadata_es.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b11381a3e8becff0d530ede6ffb7d4fbe2fc5b0f",
+    "size": 4333,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/b11381a3e8becff0d530ede6ffb7d4fbe2fc5b0f",
+    "sha256": "c29f7544f3177190b9d225366bf60fbf6f70f0d6bb15e31b7cb2928029264b8a"
+  },
+  {
+    "path": "data/tau2/multilingual/es/localization/airline.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9500ed9fe138cdfcec360dff2c0ab7b619cbf2f6",
+    "size": 7240128,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/9500ed9fe138cdfcec360dff2c0ab7b619cbf2f6",
+    "sha256": "ad6cb7cca1a70167ba05e1364dee3de5e242fd271cb8b0966be807f275208667"
+  },
+  {
+    "path": "data/tau2/multilingual/es/localization/airport-catalog.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a87f49705005898100197bf5bef86a7c0c77b616",
+    "size": 6482,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/a87f49705005898100197bf5bef86a7c0c77b616",
+    "sha256": "ed2d00b489cebb1cf91fec9f1305059a2b71f45379889687f55d7bfaa0006588"
+  },
+  {
+    "path": "data/tau2/multilingual/es/localization/retail.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "77f66a3f58769608d45c72a8de309b565ab2f987",
+    "size": 3869713,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/77f66a3f58769608d45c72a8de309b565ab2f987",
+    "sha256": "4c57dd7a59982a3797c00fc9c591ab6a3578720aedf9a5b9fdd7f452db245337"
+  },
+  {
+    "path": "data/tau2/multilingual/es/localization/telecom.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bc0d59c3062f97775af40f682d67ac9fbec2f605",
+    "size": 267828,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/bc0d59c3062f97775af40f682d67ac9fbec2f605",
+    "sha256": "32e53860330672c6f4b7963910e26258eddf5d49396250de66c2aab0823d6bb4"
+  },
+  {
+    "path": "data/tau2/multilingual/es/pack.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "42472d464263ede5ea1c50ae9a3ef56cceaa9daa",
+    "size": 37227,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/42472d464263ede5ea1c50ae9a3ef56cceaa9daa",
+    "sha256": "67f37219f4348ae186e85a9702bf5ae341ab7b2fd242f060d4c64c297b54a88c"
+  },
+  {
+    "path": "data/tau2/multilingual/es/regional/airline.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f8e57af548e52366b790c81e961e1dafe4bb2418",
+    "size": 5827034,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/f8e57af548e52366b790c81e961e1dafe4bb2418",
+    "sha256": "a5ba0f500fb39c19c57d666f845f27aded6e634adf0b57cc58200f64a6cacaa3"
+  },
+  {
+    "path": "data/tau2/multilingual/es/regional/retail.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3b78165855f37756e41b8cf0f24e9bcb31c47385",
+    "size": 2471875,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/3b78165855f37756e41b8cf0f24e9bcb31c47385",
+    "sha256": "6c31528f20c18b6c04615f8ce134dfb646b3b198329bdc69bba742c82e89fd61"
+  },
+  {
+    "path": "data/tau2/multilingual/es/regional/telecom.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2baf746af29b5bbf8fe0e0c1d934d53568f0ffcf",
+    "size": 665668,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/2baf746af29b5bbf8fe0e0c1d934d53568f0ffcf",
+    "sha256": "6f41566c5f69c4189f64eac5ef6dcd8fe7c02b7693af3847dfc8894f2ad4b571"
+  },
+  {
+    "path": "data/tau2/multilingual/es/retail_metadata_es.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d5039bbb9946e7ce5980153f7a28389d4ec429a0",
+    "size": 4365,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/d5039bbb9946e7ce5980153f7a28389d4ec429a0",
+    "sha256": "9c3341b68b2132e157864771a05d344d8f41a74372f06122ecedb0fc8dde9863"
+  },
+  {
+    "path": "data/tau2/multilingual/es/telecom_metadata_es.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "489dbb7c4e33af8c99c76992d4bcd5b4d9275944",
+    "size": 15061,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/489dbb7c4e33af8c99c76992d4bcd5b4d9275944",
+    "sha256": "ec0130b2285e582ea75d824f1735f872e7900b0623a30f76f8c3735112ccfd8b"
+  },
+  {
+    "path": "data/tau2/multilingual/hi/airline_metadata_hi.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ea478cc838c45468d750f2906dd039fb4fbb292c",
+    "size": 4333,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/ea478cc838c45468d750f2906dd039fb4fbb292c",
+    "sha256": "5204573543ba5ba6c6097bd005ca5397090abdeadeec990008065d1ad70c5464"
+  },
+  {
+    "path": "data/tau2/multilingual/hi/localization/airline.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4c3287881998621a5bf482f2a96efdc9f2cdb5a4",
+    "size": 7230438,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/4c3287881998621a5bf482f2a96efdc9f2cdb5a4",
+    "sha256": "8579e0d38d12396f7d3bf0c6fa7cad6b6ca822fcf18bcadb9b921e05f0ae06a7"
+  },
+  {
+    "path": "data/tau2/multilingual/hi/localization/airport-catalog.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f5980e2f2d4de85bd059b4b698bd517b9c65dcce",
+    "size": 5945,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/f5980e2f2d4de85bd059b4b698bd517b9c65dcce",
+    "sha256": "329f68d3012f5bfe30b85fbf0f24a9d261536d2d78e9ad5bd736761a9fc46358"
+  },
+  {
+    "path": "data/tau2/multilingual/hi/localization/retail.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3b83fa2d9a4d9e241626ef4930ab90f041924288",
+    "size": 3971402,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/3b83fa2d9a4d9e241626ef4930ab90f041924288",
+    "sha256": "fd486cb14fca6021714bf8db6b621e96f057ffefac3d2396b981e6ca26cae8fd"
+  },
+  {
+    "path": "data/tau2/multilingual/hi/localization/telecom.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "452b0255b5b1d0f6eea61dd14dadbea6c3ec2716",
+    "size": 269855,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/452b0255b5b1d0f6eea61dd14dadbea6c3ec2716",
+    "sha256": "c5fab06c00bf5dfcd7f6885952468a8dc6b4e801a7c1af37d3a25cd13873e912"
+  },
+  {
+    "path": "data/tau2/multilingual/hi/pack.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e8bab167f0ceac172fb23a1070768ddf1e0117d8",
+    "size": 44869,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/e8bab167f0ceac172fb23a1070768ddf1e0117d8",
+    "sha256": "c4b586d531c043b1494e684ddac9885d7808835a74d483f7053ac9aac22f791e"
+  },
+  {
+    "path": "data/tau2/multilingual/hi/regional/airline.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e5a6f0898addea03a214e4be6ac94fc90f58ca85",
+    "size": 5983293,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/e5a6f0898addea03a214e4be6ac94fc90f58ca85",
+    "sha256": "873c5c3b050b35d603d4e1197c01ba2a24c801c65a10afb8269282ec6fcdbe3e"
+  },
+  {
+    "path": "data/tau2/multilingual/hi/regional/retail.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "db1ead08fa456c369b8226defae60f85d15da224",
+    "size": 2715381,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/db1ead08fa456c369b8226defae60f85d15da224",
+    "sha256": "8fd6ad5ff218121636ceb8b29f3e42107b12b2ea89a1b9d2367c4b66cbaebc98"
+  },
+  {
+    "path": "data/tau2/multilingual/hi/regional/telecom.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3a2d63954ce0cfe50e3ca12a83ba3f265c7ecc72",
+    "size": 682139,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/3a2d63954ce0cfe50e3ca12a83ba3f265c7ecc72",
+    "sha256": "5d6bfd06fe8c48ace4bfa8bd91e5bccf23fe494a3ddc594002bfe206933090ed"
+  },
+  {
+    "path": "data/tau2/multilingual/hi/retail_metadata_hi.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9c08a6d8ec3d28c4b4d0867affbe1229e004f31f",
+    "size": 4365,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/9c08a6d8ec3d28c4b4d0867affbe1229e004f31f",
+    "sha256": "3cdbe79061a6cfeb0bdb64f26d83898c30fb4206746f50351ef83e2c940b428f"
+  },
+  {
+    "path": "data/tau2/multilingual/hi/telecom_metadata_hi.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "489dbb7c4e33af8c99c76992d4bcd5b4d9275944",
+    "size": 15061,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/489dbb7c4e33af8c99c76992d4bcd5b4d9275944",
+    "sha256": "ec0130b2285e582ea75d824f1735f872e7900b0623a30f76f8c3735112ccfd8b"
+  },
+  {
+    "path": "data/tau2/multilingual/ko/airline_metadata_ko.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "54cc2d93b73be220055a5c8b6682571fbb85c082",
+    "size": 4333,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/54cc2d93b73be220055a5c8b6682571fbb85c082",
+    "sha256": "669c63e2a0162d0bca48650d50e4362df7457c7790ca69b71e608775f5f7a11b"
+  },
+  {
+    "path": "data/tau2/multilingual/ko/localization/airline.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e598a99a4a542abbf8e03a87dec592cdb7ca62d8",
+    "size": 7448958,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/e598a99a4a542abbf8e03a87dec592cdb7ca62d8",
+    "sha256": "c127f48728a2955fb5661d26416dd3850ccb3d04ee802f3d8110c3c8f2882612"
+  },
+  {
+    "path": "data/tau2/multilingual/ko/localization/airport-catalog.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1c2f7c7dd8389b7b34be73a24298b613783491ea",
+    "size": 5960,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/1c2f7c7dd8389b7b34be73a24298b613783491ea",
+    "sha256": "81a0cb53eeed26cbe51dfa5c3f37b7aed55670885e8c2d3275d30cc5b0cb6abe"
+  },
+  {
+    "path": "data/tau2/multilingual/ko/localization/retail.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d0e4498e038a55bb0c18b0808603c638bd23f0a7",
+    "size": 3881017,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/d0e4498e038a55bb0c18b0808603c638bd23f0a7",
+    "sha256": "65638513776bdc67e4df0ec2b3bc6f543330e22613d8b0901906f2631df0bd7f"
+  },
+  {
+    "path": "data/tau2/multilingual/ko/localization/telecom.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9cf66730ba0f4ea0f47ece6d3f4435d832f51b1f",
+    "size": 270457,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/9cf66730ba0f4ea0f47ece6d3f4435d832f51b1f",
+    "sha256": "d856aec396b890ee161f7924dafc5030bb51dc5fe5309575effc06c0834feb1e"
+  },
+  {
+    "path": "data/tau2/multilingual/ko/pack.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9ffb3c94974c2ebc65013aac17f711512888b6ed",
+    "size": 38977,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/9ffb3c94974c2ebc65013aac17f711512888b6ed",
+    "sha256": "53462ff10585d319e245e0934bab86b2d8885486f7fc23e291ddc110274cf70d"
+  },
+  {
+    "path": "data/tau2/multilingual/ko/regional/airline.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d2ce16937d03ca85fc3c1b2b847bad5cf511bd87",
+    "size": 5870578,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/d2ce16937d03ca85fc3c1b2b847bad5cf511bd87",
+    "sha256": "a024ef777761884b3ad56c3d988b280a23ebc6c58cd61177e1cf06ba4e9dc636"
+  },
+  {
+    "path": "data/tau2/multilingual/ko/regional/retail.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "648989175e51eb6a51738f387da8bca6c4f6b8a0",
+    "size": 2497719,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/648989175e51eb6a51738f387da8bca6c4f6b8a0",
+    "sha256": "b6c5e7aa8772e6169309a6a9a125894b758a7c5355f7512749d647009459efbf"
+  },
+  {
+    "path": "data/tau2/multilingual/ko/regional/telecom.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3bb265fbc1271626ab6738c948946e3a4cd491a7",
+    "size": 664320,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/3bb265fbc1271626ab6738c948946e3a4cd491a7",
+    "sha256": "2e52a05385273fd77bc160be9e802a73ce6f4c319a0d4b163ba5781a21207503"
+  },
+  {
+    "path": "data/tau2/multilingual/ko/retail_metadata_ko.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5f700a25cb5dd07f8af3200902758be66f226736",
+    "size": 4365,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/5f700a25cb5dd07f8af3200902758be66f226736",
+    "sha256": "4fb013c21460cc42be766b5a315e23c5a9f85271634eb77879188761c9ad7b14"
+  },
+  {
+    "path": "data/tau2/multilingual/ko/telecom_metadata_ko.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "489dbb7c4e33af8c99c76992d4bcd5b4d9275944",
+    "size": 15061,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/489dbb7c4e33af8c99c76992d4bcd5b4d9275944",
+    "sha256": "ec0130b2285e582ea75d824f1735f872e7900b0623a30f76f8c3735112ccfd8b"
+  },
+  {
+    "path": "data/tau2/multilingual/pt/airline_metadata_pt.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4eeb892a68e4fb7c185573ada11cf3c4f32abd9a",
+    "size": 4333,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/4eeb892a68e4fb7c185573ada11cf3c4f32abd9a",
+    "sha256": "d54b1890321ae5b1d66691698dd12cb8e893f705e6add8baada98a374bd4dd5a"
+  },
+  {
+    "path": "data/tau2/multilingual/pt/localization/airline.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "668d8660bee58ab7f5931f2b8a0f69f7bbd59124",
+    "size": 7284585,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/668d8660bee58ab7f5931f2b8a0f69f7bbd59124",
+    "sha256": "6e37f4328627537b1dfb1af55eebeb4fc5a61f4ae89b2665b4c1a43b485ae2f8"
+  },
+  {
+    "path": "data/tau2/multilingual/pt/localization/airport-catalog.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e0f0959670523d308b0b80e2e8c55f7e0db77384",
+    "size": 5856,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/e0f0959670523d308b0b80e2e8c55f7e0db77384",
+    "sha256": "62de85b9323b93add9dd17f436b9f557f014a6b337ae3734055ccd7f1187942b"
+  },
+  {
+    "path": "data/tau2/multilingual/pt/localization/retail.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5a055b7e433012bade8a7d07f48b1be27723e8b1",
+    "size": 3883648,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/5a055b7e433012bade8a7d07f48b1be27723e8b1",
+    "sha256": "2988eb2b8a846c8724fddbd433dad414605be69e2a855ac167136f1208ab47f8"
+  },
+  {
+    "path": "data/tau2/multilingual/pt/localization/telecom.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "28a7a4159663c88fa920b9abc1214677e1e9a2ac",
+    "size": 268605,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/28a7a4159663c88fa920b9abc1214677e1e9a2ac",
+    "sha256": "78e8a2c4a08bd20a81223b4444590a3e4fdb4c34dfd65c86b29477f5e3e01c11"
+  },
+  {
+    "path": "data/tau2/multilingual/pt/pack.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fb3070e3b06a74d16d02415a01716ed7deb1acde",
+    "size": 37872,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/fb3070e3b06a74d16d02415a01716ed7deb1acde",
+    "sha256": "7e382f7eaaca2d12bdb6563e56513b6c50dd7894fd234369c9c69ac5d308616b"
+  },
+  {
+    "path": "data/tau2/multilingual/pt/regional/airline.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ead24bc115102e58bb717aab38aa08a814748061",
+    "size": 5841060,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/ead24bc115102e58bb717aab38aa08a814748061",
+    "sha256": "a32336f6d782491a900c65e7d041b1185af33ffefd81f1f21282cd3440f533d7"
+  },
+  {
+    "path": "data/tau2/multilingual/pt/regional/retail.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a85bcba3008c47349726a3f11ed84ff3609a2467",
+    "size": 2472402,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/a85bcba3008c47349726a3f11ed84ff3609a2467",
+    "sha256": "39822ca96d78a7a3a4100b8b029a470423b68ee7857bf1f7d22ac9d4195304bb"
+  },
+  {
+    "path": "data/tau2/multilingual/pt/regional/telecom.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b7464a8366ec3ace96647d9425e0c90ac498bfc7",
+    "size": 665373,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/b7464a8366ec3ace96647d9425e0c90ac498bfc7",
+    "sha256": "18bf8ad2127b7a60ffb02e69063fbcd3b52487e0b9034357fc1ca1c2cc3008c3"
+  },
+  {
+    "path": "data/tau2/multilingual/pt/retail_metadata_pt.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c3bd7893acec4ecf9d82c1bfbbd390033293757d",
+    "size": 4365,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/c3bd7893acec4ecf9d82c1bfbbd390033293757d",
+    "sha256": "bc61228f43b41e20176dae9bd08acb785f58eebf34fc4429b8441ec0be2f9fd0"
+  },
+  {
+    "path": "data/tau2/multilingual/pt/telecom_metadata_pt.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "489dbb7c4e33af8c99c76992d4bcd5b4d9275944",
+    "size": 15061,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/489dbb7c4e33af8c99c76992d4bcd5b4d9275944",
+    "sha256": "ec0130b2285e582ea75d824f1735f872e7900b0623a30f76f8c3735112ccfd8b"
+  },
+  {
+    "path": "data/tau2/multilingual/telecom-caller-roles.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2088070448a702e1a0b1b34777ab9da71a5282cd",
+    "size": 258,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/2088070448a702e1a0b1b34777ab9da71a5282cd",
+    "sha256": "adb53bea9edcf79be9a1695f5aab9ee4ac00e45a489cf26ea8f0dc1d2adae7d9"
+  },
+  {
+    "path": "data/tau2/multilingual/zh/airline_metadata_zh.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a4eca25b095cd244677867499e630e402c7fc4e9",
+    "size": 4333,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/a4eca25b095cd244677867499e630e402c7fc4e9",
+    "sha256": "d13c227ae02d3f6e463eb02165b81b98f77d3d933e4e135c4240b3518bf4601d"
+  },
+  {
+    "path": "data/tau2/multilingual/zh/localization/airline.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "71667233db240d2208a588a1c3bd5baf6f376bfe",
+    "size": 7240415,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/71667233db240d2208a588a1c3bd5baf6f376bfe",
+    "sha256": "12e8535fc28dba82504a2f8c22a240d3c08298b776d19071a297acd7a73fc30f"
+  },
+  {
+    "path": "data/tau2/multilingual/zh/localization/airport-catalog.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9863f3f101f37ddacb883789c166a8d3038f72df",
+    "size": 5726,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/9863f3f101f37ddacb883789c166a8d3038f72df",
+    "sha256": "277d508ee98e77f3af1388d0699c487705ecc04e3abbfbf52f58957346eaec0e"
+  },
+  {
+    "path": "data/tau2/multilingual/zh/localization/retail.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4b9e86220fb080d3d3dcce9f28744b5334cea50d",
+    "size": 3971113,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/4b9e86220fb080d3d3dcce9f28744b5334cea50d",
+    "sha256": "7c01ea163f9d10ff1b10857e72953017a844d6fa8fc44a871a513858e34ff9a7"
+  },
+  {
+    "path": "data/tau2/multilingual/zh/localization/telecom.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6ffb749e1ce00281a1063643052dbfc95741700d",
+    "size": 263794,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/6ffb749e1ce00281a1063643052dbfc95741700d",
+    "sha256": "a7d6a3c8160278fed6779cf085199cf42c944760a16c0eca2867943c0a410249"
+  },
+  {
+    "path": "data/tau2/multilingual/zh/pack.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bd71f9f681893640a4f3969c3457206b2096bec1",
+    "size": 37223,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/bd71f9f681893640a4f3969c3457206b2096bec1",
+    "sha256": "e9a23a4d50810ee615cb8039fc58a1b4e14c1217683b919d1e4ef9425f76188d"
+  },
+  {
+    "path": "data/tau2/multilingual/zh/regional/airline.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1083872a1a4f13b3f9bf5be32f74071edf468e0d",
+    "size": 5808854,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/1083872a1a4f13b3f9bf5be32f74071edf468e0d",
+    "sha256": "4b0f3ca44e62033f5728c622b3bd89e2bdeaad068e8d05f5f73e6ea8434bb4b4"
+  },
+  {
+    "path": "data/tau2/multilingual/zh/regional/retail.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "560bc9bf0cbfc9c04ee3f25d993198a9398e6f1c",
+    "size": 2435891,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/560bc9bf0cbfc9c04ee3f25d993198a9398e6f1c",
+    "sha256": "48c18ecd58b4159ee6e9220e14f19c1f22c387b76acf888f0849cddae29a9933"
+  },
+  {
+    "path": "data/tau2/multilingual/zh/regional/telecom.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9bdbde0462b487e228ed6ea7e26227702a891438",
+    "size": 656626,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/9bdbde0462b487e228ed6ea7e26227702a891438",
+    "sha256": "04200b313089d0c09e11c194be6712422f6530832eb4f5329aab4b54d388de5e"
+  },
+  {
+    "path": "data/tau2/multilingual/zh/retail_metadata_zh.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f58160697fcd6cee2e0807b167d5c37822dbce60",
+    "size": 4365,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/f58160697fcd6cee2e0807b167d5c37822dbce60",
+    "sha256": "09b2812ebee8e86351ec2f6119fe77e542084ef29e9d9bfe3112fadbcd776ffc"
+  },
+  {
+    "path": "data/tau2/multilingual/zh/telecom_metadata_zh.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "489dbb7c4e33af8c99c76992d4bcd5b4d9275944",
+    "size": 15061,
+    "url": "https://api.github.com/repos/sierra-research/tau2-bench/git/blobs/489dbb7c4e33af8c99c76992d4bcd5b4d9275944",
+    "sha256": "ec0130b2285e582ea75d824f1735f872e7900b0623a30f76f8c3735112ccfd8b"
+  }
+]
