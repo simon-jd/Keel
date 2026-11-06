@@ -139,9 +139,13 @@ concurrent episodes, so it is not an isolated guard overhead.
   ([threat model](docs/threat-model.md)).
 - **Judge.** The BFCL checker used as reference has strictness of its own (formatting-only
   mismatches, optional parameters it requires), and the judge configuration was chosen on the same
-  400 items. The selected judge still misses 74 of 200 checker failures. The method also compares
-  judges with human labels on the same rubric (`scripts/judge_compare.py`); that label set is
-  being redone, so no human-agreement number is given here.
+  400 items. The selected judge still misses 74 of 200 checker failures. Against human labels on
+  the same rubric (300 BFCL actions labelled by one person, 277 pass / 23 fail;
+  `scripts/judge_compare.py`) it reaches κ 0.396 (bootstrap 95% 0.169–0.605), agreement 281/300,
+  fail precision 7/10 and fail recall 7/23, well below two people's agreement on 100 of the items
+  (99/100, κ 0.918). Both rest on few fails (23 and 7), each label set is a single pass without
+  adjudication, and the judge was chosen on the checker set, not on these labels; picking among
+  judges by them would be in-sample ([judge-calibration.md](docs/evidence/judge-calibration.md)).
 - **Kubernetes faithfulness is upper-leaning.** The questions were written by an LLM from the gold
   chunks, so the set is saturated (gold chunk in the top 10 for 196 to 198 of 200 questions) and no
   longer separates retrieval methods; BEIR is the meaningful retrieval comparison. The judge passes

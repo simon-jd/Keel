@@ -1,0 +1,113 @@
+{
+ "cohortHash": "c48c6dff2d6d594125b0260682d31d5a2d1c68ca3448af689cc69d1406e1699f",
+ "rubricVersion": "bfcl-action-v1",
+ "primary": {
+  "rater": "Tate",
+  "pass": 277,
+  "fail": 23,
+  "expected": 300,
+  "labeled": 300,
+  "missing": [],
+  "complete": true,
+  "annotatedAt": "2026-11-06T04:42:24.051Z"
+ },
+ "secondary": {
+  "rater": "junrui",
+  "pass": 94,
+  "fail": 6,
+  "expected": 100,
+  "labeled": 100,
+  "missing": [],
+  "complete": true,
+  "annotatedAt": "2026-11-06T04:42:24.091Z"
+ },
+ "interRater": {
+  "a": "primary (Tate), secondary-100 subset",
+  "b": "secondary (junrui)",
+  "primarySubset": {
+   "pass": 93,
+   "fail": 7
+  },
+  "n": 100,
+  "po": 0.99,
+  "pe": 0.8784,
+  "kappa": 0.9177631578947368,
+  "categories": [
+   "fail",
+   "pass"
+  ],
+  "matrix": [
+   [
+    6,
+    1
+   ],
+   [
+    0,
+    93
+   ]
+  ]
+ },
+ "versusSuperseded20261029": {
+  "note": "context only; the 2026-10-29 labels are superseded",
+  "tate_vs_junrui20261029_primary300": {
+   "n": 300,
+   "po": 0.94,
+   "pe": 0.9092222222222223,
+   "kappa": 0.339045287637698,
+   "categories": [
+    "fail",
+    "pass"
+   ],
+   "matrix": [
+    [
+     5,
+     18
+    ],
+    [
+     0,
+     277
+    ]
+   ]
+  },
+  "junrui20261105_vs_junrui20261029_secondary100": {
+   "n": 100,
+   "po": 0.96,
+   "pe": 0.9224,
+   "kappa": 0.48453608247422636,
+   "categories": [
+    "fail",
+    "pass"
+   ],
+   "matrix": [
+    [
+     2,
+     4
+    ],
+    [
+     0,
+     94
+    ]
+   ]
+  },
+  "tate_vs_kenny20261029_secondary100": {
+   "n": 100,
+   "po": 0.95,
+   "pe": 0.8612,
+   "kappa": 0.6397694524495675,
+   "categories": [
+    "fail",
+    "pass"
+   ],
+   "matrix": [
+    [
+     5,
+     2
+    ],
+    [
+     3,
+     90
+    ]
+   ]
+  }
+ }
+}

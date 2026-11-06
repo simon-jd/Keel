@@ -1,9 +1,10 @@
 # Human annotation files
 
 `primary.jsonl` and `secondary.jsonl` are deliberately empty real-label templates; real human
-labels stay private in `.tools/annotation-task9/`. On 2026-10-29 the user's two returned workbooks
-were imported there: primary 300 (rater Junrui), secondary 100 (rater Kenny); see
-`docs/evidence/judge-calibration.md`. The user has explicitly accepted the existing attributed
+labels stay private in `.tools/annotation-task9/`. On 2026-11-06 the relabelled workbooks returned
+on 2026-11-05 were imported there: primary 300 (rater Tate), secondary 100 (rater junrui); the
+2026-10-29 import (primary Junrui, secondary Kenny) was moved, unchanged, to
+`.tools/annotation-task9/superseded-import-20261029/`. See `docs/evidence/judge-calibration.md`. The user has explicitly accepted the existing attributed
 subagent labels for this round through the separate agent-reference commands below.
 The human route stays strict. Never copy AST verdicts, model judges, agent answers or
 the disposable test fixtures into them as human evidence. A human rater must read
@@ -105,7 +106,7 @@ selection. At least two versions are required. This is in-sample selection,
 without a held-out performance claim. Human-human agreement uses exactly the
 secondary 100 paired IDs, not a positional zip or a silent intersection.
 
-## Returned workbooks → import JSONL (imported 2026-10-29)
+## Returned workbooks → import JSONL (imported 2026-10-29; relabel imported 2026-11-06)
 
 The coordinator's blind workbooks (`Keel-BFCL-标注-主标注员.xlsx`, 300 units;
 `Keel-BFCL-标注-第二标注员.xlsx`, 100 units) convert with `scripts/label_workbook.py`:

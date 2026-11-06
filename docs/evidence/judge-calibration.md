@@ -1,5 +1,89 @@
 # Task 9: judge calibration
 
+## 2026-11-05: against relabelled human labels (supersedes the 2026-10-29 labels)
+
+The 2026-10-29 human labels (last section) were judged not good enough, so both blind workbooks of
+the same frozen cohort (cohortHash `c48c6dff…`, rubric `bfcl-action-v1`) were labelled again by other
+people: primary 300 by **Tate** (277 pass / 23 fail), secondary 100 by **junrui** (94 pass / 6 fail).
+junrui is the 2026-10-29 primary rater, so the 100 secondary items were not new to that rater.
+
+**Conversion.** The returned workbooks have the `samples` and hidden `meta` sheets but no `说明` sheet,
+so they record neither a rater nor a save time. `meta` was checked first (rubricVersion and cohortHash
+equal the frozen cohort). Each `samples` sheet was then saved as UTF-8 CSV and converted through the
+script's CSV route, with the rater names given by the user: `scripts/label_workbook.py primary …
+--rater Tate` and `… secondary … --rater junrui --primary <converted primary>`. Result: 300/300 and
+100/100 IDs in cohort order, no blanks, only pass/fail, two different raters, and both files pass the
+import validator (`validateHumanLabels`). `annotatedAt` is therefore the conversion time
+(2026-11-06T04:42Z), not the labelling time. The 2026-10-29 import (both label files, the `imports/`
+journal and the converted files) was moved unchanged to `.tools/annotation-task9/superseded-import-20261029/`
+(private); nothing was deleted. On 2026-11-06 both files were imported with `label.ts import`
+(transactions 000001/000002 of the new journal); `label.ts coverage` reports 300/300 and 100/100,
+κ 0.9178. All scores below are computed from the converted files.
+
+**Human–human**, on the 100 paired IDs (`pairLabels` + `agreement`, the code behind `label.ts coverage`):
+99/100 agree, **κ = 0.918** (po .99, pe .8784; bootstrap 95% 0.662–1.000 with `judge_compare.py`),
+matrix in fail/pass order (rows Tate) `[[6,1],[0,93]]`. The one disagreement is a strict bound:
+"under $100" sent as `price: 100`, a maximum that admits exactly 100 (Tate fail, junrui pass).
+
+**Judges, not rerun.** Every stored judge configuration with verdicts on all 300 items, scored against
+Tate's 300 with `judge_compare.py score` (an invalid verdict counts as wrong; there are none);
+`judgeRun.ts summarize` gives the same κ and matrices. κ with bootstrap 95%, proportions with Wilson 95%.
+
+| Judge (stored run) | κ | Agreement | Fail precision | Fail recall |
+|---|---|---|---|---|
+| **Qwen3-14B-AWQ thinking v3 (selected; 2026-10-31)** | **0.396 (0.169–0.605)** | 281/300 (90.3–95.9%) | 7/10 (39.7–89.2%) | 7/23 (15.6–50.9%) |
+| Qwen3-14B thinking v2 | 0.323 (0.094–0.543) | 281/300 | 5/6 | 5/23 |
+| Qwen3-14B thinking v1 | 0.139 (−0.012–0.336) | 278/300 | 2/3 | 2/23 |
+| Qwen3-14B non-thinking v1 / v2 / v3 | 0.037 / 0.033 / 0.018 | 255 / 245 / 250 of 300 | 3/28, 4/40, 3/33 | 3, 4, 3 of 23 |
+| Qwen2.5-14B-Instruct-AWQ v1 (2026-10-27) | 0.272 (0.065–0.469) | 274/300 | 6/15 | 6/23 |
+| Qwen2.5-14B-Instruct-AWQ v2 | 0.192 (0.024–0.371) | 265/300 | 6/24 | 6/23 |
+| Qwen3-8B-AWQ v1 and v2 (2026-10-25; identical labels) | −0.033 (−0.053 to −0.012) | 271/300 | 0/6 | 0/23 |
+
+Not included: the 2026-10-25 run that stopped after 77 of 300 verdicts (`INVALID_JUDGE_SCHEMA`); the
+commercial-API attempt produced no verdicts.
+
+**Selection unchanged.** The phase 7 rule selects on the balanced set and uses this set only for the
+invalid-verdict cap (0 invalid here); `judge_compare.py select` with the new labels again picks thinking
+v3 ([selection-recheck.json](judge-calibration-human-20261105/selection-recheck.json)). The older
+Task 9 rule (highest κ on these human labels, `compareLabels`) would now pick Qwen2.5-14B v1 over v2
+(v2 on the 2026-10-29 labels); that is an in-sample choice.
+
+**Reading.** With 23 human fails instead of 5, the selected judge's κ (0.396) is close to its value on
+the old labels (0.386) and far below human–human agreement (0.918). When it says fail it is right
+7 times in 10, but it catches only 7 of 23 human fails (30%, against 126/200 checker fails on the
+balanced set). Grouped by Tate's rationales, it misses most actions that fill in a value the request
+never gave (a year, season, platform, database or table: 6 of 7 missed) and strict bounds sent as
+inclusive ones (3 of 4). Thinking still matters (κ 0.14–0.40, against ≤ 0.04 without it), and the
+Qwen3-8B judge catches none. The judge must not gate anything on its own.
+
+**Limits.**
+- Class balance: 23/300 fails (7.7%), 7/100 on the paired subset. One more fail caught moves fail
+  recall by 4 points; one more human–human disagreement would put κ at about 0.82–0.85.
+- Selection: thinking v3 was chosen on the balanced checker set, not on these labels, but prompt v3
+  ("be strict") was written after the judge had been seen to be lenient on these 300 items. Choosing
+  among the rows above by these numbers would be in-sample.
+- Single pass: each label set is one person's single pass with no adjudication; each judge row is
+  one stored run (temperature 0, seed 0; vLLM batching is not bit-reproducible).
+- junrui labelled the same 100 items on 2026-10-29. The rater names come from the user, not the
+  workbook. Scope: 300 single-turn BFCL actions, nothing about τ², RAG or SaaS.
+
+**Against the superseded labels** (context only): Tate vs Junrui (2026-10-29) on the 300: 282/300,
+κ 0.339, all 18 differences Tate fail / Junrui pass; junrui now vs then on the 100: 96/100, κ 0.485
+(4 new fails); Tate vs Kenny on the 100: 95/100, κ 0.640.
+
+Evidence ([judge-calibration-human-20261105/](judge-calibration-human-20261105/)): `human-agreement.json`
+(coverage, counts, the human–human matrix and the comparisons with the superseded labels; per-item
+human labels stay private), `human-human-score.json` (bootstrap), `scores.json` (`judge_compare.py
+score`, all ten rows), `summary.json` (`judgeRun.ts summarize` per model), `selection-recheck.json`,
+`qwen3-8b-awq-20261025/v{1,2}.jsonl` (the 8B predictions, extracted from the private run files).
+Reproduce (CPU only):
+
+```sh
+python3 scripts/judge_compare.py score .tools/annotation-task9/returned-primary-20261105.jsonl NAME=<verdicts.jsonl> …
+tsx packages/evals/src/judgeRun.ts summarize .tools/annotation-task9/returned-primary-20261105.jsonl <dir of v1/v2/v3.jsonl>
+python3 scripts/judge_compare.py select <phase 7 spec.json, human_reference = the converted primary>
+```
+
 ## Phase 7 candidates and selection rule (written 2026-10-31, before any candidate run)
 
 Written and committed before the Qwen3 model was served for the first time; no candidate verdict
@@ -66,7 +150,8 @@ Wilson 95%; invalid verdicts counted as wrong.
 | Qwen3-14B thinking v2 | 0 | 0.575 (0.499–0.646) | 315/400 | 117/119 (0.983) | 117/200 |
 | **Qwen3-14B thinking v3 (selected)** | 2 | **0.595 (0.518–0.670)** | 319/400 (75.5–83.4%) | 126/133 (89.5–97.4%) | 126/200 (56.1–69.4%) |
 
-**Set 2: human primary labels** (300, Junrui; 295 pass / 5 fail). Not used for selection.
+**Set 2: human primary labels** (300, Junrui; 295 pass / 5 fail). Not used for selection. These are
+the 2026-10-29 labels, superseded on 2026-11-05; for the relabelled set see the first section.
 
 | Judge | Invalid | κ | Agreement | Fail precision | Fail recall |
 |---|---:|---:|---|---|---|
@@ -191,7 +276,10 @@ Cost: API $0 (local). Latency per verdict p50 831 ms / p95 1,234 ms (v1), 850 / 
 tokens 121,573 (v1), 127,683 (v2). The whole run (vLLM start + 600 calls) held the GPU lock for 559 s,
 peak batch RSS 4.0 GB.
 
-## 2026-10-29: against human labels
+## 2026-10-29: against human labels (superseded on 2026-11-05)
+
+**Superseded** by the 2026-11-05 relabel (first section). Kept unchanged for the record; these labels
+were moved aside, not deleted.
 
 The user's returned workbooks were converted (`scripts/label_workbook.py`, `annotatedAt` = each
 workbook's last save time) and imported with `label.ts import` (transactions 000001/000002):
